@@ -38,4 +38,4 @@ Whats available in for token launch in 6 weeks.
         - [ ]  worst case: Schedual a 1 on 1 with Gato to help Victor understand the setup
     - [ ]  Outcome:
         - [ ]  Use Victor to help improve the Elastic beanstalk permissioning
-        - [ ]  Use Victor to help improve the new developer onboarding documentatio
+        - [ ]  Use Victor to help improve the new developer onboarding documentation
