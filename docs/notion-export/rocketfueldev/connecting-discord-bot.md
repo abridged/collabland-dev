@@ -24,7 +24,7 @@ You can set up a Discord application to the [Collab.Land](http://Collab.Land) `a
 
 ### Redis
 
-Instructions can be found [here](Set%20up%20Redis%207692fdb0fc4f407db2399a2774fe2681.md)
+Instructions can be found [here](./set-up-redis.md)
 
 ### Discord Events
 
