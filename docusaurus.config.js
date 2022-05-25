@@ -82,7 +82,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
             to: 'apis/',
@@ -90,7 +90,7 @@ const config = {
             label: 'APIs',
             position: 'left',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Engineering Blog', position: 'left'},
           {
             href: 'https://github.com/abridged',
             label: 'GitHub',
