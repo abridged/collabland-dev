@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Build a community of communities',
+    title: 'Create a community of communities',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
