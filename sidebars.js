@@ -26,6 +26,20 @@ const sidebars = {
     },
   ],
    */
+
+  mainSideBar: {
+    Guides: [
+      'api-docs/introduction',
+      'api-docs/authentication',
+      'api-docs/pagination',
+      'api-docs/rate-limiting',
+      'api-docs/sdk',
+    ],
+    Resources: [
+      'api-docs/account',
+      'api-docs/community',
+    ],
+  },
 };
 
 module.exports = sidebars;
