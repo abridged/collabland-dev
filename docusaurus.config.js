@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Collab.Land Developer Portal',
+  tagline: 'Empower collaborations for tokenized communities',
+  url: 'https://dev.collab.land',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Abridged', // Usually your GitHub org/user name.
+  projectName: 'CollabLand', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,19 +37,34 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/abridged/collabland-dev/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/abridged/collabland-dev/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+    [
+      'redocusaurus',
+      {
+        // debug: Boolean(process.env.DEBUG || process.env.CI),
+        specs: [
+          {
+            spec: 'https://api.collab.land/openapi.yaml',
+            route: '/apis/',
+          },
+        ],
+        theme: {
+          primaryColor: '#1890ff',
+        },
+      },
     ],
   ],
 
@@ -57,9 +72,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Collab.Land Developer Portal',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Collab.Land',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,11 +82,17 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: 'apis/',
+            activeBasePath: 'apis',
+            label: 'APIs',
+            position: 'left',
+          },
+          {to: '/blog', label: 'Engineering Blog', position: 'left'},
+          {
+            href: 'https://github.com/abridged',
             label: 'GitHub',
             position: 'right',
           },
@@ -84,8 +105,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/intro',
+              },
+              {
+                label: 'API docs',
+                to: '/apis',
               },
             ],
           },
@@ -93,16 +118,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Support',
+                href: 'https://collabland.freshdesk.com/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/Collab_Land_',
               },
             ],
           },
@@ -115,12 +136,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/abridged',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Abridged, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

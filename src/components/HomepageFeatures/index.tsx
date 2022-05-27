@@ -10,32 +10,36 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to connect and collaborate',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Collab.Land was designed from the ground up to facilitate connections
+        and collaborations by enabling web3 with popular web2 platforms.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Create a community of communities',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Collab.Land creates a community of communities to empower membership
+        and ownership through decentralized identities, crypto assets and 
+        verifiable credentials.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Build a decentralized platform',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Collab.Land promotes progressive decentralization to so that 
+        our communities and members can decide what data to own 
+        and what to share.
+        Collab.Land is in the process of opening its source code and platform 
+        to developers and exit to the community for ownership and governance.
       </>
     ),
   },
