@@ -1,6 +1,6 @@
 {
   "label": "Notion - Export",
-  "position": 1,
+  "position": 7,
   "link": {
     "type": "generated-index",
     "description": "Migration of all the Collab.Land Developer Onboarding Notion docs"
