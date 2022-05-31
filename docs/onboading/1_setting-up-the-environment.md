@@ -2,12 +2,10 @@
 
 All the configuration files are located in the `/packages/deployment/terraform` directory to deploy a new environment you should plan and apply the configuration
 
-<aside>
 📙 **Terminology**
 
 - `env_name`: the name of the replica environment (each development team can have multiple)
 - `team`: the name of the development team
-</aside>
 
 ### Plan
 
@@ -30,11 +28,11 @@ will apply deployment and deploy the replica environment, ready for use by the d
 
 <aside>
 Side note : 
-In order for to run the local app from your own AWS organization you'll need to populate your secrets manager manually as currently there's no process in place to share that data. </br>
+In order for to run the local app from your own AWS organization you'll need to populate your secrets manager manually as currently there's no process in place to share that data. 
 Contact the collabland team for the secret structure and data
 </aside>
 
-</br>
+
 
 ## Creating the environment in our sandbox environment
 Provide the Collabland team with your email address, a team name and environment name (usually dev) so they can provision the needed infrastructure. We'll create an AWS account within our sandbox for you and provide you the AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY so you can login to the console.
