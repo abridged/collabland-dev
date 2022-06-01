@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Set up Redis
 
 Redis is required for some functionality of the `api-server` instance
