@@ -57,7 +57,7 @@ You'll also need a set of environment variables in order to run the project loca
 export AWS_ACCOUNT=<AWS_ACCOUNT>
 # 352853905257 for sandbox
 
-export COLLABLAND_ENV=[<team>-<env_name>]
+export COLLABLAND_ENV=<team>-<env_name>
 # i.e. tarmac-dev
 
 export COLLABLAND_SECRET_NAME=collabland-api/qa
@@ -69,3 +69,4 @@ export COLLABLAND_SECRET_NAME=collabland-api/qa
 ```bash
 npm run-script build:full
 ```
+Make sure you're running at least node 16.x before attempting to build

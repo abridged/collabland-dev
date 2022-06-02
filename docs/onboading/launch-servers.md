@@ -6,6 +6,9 @@ sidebar_position: 3
 
 After completing the first step [Setting up the environment](./setting-up-the-environment) You'll be ready to launch the different apps.
 
+## Prerequisites 
+ - node 16
+
 There's a set of scripts in the `collabland-monorepo` that will make running the apps easier.
 
 Edit the `bin/api-server` file and replace
@@ -20,13 +23,14 @@ export DISCORD_PUBLIC_KEY=<discord_public_key>
 
 Refer to [Connecting discord bot](../notion-export/rocketfueldev/connecting-discord-bot.md) to create a discord bot and populate those values
 
-Then running
+Make sure you have a local redis server running check [Set up Redis](set-up-redis.md) and then you can run
+
 
 ```bash
 bash /bin/api-server.sh
 ```
 
-Will get the Api server started.
+Which will get the Api server started.
 
 Depending on your use case you might also want to launch the job-server , there's again a useful script at `bin/job-server` that you can run after replacing the values for the discord environment variables the same way you did when running the api server
 
@@ -41,8 +45,10 @@ should get the Job server running while
 ```bash
 bash /bin/sqsd.sh
 ```
-
 will get the SQSD service provided you've previously installed via NPM
+
+If you don't have a credentials file in `~/.aws/credentials` you'll have to edit this file and add your aws credentials manually there
+
 
 ```bash
 npm -i sqsd -g
