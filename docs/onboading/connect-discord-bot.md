@@ -49,13 +49,11 @@ Interactions are necessary for some functionality of the bot like the join butto
 
 In order to enable that feature you `api-server` will need to be available publicly online
 
-<aside>
 💻 You can do so in local instance by adding the `—-local-tunnel` flag to the start script.
 `node --enable-source-maps . --local-tunnel`
 This will output on the console the following line indicating the public URL
 `Local tunnel is started at https://collabland-xxx.loca.lt`
 
-</aside>
 
 You will need to setup the public URL on the Discord’s developer portal
 
@@ -90,3 +88,19 @@ In order to validate the link between the discord bot and the [Collab.Land](http
    Channel list after the bot have joined
 
 2. The admin users that access `collabland-config` channel should be able to list their server under `/account/administrated-communities` endpoint of the [Collab.Land](http://Collab.Land) `api-server` by using Authentication (Discord accessToken or AE token)
+
+### Adding commands to your bot
+After inviting the bot to the channel you can proceed to add commands to the bot. Before using our cli  tool make sure you override with ENV vars the following : 
+```bash
+export COLLABLAND_ENV=<team-env>-<env> 
+export AWS_ACCOUNT=352853905257 #This is the sandbox account
+
+export DISCORD_GUILD_ID=XXXXXX
+export DISCORD_CLIENT_ID=XXXXX
+```
+Then you can run 
+```bash
+npm run cli -- discord-application-commands
+```
+
+and select the commands you'll be adding to your bot
