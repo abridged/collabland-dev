@@ -75,7 +75,7 @@ const config = {
         title: 'Collab.Land Developer Portal',
         logo: {
           alt: 'Collab.Land',
-          src: 'img/logo.svg',
+          src: 'img/logo1.svg',
         },
         items: [
           {
