@@ -68,6 +68,19 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      'content-docs',
+      {
+        id: 'proposals',
+        path: 'proposals',
+        routeBasePath: 'proposals',
+        sidebarPath: require.resolve('./sidebars-proposals.js'),
+        // ... other options
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -83,6 +96,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            to: '/proposals/intro',
+            label: 'Proposals',
+            activeBaseRegex: `/proposals/`,
+            position: 'left',
           },
           {
             to: 'apis/',

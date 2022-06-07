@@ -1,8 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 ---
 
-# References
+# Tutorials
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

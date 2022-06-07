@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
+sidebar_position: 2
+title: CLIPs
 ---
 
-# References
+# CLIPs
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

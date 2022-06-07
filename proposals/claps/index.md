@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
+title: CLAPs
 ---
 
-# References
+# CLAPs
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
