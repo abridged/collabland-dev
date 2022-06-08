@@ -21,9 +21,9 @@ export DISCORD_BOT_TOKEN=<discord_bot_token>
 export DISCORD_PUBLIC_KEY=<discord_public_key>
 ```
 
-Refer to [Connecting discord bot](../notion-export/rocketfueldev/connecting-discord-bot.md) to create a discord bot and populate those values
+Refer to [Connecting discord bot](../../../../../notion-export/rocketfueldev/connecting-discord-bot.md) to create a discord bot and populate those values
 
-Make sure you have a local redis server running check [Set up Redis](set-up-redis.md) and then you can run
+Make sure you have a local redis server running check [Set up Redis](../../1-build-the-backend/2-set-up-redis/set-up-redis.md) and then you can run
 
 
 ```bash
