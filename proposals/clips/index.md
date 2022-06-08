@@ -3,7 +3,7 @@ sidebar_position: 2
 title: CLIPs
 ---
 
-# CLIPs
+# Collab.Land Improvement Proposals (CLIPs)
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

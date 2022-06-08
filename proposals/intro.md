@@ -1,13 +1,11 @@
 ---
 sidebar_position: 1
+title: Collab.Land Proposal Process
+slug: /intro
 ---
 
-# Introducing CLIP and CLAP
+# Introducing Collab.Land Proposals
 
-## CLIP
+## Collab.Land Improvement Proposal (CLIP)
 
-Collab.Land Improvement Proposals
-
-## CLAP
-
-Collab.Land Approved Proposals
+## Collab.Land Approved Proposal (CLAP)

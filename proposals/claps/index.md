@@ -3,7 +3,7 @@ sidebar_position: 3
 title: CLAPs
 ---
 
-# CLAPs
+# Collab.Land Approved Proposals (CLAPs)
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
