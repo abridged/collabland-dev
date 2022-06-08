@@ -47,12 +47,15 @@ solution:
 - Collab.Land backend to verify wallet connections
 - Collab.Land backend as an identity provider to support oAuth2/OpenID Connect flow
 
+![](./imgs/collabland-login.png)
+
 ## Motivation
 
 Collab.Land has the potential to become a web3 identity provider with its growing
-list of options to request identity verifications with various platforms, custodial accounts,
-and non-custodial wallets. Such features are built to onboard community members
-to verify their identifiers and connect to the platform user.
+list of options to verify users' identities with various platforms, custodial accounts,
+and non-custodial wallets. Such features have been built as wallet connections to connect
+Discord/Telegram users with their crypto wallets/accounts that hold assets for token gating
+purposes.
 
 ## Risks
 
@@ -108,3 +111,10 @@ Collab.Land teams will be needed to support the following areas:
 ## Total Ask
 
 [If this CLIP requires additional funds, support, or personnel please outline in this section of the total considerable ask would be to be approved by the Collab.Land DAO]
+
+## References
+
+1. [Sign In With Ethereum (SIWE), Now Available on Auth0](https://auth0.com/blog/sign-in-with-ethereum-siwe-now-available-on-auth0/)
+2. [Self-Issued OpenID Provider V2 – (Optional) Enables End-users to use OpenID Providers (OPs) that they control](https://openid.net/specs/openid-connect-self-issued-v2-1_0.html)
+3. [OpenID Connect for Verifiable Presentations – (Optional) Enables request and presentation of W3C Verifiable Presentations via OpenID Connect](https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html)
+4. [node-oidc-provider](https://github.com/panva/node-oidc-provider)
