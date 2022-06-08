@@ -47,7 +47,7 @@ solution:
 - Collab.Land backend to verify wallet connections
 - Collab.Land backend as an identity provider to support oAuth2/OpenID Connect flow
 
-![](./imgs/collabland-login.png)
+![collabland-login](./imgs/collabland-login.png)
 
 ## Motivation
 
@@ -99,6 +99,8 @@ Users will now be able to exchange tokens without first needing to set up a wall
 Security Considerations
 [All CLIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Including information that might be important for security discussions, surface risks can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CLIP submissions missing the "Security Considerations" section will be rejected. A CLIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.]
 
+![collabland-login-auth0](./imgs/collabland-login-auth0.png)
+
 ## Dependencies
 
 Collab.Land teams will be needed to support the following areas:
@@ -115,6 +117,7 @@ Collab.Land teams will be needed to support the following areas:
 ## References
 
 1. [Sign In With Ethereum (SIWE), Now Available on Auth0](https://auth0.com/blog/sign-in-with-ethereum-siwe-now-available-on-auth0/)
-2. [Self-Issued OpenID Provider V2 – (Optional) Enables End-users to use OpenID Providers (OPs) that they control](https://openid.net/specs/openid-connect-self-issued-v2-1_0.html)
-3. [OpenID Connect for Verifiable Presentations – (Optional) Enables request and presentation of W3C Verifiable Presentations via OpenID Connect](https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html)
-4. [node-oidc-provider](https://github.com/panva/node-oidc-provider)
+2. [SIWE Auth0 integration](https://marketplace.auth0.com/integrations/siwe)
+3. [Self-Issued OpenID Provider V2 – (Optional) Enables End-users to use OpenID Providers (OPs) that they control](https://openid.net/specs/openid-connect-self-issued-v2-1_0.html)
+4. [OpenID Connect for Verifiable Presentations – (Optional) Enables request and presentation of W3C Verifiable Presentations via OpenID Connect](https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html)
+5. [node-oidc-provider](https://github.com/panva/node-oidc-provider)
