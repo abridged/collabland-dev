@@ -75,7 +75,11 @@ Mitigation:
 
 [The User Impact identifies how the user will be impacted either through UI, UX, performance, value, or any other net positive or negatives of the proposed change. In under 1000 characters]
 Example:
-Users will now be able to exchange tokens without first needing to set up a wallet allowing them to participate in the rewarding of community contributors as well as participate in the community economies. Community managers will now be able to earn tokens without the need to set up and manage a creator coin assigned to their community.
+
+- Users will be able to enforce Multi-Factor Authentication (MFA)
+- Users will get a universal CollabID across communities and platforms
+- Users can use Collab.Land to share crypto wallet addresses with other DApps
+- Users will be able to grant/revoke permissions to third party applications
 
 ## Specification
 
@@ -83,7 +87,13 @@ Users will now be able to exchange tokens without first needing to set up a wall
 
 ## Deliverables
 
-[The delfine specifically what outputs will be delivered upon approval of the proposal and any requirements for the integration & deployment to Collab.Land production. In under 1000 characters.]
+1. Create an OpenID Connect provider for Collab.Land to generate ID tokens (`id_token`) for users
+2. Create a CollabID (based on Gnosis safe) to unify all identifiers for the user
+3. Improve `login.collab.land` site to support login with Collab.Land with crypto wallets
+4. Leverage `connect.collab.land` site for authentications (UI and backend APIs)
+5. Manage user identifiers on `user settings` page to control which providers can be used for login
+6. Integrate with other DID providers such as Nuggets
+7. Stretched: Build a PoC to integrate with Auth0
 
 ## Backwards Compatibility
 
