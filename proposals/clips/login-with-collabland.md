@@ -5,7 +5,7 @@ title: Login with Collab.Land
 
 ## Title
 
-Login with Collab.Land
+Login with CollabLand
 
 ## Simple Summary
 
