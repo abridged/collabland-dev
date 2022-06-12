@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Launch Collab.Land API/Job Servers
 
-After completing the first step [Setting up the environment](./set-up-aws-env) You'll be ready to launch the different apps.
+After completing the first step [Setting up the environment](../../0-onboading/2-build-environment/set-up-aws-env.md) You'll be ready to launch the different apps.
 
 ## Prerequisites 
  - node 16
