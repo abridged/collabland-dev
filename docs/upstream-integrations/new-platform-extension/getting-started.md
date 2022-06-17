@@ -1,6 +1,18 @@
+---
+sidebar_position: 3
+---
+
 # Getting Started
 
-# Platform Extensions
+- [Conventions and Platform Interface](#conventions-and-platform-interface)
+- [Wrap the Extension](#wrap-the-extension)
+- [Basic Components/Services in Collab.Land](#basic-componentsservices-in-collabland)
+  - [KMS](#kms)
+  - [Job Server & Job Runner](#job-server--job-runner)
+  - [Wallet Manager](#wallet-manager)
+  - [Asset Manager](#asset-manager)
+
+---
 
 ## Conventions and Platform Interface
 
@@ -85,7 +97,7 @@ export class RedditService implements Platform {
 }
 ```
 
-For binding and dependency injection, please read [Basic concepts of LoopBack](Basic%20concepts%20of%20LoopBack%20cdafa74dc2f54d0f9ab2f2896ee57f8b.md).
+For binding and dependency injection, please read [Basic concepts of LoopBack](./loopback-basics.md).
 
 By convention, we put most of types in `./src/types.ts`and binding keys and constant under `./src/keys`
 
@@ -154,11 +166,11 @@ export class CollablandJobServerApplication extends RepositoryMixin(
 
 `CollablandJobServerApplication` has an extension point `JOB_RUNNER_EXTENSION_POINT`. By adding `RedditComponent`, the extension point `JOB_RUNNER_EXTENSION_POINT`will have access to the `JobRunner` extension we implemented in our Reddit extension `RedditJobRunner` .
 
-See [Basic concepts of LoopBack](Basic%20concepts%20of%20LoopBack%20cdafa74dc2f54d0f9ab2f2896ee57f8b.md) to learn more about extension point/extensions.
+See [Basic concepts of LoopBack](./loopback-basics.md) to learn more about extension point/extensions.
 
-# Basic Components/Services in Collab.Land
+## Basic Components/Services in Collab.Land
 
-## KMS
+### KMS
 
 We use AWS Key Management Service (KMS) to manage secrets. Once you have set up your [Collab.Land](http://Collab.Land) AWS account, you should be able to load secrets from env vars:
 
@@ -182,7 +194,7 @@ const state = this.jwt.verifyJWT(aeToken, {
 });
 ```
 
-## Job Server & Job Runner
+### Job Server & Job Runner
 
 Job Server manages different job runners for different job types and platforms. There are two main job types: `check-roles-request` and `check-roles-response`.
 
@@ -194,10 +206,10 @@ The job server selects the right job runner to process different types of jobs. 
 
 Your platform extension will need to provide a job runner to handle `check-roles-response` results.
 
-## Wallet Manager
+### Wallet Manager
 
 Wallet manages handles all connections from different platforms. When a user connects their wallet, the Wallet manager will create and submit a `check-roles-request` type job to the job queue.
 
-## Asset Manager
+### Asset Manager
 
 Asset Manager manages different Asset Loaders and Asset Authorizer for different chains and assets providers ( OpenSea, Verifiable Credentials, etc). When a `check-roles-request` type job is being processed, the asset manager would find the right asset loader/authorizer to read assets on-chain/off-chain based on the request.

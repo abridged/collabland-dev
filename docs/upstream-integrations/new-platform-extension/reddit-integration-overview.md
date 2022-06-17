@@ -1,4 +1,14 @@
+---
+sidebar_position: 8
+---
+
 # Reddit Integration Overview
+
+- [Introduction](#introduction)
+- [Debugging an Integration](#debugging-an-integration)
+- [Authenticating User with CollabLand Bot](#authenticating-user-with-collabland-bot)
+- [Set and Verify Community Config](#set-and-verify-community-config)
+- [Set Up Job to Check TPC Rules](#set-up-job-to-check-tpc-rules)
 
 ---
 
@@ -17,7 +27,7 @@
   - We will need to store a moderators bot’s credentials
   - And set up a job to check TPC rules
 
-## Debugging an integration
+## Debugging an Integration
 
 - When developing our Reddit integration and we need to debug issues we should use the debugFactory and log issues like the example below.
 
@@ -30,7 +40,7 @@ debug('Something in a function');
 ...
 ```
 
-## Authenticating User with CollabLand bot
+## Authenticating User with CollabLand Bot
 
 - We will need two endpoints for our OAuth with Reddit inside of a controller. We will need an authorize endpoint and a callback endpoint.
 
@@ -125,7 +135,7 @@ debug('Something in a function');
 
 - The callback will authenticate for us and allow us to store a users access token so we can further interact with them.
 
-## Set and verify community config
+## Set and Verify Community Config
 
 - Next we need to setup a couple more endpoints that interact with the Community config repository in order to allow a moderator to store their bot credentials. We will need to verify their credentials and then a spot to store their credentials.
 
@@ -181,7 +191,7 @@ debug('Something in a function');
 
 - We are storing our bot configuration in the Community config repo which we needed to setup specifically for Reddit. This repository handles how we interact with the underlying DynamoDB database for our bot data.
 
-## Set up job to check TPC rules
+## Set Up Job to Check TPC Rules
 
 - In order to check whether a user can join a private subreddit or not we need to make sure they pass the rules set by the community. This job will take a message from the previous job and check whether the user is qualified or not. If the user is qualified we will make a call to the reddit service and add that user to the private subreddit.
 

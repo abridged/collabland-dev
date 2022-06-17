@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Build Your Collab.Land Platform Extension
 
 ![Untitled](./images/overview.png)
@@ -8,7 +12,7 @@ To help build a decentralized network, we’d love to see more platforms connect
 
 # Table of Contents
 
-## Basic concepts of LoopBack
+## [Basic concepts of LoopBack](./loopback-basics.md)
 
 - Data access
 - Naming convention
@@ -17,35 +21,35 @@ To help build a decentralized network, we’d love to see more platforms connect
 - Example of dependency injection and extension point/extension
 - Debug Strings
 
-## Getting started🔗
+## [Getting started](./getting-started.md)
 
 - Platform Extensions
 - Basic Components/Services in Collab.Land
 
-## What You Need to Integrate Your Platform with Collab.Land 🔗
+## [What You Need to Integrate Your Platform with Collab.Land ](./integrate-with-collabland.md)
 
 - Flow Overview
 - Wallet Connection
 - Configuration
 
-## Wallet Connection
+## [Wallet Connection](./wallet.connection.md)
 
 - Authentication
 - Wallet Connection
 - Debugging
 
-## Token Permission Check Result Handling🔗
+## [Token Permission Check Result Handling](./tpc-result-handling.md)
 
 - Job Runner
 - Debugging
 
-## Admin Configuration🔗
+## [Admin Configuration](./admin-configuration.md)
 
 - Command Center
 - Admin Command Center Login
 - Debugging
 
-## Reddit Integration High-Level Overview🔗
+## [Reddit Integration High-Level Overview](./reddit-integration-overview.md)
 
 - Authentication
 - User Management

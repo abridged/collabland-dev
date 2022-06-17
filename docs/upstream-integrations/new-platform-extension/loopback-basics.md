@@ -1,4 +1,17 @@
+---
+sidebar_position: 2
+---
+
 # Basic concepts of LoopBack
+
+- [Data Access](#data-access)
+- [Naming Convention](#naming-convention)
+- [Extension Point / Extensions](#extension-point--extensions)
+- [Dependency Injection / Binding](#dependency-injection--binding)
+- [Example of Dependency Injection, Binding, and Extension Point / Extensions](#example-of-dependency-injection-binding-and-extension-point--extensions)
+  - [Extension Point](#extension-point)
+  - [Extensions](#exttensions)
+- [Debug Strings](#debug-strings)
 
 ---
 
@@ -40,7 +53,7 @@ A `binding` connects its value to a unique key as the address to access the entr
 
 Have no clue what this is about? Don’t worry! Check out the example below 👇
 
-## Example of Dependency Injection, Binding, and extension point / extensions
+## Example of Dependency Injection, Binding, and Extension Point / Extensions
 
 The following is an example of using binding / DI with extension/extension point pattern in Collab.Land
 
@@ -48,7 +61,7 @@ The following is an example of using binding / DI with extension/extension point
 
 **This is a typical use case for extension point/extensions.** `JobDispatcherService` has the extension point, and those different `JobRunner`s are extensions.
 
-### Extension point
+### Extension Point
 
 **Extension point `job-dispatcher.service.ts`**
 

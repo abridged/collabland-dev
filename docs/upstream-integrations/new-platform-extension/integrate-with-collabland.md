@@ -1,6 +1,17 @@
+---
+sidebar_position: 4
+---
+
 # Integrate with Collab.Land
 
-# Personas
+- [Personas](#personas)
+- [Flow Overview](#flow-overview)
+  - [Wallet Connection](#wallet-connection)
+  - [Admin Configuration](#admin-configuration)
+
+---
+
+## Personas
 
 When we talking about [Collab.Land](http://Collab.Land) platform and token gated communities/groups, here are a few personas:
 
@@ -12,7 +23,7 @@ When we talking about [Collab.Land](http://Collab.Land) platform and token gated
 
 If you want to integrate with [Collab.Land](http://Collab.Land) to build such bots, the following may give you some ideas of where to start and what you would need.
 
-# Flow Overview
+## Flow Overview
 
 Let's take a look at a basic use case:
 

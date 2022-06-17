@@ -1,6 +1,20 @@
+---
+sidebar_position: 6
+---
+
 # Token Permission Checks Result Handling
 
-# Job Runner
+- [Job Runner](#job-runner)
+  - [Job Types](#job-types)
+  - [Differentiate Platforms](#differentiate-platforms)
+  - [Balance Check Results](#balance-check-results)
+  - [Log Results](#log-results)
+  - [Code](#code)
+- [Debugging](#debugging)
+
+---
+
+## Job Runner
 
 Once users connect their wallets via the wallet connection site, the Wallet Manager would submit a `check-role-request` type job, which includes the user and the community info and the wallet address. This job will be picked up by a specific Job Runner that checks user holding based on token permission rules the community has.
 
@@ -88,7 +102,7 @@ Since subreddits do not have roles, we will check if `results[0]` for balance ch
 
 Based on their qualifications, we can then `approveUser` or `removeUser`.
 
-### Log result
+### Log results
 
 Since the job server is running on Beanstalk, it is hard to debug. We mainly use OpenSearch to capture server logs for better visibility. Therefore, once we successfully apply any actions to the user, we will then submit _another_ _job_ to the job server. It may not have any effect. This job is simply a log.
 

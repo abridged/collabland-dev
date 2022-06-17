@@ -1,4 +1,22 @@
+---
+sidebar_position: 5
+---
+
 # Wallet Connection
+
+- [Authentication](#authentication)
+- [How we check who is making the API call](#how-we-check-who-is-making-the-api-call)
+  - [Authentication strategies we support](#authentication-strategies-we-support)
+- [Wallet Connection](#wallet-connection)
+  - [Authentication and AE Token](#authentication-and-ae-token)
+  - [Collab.Land Wallet Connection Site](#collabland-wallet-connection-site)
+- [What will the flow look like on my platform?](#what-will-the-flow-look-like-on-my-platform)
+  - [API Key](#api-key)
+  - [AE Token](#ae-token)
+- [Debugging](#debugging)
+- [Questions/Concerns](#questionsconcerns)
+
+---
 
 In this flow, we are looking for the connection between a user, a community, and their wallet address.
 
@@ -8,7 +26,7 @@ Your platform will build an encrypted JWT token that contains required user and 
 
 To build such encrypted JWT tokens, your platforms will send requests to [Collab.Land](http://Collab.Land) API server. Let’s take a look at how we interact with 3rd party platforms **👇**
 
-# Authentication
+## Authentication
 
 [Collab.Land](http://Collab.Land) takes security seriously. When we talk to 3rd party platforms, we need to know which application is sending the request and which user is using that application.
 
