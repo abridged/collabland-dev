@@ -6,9 +6,9 @@ sidebar_position: 9
 
 # Creating the Hello Goodbye Slash Command Job
 
-![Screen Shot 2022-06-16 at 2.51.58 PM.png](./imgs/img20.png)
+![Screen Shot 2022-06-16 at 2.51.58 PM.png](imgs/img20.png)
 
-![Screen Shot 2022-06-16 at 11.08.11 AM.png](./imgs/img21.png)
+![Screen Shot 2022-06-16 at 11.08.11 AM.png](imgs/img21.png)
 
 ## Step 1: Understand why we need a Job Server
 
@@ -1034,8 +1034,8 @@ press `Enter`
 
 **Expected Input**
 
-![Screen Shot 2022-06-22 at 12.02.46 PM.png](./imgs/img22.png)
+![Screen Shot 2022-06-22 at 12.02.46 PM.png](imgs/img22.png)
 
 **Expected Output**
 
-![Screen Shot 2022-06-22 at 12.01.41 PM.png](./imgs/img23.png)
+![Screen Shot 2022-06-22 at 12.01.41 PM.png](imgs/img23.png)

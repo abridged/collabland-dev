@@ -18,7 +18,7 @@ title: Using Collab.Land APIs
 
 ## Invoke APIs
 
-Check out [API docs](../api-docs).
+Check out [API docs](../%5BShould-This-Move-To-Down-Stream-API-Folder%5D-api-docs).
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

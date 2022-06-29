@@ -190,7 +190,7 @@ Here's where to find them:
 
 1. open the Discord Web App or Desktop app.  To copy the guild id (or “server id”) right click the server id icon in the left nav bar and select “Copy ID”.  If you do not see this option you’ll need to enable developer mode.  Save the value into both ENV files.
     
-    ![Screen Shot 2022-06-19 at 1.27.46 PM.png](./imgs/img3.png)
+    ![Screen Shot 2022-06-19 at 1.27.46 PM.png](imgs/img3.png)
     
     1. How to enable Developer Mode: [https://www.youtube.com/watch?v=e_UoIwmS8Xk&t=35s](https://www.youtube.com/watch?v=e_UoIwmS8Xk&t=35s) 
 
@@ -209,7 +209,7 @@ aws-vault login dev
 
 Then copy your account ID in the upper right hand corner
 
-![Screen Shot 2022-06-19 at 2.41.48 PM.png](./imgs/img4.png)
+![Screen Shot 2022-06-19 at 2.41.48 PM.png](imgs/img4.png)
 
 Paste this value into your ENV files
 
@@ -221,9 +221,9 @@ Copy the two boxed values into your ENV files for the values `COLLABLAND_JOB_QUE
 
 **SQS:**
 
-![Screen Shot 2022-06-19 at 2.49.36 PM.png](./imgs/img5.png)
+![Screen Shot 2022-06-19 at 2.49.36 PM.png](imgs/img5.png)
 
-![Screen Shot 2022-06-19 at 2.51.24 PM.png](./imgs/img6.png)
+![Screen Shot 2022-06-19 at 2.51.24 PM.png](imgs/img6.png)
 
 ## Step 5: Link a Discord guild to the Bot and your User
 
@@ -237,13 +237,13 @@ After obtaining your Discord’s application OAuth 2 Client ID, you can follow t
 
 You can also generate the url on the OAuth2 URL Generator Tab by selecting the scopes `bot` and `application.commands` and the bot permission `Administrator`
 
-![Screen Shot 2022-06-20 at 4.04.18 PM.png](./imgs/img7.png)
+![Screen Shot 2022-06-20 at 4.04.18 PM.png](imgs/img7.png)
 
-![Screen Shot 2022-06-20 at 4.03.37 PM.png](./imgs/img8.png)
+![Screen Shot 2022-06-20 at 4.03.37 PM.png](imgs/img8.png)
 
 Paste your link into a browser and select a server to add your bot to.
 
-![Screen Shot 2022-06-19 at 3.12.10 PM.png](./imgs/img9.png)
+![Screen Shot 2022-06-19 at 3.12.10 PM.png](imgs/img9.png)
 
 ### 2. Start Monorepo API Server
 
@@ -296,7 +296,7 @@ This will output on the console the following line indicating the public URL
 3. Head to the “General Information” menu item on the side bar (if not already)
 4. On the field listed as “INTERACTIONS ENDPOINT URL” enter you public’s instance URL and discord’s interaction path (e.g. `https://collabland-xxx.loca.lt/discord/interactions`)
     
-    ![“INTERACTIONS ENDPOINT URL” field in “General Information” application page](./imgs/img10.png)
+    ![“INTERACTIONS ENDPOINT URL” field in “General Information” application page](imgs/img10.png)
     
     “INTERACTIONS ENDPOINT URL” field in “General Information” application page
     
@@ -620,7 +620,7 @@ press `Enter`
 
 **Expected Output**
 
-![Screen Shot 2022-06-20 at 5.00.34 PM.png](./imgs/img11.png)
+![Screen Shot 2022-06-20 at 5.00.34 PM.png](imgs/img11.png)
 
 - Potential UX Bugs
     1. Discord: The application did not respond

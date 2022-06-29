@@ -124,4 +124,4 @@ https://github.com/99designs/aws-vault/blob/master/USAGE.md#keychain.
 > Error to resolve when trying “aws-vault login dev” @Raymond Feng @Ramiro Decatri @Bernardo Chiappe
 > 
 
-![Screen Shot 2022-06-19 at 1.56.27 PM.png](./imgs/img2.png)
+![Screen Shot 2022-06-19 at 1.56.27 PM.png](imgs/img2.png)

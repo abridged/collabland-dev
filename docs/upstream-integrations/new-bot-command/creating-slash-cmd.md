@@ -6,13 +6,13 @@ sidebar_position: 8
 
 # Creating A Slash Command
 
-![Screen Shot 2022-06-16 at 2.36.31 PM.png](./imgs/img12.png)
+![Screen Shot 2022-06-16 at 2.36.31 PM.png](imgs/img12.png)
 
 (TODO: update diagram with Raymonds Refactor - put commands inside 3rd party component, not discord component)
 
 First we’ll create a simple Discord Slash command handler 
 
-![Screen Shot 2022-06-16 at 11.07.55 AM.png](./imgs/img13.png)
+![Screen Shot 2022-06-16 at 11.07.55 AM.png](imgs/img13.png)
 
 Awesome! We’ve successfully deployed one of the existing tutorial slash commands. Not it’s our turn to create a command from scratch.
 
@@ -295,4 +295,4 @@ press `Enter`
 
 **Expected Output**
 
-![Screen Shot 2022-06-21 at 3.28.23 PM.png](./imgs/img14.png)
+![Screen Shot 2022-06-21 at 3.28.23 PM.png](imgs/img14.png)

@@ -29,15 +29,15 @@ const sidebars = {
 
   apiSidebar: {
     Guides: [
-      'api-docs/introduction',
-      'api-docs/authentication',
-      'api-docs/pagination',
-      'api-docs/rate-limiting',
-      'api-docs/sdk',
+      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/introduction',
+      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/authentication',
+      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/pagination',
+      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/rate-limiting',
+      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/sdk',
     ],
     Resources: [
-      'api-docs/account',
-      'api-docs/community',
+      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/account',
+      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/community',
     ],
   },
 };

@@ -109,7 +109,7 @@ Signed-off-by: Raymond Feng <raymond@collab.land>
 
 We follow the convention of adding a signature to specify who takes responsibility for each commit.  Signature can easily be added by GIT GUI
 
-![Screen Shot 2021-11-29 at 2.04.48 PM.png](./imgs/img24.png)
+![Screen Shot 2021-11-29 at 2.04.48 PM.png](imgs/img24.png)
 
 ### 4. Commit and Push
 
@@ -121,9 +121,9 @@ To merge code to master create a pull request in Github and have it reviewed by 
 
 ### 1. Creating a Pull Request
 
-![Screen Shot 2022-06-23 at 8.28.18 PM.png](./imgs/img25.png)
+![Screen Shot 2022-06-23 at 8.28.18 PM.png](imgs/img25.png)
 
-![Screen Shot 2022-06-23 at 8.37.55 PM.png](./imgs/img26.png)
+![Screen Shot 2022-06-23 at 8.37.55 PM.png](imgs/img26.png)
 
 If your code cant auto merge you may want to rebase locally
 
@@ -133,11 +133,11 @@ Creating a pull request will kick off the CICD build process checks.
 
 Find your pull request at [`https://github.com/abridged/collabland-monorepo/pulls`](https://github.com/abridged/collabland-monorepo/pulls)
 
-![Screen Shot 2022-06-17 at 6.04.38 PM.png](./imgs/img27.png)
+![Screen Shot 2022-06-17 at 6.04.38 PM.png](imgs/img27.png)
 
 Click on the pull request then select “Checks”
 
-![Screen Shot 2022-06-17 at 6.06.33 PM.png](./imgs/img28.png)
+![Screen Shot 2022-06-17 at 6.06.33 PM.png](imgs/img28.png)
 
 If the checks are still running you’ll see a yellow status symbol
 
@@ -145,17 +145,17 @@ If the checks are still running you’ll see a yellow status symbol
 
 A successful build will have a green check mark
 
-![Screen Shot 2022-06-17 at 6.13.18 PM.png](./imgs/img29.png)
+![Screen Shot 2022-06-17 at 6.13.18 PM.png](imgs/img29.png)
 
 **Failed Build**
 
 A failed build will have a red “X” 
 
-![Screen Shot 2022-06-17 at 6.09.53 PM.png](./imgs/img30.png)
+![Screen Shot 2022-06-17 at 6.09.53 PM.png](imgs/img30.png)
 
 You can click on `build(16)` to view the reasons the build failed
 
-![Screen Shot 2022-06-17 at 6.12.18 PM.png](./imgs/img31.png)
+![Screen Shot 2022-06-17 at 6.12.18 PM.png](imgs/img31.png)
 
 If your build fails it’s important to find out why and help resolve those errors in the code.
 
