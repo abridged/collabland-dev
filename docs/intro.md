@@ -4,6 +4,17 @@ sidebar_position: 1
 
 # Introduction
 
+- Here’s what [collab.land](http://collab.land) does
+
+Collab.Land provides solutions for managing Web3 communities by token-gating the channels and groups. We also have many other features like Tipping(currently limited access), Verifiable Credentials & DIDs, and more.
+We are bringing web2 users to web3. From web2, we now support platforms such as Discord, Telegram, and so on Reddit, Github, and Notion. To web3, we support the most of popular chains. Meanwhile, we are proactively decentralizing Collab.Land. We are also working with many different partners to build web3 network together. 
+
+- Here’s why we’re decentralizing
+
+To give users the control of their own data, we are working with the community to build a decentralized network.
+
+- (Michael’s invitation to build with us stuff)
+
 **Come Join us at Collab.Land**
 
 Partner Contributor Program
@@ -24,3 +35,16 @@ Collab.Land is open-sourcing web3 community tools & decentralizing the governanc
 Collab.Land is extending an offer to you to join us in building the network we all want. We are bringing together web3 partners working on a wide variety of projects to build with each other & on top of each other's tools to shape the next generation of what a network could be.  We would like your help in creating the largest open collaborative project in the world.
 
 By holding a Collab.Land Patron NFT you are now able to access the Collab.Land tool kit to make proposals & start building with us. In the following instructions we will outline what is needed to get started.
+
+- Here’s the types of integrations that we support
+  - Chain Integration
+  - Wallet Integration
+  - App Integration
+  - CC Integration
+  - Protocol Integration
+  - DAO Integration
+  - CL Platform
+
+    - a description of the sections and why you would want to use each
+    - Examples of integrations that fall under this category
+    - Ideas for different categories/sections, integrations & personas?(Lens protocol has this: [https://ideas.lens.xyz/](https://ideas.lens.xyz/))
