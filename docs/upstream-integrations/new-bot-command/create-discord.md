@@ -6,6 +6,6 @@ sidebar_position: 2
 
 # Create a Discord Server
 
-If you do not have a discord server for testing follow this guide
+A Discord server is required for adding the bot and testing your slash command locally. If you don't have one already, follow this guide:
 
 [Making a Discord server - how it works!](https://www.ionos.com/digitalguide/server/know-how/how-to-set-up-a-discord-server/)

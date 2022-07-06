@@ -6,11 +6,15 @@ sidebar_position: 9
 
 # Creating the Hello Goodbye Slash Command Job
 
+Diagram below shows the file structure and thier requiremnt.
+
 ![Screen Shot 2022-06-16 at 2.51.58 PM.png](imgs/img20.png)
+
+The diagram below shows Slash Command with intermediate response and follow up after executing a job, this is the final overview of this walkthrough.
 
 ![Screen Shot 2022-06-16 at 11.08.11 AM.png](imgs/img21.png)
 
-## Step 1: Understand why we need a Job Server
+## Step 1: Understand why we need a Job Server?
 
 Why:
 The job server is useful for long running tasks and for tasks that spawn other tasks. For example checking a block chain balance takes time.  If a first balance check is completed successfully a second balance check job could be spawned to ensure a user has both assets. If they do not have the first asset then the 2nd job will never be created.

@@ -4,7 +4,9 @@ sidebar_position: 6
 
 # Setup Redis
 
-# Setup Redis
+Redis enables you to write fewer lines of code to store, access, and use data in your applications. The difference is that developers who use Redis can use a simple command structure as opposed to the query languages of traditional databases.
+
+Bewlow are the 3 ways to setup Redis:
 
 ## Version 1: Using Docker
 

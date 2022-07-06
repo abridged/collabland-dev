@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Creating ENV Files
 
-# Creating ENV Files
+A .env file is a simple text configuration file for controlling your Applications environment constants. Collab.Land already has a list of environment variables that you can use to configure your application.
 
 ## Step 1: Api Server Setup
 

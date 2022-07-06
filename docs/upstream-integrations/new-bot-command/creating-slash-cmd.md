@@ -4,7 +4,9 @@ sidebar_position: 8
 
 # Creating A Slash Command
 
-# Creating A Slash Command
+As we have now setup the prerequisites for creating a slash command, we can now start creating our own slash command!
+
+The diagram below shows the overview of file structure and why do we need to create those files.
 
 ![Screen Shot 2022-06-16 at 2.36.31 PM.png](imgs/img12.png)
 
