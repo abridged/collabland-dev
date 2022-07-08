@@ -85,7 +85,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Collab.Land Developer Portal',
+        title: 'Collab.Land Developer Center',
         logo: {
           alt: 'Collab.Land',
           src: 'img/logo1.svg',
@@ -97,24 +97,24 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {
-            to: '/proposals/intro',
-            label: 'Proposals',
-            activeBaseRegex: `/proposals/`,
-            position: 'left',
-          },
-          {
-            to: 'apis/',
-            activeBasePath: 'apis',
-            label: 'APIs',
-            position: 'left',
-          },
-          {to: '/blog', label: 'Engineering Blog', position: 'left'},
-          {
-            href: 'https://github.com/abridged',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   to: '/proposals/intro',
+          //   label: 'Proposals',
+          //   activeBaseRegex: `/proposals/`,
+          //   position: 'left',
+          // },
+          // {
+          //   to: 'apis/',
+          //   activeBasePath: 'apis',
+          //   label: 'APIs',
+          //   position: 'left',
+          // },
+          // {to: '/blog', label: 'Engineering Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/abridged',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
