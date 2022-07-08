@@ -6,8 +6,11 @@ sidebar_position: 5
 
 # Git Clone Monorepo
 
-This guide was developed on MacOS
-1. Start by opening a terminal
+This guide is developed for MacOS. If you are using a different operating system, most of the steps/commands will be same if it's UNIX based. For Windows, we will crate a new tutorial, until then you can search for alternate commands if a command is not available for your OS.
+
+**Let's start!**
+
+1.  Open terminal window
 
 ## Step 1: Set up Node.js and NPM
 

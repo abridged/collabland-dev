@@ -8,6 +8,8 @@ sidebar_position: 3
 
 ### Step 1: Create a Discord Application
 
+You will need to create a Discord application to get your bot token and manage it.
+
 1. Navigate to [https://discord.com/developers/applications](https://discord.com/developers/applications) and select “New Application”
     
     ![Developers applications page](imgs/img15.png)
@@ -31,4 +33,4 @@ sidebar_position: 3
     “Privileged Gateway Intents” section on the Bot application page
     
 
-We will install the monorepo before we complete the Discord Setup
+We will install the monorepo before we complete the Discord Setup, it will be explained in the further section.
