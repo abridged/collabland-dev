@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+Username: collabland
+Password: nft1024
+
 # Introduction
 
 ## Here’s what [collab.land](http://collab.land) does
