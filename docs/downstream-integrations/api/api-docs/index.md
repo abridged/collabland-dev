@@ -3,7 +3,7 @@ sidebar_position: 6
 id: introduction
 ---
 
-# [Move to Downstream API Folder?] API Docs
+# API Docs
 
 CollabLand provides a set of REST APIs to discover tokenized communities, create
 quests and drops, make transfers through payment channels.

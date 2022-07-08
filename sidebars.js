@@ -27,19 +27,19 @@ const sidebars = {
   ],
    */
 
-  apiSidebar: {
-    Guides: [
-      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/introduction',
-      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/authentication',
-      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/pagination',
-      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/rate-limiting',
-      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/sdk',
-    ],
-    Resources: [
-      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/account',
-      '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/community',
-    ],
-  },
+  // apiSidebar: {
+  //   Guides: [
+  //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/introduction',
+  //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/authentication',
+  //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/pagination',
+  //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/rate-limiting',
+  //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/sdk',
+  //   ],
+  //   Resources: [
+  //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/account',
+  //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/community',
+  //   ],
+  // },
 };
 
 module.exports = sidebars;
