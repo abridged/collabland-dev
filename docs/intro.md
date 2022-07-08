@@ -4,16 +4,16 @@ sidebar_position: 1
 
 # Introduction
 
-- Here’s what [collab.land](http://collab.land) does
+## Here’s what [collab.land](http://collab.land) does
 
 Collab.Land provides solutions for managing Web3 communities by token-gating the channels and groups. We also have many other features like Tipping(currently limited access), Verifiable Credentials & DIDs, and more.
 We are bringing web2 users to web3. From web2, we now support platforms such as Discord, Telegram, and soon Reddit, Github, and Notion. To web3, we support the most of popular chains. Meanwhile, we are proactively decentralizing Collab.Land. We are also working with many different partners to build web3 network together. 
 
-- Here’s why we’re decentralizing
+## Here’s why we’re decentralizing
 
 To give users the control of their own data, we are working with the community to build a decentralized network.
 
-- (Michael’s invitation to build with us stuff)
+## (Michael’s invitation to build with us stuff)
 
 **Come Join us at Collab.Land**
 
@@ -36,7 +36,7 @@ Collab.Land is extending an offer to you to join us in building the network we a
 
 By holding a Collab.Land Patron NFT you are now able to access the Collab.Land tool kit to make proposals & start building with us. In the following instructions we will outline what is needed to get started.
 
-- Here’s the types of integrations that we support
+## Here’s the types of integrations that we support
   - Chain Integration
   - Wallet Integration
   - App Integration
