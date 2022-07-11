@@ -77,21 +77,20 @@ Your app is ready to be deployed!
 
 Add wallet to home page, after follwing steps below new wallet option should be visible on home page.
 
-- Open [connectors.ts](../../src/containers/EvmConnect/utils/connectors.ts)
+- Open connectors.ts at `/src/containers/EvmConnect/utils/connectors.ts` in the repository
   - Add a logo
   - Update `ConnectorNames` and `connectorsLogo`
 
-- Open [index.js](../../src/containers/EvmConnect/index.js) and update `connectorsByName`
+- Open index.js at `/src/containers/EvmConnect/index.js` and update `connectorsByName`
 
-## Adding a new EVM based wallet
+ Adding a new EVM based wallet
 
-1) [Injected wallet](./docs/wallets/injected.md)
-
-# Here are steps to add a new EVM based wallet
+# 1) Adding a new EVM based wallet
+## Here are steps to add a new EVM based wallet
 
 ## Supporting a new chain
 
-- Open file [index.js](../../src/hooks/Connectors/index.js) and new chain id
+- Open file index.js at `/src/hooks/Connectors/index.js` and add new chain id for your evm chain
 
 ```
 const supportedChainIds = [
