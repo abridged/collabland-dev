@@ -40,8 +40,8 @@ Collab.Land is extending an offer to you to join us in building the network we a
 By holding a Collab.Land Patron NFT you are now able to access the Collab.Land tool kit to make proposals & start building with us. In the following instructions we will outline what is needed to get started.
 
 ## Here’s the types of integrations that we support
-  - Chain Integration
-  - Wallet Integration
+  - [Chain Integration](category/new-chain-integration)
+  - [Wallet Integration](category/new-wallet-integration)
   - App Integration
   - CC Integration
   - Protocol Integration
