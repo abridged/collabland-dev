@@ -12,7 +12,7 @@
 
 2. Install `node`
 
-   With `nvm`, let's install Node.js 16 as the default version:
+   With `nvm`, let's install Node.js 14 as the default version:
 
    ```sh
    nvm install 14
@@ -57,20 +57,20 @@ yarn install
 yarn start
 ```
 
-Runs the app in the development mode.\
+Runs the app in the development mode.<br/>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.<br/>
 You will also see any lint errors in the console.
 
 ```sh
 yarn build
 ```
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.<br/>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.<br/>
 Your app is ready to be deployed!
 
 ## Add new wallet option to home page
@@ -83,9 +83,8 @@ Add wallet to home page, after follwing steps below new wallet option should be 
 
 - Open index.js at `/src/containers/EvmConnect/index.js` and update `connectorsByName`
 
- Adding a new EVM based wallet
-
 # 1) Adding a new EVM based wallet
+
 ## Here are steps to add a new EVM based wallet
 
 ## Supporting a new chain
