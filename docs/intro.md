@@ -8,6 +8,31 @@ Password: nft1024
 
 # Introduction
 
+```mdx-code-block
+<div
+  style={{
+    position: "relative",
+    paddingBottom: "64.5933014354067%",
+    height: 0
+  }}
+>
+  <iframe
+    src="https://www.loom.com/embed/72985b228c8b4b91a376d67dcbe06aa3"
+    frameBorder={0}
+    webkitallowfullscreen=""
+    mozallowfullscreen=""
+    allowFullScreen=""
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%"
+    }}
+  />
+</div>
+```
+
 ## Here’s what [collab.land](http://collab.land) does
 
 Collab.Land provides solutions for managing Web3 communities by token-gating the channels and groups. We also have many other features like Tipping(currently limited access), Verifiable Credentials & DIDs, and more.
