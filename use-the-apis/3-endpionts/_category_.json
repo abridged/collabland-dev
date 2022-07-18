@@ -1,0 +1,8 @@
+{
+    "label": "Endpoints",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Endpoints for accessing the Collab.Land APIs"
+    }
+  }

@@ -1,0 +1,8 @@
+{
+    "label": "Add A Platform",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Add a new platform extension to Collab.Land"
+    }
+  }

@@ -97,6 +97,12 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            to: '/add-a-non-evm-chain/1-introduction',
+            label: 'Non EVM Chains',
+            activeBaseRegex: `add-a-non-evm-chain`,
+            position: 'left',
+          },
           // {
           //   to: '/proposals/intro',
           //   label: 'Proposals',

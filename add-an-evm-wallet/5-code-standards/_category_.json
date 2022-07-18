@@ -1,0 +1,8 @@
+{
+    "label": "Coding Standards",
+    "position": 5,
+    "link": {
+      "type": "generated-index",
+      "description": "Coding Standards when adding an EMV wallet to Collab.Land"
+    }
+  }

@@ -1,0 +1,8 @@
+{
+    "label": "Add An EVM Chain",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Add a new EVM chain to Collab.Land"
+    }
+  }

@@ -1,0 +1,8 @@
+{
+    "label": "Enable A Non EVM Wallet",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Enable A Non EVM Wallet: Add a new non evm wallet to Collab.Land"
+    }
+  }
