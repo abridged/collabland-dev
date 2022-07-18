@@ -79,6 +79,67 @@ const config = {
         // ... other options
       },
     ],
+    [
+      'content-docs',
+      {
+        id: 'add-a-non-evm-chain',
+        path: 'add-a-non-evm-chain',
+        routeBasePath: 'add-a-non-evm-chain',
+        sidebarPath: require.resolve('./sidebars-add-a-non-evm-chain.js'),
+        // ... other options
+      }
+    ],
+    [
+      'content-docs',
+      {
+        id: 'add-a-non-evm-wallet',
+        path: 'add-a-non-evm-wallet',
+        routeBasePath: 'add-a-non-evm-wallet',
+        sidebarPath: require.resolve('./sidebars-add-a-non-evm-wallet.js'),
+        // ... other options
+      }
+    ],
+    [
+      'content-docs',
+      {
+        id: 'add-a-platform',
+        path: 'add-a-platform',
+        routeBasePath: 'add-a-platform',
+        sidebarPath: require.resolve('./sidebars-add-a-platform.js'),
+        // ... other options
+      }
+    ],
+    [
+      'content-docs',
+      {
+        id: 'add-a-slash-command',
+        path: 'add-a-slash-command',
+        routeBasePath: 'add-a-slash-command',
+        sidebarPath: require.resolve('./sidebars-add-a-slash-command.js'),
+        // ... other options
+      }
+    ],
+    [
+      'content-docs',
+      {
+        id: 'add-an-evm-chain',
+        path: 'add-an-evm-chain',
+        routeBasePath: 'add-an-evm-chain',
+        sidebarPath: require.resolve('./sidebars-add-an-evm-chain.js'),
+        // ... other options
+      }
+    ],
+    [
+      'content-docs',
+      {
+        id: 'add-an-evm-wallet',
+        path: 'add-an-evm-wallet',
+        routeBasePath: 'add-an-evm-wallet',
+        sidebarPath: require.resolve('./sidebars-add-an-evm-wallet.js'),
+        // ... other options
+      }
+    ],
+    
   ],
 
   themeConfig:
@@ -98,51 +159,39 @@ const config = {
             label: 'Docs',
           },
           {
-            to: '/add-an-evm-chain/1-introduction',
+            to: '/add-an-evm-chain/1-general/1-introduction',
             label: 'New EVM Chains',
-            activeBaseRegex: `add-an-evm-chain`,
+            activeBaseRegex: `/add-an-evm-chain/`,
             position: 'left',
           },
           {
-            to: '/add-an-evm-wallet/1-introduction',
+            to: '/add-an-evm-wallet/1-general/1-introduction',
             label: 'New EVM Wallets',
-            activeBaseRegex: `add-an-evm-wallet`,
+            activeBaseRegex: `/add-an-evm-wallet/`,
             position: 'left',
           },
           {
-            to: '/use-the-sdk/1-general/1-introduction',
-            label: 'Our SDK',
-            activeBaseRegex: `add-a-non-evm-chain`,
-            position: 'left',
-          },
-          {
-            to: '/use-the-apis/1-general/1-introduction',
-            label: 'Our APIs',
-            activeBaseRegex: `use-the-apis`,
+            to: '/add-a-slash-command/1-general/1-introduction',
+            label: 'New Slash Command',
+            activeBaseRegex: `/add-a-slash-command/`,
             position: 'left',
           },
           {
             to: '/add-a-platform/1-general/1-introduction',
             label: 'New Platforms',
-            activeBaseRegex: `add-a-non-evm-chain`,
+            activeBaseRegex: `/add-a-platform/`,
             position: 'left',
           },
           {
             to: '/add-a-non-evm-chain/1-introduction',
-            label: 'New Bot Commands',
-            activeBaseRegex: `add-a-non-evm-chain`,
+            label: 'New Non-EVM Chains',
+            activeBaseRegex: `/add-a-non-evm-chain/`,
             position: 'left',
           },
           {
-            to: '/add-a-non-evm-chain/1-introduction',
-            label: 'Non EVM Chains',
-            activeBaseRegex: `add-a-non-evm-chain`,
-            position: 'left',
-          },
-          {
-            to: '/add-a-non-evm-chain/1-introduction',
-            label: 'Non EVM Wallets',
-            activeBaseRegex: `add-a-non-evm-chain`,
+            to: '/add-a-non-evm-wallet/1-general/1-introduction',
+            label: 'New Non-EVM Wallets',
+            activeBaseRegex: `/add-a-non-evm-wallet/`,
             position: 'left',
           },
           // {
