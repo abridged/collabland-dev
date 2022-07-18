@@ -97,7 +97,7 @@ export class RedditService implements Platform {
 }
 ```
 
-For binding and dependency injection, please read [Basic concepts of LoopBack](./loopback-basics.md).
+For binding and dependency injection, please read [Basic concepts of LoopBack](./2-basic-concepts-of-loopback.md).
 
 By convention, we put most of types in `./src/types.ts`and binding keys and constant under `./src/keys`
 
@@ -166,7 +166,7 @@ export class CollablandJobServerApplication extends RepositoryMixin(
 
 `CollablandJobServerApplication` has an extension point `JOB_RUNNER_EXTENSION_POINT`. By adding `RedditComponent`, the extension point `JOB_RUNNER_EXTENSION_POINT`will have access to the `JobRunner` extension we implemented in our Reddit extension `RedditJobRunner` .
 
-See [Basic concepts of LoopBack](./loopback-basics.md) to learn more about extension point/extensions.
+See [Basic concepts of LoopBack](./2-basic-concepts-of-loopback.md) to learn more about extension point/extensions.
 
 ## Basic Components/Services in Collab.Land
 

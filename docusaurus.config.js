@@ -159,25 +159,25 @@ const config = {
             label: 'Docs',
           },
           {
-            to: '/add-an-evm-chain/1-general/1-introduction',
+            to: '/add-an-evm-chain/introduction',
             label: 'New EVM Chains',
             activeBaseRegex: `/add-an-evm-chain/`,
             position: 'left',
           },
           {
-            to: '/add-an-evm-wallet/1-general/1-introduction',
+            to: '/add-an-evm-wallet/introduction',
             label: 'New EVM Wallets',
             activeBaseRegex: `/add-an-evm-wallet/`,
             position: 'left',
           },
           {
-            to: '/add-a-slash-command/1-general/1-introduction',
+            to: '/add-a-slash-command/introduction',
             label: 'New Slash Command',
             activeBaseRegex: `/add-a-slash-command/`,
             position: 'left',
           },
           {
-            to: '/add-a-platform/1-general/1-introduction',
+            to: '/add-a-platform/introduction',
             label: 'New Platforms',
             activeBaseRegex: `/add-a-platform/`,
             position: 'left',
@@ -189,7 +189,7 @@ const config = {
             position: 'left',
           },
           {
-            to: '/add-a-non-evm-wallet/1-general/1-introduction',
+            to: '/add-a-non-evm-wallet/introduction',
             label: 'New Non-EVM Wallets',
             activeBaseRegex: `/add-a-non-evm-wallet/`,
             position: 'left',

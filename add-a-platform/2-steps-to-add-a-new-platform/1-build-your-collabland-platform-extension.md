@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Build Your Collab.Land Platform Extension
 
-![Untitled](./images/overview.png)
+![Overview diagram](./images/overview.png)
 
 [Collab.Land](http://Collab.Land) provides solutions for bringing web2 users to web3. From web2, we now support platforms such as Discord, Telegram, and so on Reddit, Github, and Notion. To web3, we support the most of popular chains. Meanwhile, we are proactively decentralizing Collab.Land. We are also working with many different partners to build web3 network together.
 
@@ -12,7 +12,7 @@ To help build a decentralized network, we’d love to see more platforms connect
 
 # Table of Contents
 
-## [Basic concepts of LoopBack](./loopback-basics.md)
+## [Basic concepts of LoopBack](./2-basic-concepts-of-loopback.md)
 
 - Data access
 - Naming convention
@@ -21,35 +21,35 @@ To help build a decentralized network, we’d love to see more platforms connect
 - Example of dependency injection and extension point/extension
 - Debug Strings
 
-## [Getting started](./getting-started.md)
+## [Getting started](./3-getting-started.md)
 
 - Platform Extensions
 - Basic Components/Services in Collab.Land
 
-## [What You Need to Integrate Your Platform with Collab.Land ](./integrate-with-collabland.md)
+## [What You Need to Integrate Your Platform with Collab.Land ](./4-integrate-with-collabland.md)
 
 - Flow Overview
 - Wallet Connection
 - Configuration
 
-## [Wallet Connection](./wallet.connection.md)
+## [Wallet Connection](./5-wallet-connection.md)
 
 - Authentication
 - Wallet Connection
 - Debugging
 
-## [Token Permission Check Result Handling](./tpc-result-handling.md)
+## [Token Permission Check Result Handling](./6-tpc-result-handling.md)
 
 - Job Runner
 - Debugging
 
-## [Admin Configuration](./admin-configuration.md)
+## [Admin Configuration](./7-admin-configuration.md)
 
 - Command Center
 - Admin Command Center Login
 - Debugging
 
-## [Reddit Integration High-Level Overview](./reddit-integration-overview.md)
+## [Reddit Integration High-Level Overview](./8-reddit-integration-overview.md)
 
 - Authentication
 - User Management
