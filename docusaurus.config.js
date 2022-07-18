@@ -183,7 +183,7 @@ const config = {
             position: 'left',
           },
           {
-            to: '/add-a-non-evm-chain/1-introduction',
+            to: '/add-a-non-evm-chain/introduction',
             label: 'New Non-EVM Chains',
             activeBaseRegex: `/add-a-non-evm-chain/`,
             position: 'left',
