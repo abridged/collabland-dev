@@ -1,6 +1,9 @@
 {
     "label": "Add A Slash Command",
     "position": 1,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-normal-page",
     "link": {
       "type": "generated-index",
       "description": "Add A Slash Command to Collab.Land"

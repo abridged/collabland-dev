@@ -1,5 +1,7 @@
 ---
 sidebar_position: 9
+sidebar_label: Creating The Monorepo ENV Files
+sidebar_class_name: nav-normal-page
 ---
 
 # Creating The Monorepo ENV Files

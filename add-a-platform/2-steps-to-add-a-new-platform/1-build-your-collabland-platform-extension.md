@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+sidebar_label: Build Your Collab.Land Platform Extension
+sidebar_class_name: nav-normal-page
 ---
 
 # Build Your Collab.Land Platform Extension

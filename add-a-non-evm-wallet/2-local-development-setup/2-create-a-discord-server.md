@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+sidebar_label: Create A Discord Server
+sidebar_class_name: nav-normal-page
 ---
 
 # Create A Discord Server

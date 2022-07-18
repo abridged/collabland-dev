@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+sidebar_label: Creating A Slash Command
+sidebar_class_name: nav-normal-page
 ---
 
 # Creating A Slash Command

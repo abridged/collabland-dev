@@ -1,5 +1,7 @@
 ---
 sidebar_position: 6
+sidebar_label: Token Permission Checks Result Handling
+sidebar_class_name: nav-normal-page
 ---
 
 # Token Permission Checks Result Handling

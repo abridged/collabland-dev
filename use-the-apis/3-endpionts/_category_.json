@@ -1,6 +1,9 @@
 {
     "label": "Endpoints",
-    "position": 3,
+    "position": 4,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-bold-category",
     "link": {
       "type": "generated-index",
       "description": "Endpoints for accessing the Collab.Land APIs"

@@ -1,8 +1,35 @@
 ---
 sidebar_position: 1
+sidebar_label: Local Development Overview
+sidebar_class_name: nav-normal-page
 ---
 
 # Local Development Overview
+
+```mdx-code-block
+<div
+  style={{
+    position: "relative",
+    paddingBottom: "64.5933014354067%",
+    height: 0
+  }}
+>
+  <iframe
+    src="https://www.loom.com/embed/03ca0b499bd8441ea2cae77ca1dac93e"
+    frameBorder={0}
+    webkitallowfullscreen=""
+    mozallowfullscreen=""
+    allowFullScreen=""
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%"
+    }}
+  />
+</div>
+```
 
 # Local Developer Setup Diagram
 

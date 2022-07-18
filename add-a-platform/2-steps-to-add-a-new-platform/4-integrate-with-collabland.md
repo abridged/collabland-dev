@@ -1,5 +1,7 @@
 ---
 sidebar_position: 4
+sidebar_label: Integrate with Collab.Land
+sidebar_class_name: nav-normal-page
 ---
 
 # Integrate with Collab.Land

@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+sidebar_label: Creating A Slash Command That Calls A Job
+sidebar_class_name: nav-normal-page
 ---
 
 # Creating A Slash Command That Calls A Job

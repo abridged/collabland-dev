@@ -1,5 +1,7 @@
 ---
 sidebar_position: 3
+sidebar_label: Getting Started
+sidebar_class_name: nav-normal-page
 ---
 
 # Getting Started

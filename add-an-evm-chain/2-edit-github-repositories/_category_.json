@@ -1,6 +1,9 @@
 {
     "label": "Edit Github Repositories",
-    "position": 2,
+    "position": 3,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-normal-page",
     "link": {
       "type": "generated-index",
       "description": "How to Edit Github Repositories when adding a Non EMV chain to Collab.Land"

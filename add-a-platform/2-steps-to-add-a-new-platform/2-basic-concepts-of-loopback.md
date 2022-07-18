@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+sidebar_label: Basic concepts of LoopBack
+sidebar_class_name: nav-normal-page
 ---
 
 # Basic concepts of LoopBack

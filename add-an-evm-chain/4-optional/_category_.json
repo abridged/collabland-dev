@@ -1,6 +1,9 @@
 {
     "label": "Optional",
-    "position": 4,
+    "position": 5,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-normal-page",
     "link": {
       "type": "generated-index",
       "description": "Optional Optimizations when adding an EMV chain to Collab.Land"

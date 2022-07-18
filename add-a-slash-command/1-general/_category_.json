@@ -1,11 +1,11 @@
 {
-    "label": "Coding Standards",
-    "position": 6,
+    "label": "General",
+    "position": 2,
     "collapsible": false,
     "collapsed": false,
     "className": "nav-bold-category",
     "link": {
       "type": "generated-index",
-      "description": "Coding Standards: Add a new non evm wallet to Collab.Land"
+      "description": "General: Add A Slash Command to Collab.Land"
     }
   }

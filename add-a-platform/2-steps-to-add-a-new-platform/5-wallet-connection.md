@@ -1,5 +1,7 @@
 ---
 sidebar_position: 5
+sidebar_label: Wallet Connection
+sidebar_class_name: nav-normal-page
 ---
 
 # Wallet Connection

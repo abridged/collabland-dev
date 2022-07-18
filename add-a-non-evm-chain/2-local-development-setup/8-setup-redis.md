@@ -1,5 +1,7 @@
 ---
 sidebar_position: 8
+sidebar_label: Setup Redis
+sidebar_class_name: nav-normal-page
 ---
 
 # Setup Redis

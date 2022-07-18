@@ -1,5 +1,7 @@
 ---
 sidebar_position: 8
+sidebar_label: Reddit Integration Overview
+sidebar_class_name: nav-normal-page
 ---
 
 # Reddit Integration Overview

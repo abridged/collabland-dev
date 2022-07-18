@@ -1,5 +1,7 @@
 ---
 sidebar_position: 7
+sidebar_label: Admin Configuration
+sidebar_class_name: nav-normal-page
 ---
 
 # Admin Configuration

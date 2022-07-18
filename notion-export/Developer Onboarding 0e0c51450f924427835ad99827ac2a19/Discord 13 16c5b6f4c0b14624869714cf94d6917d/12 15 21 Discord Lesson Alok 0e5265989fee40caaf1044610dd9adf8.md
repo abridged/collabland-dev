@@ -411,17 +411,17 @@ Editing Handler to deploy guild specific commands
 
 ## 1. Setting up a new slash command, Ngrok, discord bot, the ground work.
 
-[https://www.loom.com/share/4e2f04cc5d294ffe8d6290d7cdcbd24c?sharedAppSource=personal_library](https://www.loom.com/share/4e2f04cc5d294ffe8d6290d7cdcbd24c?sharedAppSource=personal_library)
+[https://www.loom.com/embed/4e2f04cc5d294ffe8d6290d7cdcbd24c?sharedAppSource=personal_library](https://www.loom.com/embed/4e2f04cc5d294ffe8d6290d7cdcbd24c?sharedAppSource=personal_library)
 
 ## 2.  Deploying a slash command to a guild instantly
 
-[https://www.loom.com/share/b9d25d6aa0cf49dcb714e591f0790b01](https://www.loom.com/share/b9d25d6aa0cf49dcb714e591f0790b01)
+[https://www.loom.com/embed/b9d25d6aa0cf49dcb714e591f0790b01](https://www.loom.com/embed/b9d25d6aa0cf49dcb714e591f0790b01)
 
 ## 3. Getting the slash command to respond
 
 — Current Status
 
-[https://www.loom.com/share/3f5600055bb9411d866bdd9633631eea](https://www.loom.com/share/3f5600055bb9411d866bdd9633631eea)
+[https://www.loom.com/embed/3f5600055bb9411d866bdd9633631eea](https://www.loom.com/embed/3f5600055bb9411d866bdd9633631eea)
 
 — Once it works
 

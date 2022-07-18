@@ -1,6 +1,9 @@
 {
     "label": "Local Development Setup",
-    "position": 2,
+    "position": 3,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-bold-category",
     "link": {
       "type": "generated-index",
       "description": "Local Development Setup: Add a new non evm wallet to Collab.Land"

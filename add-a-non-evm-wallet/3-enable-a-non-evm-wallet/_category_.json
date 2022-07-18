@@ -1,6 +1,9 @@
 {
     "label": "Enable A Non EVM Wallet",
-    "position": 3,
+    "position": 4,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-bold-category",
     "link": {
       "type": "generated-index",
       "description": "Enable A Non EVM Wallet: Add a new non evm wallet to Collab.Land"

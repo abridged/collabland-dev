@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+sidebar_label: How to Git Commit & Pull Request
+sidebar_class_name: nav-normal-page
 ---
 
 # How to Git Commit & Pull Request

@@ -1,5 +1,7 @@
 ---
 sidebar_position: 4
+sidebar_label: AWS Vault Setup
+sidebar_class_name: nav-normal-page
 ---
 
 # AWS Vault Setup

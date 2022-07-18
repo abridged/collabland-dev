@@ -1,5 +1,7 @@
 ---
 sidebar_position: 3
+sidebar_label: Create A Discord Bot
+sidebar_class_name: nav-normal-page
 ---
 
 # Create A Discord Bot
