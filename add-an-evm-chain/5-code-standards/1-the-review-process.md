@@ -5,3 +5,5 @@ sidebar_class_name: nav-normal-page
 ---
 
 # The Code Review Process
+
+- Place holder - what is our review process?  Do we check out new chain pull requests every so often?

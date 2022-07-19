@@ -1,0 +1,11 @@
+{
+    "label": "Add A Non EVM Chain",
+    "position": 7,
+    "collapsible": true,
+    "collapsed": true,
+    "className": "nav-normal-page",
+    "link": {
+      "type": "generated-index",
+      "description": "Add a new non EVM chain to Collab.Land"
+    }
+  }

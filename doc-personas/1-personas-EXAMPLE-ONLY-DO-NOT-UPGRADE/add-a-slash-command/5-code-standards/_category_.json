@@ -1,0 +1,11 @@
+{
+    "label": "Code Standards",
+    "position": 6,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-bold-category",
+    "link": {
+      "type": "generated-index",
+      "description": "Code Standards: Add A Slash Command to Collab.Land"
+    }
+  }

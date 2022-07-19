@@ -159,6 +159,16 @@ const config = {
         // ... other options
       }
     ],
+    [
+      'content-docs',
+      {
+        id: 'doc-personas',
+        path: 'doc-personas',
+        routeBasePath: 'doc-personas',
+        sidebarPath: require.resolve('./sidebars-doc-personas.js'),
+        // ... other options
+      }
+    ],
 
 
   ],
@@ -225,6 +235,12 @@ const config = {
             to: '/use-the-apis/introduction',
             label: 'Use The APIs',
             activeBaseRegex: `/use-the-apis/`,
+            position: 'left',
+          },
+          {
+            to: '/doc-personas/introduction',
+            label: 'Doc Personas',
+            activeBaseRegex: `/doc-personas/`,
             position: 'left',
           },
           // {

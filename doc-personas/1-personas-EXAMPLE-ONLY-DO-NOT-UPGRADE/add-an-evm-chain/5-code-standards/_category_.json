@@ -1,0 +1,11 @@
+{
+    "label": "Coding Standards",
+    "position": 6,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-normal-page",
+    "link": {
+      "type": "generated-index",
+      "description": "Coding Standards when adding an EMV chain to Collab.Land"
+    }
+  }

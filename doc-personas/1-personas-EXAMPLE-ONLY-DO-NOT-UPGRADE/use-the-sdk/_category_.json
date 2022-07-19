@@ -1,0 +1,11 @@
+{
+    "label": "Use The SDK",
+    "position": 3,
+    "collapsible": true,
+    "collapsed": true,
+    "className": "nav-normal-page",
+    "link": {
+      "type": "generated-index",
+      "description": "use the Collab.Land SDK"
+    }
+  }
