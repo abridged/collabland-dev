@@ -15,7 +15,7 @@ sidebar_class_name: nav-normal-page
   }}
 >
   <iframe
-    src="https://www.loom.com/embed/86f068874eb8495a93681025fc0db8ec"
+    src="https://www.loom.com/embed/3601772fcc74492ebf010935ef116b1e"
     frameBorder={0}
     webkitallowfullscreen=""
     mozallowfullscreen=""

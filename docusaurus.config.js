@@ -139,6 +139,27 @@ const config = {
         // ... other options
       }
     ],
+    [
+      'content-docs',
+      {
+        id: 'use-the-apis',
+        path: 'use-the-apis',
+        routeBasePath: 'use-the-apis',
+        sidebarPath: require.resolve('./sidebars-use-the-apis.js'),
+        // ... other options
+      }
+    ],
+    [
+      'content-docs',
+      {
+        id: 'use-the-sdk',
+        path: 'use-the-sdk',
+        routeBasePath: 'use-the-sdk',
+        sidebarPath: require.resolve('./sidebars-use-the-sdk.js'),
+        // ... other options
+      }
+    ],
+
 
   ],
 
@@ -192,6 +213,18 @@ const config = {
             to: '/add-a-non-evm-wallet/introduction',
             label: 'New Non-EVM Wallets',
             activeBaseRegex: `/add-a-non-evm-wallet/`,
+            position: 'left',
+          },
+          {
+            to: '/use-the-sdk/introduction',
+            label: 'Use The SDK',
+            activeBaseRegex: `/use-the-sdk/`,
+            position: 'left',
+          },
+          {
+            to: '/use-the-apis/introduction',
+            label: 'Use The APIs',
+            activeBaseRegex: `/use-the-apis/`,
             position: 'left',
           },
           // {
