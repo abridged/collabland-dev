@@ -139,7 +139,7 @@ const config = {
         // ... other options
       }
     ],
-    
+
   ],
 
   themeConfig:
