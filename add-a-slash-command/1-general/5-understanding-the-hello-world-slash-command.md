@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
-sidebar_label: Introduction
+sidebar_position: 5
+sidebar_label: Understanding The Hello World Slash Command
 sidebar_class_name: nav-normal-page
 ---
 
-# Introduction
+# Understanding The Hello World Slash Command
 
 ```mdx-code-block
 <div
@@ -15,7 +15,7 @@ sidebar_class_name: nav-normal-page
   }}
 >
   <iframe
-    src="https://www.loom.com/embed/60ef2275da3d4d139df2ecdf50acc67e"
+    src="https://www.loom.com/embed/5e628766914947c297493c67b6a5c917"
     frameBorder={0}
     webkitallowfullscreen=""
     mozallowfullscreen=""
@@ -30,5 +30,3 @@ sidebar_class_name: nav-normal-page
   />
 </div>
 ```
-
-
