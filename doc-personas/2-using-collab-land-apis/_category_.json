@@ -1,11 +1,11 @@
 {
-    "label": "Personas",
-    "position": 6,
+    "label": "Using Collab.Land APIs & SDK",
+    "position": 3,
     "collapsible": false,
     "collapsed": false,
     "className": "nav-bold-category",
     "link": {
       "type": "generated-index",
-      "description": "Personas: Documentation"
+      "description": "API & SDK Documentation"
     }
   }
