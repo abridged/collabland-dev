@@ -1,11 +1,11 @@
 {
-    "label": "Doc Personas",
+    "label": "Add A Non EVM Wallet",
     "position": 1,
     "collapsible": true,
     "collapsed": true,
     "className": "nav-normal-page",
     "link": {
       "type": "generated-index",
-      "description": "Add a new EVM chain to Collab.Land"
+      "description": "Add a new non EVM wallet to Collab.Land"
     }
   }

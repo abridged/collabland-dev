@@ -27,16 +27,6 @@ const sidebars = {
   ],
    */
 
-  exampleSidebar: {
-    Folderone: [
-      'example-seperate-sidebar/introduction',
-      'example-seperate-sidebar/docone'
-    ],
-    Foldertwo: [
-      'example-seperate-sidebar/doctwo'
-    ],
-  }
-
   // apiSidebar: {
   //   Guides: [
   //     '[Should-This-Move-To-Down-Stream-API-Folder]-api-docs/introduction',

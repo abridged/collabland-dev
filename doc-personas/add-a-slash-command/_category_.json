@@ -1,11 +1,11 @@
 {
-    "label": "Doc Personas",
+    "label": "Add A Slash Command",
     "position": 1,
     "collapsible": true,
     "collapsed": true,
     "className": "nav-normal-page",
     "link": {
       "type": "generated-index",
-      "description": "Add a new EVM chain to Collab.Land"
+      "description": "Add A Slash Command to Collab.Land"
     }
   }
