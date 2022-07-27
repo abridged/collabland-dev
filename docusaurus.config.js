@@ -119,16 +119,16 @@ const config = {
         // ... other options
       }
     ],
-    [
-      'content-docs',
-      {
-        id: 'add-an-evm-chain',
-        path: 'add-an-evm-chain',
-        routeBasePath: 'add-an-evm-chain',
-        sidebarPath: require.resolve('./sidebars-add-an-evm-chain.js'),
-        // ... other options
-      }
-    ],
+    // [
+    //   'content-docs',
+    //   {
+    //     id: 'add-an-evm-chain',
+    //     path: 'add-an-evm-chain',
+    //     routeBasePath: 'add-an-evm-chain',
+    //     sidebarPath: require.resolve('./sidebars-add-an-evm-chain.js'),
+    //     // ... other options
+    //   }
+    // ],
     [
       'content-docs',
       {
@@ -189,12 +189,12 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {
-            to: '/add-an-evm-chain/introduction',
-            label: 'New EVM Chains',
-            activeBaseRegex: `/add-an-evm-chain/`,
-            position: 'left',
-          },
+          // {
+          //   to: '/add-an-evm-chain/introduction',
+          //   label: 'New EVM Chains',
+          //   activeBaseRegex: `/add-an-evm-chain/`,
+          //   position: 'left',
+          // },
           {
             to: '/add-an-evm-wallet/introduction',
             label: 'New EVM Wallets',

@@ -28,7 +28,28 @@ const sidebars = {
       LocalDevSetup: [
         'add-a-non-evm-chain/local-development-setup/introduction',
       ]
-    }
+    },
+    addanevmchainSidebar: {
+      Introduction: [
+        'add-an-evm-chain/introduction',
+      ],
+      General: [
+        'add-an-evm-chain/general/github-access-request',
+        'add-an-evm-chain/general/github-pull-request-overview',
+      ],
+      Edit_GitHub_Repositories: [
+        'add-an-evm-chain/edit-github-repositories/update-command-center',
+        'add-an-evm-chain/edit-github-repositories/update-monorepo-backend',
+        'add-an-evm-chain/edit-github-repositories/update-wallet-connection'
+      ],
+      Optional: [
+        'add-an-evm-chain/optional/infura-and-alchemy-rpcs',
+        'add-an-evm-chain/optional/rate-limited-rpcs',
+      ],
+      Code_Standards : [
+        'add-an-evm-chain/code-standards/the-review-process'
+      ],
+    },
   };
 
 module.exports = sidebars;
