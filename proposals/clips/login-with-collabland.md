@@ -7,6 +7,16 @@ title: Login with Collab.Land
 
 Login with Collab.Land
 
+## Author
+
+- Raymond Feng
+  - Email: raymond@collab.land
+  - Github: [@raymondfeng](https://github.com/raymondfeng)
+
+## Created
+
+2022-06-07
+
 ## Simple Summary
 
 This submission proposes a `Login with Collab.Land` solution to support two
@@ -17,16 +27,6 @@ use cases:
 
 - allow API clients to authenticate a user with Collab.Land and request their permissions
   to invoke Collab.Land APIs on behalf of the user.
-
-## Author
-
-- Raymond Feng
-  - Email: raymond@collab.land
-  - Github: [@raymondfeng](https://github.com/raymondfeng)
-
-## Created
-
-2022-06-07
 
 ## Abstract
 
@@ -46,8 +46,6 @@ solution:
 - Collab.Land wallet connections site
 - Collab.Land backend to verify wallet connections
 - Collab.Land backend as an identity provider to support oAuth2/OpenID Connect flow
-
-![collabland-login](./imgs/collabland-login.png)
 
 ## Motivation
 
@@ -81,9 +79,13 @@ Example:
 - Users can use Collab.Land to share crypto wallet addresses with other DApps
 - Users will be able to grant/revoke permissions to third party applications
 
-## Specification
+## High level design
 
-[The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL”. The technical specification should describe the semantics of any new feature. The specification should be detailed enough to allow technical solution design to be validated or challenged interoperable implementations for any of the current Collab.Land repositories. It is completely acceptable to link to external diagrams or additional subject specific documents that can be made available for review by the DAO]
+![collabland-login](./imgs/collabland-login.png)
+
+![collabland-ethereum-login](./imgs/collabland-ethereum-login.png)
+
+![collabland-login-auth0](./imgs/collabland-login-auth0.png)
 
 ## Deliverables
 
@@ -95,22 +97,6 @@ Example:
 6. Integrate with other DID providers such as Nuggets
 7. Stretched: Build a PoC to integrate with Auth0
 
-## Backwards Compatibility
-
-[All CLIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The CLIP must explain how the author proposes to deal with these incompatibilities. CLIP submissions without a sufficient backwards compatibility treatise may be rejected outright.]
-
-## Test Cases
-
-[Test cases for an implementation are mandatory for CLIPs that are affecting consensus changes. If the test suite is too large to reasonably be included inline, then consider adding references to the project, branch, and files to which the tests have been added.]
-
-## Reference Implementation
-
-[An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification. If the implementation is too large to reasonably be included inline, then consider adding references to the project, branch, and files to which the implementation has been added.]
-Security Considerations
-[All CLIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Including information that might be important for security discussions, surface risks can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. CLIP submissions missing the "Security Considerations" section will be rejected. A CLIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.]
-
-![collabland-login-auth0](./imgs/collabland-login-auth0.png)
-
 ## Dependencies
 
 Collab.Land teams will be needed to support the following areas:
@@ -120,9 +106,11 @@ Collab.Land teams will be needed to support the following areas:
 - Design Updates
 - FrontEnd Development
 
-## Total Ask
+### Third party dependencies
 
-[If this CLIP requires additional funds, support, or personnel please outline in this section of the total considerable ask would be to be approved by the Collab.Land DAO]
+- [Sign in with Ethereum](https://login.xyz/)
+
+## Total Ask
 
 ## References
 
@@ -131,3 +119,5 @@ Collab.Land teams will be needed to support the following areas:
 3. [Self-Issued OpenID Provider V2 – (Optional) Enables End-users to use OpenID Providers (OPs) that they control](https://openid.net/specs/openid-connect-self-issued-v2-1_0.html)
 4. [OpenID Connect for Verifiable Presentations – (Optional) Enables request and presentation of W3C Verifiable Presentations via OpenID Connect](https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html)
 5. [node-oidc-provider](https://github.com/panva/node-oidc-provider)
+6. https://blog.spruceid.com/from-sign-in-with-ethereum-to-session-keys/
+7. https://web3auth.io/docs/
