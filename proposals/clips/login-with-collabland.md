@@ -121,3 +121,4 @@ Collab.Land teams will be needed to support the following areas:
 5. [node-oidc-provider](https://github.com/panva/node-oidc-provider)
 6. https://blog.spruceid.com/from-sign-in-with-ethereum-to-session-keys/
 7. https://web3auth.io/docs/
+8. https://auth0.com/blog/web3-sign-in-friction-with-web3auths-auth0-integration/
