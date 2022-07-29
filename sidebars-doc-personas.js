@@ -24,11 +24,6 @@ const sidebars = {
         'example-seperate-sidebar/doctwo'
       ],
     },
-    addnonevmchainSidebar: {
-      " Local Development Setup": [
-        'add-a-non-evm-chain/local-development-setup/introduction',
-      ]
-    },
     addanevmchainSidebar: {
       "Introduction": [
         'add-an-evm-chain/introduction',
@@ -115,6 +110,63 @@ const sidebars = {
       "Code Standards" : [
         'add-a-platform/code-standards/git-commit-and-pull-request',
         'add-a-platform/code-standards/the-review-process',
+      ],
+    },
+    addanonevmwalletSidebar: {
+      "Introduction": [
+        'add-a-non-evm-wallet/introduction',
+      ],
+      "Local Development Setup": [
+        'add-a-non-evm-wallet/local-development-setup/overview',
+        'add-a-non-evm-wallet/local-development-setup/create-a-discord-server',
+        'add-a-non-evm-wallet/local-development-setup/create-a-discord-bot',
+        'add-a-non-evm-wallet/local-development-setup/setup-aws-vault',
+        'add-a-non-evm-wallet/local-development-setup/setup-the-monorepo-backend-repository',
+        'add-a-non-evm-wallet/local-development-setup/setup-the-wallet-connection-repository',
+        'add-a-non-evm-wallet/local-development-setup/setup-the-command-center-repository',
+        'add-a-non-evm-wallet/local-development-setup/setup-redis',
+        'add-a-non-evm-wallet/local-development-setup/create-monorepo-envs',
+        'add-a-non-evm-wallet/local-development-setup/create-wallet-connection-envs',
+        'add-a-non-evm-wallet/local-development-setup/create-command-center-envs',
+      ],
+      "Enable a Non Evm Wallet": [
+        'add-a-non-evm-wallet/enable-a-non-evm-wallet/not-sure',
+      ],
+      "Code Standards" : [
+        'add-a-non-evm-wallet/code-standards/git-commit-and-pull-request',
+        'add-a-non-evm-wallet/code-standards/the-review-process',
+      ],
+    },
+    addanonevmchainSidebar: {
+      "Introduction": [
+        'add-a-non-evm-chain/introduction',
+      ],
+      "Local Development Setup": [
+        'add-a-non-evm-chain/local-development-setup/overview',
+        'add-a-non-evm-chain/local-development-setup/create-a-discord-server',
+        'add-a-non-evm-chain/local-development-setup/create-a-discord-bot',
+        'add-a-non-evm-chain/local-development-setup/setup-aws-vault',
+        'add-a-non-evm-chain/local-development-setup/setup-the-monorepo-backend-repository',
+        'add-a-non-evm-chain/local-development-setup/setup-the-wallet-connection-repository',
+        'add-a-non-evm-chain/local-development-setup/setup-the-command-center-repository',
+        'add-a-non-evm-chain/local-development-setup/setup-redis',
+        'add-a-non-evm-chain/local-development-setup/create-monorepo-envs',
+        'add-a-non-evm-chain/local-development-setup/create-wallet-connection-envs',
+        'add-a-non-evm-chain/local-development-setup/create-command-center-envs',
+      ],
+      "Enable a Non Evm Chain": [
+        'add-a-non-evm-chain/enable-a-non-evm-chain/create-a-connector-in-monorepo',
+        'add-a-non-evm-chain/enable-a-non-evm-chain/update-command-center',
+        'add-a-non-evm-chain/enable-a-non-evm-chain/update-wallet-connection',
+        'add-a-non-evm-chain/enable-a-non-evm-chain/test-locally',
+      ],
+      "Optional": [
+        'add-a-non-evm-chain/optional/infura-and-alchemy-rpcs',
+        'add-a-non-evm-chain/optional/rate-limited-rpcs',
+      ],
+      "Coding Standards" : [
+        'add-a-non-evm-chain/code-standards/git-commit-and-pull-request',
+        'add-a-non-evm-chain/code-standards/the-review-process',
       ],
     },
 };
