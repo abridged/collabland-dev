@@ -1,12 +1,11 @@
 ---
-sidebar_position: 1
-sidebar_label: Add an EVM Chain
+sidebar_position: 5
+sidebar_label: Understanding The Hello World Slash Command
 sidebar_class_name: nav-normal-page
-id: introduction
-title: Add an EVM Chain
+id: understanding-the-hello-world-slash-command
 ---
 
-# Introduction
+# Understanding The Hello World Slash Command
 
 ```mdx-code-block
 <div
@@ -17,7 +16,7 @@ title: Add an EVM Chain
   }}
 >
   <iframe
-    src="https://www.loom.com/embed/3601772fcc74492ebf010935ef116b1e"
+    src="https://www.loom.com/embed/5e628766914947c297493c67b6a5c917"
     frameBorder={0}
     webkitallowfullscreen=""
     mozallowfullscreen=""

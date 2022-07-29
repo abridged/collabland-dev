@@ -1,12 +1,11 @@
 ---
-sidebar_position: 1
-sidebar_label: Add an EVM Chain
+sidebar_position: 3
+sidebar_label: Update the Wallet Connection Page
 sidebar_class_name: nav-normal-page
-id: introduction
-title: Add an EVM Chain
+id: update-wallet-connection
 ---
 
-# Introduction
+# Update the Wallet Connection Page
 
 ```mdx-code-block
 <div
@@ -17,7 +16,7 @@ title: Add an EVM Chain
   }}
 >
   <iframe
-    src="https://www.loom.com/embed/3601772fcc74492ebf010935ef116b1e"
+    src="https://www.loom.com/embed/753c765e94c14aa98ebe4c6a6bfaeafe"
     frameBorder={0}
     webkitallowfullscreen=""
     mozallowfullscreen=""

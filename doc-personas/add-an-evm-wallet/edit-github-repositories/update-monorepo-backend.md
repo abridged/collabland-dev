@@ -1,12 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: Add an EVM Chain
+sidebar_label: Update the Monorepo Backend
 sidebar_class_name: nav-normal-page
-id: introduction
-title: Add an EVM Chain
+id: update-monorepo-backend
 ---
 
-# Introduction
+# Update the Monorepo Backend
 
 ```mdx-code-block
 <div
@@ -17,7 +16,7 @@ title: Add an EVM Chain
   }}
 >
   <iframe
-    src="https://www.loom.com/embed/3601772fcc74492ebf010935ef116b1e"
+    src="https://www.loom.com/embed/da43c9d1c52943ab8a216b7ffd18615c"
     frameBorder={0}
     webkitallowfullscreen=""
     mozallowfullscreen=""

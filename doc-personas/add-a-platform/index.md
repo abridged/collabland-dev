@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-sidebar_label: Add an EVM Chain
+sidebar_label: Add a Platform
 sidebar_class_name: nav-normal-page
 id: introduction
-title: Add an EVM Chain
+title: Add a Platform
 ---
 
 # Introduction
@@ -17,7 +17,7 @@ title: Add an EVM Chain
   }}
 >
   <iframe
-    src="https://www.loom.com/embed/3601772fcc74492ebf010935ef116b1e"
+    src="https://www.loom.com/embed/a9702b70452c4a938c9c44ca7a042c82"
     frameBorder={0}
     webkitallowfullscreen=""
     mozallowfullscreen=""

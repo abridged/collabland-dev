@@ -1,12 +1,11 @@
 ---
-sidebar_position: 1
-sidebar_label: Add an EVM Chain
+sidebar_position: 2
+sidebar_label: Update the Command Center
 sidebar_class_name: nav-normal-page
-id: introduction
-title: Add an EVM Chain
+id: update-command-center
 ---
 
-# Introduction
+# Update the Command Center
 
 ```mdx-code-block
 <div
@@ -17,7 +16,7 @@ title: Add an EVM Chain
   }}
 >
   <iframe
-    src="https://www.loom.com/embed/3601772fcc74492ebf010935ef116b1e"
+    src="https://www.loom.com/embed/7282f59b91de4598b79b4849c2fc04af"
     frameBorder={0}
     webkitallowfullscreen=""
     mozallowfullscreen=""
