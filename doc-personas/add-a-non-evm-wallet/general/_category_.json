@@ -1,0 +1,11 @@
+{
+    "label": "General",
+    "position": 2,
+    "collapsible": false,
+    "collapsed": false,
+    "className": "nav-bold-category",
+    "link": {
+      "type": "generated-index",
+      "description": "Introduction: Add a new non evm wallet to Collab.Land"
+    }
+  }

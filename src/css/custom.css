@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.nav-bold-category {
+  font-weight:600;
+  font-size:12px;
+  text-transform: uppercase;
+}
+.nav-normal-page {
+  font-weight:normal;
+  font-size:14px;
+  text-transform: none;
+}

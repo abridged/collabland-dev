@@ -2,7 +2,7 @@
 
 Running Job Runner Locally Video:
 
-[https://www.loom.com/share/ed759643df95400faf10df9559aaaa2f](https://www.loom.com/share/ed759643df95400faf10df9559aaaa2f)
+[https://www.loom.com/embed/ed759643df95400faf10df9559aaaa2f](https://www.loom.com/embed/ed759643df95400faf10df9559aaaa2f)
 
 # Steps to Create a Job Runner
 
