@@ -18,6 +18,8 @@ Collab.Land publishes `@collabland/sdk` to npm.
 ## Request API access
 
 - Register client application with Collab.Land to get an API key
+- Fill out this Google Form to request access to Collab.Land APIs:
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUKGy69dMDz-0MPVfNoPrtvV9ouZNiHqUun5-Z-0XyTOReMg/viewform?embedded=true" width="820" height="2219" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 # Try APIs
 
