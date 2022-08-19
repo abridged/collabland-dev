@@ -3,10 +3,17 @@ sidebar_position: 3
 title: Using Collab.Land APIs
 ---
 
-# Using Collab.Land APIs
+# Collab.Land APIs
 
-- REST APIs
-- JavaScript/TypeScript SDK
+Collab.Land provides a list of REST APIs to allow client applications to:
+
+- Check a wallet address or account with a list of token gating rules
+- Access a user's information from Collab.Land if the user grants required permissions to the client application
+- Manage token granted roles for community administrators
+
+# Collab.Land JavaScript/TypeScript SDK
+
+Collab.Land publishes `@collabland/sdk` to npm.
 
 ## Request API access
 
