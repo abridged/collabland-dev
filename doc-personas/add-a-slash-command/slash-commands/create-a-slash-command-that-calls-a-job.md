@@ -1001,7 +1001,7 @@ Open 3 different terminals and start all the services.
 ### 1. Start API Server
 
 ```bash
-bash start-api-server.sh
+./bin/local-api-server.sh
 ```
 
 ### 2. Start Job Server

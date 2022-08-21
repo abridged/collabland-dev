@@ -280,7 +280,7 @@ To Start the API Server run
 
 ```bash
 aws-vault login dev
-bash start-api-server.sh
+./bin/local-api-server.sh
 ```
 
 ### 2. Test the command from Discord
