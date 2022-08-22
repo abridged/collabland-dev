@@ -4,65 +4,92 @@ title: Authentication
 sidebar_position: 1
 ---
 
-CollabLand API server supports a few schemes of authentications.
+Collab.Land APIs support a few schemes of authentications.
 
-## oAuth2 authentication
+## API key
 
-### Request client id/secret
-
-### oAuth2 implicit flow
-
-### oAuth2 authorization code flow
-
-### oAuth2 client credentials flow
-
-### oAuth2 resource owner password flow
-
-## Discord oAuth2 authentication
-
-CollabLand API endpoints accept
-[oAuth2 access tokens from Discord](https://discord.com/developers/docs/topics/oauth2).
-A discord token must be passed in via the HTTP `Authorization` request header.
+The API key must be passed in the HTTP `X-API-Key` (case insensitive) request header.
 
 ```
-Authorization: Bearer <discord-oauth2-access-token>
+X-API-Key: <api-key-for-your-client-application>
 ```
 
-[CollabLand App](https://app.collab.land) leverages Discord oAuth2 login to
-request an access token from Discord and uses it for API calls.
+## Authenticated Encryption (AE) Token
 
-## Ethereum wallet authentication
+Collab.Land can also generate authenticated encryption tokens for API access. Such AE tokens are JWT tokens encrypted using AWS KMS and encoded as base64 URL strings.
 
-If a user already has a wallet address registered with CollabLand, the wallet
-private key can be used to sign a message as the authentication to our API
-server.
-
-```typescript
-import {Wallet} from 'ethers';
-import jwt from 'jsonwebtoken';
-
-// const wallet = ...; // The API client has access to a wallet
-
-// Sign the challenge message ('api.collab.land') using the wallet private key
-const challenge = 'api.collab.land';
-const signature = await wallet.signMessage(challenge);
-
-// Generate a JWT token
-const token = jwt.sign(
-  {
-    address: wallet.address,
-    signature,
-  },
-  challenge,
-  {
-    subject: wallet.address,
-  },
-);
-return jwt;
-```
-
-Now the JWT token can be used for API calls:
+The AE token must be passed in the HTTP `Authorization` (case insensitive) request header.
 
 ```
-Authorization: Ethereum <jwt>
+Authorization: AE <ae-token>
+```
+
+## Login with Collab.Land
+
+Client applications registered with Collab.Land can redirect users to `https://login.collab.land` to authenticate themselves with Collab.Land and grant permissions to the client application for requested resources.
+
+For example:
+
+https://login.collab.land/?redirect_uri=https%3A%2F%2Fcc.collab.land%2Fdashboard%2F
+
+### Sign in with Discord
+
+(Add screenshots)
+
+### Sign in with Ethereum (SIWE)
+
+1. Get a challenge
+
+Sample request:
+
+```
+POST /ethereum-login/challenges
+
+x-api-key: ...
+```
+
+```json
+{
+  "state": "string",
+  "uri": "string",
+  "accountId": "string",
+  "resources": ["string"]
+}
+```
+
+Sample response:
+
+```json
+{
+  "state": "string",
+  "requestId": "string",
+  "message": "string"
+}
+```
+
+2. Sign the message
+
+3. Request an AE token
+
+```
+POST /ethereum-login/id-tokens
+
+x-api-key: ...
+```
+
+```json
+{
+  "requestId": "string",
+  "signatureType": "string",
+  "signature": "string",
+  "accountId": "string"
+}
+```
+
+Sample response:
+
+```json
+{
+  "idToken": "string"
+}
 ```

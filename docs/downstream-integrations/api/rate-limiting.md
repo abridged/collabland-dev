@@ -8,11 +8,11 @@ Requests to CollabLand REST APIs are rate limited.
 
 ## Regular limiting
 
-10 calls per second.
+15 calls per second.
 
 ## Burst limiting
 
-120 calls per minute.
+900 calls per minute.
 
 ## Http response headers
 
@@ -28,7 +28,7 @@ For example:
 
 ```
 retry-after: 1
-x-ratelimit-limit: 30
-x-ratelimit-remaining: 29
-x-ratelimit-reset: 2021-02-07T03:16:08.026Z
+x-ratelimit-limit: 15
+x-ratelimit-remaining: 14
+x-ratelimit-reset: 2022-08-22T23:02:51.366Z
 ```
