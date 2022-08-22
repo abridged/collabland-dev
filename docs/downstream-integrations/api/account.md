@@ -1,6 +1,7 @@
 ---
 id: account
 title: Account
+sidebar_position: 3
 ---
 
 The `/account` resource provides information for an authenticated user of the

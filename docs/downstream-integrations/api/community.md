@@ -1,6 +1,7 @@
 ---
 id: community
 title: Community
+sidebar_position: 5
 ---
 
 ## Get communities

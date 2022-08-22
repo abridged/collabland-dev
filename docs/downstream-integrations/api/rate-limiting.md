@@ -1,6 +1,7 @@
 ---
 id: rate-limiting
 title: Rate Limiting
+sidebar_position: 2
 ---
 
 Requests to CollabLand REST APIs are rate limited.

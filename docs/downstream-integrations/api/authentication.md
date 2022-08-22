@@ -1,6 +1,7 @@
 ---
 id: authentication
 title: Authentication
+sidebar_position: 1
 ---
 
 CollabLand API server supports a few schemes of authentications.
