@@ -394,7 +394,7 @@ echo "Deploying Discord Commands To A Custom Bot"
 PATH="$(npm bin):$PATH"
 export PATH
 
-export AWS_PROFILE=dev-devx-1
+export AWS_PROFILE=dev
 
 export DISCORD_GUILD_ID=[COPIED-FROM-DISCORD-INTERFACE]
 export DISCORD_CLIENT_ID=[COPIED-FROM-DISCORD-DEVELOPER-PORTAL]
