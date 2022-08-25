@@ -42,7 +42,7 @@ We are bringing web2 users to web3. From web2, we now support platforms such as 
 
 To give users the control of their own data, we are working with the community to build a decentralized network.
 
-## (Michael’s invitation to build with us stuff)
+## Build with us
 
 **Come Join us at Collab.Land**
 

@@ -72,10 +72,10 @@ credential_process = aws-vault exec [PROFILE-NAME] -j
 Example
 
 ```bash
-[profile dev-devx-1]
+[profile dev]
 region=us-west-1
 output=json
-credential_process = aws-vault exec dev-devx-1 -j
+credential_process = aws-vault exec dev -j
 ```
 
 ### 3. Try it out
