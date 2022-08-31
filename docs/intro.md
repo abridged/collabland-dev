@@ -3,9 +3,6 @@ sidebar_position: 1
 title: Introduction
 ---
 
-Username: collabland <br/>
-Password: nft1024
-
 # Introduction
 
 ```mdx-code-block
