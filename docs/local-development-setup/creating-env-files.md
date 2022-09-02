@@ -141,12 +141,8 @@ then run this command.
   2. Error [DISALLOWED_INTENTS]: Privileged intent provided is not enabled or whitelisted.
      1. You need to invite the bot to your server, the same server “guild” that you’ve configured in your ENV files.
   3. Error [TOKEN_INVALID]: An invalid token was provided.
-     at WebSocketManager.connect (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/node_modules/discord.js/src/client/websocket/WebSocketManager.js:129:26)
-     at Client.login (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/node_modules/discord.js/src/client/Client.js:254:21)
-     at DiscordService.connect (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/components/discord/src/services/discord.service.ts:351:26)
-     at processTicksAndRejections (node:internal/process/task_queues:96:5) {
-     [Symbol(code)]: 'TOKEN_INVALID'
-     } 1. If you didn’t update your bot tokens in your ENV files be sure to do so.
+     ``` at WebSocketManager.connect (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/node_modules/discord.js/src/client/websocket/WebSocketManager.js:129:26) at Client.login (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/node_modules/discord.js/src/client/Client.js:254:21) at DiscordService.connect (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/components/discord/src/services/discord.service.ts:351:26) at processTicksAndRejections (node:internal/process/task_queues:96:5) { [Symbol(code)]: 'TOKEN_INVALID'}```
+     1. If you didn’t update your bot tokens in your ENV files be sure to do so.
       If you did and it still doesnt work be sure you `CMD-S` save the files in VSCode or your changes will not be visible to the terminal
 
 

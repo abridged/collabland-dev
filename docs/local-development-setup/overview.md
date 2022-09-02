@@ -15,4 +15,4 @@ The diagram below shows a detailed overview of the flow which should be running 
 
 The bottom boxes in the image are some external dependencies, some of which we will be needed to setup as part of local development environment.
 
-One will need certain credentials and accesses to setup services like aws-vault, clone github repos etc. So make sure to have those from collab land team before one can start with the next steps.
+You will need certain credentials and accesses to setup services like aws-vault, clone github repos etc. So make sure to have those from collab land team before one can start with the next steps.

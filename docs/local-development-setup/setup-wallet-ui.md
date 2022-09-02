@@ -5,16 +5,81 @@ sidebar_label: Setup Wallet UI
 
 # CollabLand-Connect
 
-```bash
+## Set up Node.js and Yarn
+
+1. Install `nvm`
+
+   Please follow instructions at
+   <https://github.com/nvm-sh/nvm#installing-and-updating> to install `nvm` so
+   that we can easily switch between different node versions.
+
+2. Install `node`
+
+   With `nvm`, let's install Node.js 14 as the default version:
+
+   ```sh
+   nvm install 14
+   ```
+
+3. install yarn
+
+   ```sh
+   npm install -g yarn
+   ```
+
+4. Verify `node` and `yarn`
+
+   You can use the command below to verify that Node.js 14.x and Yarn 1.22.x are
+   installed.
+
+   ```sh
+   node -v
+   yarn -v
+   ```
+
+   It should print the version of `node` (such as `v14.x.x`) and `yarn` (such as
+   `1.22.17`).
+
+## Check out source code from git
+
+```sh
+cd
+mkdir Projects
+cd Projects
 git clone git@github.com:abridged/collabland-connect.git
-cd collabland-connect
-yarn
 ```
 
-This repo has a hard dependency of node version 14. Due to certain dependencies it doesn't work on node version 16. And the native support for M1 apple silicon hardware came natively into node 16 only. So when we try do `npm i` with node 14 the **wrtc** package fails to compile (an internal dependency). So we will need to install rosetta and do this install with that. Please follow this link [M1 issues with node version](https://dev.to/ibrarturi/how-to-fix-m1-mac-issue-with-installing-node-versions-30ah).
+## Install dependencies and bootstrap the project
 
-Also make sure to use `yarn` than to `npm i` as npm still gives issues but yarn works perfectly.
+```sh
+cd collabland-connect
+yarn install
+```
 
+```sh
+yarn start
+```
+
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+```sh
+yarn build
+```
+
+Builds the app for production to the `build` folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+
+## Apple M1 Dependency
+This repo has a hard dependency of node version 14. Due to certain dependencies it doesn't work on node version 16. And the native support for M1 apple silicon hardware came natively into node 16 only. So when we try do `yarn install` with node 16 the **wrtc** package fails to compile (an internal dependency). So we will need to install rosetta and do this install with that. Please follow this link [M1 issues with node version](https://dev.to/ibrarturi/how-to-fix-m1-mac-issue-with-installing-node-versions-30ah).
+
+## Environment Variables
 Set the api server url in the environment variable of wallet connect repo. Also one need to create account on [Infura](https://infura.io/) and get API key from there which needs to be setup as part of env variable on this repo.
 
 start-react.sh
@@ -29,6 +94,7 @@ export PORT=3001
 npm run start
 ```
 
+
 If all good then wallet connection UI will come up but with one error which is just on local and can be ignored.
 
 ![Wallet Error](imgs/wallet-error.png)
@@ -36,11 +102,12 @@ If all good then wallet connection UI will come up but with one error which is j
 Just cross this error and main UI will load.
 
 
-Possible Errors while building the project:
+## Possible errors & solutions in building the project:
 
-- Arm vs Intel
-- Memory Limitations when building collab-connect - why require so much memory
-- node-pre-gyp
+- missing node-pre-gyp
+- Memory Limitations when building collab-connect
+- Arm vs Intel OS architecture (M1 specific issue)
+- AWS Amplify deployment issue
 
 
 ```bash
@@ -49,7 +116,7 @@ cd collabland-connect
 
 ```
 
-## Error 1
+### Error 1
 
 ```bash
 ## Got an error for not having "node-pre-gyp"
@@ -59,7 +126,7 @@ npm install
 npm run build
 ```
 
-## Error 2
+### Error 2
 
 Failing to build - ram error? Using mac with only 8 gigs of ram (thank goodness for M1 Max 64gb Ram)
 
@@ -115,17 +182,15 @@ node -e 'console.log(v8.getHeapStatistics().heap_size_limit/(1024*1024))'
 
 [https://stackoverflow.com/questions/53230823/fatal-error-ineffective-mark-compacts-near-heap-limit-allocation-failed-javas](https://stackoverflow.com/questions/53230823/fatal-error-ineffective-mark-compacts-near-heap-limit-allocation-failed-javas)
 
-**
+### Error 3
 
-## Error 3
+#### Arm vs Intel
 
-## Arm vs Intel
+Please follow this link [M1 issues with node version](https://dev.to/ibrarturi/how-to-fix-m1-mac-issue-with-installing-node-versions-30ah) to fix the issue.
 
-Please follow this link [M1 issues with node version](https://dev.to/ibrarturi/how-to-fix-m1-mac-issue-with-installing-node-versions-30ah).
+### Error 4
 
-# Error 4
-
-## AWS Amplify deployment issue
+#### AWS Amplify deployment issue
 
 ```jsx
 Failed to compile.
