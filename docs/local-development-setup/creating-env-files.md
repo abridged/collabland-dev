@@ -57,7 +57,7 @@ export REDIS_USERNAME=default
 export REDIS_PASSWORD=
 ```
 
-## Step 3: Save all Discord Credentials into [ENV].sh’s
+## Step 2: Save all Discord Credentials into [ENV].sh’s
 
 ### 1. Identify the Variables to Replace
 
@@ -90,7 +90,7 @@ Here's where to find them:
 
    1. How to enable Developer Mode: [https://www.youtube.com/watch?v=e_UoIwmS8Xk&t=35s](https://www.youtube.com/watch?v=e_UoIwmS8Xk&t=35s)
 
-## Step 4: Finding your AWS Account Values
+## Step 3: Finding your AWS Account Values
 
 ### 1. Logging into AWS
 
@@ -121,7 +121,7 @@ Copy the two boxed values into your ENV files for the values `COLLABLAND_JOB_QUE
 
 ![Screen Shot 2022-06-19 at 2.51.24 PM.png](imgs/img6.png)
 
-## Step 5. Start the API Server
+## Step 4. Start the API Server
 
 To start the api server first login to the appropriate AWS account
 
@@ -146,7 +146,7 @@ then run this command.
       If you did and it still doesnt work be sure you `CMD-S` save the files in VSCode or your changes will not be visible to the terminal
 
 
-## Step 6: Start Job Server
+## Step 5: Start Job Server
 
 The job server requires the same environment variables as the `api-server` with the following differences:
 
@@ -164,7 +164,7 @@ then run this command.
 
 `./bin/local-job-server.sh`
 
-## Step 7: Start Discord Server
+## Step 6: Start Discord Server
 
 The job server requires the same environment variables as the `api-server`.
 
