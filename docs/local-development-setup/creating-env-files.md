@@ -60,6 +60,8 @@ export REDIS_USERNAME=default
 export REDIS_PASSWORD=
 ```
 
+**`COLLABLAND_ENV`** Will be given by Collab Land team.
+
 ## Step 2: Save all Discord Credentials into [ENV].sh’s
 
 ### 1. Identify the Variables to Replace

@@ -28,13 +28,7 @@ Discord Interactions are necessary for some functionality of the bot like the jo
 
 In order to enable that feature you `api-server` will need to be available publicly online
 
-<aside>
-💻 You can do so in local instance by adding the `—-local-tunnel` flag to the start script.
-`node --enable-source-maps . --local-tunnel`
-This will output on the console the following line indicating the public URL
-`Local tunnel is started at https://collabland-xxx.loca.lt`
-
-</aside>
+local tunnel is by default used in start script. Just in case local tunnel doesn't work (sometimes server is down) one can also use ngrok (this option is also there in start script). Problem with ngrok is that it always gives you new URL after every start. So you always have to update discord interaction url as explained below.
 
 **To find your URL**
 
