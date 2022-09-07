@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 11
 sidebar_label: Setup Command Center
 ---
 
@@ -15,6 +15,45 @@ This repo has a hard dependency of node version 14. Due to certain dependencies 
 ```bash
 yarn install
 ```
+
+## Setting Up Environment Variables
+There is a file `.env.development` where certain environment variables has to be setup to login into command centre and create TGRs (token granted roles) there.
+
+```bash
+EXTEND_ESLINT=true
+SASS_PATH=node_modules:src
+SKIP_PREFLIGHT_CHECK=true
+REACT_APP_API_URL=http://localhost:3000 # this is the api server url
+REACT_APP_LOGIN_URL=http://localhost:3008 # this is the auth UI url created in previous step
+REACT_APP_COLLABLAND_KEY=MC_Qzl-mdD2F9guqA1qf-.417G4c1nCtxNmqGWUusbG # this value come from registering a new client app as explained in below section
+
+# These are Discord values which can be copied from `.bin/local-server-env.sh` file
+REACT_APP_DISCORD_OAUTH_CLIENT_ID=1014487025291886652 # this is same as DISCORD_CLIENT_ID
+REACT_APP_DISCORD_OAUTH_REDIRECT_URI=http://localhost:3008/discord/callback # this is the value from REACT_APP_LOGIN_URL defined above with `/discord/callback` appended
+REACT_APP_DISCORD_CLIENT_ID=1014487025291886652 # this is same as DISCORD_CLIENT_ID
+REACT_APP_DISCORD_OAUTH_CLIENT_SECRET=XCxnQlaqVSFozx6Ap44_7pY2SVmpFnTR # this is same as DISCORD_CLIENT_SECRET
+```
+
+## Register New Client App
+
+You will need to run collabland CLI to register a new client app which will then generate an app key and which will be used by command centre to communicate with API server.
+
+### Run CLI
+Use the below command in the root of **`collabland-monorepo`** project.
+
+```bash
+./bin/local-cli.sh client-apps
+```
+
+It will prompt you with few questions as follows:
+```bash
+Application Name: test-app # It can be anything you decide
+
+Tenant: collabland # It can be your organization name
+
+URL: http://localhost:3000 # your API server url
+```
+Then it will generate your new app which will be registered in DYnamo DB table on AWS. Please copy that newly generated api key and replace the value of **`REACT_APP_COLLABLAND_KEY`** in the environment file i.e. **`env.development`** of command centre project i.e. **`collabland-portal`**
 
 ## Available Scripts
 

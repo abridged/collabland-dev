@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 12
 sidebar_label: Invite the Bot
 ---
 
@@ -54,3 +54,13 @@ This will output on the console the following line indicating the public URL
    “INTERACTIONS ENDPOINT URL” field in “General Information” application page
 
 Note: Discord will only let you save the Interaction Endpoint URL if that url is valid. Meaning discord will ping your URL when you click save to see if it gets a valid response. This means you must be running the api server when you go to save the url into discord. Otherwise discord will not save & will continue to tell you you have unsaved changed.
+
+## Validate the Bot invitation
+
+In order to validate the link between the discord bot and our local setup, we should see 2 new channels created in the invited server.
+
+After the Discord bot have been added to the guild, the bot should automatically create 2 channels (`collabland-config` , `collabland-join`)
+
+![Channel list after the bot have joined](imgs/invite-bot-success.png)
+
+Channel list after the bot have joined

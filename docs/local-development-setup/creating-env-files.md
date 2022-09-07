@@ -1,8 +1,8 @@
 ---
 sidebar_position: 7
-sidebar_label: Run Backend Servers
+sidebar_label: Create Environment Files for Backend Servers
 ---
-# Run Backend Servers
+# Create Environment Files for Backend Servers
 
 There are three types of Collab.Land servers that can be started from the `collabland-monorepo` project:
 
@@ -42,6 +42,9 @@ export DISCORD_PUBLIC_KEY=[COPIED-FROM-DISCORD-DEVELOPER-PORTAL]
 
 export COLLABLAND_JOB_QUEUE=https://sqs.us-west-1.amazonaws.com/[AWS-ACCOUNT-ID]/collabland-dev-[PROJECT-NAME]-[TEAM-NAME]
 export COLLABLAND_JOB_TOPIC=arn:aws:sns:us-west-1:[AWS-ACCOUNT-ID]:collabland-dev-[PROJECT-NAME]-[TEAM-NAME]
+
+# Wallet connect UI URL
+export COLLABLAND_CONNECT_URL=http://localhost:3002
 
 export DEBUG=collabland:*
 export COLLABLAND_ENV=[PROJECT-NAME]-[TEAM-NAME]-[ENV-NAME]
@@ -120,60 +123,3 @@ Copy the two boxed values into your ENV files for the values `COLLABLAND_JOB_QUE
 ![Screen Shot 2022-06-19 at 2.49.36 PM.png](imgs/img5.png)
 
 ![Screen Shot 2022-06-19 at 2.51.24 PM.png](imgs/img6.png)
-
-## Step 4. Start the API Server
-
-To start the api server first login to the appropriate AWS account
-
-`aws-vault login [PROFILE-NAME]`
-
-For example
-
-`aws-vault login dev`
-
-then run this command.
-
-`./bin/local-api-server.sh`
-
-- **Potential Errors:**
-  1. ERR Error running script (call to f_a1de965f42e177aa339706bd580f049065eca79a): @user_script:1: @user_script: 1: -MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk.
-     1. You need to start redis
-  2. Error [DISALLOWED_INTENTS]: Privileged intent provided is not enabled or whitelisted.
-     1. You need to invite the bot to your server, the same server “guild” that you’ve configured in your ENV files.
-  3. Error [TOKEN_INVALID]: An invalid token was provided.
-     ``` at WebSocketManager.connect (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/node_modules/discord.js/src/client/websocket/WebSocketManager.js:129:26) at Client.login (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/node_modules/discord.js/src/client/Client.js:254:21) at DiscordService.connect (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/components/discord/src/services/discord.service.ts:351:26) at processTicksAndRejections (node:internal/process/task_queues:96:5) { [Symbol(code)]: 'TOKEN_INVALID'}```
-     1. If you didn’t update your bot tokens in your ENV files be sure to do so.
-      If you did and it still doesnt work be sure you `CMD-S` save the files in VSCode or your changes will not be visible to the terminal
-
-
-## Step 5: Start Job Server
-
-The job server requires the same environment variables as the `api-server` with the following differences:
-
-1. the last line starts the job server
-2. the PORT is different (using 3001 by default)
-3. requires SQSD (polling SQS locally)
-
-To start the job server first login to the appropriate AWS account
-
-`aws-vault login [PROFILE-NAME]`
-
-`aws-vault login dev`
-
-then run this command.
-
-`./bin/local-job-server.sh`
-
-## Step 6: Start Discord Server
-
-The job server requires the same environment variables as the `api-server`.
-
-To start the Discord server first login to the appropriate AWS account
-
-`aws-vault login [PROFILE-NAME]`
-
-`aws-vault login dev`
-
-then run this command.
-
-`./bin/local-discord-server.sh`
