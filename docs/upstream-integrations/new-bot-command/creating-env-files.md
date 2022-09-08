@@ -205,7 +205,7 @@ aws-vault login dev
      at DiscordService.connect (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/components/discord/src/services/discord.service.ts:351:26)
      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
      [Symbol(code)]: 'TOKEN_INVALID'
-     } 1. If you didn’t update your bot tokens in your ENV files be sure to do so.  
+     } 1. If you didn’t update your bot tokens in your ENV files be sure to do so.
       If you did and it still doesnt work be sure you `CMD-S` save the files in VSCode or your changes will not be visible to the terminal
 
 ### 3. Find and Add local tunnel to Discord
@@ -254,7 +254,7 @@ Note: Discord will only let you save the Interaction Endpoint URL if that url is
         at deserializeAws_json1_1GetSecretValueCommandError (/Users/calebgates/WebstormProjects/CollabLand/dev-x-test-1/collabland-monorepo-dev-x-test-1/node_modules/@aws-sdk/client-secrets-manager/dist-cjs/protocols/Aws_json1_1.js:596:24)
      2. Error: Dev Support needs to add user to KMS (should be done during onboarding)
      3. Sharing KMS with every team is not sustainable in the long run. Need to have a way for users to overwrite all secrets with ENV variables. For the time being add new users to KMS QA and KMS [What ever the team infra has been named ex. caleb-dev]
-     4. TODO: Make a section on how to over ride these if needed in the future.  
+     4. TODO: Make a section on how to over ride these if needed in the future.
         Q: what are the very minimum variables to get started?
      5. This is an insane and blocking number of values for a new dev to get started. KMS is a good onboarding for now.
 
