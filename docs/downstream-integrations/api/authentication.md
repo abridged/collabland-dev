@@ -34,7 +34,8 @@ https://login.collab.land/?redirect_uri=https%3A%2F%2Fcc.collab.land%2Fdashboard
 
 ### Sign in with Discord
 
-(Add screenshots)
+![Sign in with Discord 1](../imgs/img1.png)
+![Sign in with Discord 2](../imgs/img2.png)
 
 ### Sign in with Ethereum (SIWE)
 
