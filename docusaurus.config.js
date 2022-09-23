@@ -115,6 +115,12 @@ const config = {
             activeBaseRegex: `/doc-personas/`,
             position: 'left',
           },
+          {
+            to: '/internal-docs/introduction',
+            label: 'Internal Docs',
+            activeBaseRegex: `/internal-docs/`,
+            position: 'left',
+          },
           // {
           //   to: '/proposals/intro',
           //   label: 'Proposals',
