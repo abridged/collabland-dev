@@ -106,25 +106,26 @@ Next use your IDE or command line to open the file `examples/hello-goodbye/src/c
 Note: Since there is already documentation on how to create a slash command we will not cover the purpose of all the functions. That documentation can be found here[HERE LINK]
 
 ```tsx
-// Copyright Abridged, Inc. 2022. All Rights Reserved.
-// Node module: @collabland/component-hello-goodbye
+// Copyright Abridged, Inc. 2021. All Rights Reserved.
+// Node module: @collabland/component-discord
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
-import {debugFactory} from '@collabland/common';
+import {BindingScope, extensionFor, injectable, inject} from '@loopback/core';
 import {
   APIInteractionResponse,
-  ApplicationCommandOptionType,
   ApplicationCommandType,
+  APIChatInputApplicationCommandInteraction,
+  ApplicationCommandOptionType,
+} from 'discord-api-types/v10';
+import {
   DiscordCommandHandler,
-  DiscordService,
   DISCORD_COMMAND_HANDLER_EXTENSION_POINT,
-  DISCORD_SERVICE
-} from '@collabland/component-discord';
-import {JobService, jobTriggers, JOB_SERVICE} from '@collabland/component-job';
-import {BindingScope, extensionFor, inject, injectable} from '@loopback/core';
-import {CommandInteraction, MessageOptions} from 'discord.js';
-import {buildApiInteractionResponse, publishHelloGoodbyeJob} from './helper';
+} from '../types';
+import {debugFactory} from '@collabland/common';
+import {DISCORD_SERVICE} from '../keys';
+import {DiscordService} from '../services';
+import {buildInteractionResponse, getCommandOptionValue} from '../utils';
 
 const debug = debugFactory('collabland:example:hello-goodbye');
 
@@ -134,59 +135,44 @@ const debug = debugFactory('collabland:example:hello-goodbye');
   },
   extensionFor(DISCORD_COMMAND_HANDLER_EXTENSION_POINT),
 )
-export class HelloGoodbyeJobServerSlashCommandHandler
-  implements DiscordCommandHandler {
-  constructor(
-    @inject(JOB_SERVICE) private jobService: JobService,
-    @inject(DISCORD_SERVICE) private service: DiscordService,
-  ) { }
+export class HelloGoodbyeSlashCommandHandler implements DiscordCommandHandler {
+  constructor(@inject(DISCORD_SERVICE) private service: DiscordService) {}
 
-  name = 'hello-goodbye-job-server';
+  name = 'hello-goodbye';
   commandType = ApplicationCommandType.ChatInput;
   description =
-    'A command for new developers to test that discord commands hit their local job server';
+    'A command for new developers to test the discord command response';
   options = [
     {
       name: 'your-name',
-      description: "Name of person we're greeting",
+      description: 'Name of person we\'re greeting',
       type: ApplicationCommandOptionType.String as number,
       required: true,
     },
   ];
 
   async handle(
-    interaction: CommandInteraction,
+    interaction: APIChatInputApplicationCommandInteraction,
   ): Promise<APIInteractionResponse> {
     debug('interaction:');
 
-    const yourName = interaction.options.getString('your-name')!;
+    const yourName = getCommandOptionValue(interaction, 'your-name')!;
     debug('Your Name: %s', yourName);
 
-    await interaction.deferReply({ephemeral: true});
+    const message = this.service.buildNotificationMessage({
+      embed: {
+        description: `Hello ${yourName}, Good Bye ${yourName}`,
+        color: 'Purple',
+        title: 'Hello Goodbye Slash Command',
+        thumbnail: false,
+      },
+      link: {
+        label: 'More Info',
+        url: 'https://dev.collab.land/docs/intro',
+      },
+    });
 
-    const context = {
-      timestamp: new Date().toISOString(),
-      applicationId: interaction.applicationId,
-      token: interaction.token /** Valid for 15 mins */,
-    };
-
-    debug('Discord Context: %O', context);
-
-    const publishJobResponse = await publishHelloGoodbyeJob(
-      this.jobService,
-      interaction.user.id,
-      yourName,
-      jobTriggers.BACKGROUND_CHECK /** To run the job within the background job server */,
-      context,
-    );
-    debug('publishJobResponse: %O', publishJobResponse);
-
-    const content = 'Sending Your Name through the job server, please wait.';
-    const reply: MessageOptions = {
-      content: content,
-      components: [],
-    };
-    return buildApiInteractionResponse(reply);
+    return buildInteractionResponse(message);
   }
 }
 ```
