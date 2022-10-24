@@ -3,6 +3,7 @@ sidebar_position: 8
 sidebar_label: Setup Redis
 sidebar_class_name: nav-normal-page
 ---
+# Setup Redis
 
 Redis enables you to write fewer lines of code to store, access, and use data in your applications. The difference is that developers who use Redis can use a simple command structure as opposed to the query languages of traditional databases.
 
