@@ -1,11 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 sidebar_label: Create A Discord Server
+sidebar_class_name: nav-normal-page
 ---
-
-# Create A Discord Server
-
-# Create a Discord Server
 
 A Discord server is required for adding the bot and testing your slash command locally. If you don't have one already, follow this guide:
 

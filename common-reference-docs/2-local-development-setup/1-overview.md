@@ -4,4 +4,14 @@ sidebar_label: Overview
 sidebar_class_name: nav-normal-page
 ---
 
-# Overview
+# Local Development Overview
+
+# Local Developer Setup Diagram
+
+In this section we will walk you through the steps to setup the local development environment for discord bot flow.
+
+The diagram below shows a detailed overview of the flow which should be running successfully once the development environment is setup.
+
+![Discord Flow](imgs/join-flow.png)
+
+The bottom boxes in the image are some external dependencies, some of which we will be needed to setup as part of local development environment.
