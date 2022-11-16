@@ -4,7 +4,7 @@ title: Token Gating
 sidebar_position: 4
 ---
 
-The `/access-control` endpoint allows client applications to interact with Collab.Land's token gating engine to verify a wallet address or crypto account with a list of rules based on the token ownership.
+[The `/access-control` endpoint](LINK NEEDED) allows client applications to interact with Collab.Land's token gating engine to verify a wallet address or crypto account with a list of rules based on the token ownership.
 
 ## Authentication
 
