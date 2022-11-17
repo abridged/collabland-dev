@@ -3,10 +3,13 @@ id: token-gating
 title: Token Gating
 sidebar_position: 4
 ---
-
-The `/access-control` endpoint allows client applications to interact with Collab.Land's token gating engine to verify a wallet address or crypto account with a list of rules based on the token ownership.
+## Overview
+The `/access-control` [endpoint](link needed) allows client applications to interact with Collab.Land's token gating engine to verify a wallet address or crypto account with a list of rules based on the blockchain token ownership.
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/S5jqcu5XzqBrnRtvgrPBj1@2Ux7TurymNLRX4obG1NB"></iframe>
 
 ## Authentication
+Usage of the Collab.Land API requires prior [approval for and obtaining an API key](https://dev.collab.land/docs/downstream-integrations/#request-api-access).
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/S5jqcu5XzqBrnRtvgrPBj1@2Ux7TurymNbYUoeE1w3z"></iframe>
 
 The endpoint requires an API key to be passed in as the `x-api-key` request header. The client application needs to be approved with `token-gating` scope by Collab.Land.
 
@@ -16,10 +19,10 @@ x-api-key: <api-key>
 
 ## Check roles synchronously
 
-Check roles for an account against a list of token gating rules and get a response from the call for the roles to be assigned or removed.
+Check roles for an account against a list of token gating rules and get a callback response if supplied account passes rule checks Y/N.
 
 ### Trt it out
-
+<!-- Agnes, do we have a "how to use the API explorer section we can link to?-->
 - [POST /access-control/check-roles](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.checkRoles)
 
 ### Sample request
@@ -56,7 +59,7 @@ POST https://api.collab.land/access-control/check-roles
 
 ## Check roles asynchronously
 
-Check roles for an account against a list of token gating rules with a callback URL and get a notification via the URL as a webhook later for the roles to be assigned or removed.
+Check roles for an account against a list of token gating rules with a callback URL and get a notification via the URL as a webhook later for the roles approved Y/N.
 
 ### Trt it out
 
