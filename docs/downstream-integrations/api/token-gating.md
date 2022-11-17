@@ -61,7 +61,7 @@ POST https://api.collab.land/access-control/check-roles
 
 Check roles for an account against a list of token gating rules with a callback URL and get a notification via the URL as a webhook later for the roles approved Y/N.
 
-### Trt it out
+### Try it out
 
 - [POST /access-control/check-roles](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.checkRoles)
 
