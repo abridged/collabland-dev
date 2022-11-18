@@ -110,3 +110,14 @@ X-CollabLand-Signature: signature-for-the-request
   ]
 }
 ```
+## Example POC site
+POC Flow
+- https://member.collab.land
+  <details>
+  <summary>user/pw:</summary>
+  `collabland` / `slash2048`
+  </details>
+- Partners need to have account at login-qa site
+- Discord or Eth login
+  - Site asks for user perms (discord name/id) according to the [UX flow](https://github.com/iSpeakNerd/collabland-dev/edit/patch-3/docs/downstream-integrations/api/token-gating.md?pr=%2Fabridged%2Fcollabland-dev%2Fpull%2F28#overview)
+  - Collab.land API approves if user wallet passes rules Y/N
