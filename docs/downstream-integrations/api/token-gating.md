@@ -54,7 +54,7 @@ POST https://api.collab.land/access-control/check-roles
 }
 ```
 
-## Check roles asynchronously
+## Check roles asynchronously with callback
 
 Check roles for an account against a list of token gating rules with a callback URL and get a notification via the URL as a webhook later for the roles to be assigned or removed.
 
@@ -86,8 +86,7 @@ POST https://api.collab.land/access-control/check-roles
 
 ```json
 {
-  "requestId": "...",
-  "roles": []
+  "requestId": "<requestId>"
 }
 ```
 
@@ -98,12 +97,73 @@ X-CollabLand-Signature: signature-for-the-request
 
 ```json
 {
-  "requestId": "...",
+  "requestId": "<requestId>",
   "roles": [
     {
       "id": "001",
       "granted": true
     }
   ]
+}
+```
+
+## Check roles asynchronously and poll for the result
+
+Check roles for an account against a list of token gating rules asynchronously, receive a `requestId` and use it to poll for the result.
+
+### Trt it out
+
+- [POST /access-control/check-roles](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.checkRoles)
+
+### Sample request
+
+POST https://api.collab.land/access-control/check-roles
+
+```json
+{
+  "account": "0x01c20350ad8f434bedf6ea901203ac4cf7bca295",
+  "rules": [
+    {
+      "type": "ERC721",
+      "chainId": 1,
+      "minToken": "1",
+      "contractAddress": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+      "roleId": "001"
+    }
+  ],
+  "async": true
+}
+```
+
+### Sample response
+
+```json
+{
+  "requestId": "requestId",
+}
+```
+
+### Sample polling
+
+### Trt it out
+
+- [GET /access-control/check-roles/responses/:requestId](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.getCheckRolesResponse)
+
+### Sample request
+
+GET https://api.collab.land/access-control/check-roles/responses/{requestId}
+
+### Sample response
+
+```json
+{
+  "requestId": "<requestId>",
+  "roles": [
+    {
+      "id": "001",
+      "granted": true
+    }
+  ],
+  "errors": []
 }
 ```
