@@ -89,8 +89,16 @@ const config = {
         // ... other options
       }
     ],
-
-
+    [
+      'content-docs',
+      {
+        id: 'tutorials',
+        path: 'tutorials',
+        routeBasePath: 'tutorials',
+        sidebarPath: require.resolve('./sidebars-tutorials.js'),
+        // ... other options
+      }
+    ],
   ],
 
   themeConfig:
@@ -108,6 +116,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            to: '/tutorials/introduction',
+            label: 'Tutorials',
+            activeBaseRegex: `/tutorials/`,
+            position: 'left',
           },
           {
             to: '/doc-personas/introduction',

@@ -6608,6 +6608,11 @@ remark-squeeze-paragraphs@4.0.0:
   dependencies:
     mdast-squeeze-paragraphs "^4.0.0"
 
+remarkable-embed@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/remarkable-embed/-/remarkable-embed-0.4.1.tgz#447d3ee8cd51adbe16883e79f045d67e04e47c4b"
+  integrity sha512-8iLUYEvE7Gk/jkCPceE0ca62M5JBC8yyUQbPd3k+x0Vl6TrwKgRWvVcpWoxH4oudncuYHQ6xYer1xVDoJ978Cg==
+
 renderkid@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/renderkid/-/renderkid-3.0.0.tgz"
