@@ -1,0 +1,10 @@
+{
+    "label": "Tutorials",
+    "position": 3,
+    "collapsible": true,
+    "collapsed": true,
+    "className": "nav-normal-page",
+    "link": {
+        "type": "generated-index"
+      }
+}
