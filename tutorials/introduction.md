@@ -9,12 +9,12 @@ slug: /token-gating-tutorial
 This guide walks you through creating your own token gate for your website using the Collab.Land API. This enables you to restrict access to elements of or pages of your site based on ownership of certain blockchain assets.
 
 ### Website Gating Logic Flow
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/S5jqcu5XzqBrnRtvgrPBj1@2Ux7TurymNLRX4obG1NB"></iframe>
+View logic diagram [on whimsical](https://whimsical.com/embed/S5jqcu5XzqBrnRtvgrPBj1@2Ux7TurymNLRX4obG1NB).
 
 This tutorial implements gating logic by calling Collab.Land API with a user's wallet address. The API checks against the website-defined ⚠ link needed! [Token-Gating Role] definitions and returns `True/False` if the address fits the provided criteria or not.
 
 ⚠ Documentation needed 
-- json definition of TGRs and an example needed on [this page](https://dev.collab.land/docs/local-development-setup/configuring-tgr)
+- json definition of TGRs and an example needed on [this page of docs](https://dev.collab.land/docs/local-development-setup/configuring-tgr)
 
 #### Token Gating Rule (TGR) example
 
@@ -86,7 +86,7 @@ The rule above indicates that  at least one ERC721 token of contract address `0x
 
 
 ## 4. Call the Collab.Land API
-Full documentation of the Collab.Land API can be found here
+Full documentation of the Collab.Land API can be [found here](https://dev.collab.land/docs/downstream-integrations/api/).
 
 
 ⚠ I don't know how to interpret the api.collab.land site this page links to
@@ -110,6 +110,15 @@ https://dev.collab.land/docs/downstream-integrations/api/token-gating/#check-rol
 - receive a `requestId` from API and poll for result
 
 ## 6. Render gated content based on API response
+Display page content or new pages based on the `True`/`False` response of the Collab.Land API.
+
+### React example code
+This code snippet displays a "Hello World!" text popup when the Collab.Land API returns `True`.
+
+```json
+json code goes here
+```
+
 ⚠ @Agnes to refactor POC site to simplify
 - example POC React snippet 
     - text "hello World!" popup
