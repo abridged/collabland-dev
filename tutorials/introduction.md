@@ -5,18 +5,37 @@ slug: /token-gating-tutorial
 ---
 
 # Collab.Land Token Gating Tutorial
+
 ## Overview
+
 This guide walks you through creating your own token gate for your website using the Collab.Land API. This enables you to restrict access to elements of or pages of your site based on ownership of certain blockchain assets.
 
 ### Website Gating Logic Flow
+
 View logic diagram [on whimsical](https://whimsical.com/embed/S5jqcu5XzqBrnRtvgrPBj1@2Ux7TurymNLRX4obG1NB).
 
-This tutorial implements gating logic by calling Collab.Land API with a user's wallet address. The API checks against the website-defined ⚠ link needed! [Token-Gating Role] definitions and returns `True/False` if the address fits the provided criteria or not.
+This tutorial implements gating logic by calling Collab.Land API [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) with a user's wallet address and [token gating rules](#token-grating-rule) as the payload and returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
 
-⚠ Documentation needed 
-- json definition of TGRs and an example needed on [this page of docs](https://dev.collab.land/docs/local-development-setup/configuring-tgr)
+### API
 
-#### Token Gating Rule (TGR) example
+- [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) endpoint.
+
+To call Collab.Land APIs, you will need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call this token gating endpoint. You can [request API access here](../docs/downstream-integrations/index.md#request-api-access).
+
+This endpoint is also available in the Collab.Land SDK:
+
+```
+await getCollabClient().accessControl.checkRoles({
+        account: <wallet_address>,
+        rules: [{...}],
+      });
+```
+
+<!-- TODO: Read <add_docs> to understand how Collab.Land API provides fine-grained control. -->
+
+### Token Gating Rule
+
+Token gating rules (TGR) are schemas describe required tokens. TGRs usually include token information such as chain id, contract address, token types, metadata, min/max required amount, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
 
 ```json
 "rules": [
@@ -29,103 +48,205 @@ This tutorial implements gating logic by calling Collab.Land API with a user's w
     }
   ]
 ```
-The rule above indicates that at least one ERC721 token of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` must be held in the user's wallet address.
 
-### Example Site
-Follow along with the [proof of concept example site](https://member.collab.land/).
-<details> <summary>Login info</summary>
+Collab.Land support many FTs and NFTs on many chains. Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr.md) for rule definition details.
 
-- user `collabland`
-- password `slash2048`
-</details>
+## Tutorial
 
---- 
-# Tutorial Start
-## 1.1 Request an API Key 
-<!--*This guide assumes you have already received an [API account](https://dev.collab.land/docs/downstream-integrations/) from Collab.Land. [Request an API Key here.](https://docs.google.com/forms/d/e/1FAIpQLSfUKGy69dMDz-0MPVfNoPrtvV9ouZNiHqUun5-Z-0XyTOReMg/viewform)*-->
-*If you already have a Collab.Land API Key, [skip to step 2](#2.1-Get-user%E2%80%99s-wallet-address).*
+The following are steps and explanations of our [token gating website example](https://github.com/abridged/collabland-tutorials/tree/master/token-gating-website). Notice that a Collab.Land API key is required to run the demo locally.
 
-Fill out the [Collab.Land google form](https://dev.collab.land/docs/downstream-integrations/#request-api-access) to request API access.
-### 1.2 Define the API scope
-Client application must be approved with `token-gating` scope by Collab.Land. [More information here.](https://dev.collab.land/docs/downstream-integrations/api/token-gating#authentication)
+### 1. Request an API Key
 
-## 2.1 Get user's wallet address
-The user's wallet `address` will be used as part of the Collab.Land API call to verify if the address holds the defined on-chain assets. In the future, Collab.Land may expose the Collab.Land wallet connect UI component for developers to use.
+See [API section](#api)
 
-For this tutorial, you will use your own ["Connect Wallet" button](#2.2-Use-any-frontend-to-obtain-a-user%E2%80%99s-wallet-address) frontend to obtain the user's wallet address.
+### 2. API payload
 
-### 2.2 Use any frontend to obtain a user's wallet address
-Integrate a "Connect Wallet" dapp button from your preferred wallet provider to obtain a user's wallet address.
+#### 2.1 Get user's wallet address
 
-- If you need some help, the [Sign-In with Ethereum](https://docs.login.xyz/) docs are very helpful
-- Add “Connect Wallet” button to your website [tutorial from ThirdWeb](https://blog.thirdweb.com/guides/add-connectwallet-to-your-website/)
+A wallet `address` is part of the token gating API payload. Your app will get the user wallet address and pass it to the endpoint. In the future, Collab.Land may expose the Collab.Land wallet connect UI component for developers to use.
 
+In this demo, we use [Sign-in with Ethereum](https://login.xyz/) to get user's wallet address. You can use your preferred wallet provider to obtain a user's wallet address. You can also add sessions to logins based on your use case.
 
-## 3. Define Token Gating Rules
-These are the rules that the wallet assets will be checked against by the Collab.Land API. The API will return boolean `True`/`False` if the account address fulfills the defined rules or not.
+If you need some help to get user addresses:
 
-#### Token Gating Rule (TGR) example
+- [Sign-In with Ethereum](https://docs.login.xyz/) method is easy to adopt securely.
+- Add “Connect Wallet” button to your website [tutorial from ThirdWeb](https://blog.thirdweb.com/guides/add-connectwallet-to-your-website/) is also a popular option.
 
-```json!
-"rules": [
-    {
-      "type": "ERC721",
-      "chainId": 1,
-      "minToken": "1",
-      "contractAddress": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
-      "roleId": "001"
-    }
-  ]
+#### 2.2 Define Token Gating Rules
+
+TGRs is part of the payload of the API. These are the rules that the wallet assets will be checked against by the Collab.Land. The API will return boolean `true`/`false` for each rule to indicate if the account address fulfills the defined rules or not.
+
+Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr.md) for rule definition details.
+
+### 3. Call the Collab.Land API
+
+In this demo, we use [Collab.Land SDK](../docs/downstream-integrations/sdk/index.md) to call the API:
+
 ```
-The rule above indicates that  at least one ERC721 token of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` must be held in the user's wallet address.
+const res = await getCollabClient().accessControl.checkRoles({
+  account: addr,
+  rules: [
+    {
+      chainId: 137,
+      minToken: '1',
+      contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+      roleId: MEMBER_ROLE,
+      type: 'ERC721',
+      name: 'MemberNFT Holder',
+    },
+    {
+      chainId: 1,
+      minToken: '1',
+      contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+      roleId: PATRON_ROLE,
+      type: 'ERC721',
+      name: 'PatronNFT Holder',
+    },
+  ],
+});
+```
 
-⚠ @Agnes - info needed on passing TGR definitions with API call
-- need info for how to construct TGRs and feed into the collab API
-- data schema json (could be an api link -- I'm not sure which)
-- docs could be collected on https://dev.collab.land/docs/local-development-setup/configuring-tgr
+`fetch` would also work:
 
+```
+  const res = await fetch(`https://api-qa.collab.land/access-control/check-roles`, {
+    method: 'POST',
+    headers: new Headers({
+      Accept: 'application/json',
+      'X-API-KEY': process.env.COLLABLAND_KEY,
+      'Content-Type': 'application/json',
+    }),
+    body: JSON.stringify({
+      account: myWalletAddr,
+      rules: [
+        ...
+      ]
+    })
+  });
+```
 
-## 4. Call the Collab.Land API
-Full documentation of the Collab.Land API can be [found here](https://dev.collab.land/docs/downstream-integrations/api/).
+### 4. Handle API response
 
-
-⚠ I don't know how to interpret the api.collab.land site this page links to
-- POST request example [API reference](https://dev.collab.land/docs/downstream-integrations/api/token-gating#sample-request)
-    - PoC example showing data schema
-
-
-## 5. Handle API response
 There are several response options available with the Collab.Land API. Select which method you would like to use.
 
-### Sync with polling
+#### Sync with polling
+
 https://dev.collab.land/docs/downstream-integrations/api/token-gating#check-roles-synchronously
-- receive `True`/`False` from API 
 
-### Async via callback URI
-https://dev.collab.land/docs/downstream-integrations/api/token-gating#check-roles-asynchronously
-- receive callback URL and a notification via webhook at that URL when API data is available
+- receive `true`/`false` from API for each token gating rule
 
-### Async via callback with polling
-https://dev.collab.land/docs/downstream-integrations/api/token-gating/#check-roles-asynchronously-and-poll-for-the-result
-- receive a `requestId` from API and poll for result
+**Sample response:**
 
-## 6. Render gated content based on API response
-Display page content or new pages based on the `True`/`False` response of the Collab.Land API.
-
-### React example code
-This code snippet displays a "Hello World!" text popup when the Collab.Land API returns `True`.
-
-```json
-json code goes here
+```
+{
+  "roles": [
+    {
+      "id": "my-role-001",
+      "granted": true
+    },
+    {
+      "id": "another-role-002",
+      "granted": false
+    }
+  ]
+}
 ```
 
-⚠ @Agnes to refactor POC site to simplify
-- example POC React snippet 
-    - text "hello World!" popup
+#### Async via callback URI
 
-# Example Site Proof of Concept
-Follow along with the [proof of concept](https://member.collab.land/) site.
+https://dev.collab.land/docs/downstream-integrations/api/token-gating#check-roles-asynchronously
 
-⚠ @Agnes change POC site to only use frontend [wallet connect button](#22-Use-any-frontend-to-obtain-a-user%E2%80%99s-wallet-address) login
+- receive callback URL and a notification via webhook at that URL when API data is available
 
-⚠ @Agnes,  change the PoC bot to prod version before tutorial goes live
+#### Async via callback with polling
+
+https://dev.collab.land/docs/downstream-integrations/api/token-gating/#check-roles-asynchronously-and-poll-for-the-result
+
+- receive a `requestId` from API and poll for result
+
+### 5. Render gated content based on API response
+
+Your app can display page content or new pages based on the `true`/`false` response of the Collab.Land API. In this demo, we simply display page contents based on the API response.
+
+#### React example code
+
+This code snippet displays certain content when each rule returns `true`.
+
+```
+  // React component
+  ...
+  const [isPatron, setIsPatron] = useState<boolean>(false);
+  const [isMember, setIsMember] = useState<boolean>(false);
+  ...
+
+  const checkRoles = async () => {
+    await connectToSDK();
+    const apiResponse = await getCollabClient().accessControl.checkRoles({
+      account: addr,
+      rules: [
+        {
+          chainId: 137,
+          minToken: '1',
+          contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+          roleId: MEMBER_ROLE,
+          type: 'ERC721',
+          name: 'MemberNFT Holder',
+        },
+        {
+          chainId: 1,
+          minToken: '1',
+          contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+          roleId: PATRON_ROLE,
+          type: 'ERC721',
+          name: 'PatronNFT Holder',
+        },
+      ],
+    });
+    //
+    for (const role of apiResponse.roles) {
+      if (role.granted) {
+        switch (role.id) {
+          case PATRON_ROLE: // set to true if PATRON_ROLE rule returns true
+            setIsPatron(true);
+            break;
+          case MEMBER_ROLE: // set to true if MEMBER_ROLE rule returns true
+            setIsMember(true);
+            break;
+        }
+      }
+    }
+  }
+
+  ...
+
+  return (
+    <div>
+      {isPatron ? (
+        <div>
+          Hey Patron NFT Holder! ❤️ 🖤
+          ...
+        </div>
+      ) : (
+        <div>
+          You can view this content if you own Collab.Land Patron
+          NFTs.
+        </div>
+      )}
+      {isMember ? (
+        <div>
+          Hey Membership NFT Holder!
+        </div>
+      ) : (
+        <div>
+          You can view this content if you own Collab.Land
+          Membership NFTs.
+        </div>
+      )}
+    </div>
+  )
+```
+
+![uncheck](imgs/token-gating-tutorial.png)
+
+**When both rules are `true`:**
+![checked](imgs/token-gating-tutorial-checked.png)
