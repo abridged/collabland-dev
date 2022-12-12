@@ -4,4 +4,4 @@ sidebar_label: Introduction
 slug: /introduction
 ---
 
-# Introduction
+# Collab.Land Introduction Tutorial
