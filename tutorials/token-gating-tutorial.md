@@ -26,11 +26,11 @@ This tutorial implements the gating logic by calling the Collab.Land [`access-co
 
 ### Get Collab.Land API keys
 
-To call Collab.Land APIs, you need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call the token gating endpoint. You can [request API access here](../docs/downstream-integrations/index.md#request-api-access).
+To call Collab.Land APIs, you need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call the token gating endpoint. You can [request API access here](../docs/downstream-integrations/#request-api-access).
 
 This feature is available on the [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) endpoint.
 
-It is also available in the [Collab.Land SDK](../docs/downstream-integrations/sdk/index.md):
+It is also available in the [Collab.Land SDK](../docs/downstream-integrations/sdk/):
 
 ```js
 await getCollabClient().accessControl.checkRoles({
@@ -61,7 +61,7 @@ Collab.Land supports many FTs and NFTs on many chains. Please see [Configuring y
 
 ## Tutorial
 
-The following are steps and explanations of our [token gating website](https://github.com/abridged/collabland-tutorials/tree/master/token-gating-website) implementation.
+The following are steps and explanations of our [token gating website](#) implementation.
 
 > You will need a Collab.Land API key to run the demo locally.
 
@@ -92,7 +92,7 @@ Please see [Configuring your TGRs](../docs/local-development-setup/configuring-t
 
 ### 3. Call the Collab.Land API
 
-In this demo, we use the [Collab.Land SDK](../docs/downstream-integrations/sdk/index.md) to call the API:
+In this demo, we use the [Collab.Land SDK](../docs/downstream-integrations/sdk/) to call the API:
 
 ```js
 const res = await getCollabClient().accessControl.checkRoles({
@@ -118,7 +118,7 @@ const res = await getCollabClient().accessControl.checkRoles({
 });
 ```
 
-However, you can als use `fetch`:
+However, you can also use `fetch`:
 
 ```js
 const res = await fetch(`https://api-qa.collab.land/access-control/check-roles`, {
@@ -256,3 +256,8 @@ return (
 **When both rules are `true`:**
 
 ![checked image of the website](imgs/token-gating-tutorial-checked.png)
+
+## Next steps
+
+- Get access to [the source code on Github](https://github.com/abridged/collabland-tutorials/tree/master/token-gating-website)
+- Go build amazing things with Collab.Land!
