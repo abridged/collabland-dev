@@ -6,11 +6,11 @@ slug: /token-gating
 
 # Collab.Land Token Gating Tutorial
 
-Collab.Land offers a token gating feature that allows you to restrict access to elements or pages of your site based on ownership of certain blockchain assets. This tutorial walks you through creating your own token gate for your website using the Collab.Land API.
+Collab.Land offers a token gating feature that allows you to restrict access to elements or pages of your site based on ownership of certain blockchain assets. This tutorial walks you through the process of creating your own token gate for your website using the Collab.Land API.
 
 ### Website Gating Logic Flow
 
-1. Define Token Gating Rules (TGRs) for your website.
+1. Define token gating rules for your website.
 2. User visits your website.
 3. Collect user's wallet address.
 4. Call Collab.Land API to check if the user has the required tokens to fulfil your rules.
@@ -20,17 +20,17 @@ Collab.Land offers a token gating feature that allows you to restrict access to 
 To check if a user has the required tokens via the Collab.Land API, you need:
 
 - The user's wallet address.
-- Token Gating Rules for your site.
+- Token gating rules for your site.
 
-This tutorial implements the gating logic by calling the Collab.Land [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) endpoint with the user's wallet address and the [Token Gating Rules](#define-token-gating-rules) as the payload for the request. Collab.Land returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
+This tutorial implements the gating logic by calling the Collab.Land [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) endpoint with the user's wallet address and the [token gating rules](#define-token-gating-rules) as the payload for the request. Collab.Land returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
 
 ### Get Collab.Land API keys
 
-To call Collab.Land APIs, you need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call the token gating endpoint. You can [request API access here](../docs/downstream-integrations/index.md#request-api-access).
+To call Collab.Land APIs, you need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call the token gating endpoint. You can [request API access here](../docs/downstream-integrations/#request-api-access).
 
 This feature is available on the [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) endpoint.
 
-It is also available in the [Collab.Land SDK](../docs/downstream-integrations/sdk/index.md):
+It is also available in the [Collab.Land SDK](../docs/downstream-integrations/sdk/):
 
 ```js
 await getCollabClient().accessControl.checkRoles({
@@ -43,7 +43,7 @@ await getCollabClient().accessControl.checkRoles({
 
 ### Define Token Gating Rules
 
-Token Gating Rules (TGR) are schemas that describe the required tokens. TGRs usually include token information such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
+Token gating rules (TGR) are schemas that describe the required tokens. TGRs usually include token information such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
 
 ```json
 "rules": [
@@ -57,11 +57,11 @@ Token Gating Rules (TGR) are schemas that describe the required tokens. TGRs usu
 ]
 ```
 
-Collab.Land supports fungible and non-fungible tokens on many chains. Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
+Collab.Land supports many FTs and NFTs on many chains. Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
 
 ## Tutorial
 
-The following are steps and explanations of our [token gating website](https://github.com/abridged/collabland-tutorials/tree/master/token-gating-website) implementation.
+The following are steps and explanations of our [token gating website](#) implementation.
 
 > You will need a Collab.Land API key to run the demo locally.
 
@@ -71,7 +71,7 @@ See [API section](#get-collabland-api-keys)
 
 ### 2. Define API payload
 
-The API payload is the data that will be sent to the Collab.Land API. It must include the user's wallet address and the Token Gating Rules.
+The API payload is the data that will be sent to the Collab.Land API. It must include the user's wallet address and the token gating rules.
 
 #### 2.1 Get user's wallet address
 
@@ -92,7 +92,7 @@ Please see [Configuring your TGRs](../docs/local-development-setup/configuring-t
 
 ### 3. Call the Collab.Land API
 
-In this demo, we use the [Collab.Land SDK](../docs/downstream-integrations/sdk/index.md) to call the API:
+In this demo, we use the [Collab.Land SDK](../docs/downstream-integrations/sdk/) to call the API:
 
 ```js
 const res = await getCollabClient().accessControl.checkRoles({
@@ -118,7 +118,7 @@ const res = await getCollabClient().accessControl.checkRoles({
 });
 ```
 
-However, you can als use `fetch`:
+However, you can also use `fetch`:
 
 ```js
 const res = await fetch(`https://api-qa.collab.land/access-control/check-roles`, {
@@ -143,7 +143,7 @@ There are several response options available with the Collab.Land API. Select wh
 
 #### Check roles synchronously
 
-- Receive `true`/`false` from API for each Token Gating Rule
+- Receive `true`/`false` from API for each token gating rule
 
 **Sample response:**
 
@@ -250,10 +250,14 @@ return (
 </div>
 )
 ```
-**When both rules are `false`:**
 
 ![unchecked image of the website](imgs/token-gating-tutorial.png)
 
 **When both rules are `true`:**
 
 ![checked image of the website](imgs/token-gating-tutorial-checked.png)
+
+## Next steps
+
+- Get access to [the source code on Github](https://github.com/abridged/collabland-tutorials/tree/master/token-gating-website)
+- Go build amazing things with Collab.Land!
