@@ -22,13 +22,14 @@ To check if a user has the required tokens via the Collab.Land API, you need:
 - The user's wallet address.
 - Token gating rules for your site.
 
-This tutorial implements the gating logic by calling the Collab.Land [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) endpoint with the user's wallet address and the [token gating rules](#define-token-gating-rules) as the payload for the request. Collab.Land returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
+
+This tutorial implements the gating logic by calling the Collab.Land [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating) endpoint with the user's wallet address and the [token gating rules](#define-token-gating-rules) as the payload for the request. Collab.Land returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
 
 ### Get Collab.Land API keys
 
 To call Collab.Land APIs, you need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call the token gating endpoint. You can [request API access here](../docs/downstream-integrations/#request-api-access).
 
-This feature is available on the [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating.md) endpoint.
+This feature is available on the [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating) endpoint.
 
 It is also available in the [Collab.Land SDK](../docs/downstream-integrations/sdk/):
 
@@ -43,7 +44,8 @@ await getCollabClient().accessControl.checkRoles({
 
 ### Define Token Gating Rules
 
-Token gating rules (TGR) are schemas that describe the required tokens. TGRs usually include token information such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
+
+Token Gating Rules (TGRs) are schemas that describe the required tokens. TGRs usually include token information such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
 
 ```json
 "rules": [
@@ -57,11 +59,11 @@ Token gating rules (TGR) are schemas that describe the required tokens. TGRs usu
 ]
 ```
 
-Collab.Land supports many FTs and NFTs on many chains. Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
+Collab.Land supports many fungible and non-fungible tokens on many chains. Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
 
 ## Tutorial
 
-The following are steps and explanations of our [token gating website](#) implementation.
+The following are steps and explanations of our [token gating sample](https://github.com/abridged/collabland-tutorials/tree/master/token-gating-website) implementation.
 
 > You will need a Collab.Land API key to run the demo locally.
 
@@ -250,6 +252,8 @@ return (
 </div>
 )
 ```
+
+**When both rules are `false`:**
 
 ![unchecked image of the website](imgs/token-gating-tutorial.png)
 
