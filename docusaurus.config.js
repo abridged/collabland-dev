@@ -82,16 +82,6 @@ const config = {
     [
       'content-docs',
       {
-        id: 'doc-personas',
-        path: 'doc-personas',
-        routeBasePath: 'doc-personas',
-        sidebarPath: require.resolve('./sidebars-doc-personas.js'),
-        // ... other options
-      }
-    ],
-    [
-      'content-docs',
-      {
         id: 'tutorials',
         path: 'tutorials',
         routeBasePath: 'tutorials',
@@ -121,12 +111,6 @@ const config = {
             to: '/tutorials/introduction',
             label: 'Tutorials',
             activeBaseRegex: `/tutorials/`,
-            position: 'left',
-          },
-          {
-            to: '/doc-personas/introduction',
-            label: 'Doc Personas',
-            activeBaseRegex: `/doc-personas/`,
             position: 'left',
           },
           // {
