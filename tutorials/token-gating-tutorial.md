@@ -59,7 +59,7 @@ Token Gating Rules (TGRs) are schemas that describe the required tokens. TGRs us
 ]
 ```
 
-Collab.Land supports many fungible and non-fungible tokens on many chains. Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
+Collab.Land supports many fungible and non-fungible tokens on many chains. Please see [Configuring your TGRs](https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough) for rule definition details.
 
 ## Tutorial
 
@@ -90,7 +90,7 @@ If you need some help to get user addresses, here are a few options:
 
 TGRs are the rules that the wallet assets will be checked against by the Collab.Land. The API will return boolean `true`/`false` for each rule to indicate if the account address fulfills the defined rules or not.
 
-Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
+Please see [Configuring your TGRs](https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough) for rule definition details.
 
 ### 3. Call the Collab.Land API
 

@@ -5,31 +5,6 @@ title: Introduction
 
 # Introduction
 
-```mdx-code-block
-<div
-  style={{
-    position: "relative",
-    paddingBottom: "64.5933014354067%",
-    height: 0
-  }}
->
-  <iframe
-    src="https://www.loom.com/embed/72985b228c8b4b91a376d67dcbe06aa3"
-    frameBorder={0}
-    webkitallowfullscreen=""
-    mozallowfullscreen=""
-    allowFullScreen=""
-    style={{
-      position: "absolute",
-      top: 0,
-      left: 0,
-      width: "100%",
-      height: "100%"
-    }}
-  />
-</div>
-```
-
 ## Here’s what [collab.land](http://collab.land) does
 
 Collab.Land provides solutions for managing Web3 communities by token-gating the channels and groups. We also have many other features like Tipping(currently limited access), Verifiable Credentials & DIDs, and more.
@@ -62,15 +37,5 @@ Collab.Land is extending an offer to you to join us in building the network we a
 
 By holding a Collab.Land Patron NFT you are now able to access the Collab.Land tool kit to make proposals & start building with us. In the following instructions we will outline what is needed to get started.
 
-## Here’s the types of integrations that we support
-  - [Chain Integration](category/new-chain-integration)
-  - [Wallet Integration](category/new-wallet-integration)
-  - App Integration
-  - CC Integration
-  - Protocol Integration
-  - DAO Integration
-  - CL Platform
-
-    - a description of the sections and why you would want to use each
-    - Examples of integrations that fall under this category
-    - Ideas for different categories/sections, integrations & personas?(Lens protocol has this: [https://ideas.lens.xyz/](https://ideas.lens.xyz/))
+## Contributor Persona
+## Consumer Persona
