@@ -1,8 +1,8 @@
 {
-    "label": "Common Reference docs",
-    "position": 5,
-    "link": {
-      "type": "generated-index",
-      "description": "Common Reference docs"
-    }
+  "label": "General Concepts",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "General Concepts"
+  }
 }
