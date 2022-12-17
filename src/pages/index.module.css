@@ -14,10 +14,15 @@
   .heroBanner {
     padding: 2rem;
   }
+  .buttons {
+    flex-direction: column;
+    /* add vertical margin to buttons */
+  }
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 32px;
 }
