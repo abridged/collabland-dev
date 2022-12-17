@@ -10,7 +10,7 @@ Collab.Land offers a token gating feature that allows you to restrict access to 
 
 ### Website Gating Logic Flow
 
-1. Define token gating rules for your website.
+1. Define Token Gating Rules (TGRs) for your website.
 2. User visits your website.
 3. Collect user's wallet address.
 4. Call Collab.Land API to check if the user has the required tokens to fulfil your rules.
@@ -20,8 +20,7 @@ Collab.Land offers a token gating feature that allows you to restrict access to 
 To check if a user has the required tokens via the Collab.Land API, you need:
 
 - The user's wallet address.
-- Token gating rules for your site.
-
+- Token Gating Rules for your site.
 
 This tutorial implements the gating logic by calling the Collab.Land [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating) endpoint with the user's wallet address and the [token gating rules](#define-token-gating-rules) as the payload for the request. Collab.Land returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
 
@@ -44,22 +43,21 @@ await getCollabClient().accessControl.checkRoles({
 
 ### Define Token Gating Rules
 
-
 Token Gating Rules (TGRs) are schemas that describe the required tokens. TGRs usually include token information such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
 
 ```json
 "rules": [
-    {
-      "type": "ERC721",
-      "chainId": 1,
-      "minToken": "1",
-      "contractAddress": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
-      "roleId": "001"
-    }
+  {
+    "type": "ERC721",
+    "chainId": 1,
+    "minToken": "1",
+    "contractAddress": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+    "roleId": "001"
+  }
 ]
 ```
 
-Collab.Land supports many fungible and non-fungible tokens on many chains. Please see [Configuring your TGRs](https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough) for rule definition details.
+Collab.Land supports many fungible and non-fungible tokens on many chains. To gate your website with a certain token, you need to provide the token details in the example above. You can find chain IDs [here](https://chainid.network/) and here's a guide to [find your token details](https://collabland.freshdesk.com/support/solutions/articles/70000626242-finding-token-details-on-opensea)
 
 ## Tutorial
 
@@ -73,7 +71,7 @@ See [API section](#get-collabland-api-keys)
 
 ### 2. Define API payload
 
-The API payload is the data that will be sent to the Collab.Land API. It must include the user's wallet address and the token gating rules.
+The API payload is the data that will be sent to the Collab.Land API. It must include the user's wallet address and the Token Gating Rules.
 
 #### 2.1 Get user's wallet address
 
@@ -90,7 +88,7 @@ If you need some help to get user addresses, here are a few options:
 
 TGRs are the rules that the wallet assets will be checked against by the Collab.Land. The API will return boolean `true`/`false` for each rule to indicate if the account address fulfills the defined rules or not.
 
-Please see [Configuring your TGRs](https://collabland.freshdesk.com/support/solutions/articles/70000036689-discord-bot-walkthrough) for rule definition details.
+Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
 
 ### 3. Call the Collab.Land API
 
@@ -145,7 +143,7 @@ There are several response options available with the Collab.Land API. Select wh
 
 #### Check roles synchronously
 
-- Receive `true`/`false` from API for each token gating rule
+- Receive `true`/`false` from API for each Token Gating Rule
 
 **Sample response:**
 
@@ -264,4 +262,4 @@ return (
 ## Next steps
 
 - Get access to [the source code on Github](https://github.com/abridged/collabland-tutorials/tree/master/token-gating-website)
-- Go build amazing things with Collab.Land!
+- Go [build amazing things with Collab.Land!](/docs/downstream-integrations/)
