@@ -13,7 +13,7 @@ Collab.Land provides a list of REST APIs to allow client applications to:
 
 # Collab.Land JavaScript/TypeScript SDK
 
-Collab.Land publishes `@collabland/sdk` to npm.
+Collab.Land publishes `@collabland/sdk` npm module that provides a set of APIs you can leverage to interact with Collab.Land. Learn more about the SDK [here](../downstream-integrations/sdk/)
 
 ## Request API access
 

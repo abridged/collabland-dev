@@ -18,7 +18,7 @@ x-api-key: <api-key>
 
 Check roles for an account against a list of token gating rules and get a response from the call for the roles to be assigned or removed.
 
-### Trt it out
+### Try it out
 
 - [POST /access-control/check-roles](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.checkRoles)
 
@@ -58,7 +58,7 @@ POST https://api.collab.land/access-control/check-roles
 
 Check roles for an account against a list of token gating rules with a callback URL and get a notification via the URL as a webhook later for the roles to be assigned or removed.
 
-### Trt it out
+### Try it out
 
 - [POST /access-control/check-roles](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.checkRoles)
 
@@ -111,7 +111,7 @@ X-CollabLand-Signature: signature-for-the-request
 
 Check roles for an account against a list of token gating rules asynchronously, receive a `requestId` and use it to poll for the result.
 
-### Trt it out
+### Try it out
 
 - [POST /access-control/check-roles](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.checkRoles)
 
@@ -139,13 +139,13 @@ POST https://api.collab.land/access-control/check-roles
 
 ```json
 {
-  "requestId": "requestId",
+  "requestId": "requestId"
 }
 ```
 
 ### Sample polling
 
-### Trt it out
+### Try it out
 
 - [GET /access-control/check-roles/responses/:requestId](https://api.collab.land/explorer/#/AccessControlController/AccessControlController.getCheckRolesResponse)
 

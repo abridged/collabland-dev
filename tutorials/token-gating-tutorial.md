@@ -88,7 +88,7 @@ If you need some help to get user addresses, here are a few options:
 
 TGRs are the rules that the wallet assets will be checked against by the Collab.Land. The API will return boolean `true`/`false` for each rule to indicate if the account address fulfills the defined rules or not.
 
-Please see [Configuring your TGRs](../docs/local-development-setup/configuring-tgr) for rule definition details.
+Please see [Configuring your TGRs](#) for rule definition details.
 
 ### 3. Call the Collab.Land API
 
