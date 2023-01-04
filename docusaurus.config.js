@@ -98,7 +98,7 @@ const config = {
         title: 'Collab.Land Developer Center',
         logo: {
           alt: 'Collab.Land',
-          src: 'img/logo1.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {

@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to connect and collaborate',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/Waving-WhiteBG.svg').default,
     description: (
       <>
         Collab.Land was designed from the ground up to facilitate connections
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Create a community of communities',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/Flying-WhiteBG.svg').default,
     description: (
       <>
         Collab.Land creates a community of communities to empower membership
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Build a decentralized platform',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/Dancing-WhiteBG.svg').default,
     description: (
       <>
         Collab.Land promotes progressive decentralization to so that 
