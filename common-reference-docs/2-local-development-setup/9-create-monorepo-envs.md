@@ -248,6 +248,7 @@ This will output on the console the following line indicating the public URL
 Note: Discord will only let you save the Interaction Endpoint URL if that url is valid. Meaning discord will ping your URL when you click save to see if it gets a valid response. This means you must be running the api server when you go to save the url into discord. Otherwise discord will not save & will continue to tell you you have unsaved changed.
 
 - Potential Errors
+
   1. AccessDeniedException: User: arn:aws:iam::220623082201:user/caleb is not authorized to perform: xray:PutTraceSegments because no identity-based policy allows the xray:PutTraceSegments action
      1. Its possible that my access keys do not have permission to post this. But it’s also not asking for my AWS credentials vault. Probably becasue .aws/credentials still exists so I will renamve the .aws/credentials dev to something else in the hope of triggering the AWS Vault.
   2. I changed the name of the [dev] credentials in .aws/credentials and now when I go to start the api server I get `Cannot start the application. CredentialsProviderError: Could not load credentials from any providers`
@@ -383,48 +384,10 @@ Note: Discord will only let you save the Interaction Endpoint URL if that url is
 
 ## Step 6: Deploy Test Slash Command with CLI to Guild
 
-### 1. Create the Deploy Command ENV file
-
-To deploy commands create the following ENV file
+### 1. Run the CLI
 
 ```bash
-touch deploy-commands.sh
-```
-
-Open file and paste in the following config
-
-```bash
-#!/bin/bash
-echo "Deploying Discord Commands To A Custom Bot"
-
-PATH="$(npm bin):$PATH"
-export PATH
-
-export AWS_PROFILE=dev
-
-export DISCORD_GUILD_ID=[COPIED-FROM-DISCORD-INTERFACE]
-export DISCORD_CLIENT_ID=[COPIED-FROM-DISCORD-DEVELOPER-PORTAL]
-export DISCORD_CLIENT_SECRET=[COPIED-FROM-DISCORD-DEVELOPER-PORTAL]
-export DISCORD_BOT_TOKEN=[COPIED-FROM-DISCORD-DEVELOPER-PORTAL]
-export DISCORD_PUBLIC_KEY=[COPIED-FROM-DISCORD-DEVELOPER-PORTAL]
-
-export DEBUG=collabland:discord
-
-export AWS_ACCOUNT=[AWS-ACCOUNT-ID]
-
-export COLLABLAND_ENV=[PROJECT-NAME]-[TEAM-NAME]-[ENV-NAME]
-
-export COLLABLAND_SECRET_NAME=collabland-api/qa
-
-npm run cli -- discord-application-commands
-```
-
-Copy in the values from `local-api-server.sh`
-
-### 2. Run the file
-
-```bash
-bash deploy-commands.sh
+./bin/local-cli.sh discord-application-commands
 ```
 
 Select the environment (Choose QA)
@@ -515,6 +478,7 @@ Choose `Exit`
 Nice! You’ve successfully deployed the command
 
 - Potential Errors
+
   ```bash
   Guild id (* for global commands): 950843846311444520
   ? Main menu Register/update new commands
@@ -526,7 +490,9 @@ Nice! You’ve successfully deployed the command
     Register/update new commands
     Exit
   ```
+
   1. Why is this failing to deploy?
+
      1. I think it’s because either my bot creddntials are incorrect or I invited the bot with the wrong permissions (I invited as admin… i there as way to compare to my other bot?)
 
         <aside>
