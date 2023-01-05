@@ -18,7 +18,7 @@
   position: relative;
   overflow: hidden;
 }
-.hero__title{
+.heroTitle{
   font-size: 80px;
   color: var(--hero-text);
 }
@@ -33,17 +33,13 @@
     font-size: 2rem !important;
     float: right;
   }
-  
 }
-
-
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.button__content {
+.buttonContent {
   border: 1px solid #000;
   background-color: var(--button-bg);
   color: var(--button-text);
@@ -59,7 +55,6 @@
   justify-content: center;
   box-shadow: 0px 4px rgba(0,0,0,.1);
 }
-
 .subtitle{
   color: var(--hero-text);
 }
