@@ -6,50 +6,58 @@ type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
+  imageURL?: string;
+ 
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to connect and collaborate',
     Svg: require('@site/static/img/Waving-WhiteBG.svg').default,
+    imageURL: 'https://res.cloudinary.com/kennyy/image/upload/f_auto,q_auto/v1672928107/Globe-Molecule_adopdj.png',
     description: (
       <>
-        Collab.Land was designed from the ground up to facilitate connections
-        and collaborations by enabling web3 with popular web2 platforms.
+        Collab.Land integrates popular web2 platforms with web3 infrastures to facilitate connections and collaborations across the internet.
       </>
     ),
   },
   {
     title: 'Create a community of communities',
     Svg: require('@site/static/img/Flying-WhiteBG.svg').default,
+    imageURL: 'https://res.cloudinary.com/kennyy/image/upload/f_auto,q_auto/v1672940342/Rocket_2_1_ulddqh.png',
     description: (
       <>
-        Collab.Land creates a community of communities to empower membership
-        and ownership through decentralized identities, crypto assets and 
-        verifiable credentials.
+        Using decentralized identities, crypto assets, and verifiable credentials, Collab.Land is creating a community of communities.
       </>
     ),
   },
   {
     title: 'Build a decentralized platform',
     Svg: require('@site/static/img/Dancing-WhiteBG.svg').default,
+    imageURL: 'https://res.cloudinary.com/kennyy/image/upload/f_auto,q_auto/v1672930080/lego-1_kyfdlf.png',
     description: (
       <>
-        Collab.Land promotes progressive decentralization to so that 
-        our communities and members can decide what data to own 
-        and what to share.
-        Collab.Land is in the process of opening its source code and platform 
-        to developers and exit to the community for ownership and governance.
+        By promoting progressive decentralization, Collab.Land allows communities and members to decide what data they own and what they share.
+      </>
+    ),
+  },
+  {
+    title: 'Developer Portal',
+    Svg: require('@site/static/img/Dancing-WhiteBG.svg').default,
+    imageURL: 'https://res.cloudinary.com/kennyy/image/upload/f_auto,q_auto/v1672930088/tools_elzowd.png',
+    description: (
+      <>
+        Access your developer dashboard and request more resources such as API keys, cloud wallets, and Collab tokens.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title,  description, imageURL}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={imageURL} className={styles.featureSvg} alt="Collab.Land" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
