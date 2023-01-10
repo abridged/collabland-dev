@@ -5,7 +5,9 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featuredImg {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }

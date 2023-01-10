@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200;300;500&display=swap');
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,7 +7,8 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #f4960e;
+  --ifm-font-family-base: "M PLUS 1";
+  --ifm-color-primary: #F6C349;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -15,11 +17,14 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --hero-text: #382800;
+  --button-bg: #9B9EFF;
+  --button-text: #fff
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #f4960e;
+  --ifm-color-primary: #F6C349;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -27,6 +32,9 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --hero-text: #000;
+  --button-bg: #A0CDFF;
+  --button-text: #000
 }
 
 .nav-bold-category {
