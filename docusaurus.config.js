@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Collab.Land Developer Portal',
-  tagline: 'Empower collaborations for tokenized communities',
+  title: 'Collab.Land Documentation',
+  tagline: 'Extend the limits of Collab.Land by contributing apps to the marketplace. Build with the Collab.Land API to create your own custom experiences.',
   url: 'https://dev.collab.land',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -95,7 +95,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Collab.Land Developer Center',
+        title: 'Collab.Land Documentation',
         logo: {
           alt: 'Collab.Land',
           src: 'img/logo1.svg',
@@ -182,7 +182,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Abridged, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Abridged, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
