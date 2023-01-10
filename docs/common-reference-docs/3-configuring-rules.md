@@ -175,7 +175,7 @@ For ERC-1155, since it requires entering each token ID, we also support OpenSea 
   {
       "collectionName": "conanscircle",
       "name": "holder",
-      "roleId": "1004407674521276519",
+      "roleId": "004",
       "chainId": 1,
       "minToken": "1",
       "type": "OPEN_SEA"
@@ -192,7 +192,7 @@ Here are some examples of TGRs for Solana:
   {
       "tokenId": "2nPkG7zgW8Edr5eNhbaJ1RqNgx6Ds4ZsRM8qTRBNe2i1",
       "name": "Degen Whale",
-      "roleId": "1022118100830802004",
+      "roleId": "005",
       "chainId": 8000000000101,
       "minToken": "5",
       "contractAddress": "creators",
@@ -205,7 +205,7 @@ Here are some examples of TGRs for Solana:
 "rules": [
   {
     "name": "Okay Bear holder",
-    "roleId": "1000023899439902775",
+    "roleId": "006",
     "chainId": 8000000000101,
     "minToken": "1",
     "contractAddress": "CJk8TvAXcq1cvC85M9aMQCxPMkTCSuWN5HsFEgAjh4ut",
