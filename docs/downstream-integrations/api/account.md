@@ -5,11 +5,9 @@ sidebar_position: 3
 ---
 
 The `/account` resource provides information for an authenticated user of the
-api call.
+API call.
 
-The base url is https://api.collab.land/account/.
-
-The following HTTP request headers are required.
+The base url is `https://api.collab.land/account/`.
 
 ## Get the current user profile
 
@@ -22,9 +20,9 @@ The following HTTP request headers are required.
 ```
 GET /account/me
 
-accept: application/json
-x-api-key: ...
-Authorization: AE <ae-token>
+accept: "application/json"
+x-api-key: "YOUR_API_KEY"
+Authorization: "AE <ae-token>"
 ```
 
 ### Sample response
@@ -53,9 +51,9 @@ Sample request:
 ```
 GET /account/administrated-communities
 
-accept: application/json' \
-authorization: AE <ae-token>
-x-api-key: <api-key>
+accept: "application/json"
+authorization: "AE <ae-token>"
+x-api-key: "YOUR_API_KEY"
 ```
 
 Sample response:

@@ -32,10 +32,13 @@ For example:
 
 https://login.collab.land/?redirect_uri=https%3A%2F%2Fcc.collab.land%2Fdashboard%2F
 
-### Sign in with Discord
+### Sign in with Discord or Telegram
 
-![Sign in with Discord 1](../imgs/img1.png)
-![Sign in with Discord 2](../imgs/img2.png)
+![Sign in with Discord 1](../imgs/auth1.png)
+
+When you select your auth platform of choice and accept the prompts, you should get a confirmation page when your wallet is connected successfully:
+
+![Sign in with Discord 2](../imgs/auth2.png)
 
 ### Sign in with Ethereum (SIWE)
 
