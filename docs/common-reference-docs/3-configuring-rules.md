@@ -4,7 +4,7 @@ TGRs are the rules that the wallet assets will be checked against by Collab.Land
 
 ## Define Token Gating Rules
 
-Token Gating Rules (TGRs) are schemas that describe the required tokens. They usually include  informations about the token such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that require at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
+Token Gating Rules (TGRs) are schemas that describe the required tokens. They usually include  information about the token such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that require at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
 
 ```json
 "rules": [
@@ -19,8 +19,6 @@ Token Gating Rules (TGRs) are schemas that describe the required tokens. They us
 ```
 
 Collab.Land supports fungible and non-fungible tokens on many chains. See below for more information on the different properties that can be used to define different types of TGRs.
-
-> Note: (*) indicates a required field.
 
 ```json
 {
@@ -59,27 +57,28 @@ Collab.Land supports fungible and non-fungible tokens on many chains. See below 
 
 ### Token Details Explained
 
-To find the token details, please refer to this article: [Find Token Details](./finding-token-details)
+To find the token details, please refer to this article [Find Token Details](./finding-token-details).
+> (*) indicates a required field.
 
 **chainId***: The chainID is a unique ID assigned to each chain(L1 and L2) - For example `1` is the the chainID for Ethereum Mainnet while `137` is the chainID of Polygon Mainnet. You can find more chainIDs on [Chainlist](https://chainlist.org/).
 
-**type***: Select the token type of your token. For example, for EVM based chains, it can be ERC-20, ERC-721, ERC-1155, etc. For non-EVM chains, it can be BEP-20, etc. If you are not sure about the token type, you can use the [Find Token Details](./finding-token-details) article to find the token type.
+**type***: Select the token type of your token. For example, for EVM based chains, it can be ERC-20, ERC-721, ERC-1155, etc. For non-EVM chains, it can be Solana, Flow, etc. If you are not sure about the token type, you can use the [Find Token Details](./finding-token-details) article to find the token type.
 
-**contractAddress***: The contract address of your token.
+**contractAddress ***: The contract address of your token.
 
 **tokenId (optional)**: For NFT token types such as `ERC-721` & `ERC-1155`, you can add specific token IDs.
 
 >When using the ERC-1155 token type, you must enter the token IDs for all tokens in your collection in the token ID section. Token IDs should be separated by one comma, and no spaces. You can also input a range of token IDs, for example: 30-90.
 
-**minToken (optional)**: The minimum amount of tokens that are required for the role to be granted.
+**minToken (optional)**: The minimum amount of tokens that are required to qualify for the rule.
 
->If you do not enter a minimum amount of tokens, the default is 1. The value must allways be a string, e.g "1".
+>If you do not enter a minimum amount of tokens, the default is 1.
 
 **maxToken (optional)**: The maximum amount of tokens that are required to get the role.
 
 >If you do not enter a maximum amount of tokens, the default is infinity.
 
-**roleID (optional)**: The unique identifier for the roles. You can use this to identify the roles in the API response.
+**roleID (optional)**: The unique identifier for the rule. You can use this to identify the rule in the API response.
 
 **Attributes (optional)**: For NFT token types such as ERC-721, you can add specific metadata conditions. For example, you can add a condition that the token must have a specific attribute or trait.
 
