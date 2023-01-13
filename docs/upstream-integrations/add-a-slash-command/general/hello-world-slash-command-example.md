@@ -1,11 +1,11 @@
 ---
 sidebar_position: 5
-sidebar_label: Understanding The Hello World Slash Command
+sidebar_label: Hello World Slash Command Example
 sidebar_class_name: nav-normal-page
-id: understanding-the-hello-world-slash-command
+id: hello-world-slash-command-example
 ---
 
-# Understanding The Hello World Slash Command
+# Hello World Slash Command Example
 
 ```mdx-code-block
 <div

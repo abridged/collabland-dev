@@ -2,11 +2,9 @@
 
 TGRs are the rules that the wallet assets will be checked against by Collab.Land. The API will return `true/false` for each rule to indicate if the wallet address fulfils the defined rules or not.
 
-For setting up the Token Gating Rules and sending it in the API request, below are the fields you need to input along with example:
-
 ## Define Token Gating Rules
 
-Token Gating Rules (TGRs) are schemas that describe the required tokens. TGRs usually include token information such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
+Token Gating Rules (TGRs) are schemas that describe the required tokens. They usually include  informations about the token such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that require at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
 
 ```json
 "rules": [
@@ -20,9 +18,9 @@ Token Gating Rules (TGRs) are schemas that describe the required tokens. TGRs us
 ]
 ```
 
-Collab.Land supports many fungible and non-fungible tokens on many chains. Please see below for more information on defining TGRs. Example reuest for the token gating API:
+Collab.Land supports fungible and non-fungible tokens on many chains. See below for more information on the different properties that can be used to define different types of TGRs.
 
-Note: * indicates a required field.
+> Note: (*) indicates a required field.
 
 ```json
 {
@@ -63,29 +61,29 @@ Note: * indicates a required field.
 
 To find the token details, please refer to this article: [Find Token Details](./finding-token-details)
 
-**chainId***: Enter the chain ID that your token is on.The chainID is a unique ID assigned to each chain(L1 and L2) - For example 1 is the the chainID for Ethereum Mainnet 137 is the chainID of Polygon Mainnet. You can find the chainIds here: [Chainlist](https://chainlist.org/)
+**chainId***: The chainID is a unique ID assigned to each chain(L1 and L2) - For example `1` is the the chainID for Ethereum Mainnet while `137` is the chainID of Polygon Mainnet. You can find more chainIDs on [Chainlist](https://chainlist.org/).
 
-**type***: Select the token type of your token. For example, for EVM based chains, it can ERC-20, ERC-721, ERC-1155, etc.
+**type***: Select the token type of your token. For example, for EVM based chains, it can be ERC-20, ERC-721, ERC-1155, etc. For non-EVM chains, it can be BEP-20, etc. If you are not sure about the token type, you can use the [Find Token Details](./finding-token-details) article to find the token type.
 
-**contractAddress***: Input the contract address of your token.
+**contractAddress***: The contract address of your token.
 
-**tokenId (optional)**: For NFT token types such as ERC-721 & ERC-1155, you can add specific token IDs.
+**tokenId (optional)**: For NFT token types such as `ERC-721` & `ERC-1155`, you can add specific token IDs.
 
-*Note*: When using the ERC-1155 token type, you must enter the token IDs for all tokens in your collection in the token ID section. Token IDs should be separated by one comma, and no spaces. You can also input a range of token IDs, for example: 30-90.
+>When using the ERC-1155 token type, you must enter the token IDs for all tokens in your collection in the token ID section. Token IDs should be separated by one comma, and no spaces. You can also input a range of token IDs, for example: 30-90.
 
-**minToken (optional)**: Input the minimum amount of tokens that are required to get the role.
+**minToken (optional)**: The minimum amount of tokens that are required for the role to be granted.
 
-*Note*: If you do not enter a minimum amount of tokens, the default is 1.
+>If you do not enter a minimum amount of tokens, the default is 1. The value must allways be a string, e.g "1".
 
-**maxToken (optional)**: Input the maximum amount of tokens that are required to get the role.
+**maxToken (optional)**: The maximum amount of tokens that are required to get the role.
 
-*Note*: If you do not enter a maximum amount of tokens, the default is infinity.
+>If you do not enter a maximum amount of tokens, the default is infinity.
 
-**roleID (optional)**: Role ID is a unique identifier for the rules. You can use this to identify the rules in the API response.
+**roleID (optional)**: The unique identifier for the roles. You can use this to identify the roles in the API response.
 
 **Attributes (optional)**: For NFT token types such as ERC-721, you can add specific metadata conditions. For example, you can add a condition that the token must have a specific attribute or trait.
 
-*Note*: You can find the metadata traits and attributes for your token by looking at the properties tab of the token on OpenSea or by using the [Find Token Details](./finding-token-details) article.
+>You can find the metadata traits and attributes for your token by looking at the properties tab of the token on OpenSea or by using the [Find Token Details](./finding-token-details) article.
 
 ## Sample Request & Response
 
@@ -121,9 +119,9 @@ POST https://api.collab.land/access-control/check-roles
 }
 ```
 
-### More examples of TGRs
+### TGRs for Fungible Tokens
 
-You can have TGR for Fungible Tokens(ERC-20), for example `$USDC` on Etherum Mainnet, the following example requires at least 1 $USDC token and at most 100 $USDC tokens to qualify for the role ID `001`.
+You can have TGRs for Fungible Tokens(ERC-20), for example `$USDC` on Etherum Mainnet, the following example requires at least 1 $USDC token and at most 100 $USDC tokens to qualify for the role ID `001`.
 
 ```json
 "rules": [
@@ -152,7 +150,7 @@ You can also have TGRs for NFTs(ERC-721 & ERC-1155). In case of ERC-721 for exam
 ]
 ```
 
-Let's take an example of ERC-1155, for example, the following example requires at least 1 NFT of contract address `0x2953399124F0cBB46d2CbACD8A89cF0599974963` on Polygon Mainnet which has token ID `12382299798866046354843276329909118056248259593254812422227920898302362517754` to qualify for the role ID `003`.
+Here's a TGR example of a ERC-1155 token that require at least 1 NFT of contract address `0x2953399124F0cBB46d2CbACD8A89cF0599974963` on Polygon Mainnet which has token ID `12382299798866046354843276329909118056248259593254812422227920898302362517754` to qualify for the role ID `003`.
 
 ```json
 "rules": [
@@ -214,4 +212,4 @@ Here are some examples of TGRs for Solana:
 ]
 ```
 
-For utilizing these Token Gated Rules in your website, please refer to this tutorial: [Website Token Gating Tutorial](../../tutorials/token-gating)
+For utilizing these Token Gated Rules in your website, please refer to our [website Token Gating Tutorial](../../tutorials/token-gating)
