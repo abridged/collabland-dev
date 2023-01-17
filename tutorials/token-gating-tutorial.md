@@ -8,6 +8,11 @@ slug: /token-gating
 
 Collab.Land offers a token gating feature that allows you to restrict access to elements or pages of your site based on ownership of certain blockchain assets. This tutorial walks you through the process of creating your own token gate for your website using the Collab.Land API.
 
+You can follow this tutorial in a video format here: <https://youtu.be/76lkdXp8hRg>
+<!-- Embed YouTube video -->
+
+<iframe width="560" height="315" src="https://youtu.be/embed/76lkdXp8hRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Website Gating Logic Flow
 
 1. Define Token Gating Rules (TGRs) for your website.

@@ -51,21 +51,21 @@ const config = {
         },
       }),
     ],
-    [
-      'redocusaurus',
-      {
-        // debug: Boolean(process.env.DEBUG || process.env.CI),
-        specs: [
-          {
-            spec: 'https://api.collab.land/openapi.yaml',
-            route: '/apis/',
-          },
-        ],
-        theme: {
-          primaryColor: '#1890ff',
-        },
-      },
-    ],
+    // [
+    //   'redocusaurus',
+    //   {
+    //     // debug: Boolean(process.env.DEBUG || process.env.CI),
+    //     specs: [
+    //       {
+    //         spec: 'https://api.collab.land/openapi.yaml',
+    //         route: '/apis/',
+    //       },
+    //     ],
+    //     theme: {
+    //       primaryColor: '#1890ff',
+    //     },
+    //   },
+    // ],
   ],
 
   plugins: [
@@ -149,10 +149,10 @@ const config = {
                 label: 'Tutorials',
                 to: '/docs/intro',
               },
-              {
-                label: 'API docs',
-                to: '/apis',
-              },
+              // {
+              //   label: 'API docs',
+              //   to: '/apis',
+              // },
             ],
           },
           {
