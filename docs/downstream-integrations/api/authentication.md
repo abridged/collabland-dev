@@ -24,19 +24,25 @@ The AE token must be passed in the HTTP `Authorization` (case insensitive) reque
 Authorization: AE <ae-token>
 ```
 
-## Login with Collab.Land
+The AE token is generated on the server when a user has successfully signed in with Collab.Land. The AE token is valid for 1 hour after which it expires and will need to be refreshed.
+
+## Login with Collab.Land (LWC)
+
+> This is a work in progress. The current implementation is not ready for production use cases.
 
 Client applications registered with Collab.Land can redirect users to `https://login.collab.land` to authenticate themselves with Collab.Land and grant permissions to the client application for requested resources.
 
 For example:
 
-https://login.collab.land/?redirect_uri=https%3A%2F%2Fcc.collab.land%2Fdashboard%2F
+https://login.collab.land/?redirect_uri=https://cc.collab.land/dashboard
+
+The `redirect_uri` parameter is required. This is the URL that the user will be redirected to after the authentication process is complete. The `LWC` flow is not publicly available yet, so it only works in development and with whitelisted domains.
 
 ### Sign in with Discord or Telegram
 
 ![Sign in with Discord 1](../imgs/login.png)
 
-When you select your auth platform of choice and accept the prompts, you should get a confirmation page when your wallet is connected successfully:
+You should receive a confirmation page when you sign in successfully via your authentication platform of choice. For instance, an authenticated wallet connection confirmation page would look like this:
 
 ![Sign in with Discord 2](../imgs/connected.png)
 
