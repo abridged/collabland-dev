@@ -12,7 +12,7 @@ Collab.Land Actions is a simple REST API endpoint for building custom actions fo
 
 ### GET `/metadata`
 
-This API should return your mini-apps metadata. [Collab.Land](http://Collab.Land) will call the endpoint to fetch the details of your mini-app for audit and operational purposes. It should return a `metadata` result containing your apps `manifest`, `supportedInteractions` and `applicationCommands` in the format outlined below:
+This API should return your mini-apps metadata. [Collab.Land](https://Collab.Land) will call the endpoint to fetch the details of your mini-app for audit and operational purposes. It should return a `metadata` result containing your apps `manifest`, `supportedInteractions` and `applicationCommands` in the format outlined below:
 
 ```json
 interface Metadata {
@@ -132,14 +132,14 @@ interface ApplicationCommand {
 }
 ```
 
-## Building your /interactions endpoint
+## Building your `/interactions` endpoint
 
-### `POST` /interactions
+### POST `/interactions`
 
 Collab.Land will receive interactions from Discord and forward them to your action server through this endpoint. For security purposes, the payload requires signature verification using the ecdsa or Ed25519 algorithms, and verification is done using a public key.
 
 <aside>
-💡 Collab.Land utilizes signature verification for enhanced security measures. Although it is not a requirement, implementing this feature enhances the protection of the API and prevents unauthorized access or potential attacks on the server.
+💡 Collab.Land utilizes signature verification for enhanced security measures. Although it is not a requirement, implementing this feature enhances the protection of the API and prevents both unauthorized access to, and potential attacks on, the server.
 
 </aside>
 
@@ -163,7 +163,7 @@ To verify the request payload, you need to parse the request body to a string fo
 
 Here are some code implementations (in Javascript) you can leverage to verify signatures depending on the algorithm used:
 
-## Ecdsa
+## ECDSA
 
 ```jsx
 const { utils } = require("ethers");
@@ -195,7 +195,7 @@ function verifyRequestWithEcdsa(publicKey, signature, body) {
 }
 ```
 
-## Ed2599
+## ED2599
 
 ```jsx
 const nacl = require("tweetnacl");

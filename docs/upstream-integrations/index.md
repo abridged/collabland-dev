@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Extending Collab.Land
 
-In this section, you'll Learn all you need to know to extend Collab.Land with your custom integrations and build apps for the Collab.Land ecosystem, and [marketplace](#).
+In this section, you'll Learn all you need to know to extend Collab.Land with your custom integrations and build apps for the Collab.Land ecosystem and [marketplace](#).
 
 <!-- ## Add new Discord bot commands
 

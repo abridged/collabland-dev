@@ -12,7 +12,7 @@ After testing, you can then install the action on your Discord server and test y
 
 # Getting Started
 
-This guide will walk you through the process of setting up and testing your first action using the hello-action template.
+This guide will walk you through the process of setting up and testing your first action using the `hello-action` template.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ This guide will walk you through the process of setting up and testing your firs
 
 ## Using the hello-action template
 
-1. Fork the hello-action template repository from GitHub.
+1. Fork the `hello-action` [template repository](https://github.com/abridged/collabland-hello-action/) from GitHub.
 2. Clone the project.
 
 ```bash
@@ -46,9 +46,9 @@ npm run build
 npm test
 ```
 
-## Run it locally
+### Running template locally
 
-To try out the project, you can run the hello-action server using the following command:
+To try out the project, you can run the `hello-action` server using the following command:
 
 ```bash
 npm run server
@@ -56,7 +56,7 @@ npm run server
 
 By default, the server will generate an ECDSA key for signature verification between the client (signing the request payload) and the server (verifying the signature of the request).
 
-To run the hello-action server with Collab.Land's public key for signature verification set the environment variable:
+To run the `hello-action` server with Collab.Land's public key for signature verification set the environment variable:
 
 ```jsx
 export COLLABLAND_ACTION_PUBLIC_KEY=<public-key>
@@ -72,9 +72,9 @@ npm run server -- <public-key>
 
 When the server is running, it will output the signing key (including ecdsa: or ed25519:) in the console. You can copy this key and use it to run the hello-action test client.
 
-## Run the hello-action test client
+### Running the `hello-action` test client
 
-To run the hello-action test client, use the following command:
+To run the `hello-action` test client, use the following command:
 
 ```bash
 npm run client -- <server-signing-key>
@@ -84,7 +84,7 @@ npm run client -- <server-signing-key>
 
 With the hello-action template set up, you can now start building and testing your own custom actions.
 
-## Building Your Action
+### Building Your Action
 
 1. Use the `src/hello-action.ts` file as a template for your action.
 2. Define the action metadata for Discord in the `getMetadata()` method. This includes information such as the name of the action, developer, version, and description.
@@ -143,7 +143,7 @@ private async followup(
 
 It then continues the countdown and sends an updated follow-up message with the remaining seconds in each iteration.
 
-- `getSupportedInteraction()` — This function returns an array of supported interactions to provide routing guidance for Collab.Land to understand how to forward discord interactions to this action.
+- `getSupportedInteraction()` — This function returns an array of supported interactions to provide routing guidance for Collab.Land to understand how to forward Discord interactions to this action.
 
 ```jsx
 private getSupportedInteractions(): DiscordInteractionPattern[] {
@@ -218,13 +218,13 @@ This is where you implement your custom action logic. In this example, it calls 
 If you’ve gotten to this point, the expectation is that you’ve been able to do a few things:
 
 - Clone the `hello-action` template and run it locally
-- Customize the hello-action to implement your custom logic and functionality
+- Customize the `hello-action` to implement your custom logic and functionality
 
 # Deployment Guide
 
 This guide provides instructions for deploying a locally built `action` to a public URL, making it accessible to Collab.Land.
 
-> You can deploy your action like any other project to your preferred deployment platform. [Collab.Land](http://Collab.Land) does not enforce any particular deployment practices or platforms.
+> You can deploy your action like any other project to your preferred deployment platform. [Collab.Land](https://Collab.Land) does not enforce any particular deployment practices or platforms.
 
 ## Submitting Your Action
 
@@ -258,7 +258,7 @@ Upon Authorization, you will be redirected to the Command Center. It is a passwo
 To access the Command Center again, go to: [https://cc-qa.collab.land](https://cc-qa.collab.land)
 
 ### Creating a Community Wallet
-
+<!-- why do they need to create a community wallet? -->
 1. In the Command Center, go to the Marketplace tab.
 2. Click on the "Create community wallet" button.
 3. You will receive a message saying "Wallet successfully created” and access to the marketplace apps.
@@ -275,7 +275,7 @@ To access the Command Center again, go to: [https://cc-qa.collab.land](https://c
 
 ### Setting up the TestFlight Mini-App on Discord
 
-Go to the Discord server in which you installed the [Collab.Land](http://Collab.Land) QA bot and type `/test` to see all the newly installed slash commands that are made available through the “Test Flight” mini app.
+Go to the Discord server in which you installed the [Collab.Land](https://Collab.Land) QA bot and type `/test` to see all the newly installed slash commands that are made available through the “Test Flight” mini app.
 
 ![Installing the Test Flight Mini App](../upstream-integrations/imgs/test-flight-command.png)
 
