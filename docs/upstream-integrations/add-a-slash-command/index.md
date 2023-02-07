@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 sidebar_label: Add a Slash Command
 sidebar_class_name: nav-normal-page
 id: introduction
@@ -61,5 +61,3 @@ title: Add a Slash Command
   />
 </div>
 ```
-
-
