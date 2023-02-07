@@ -279,7 +279,7 @@ Go to the Discord server in which you installed the [Collab.Land](https://Collab
 
 ![Installing the Test Flight Mini App](../upstream-integrations/imgs/test-flight-command.png)
 
-Select the `/test-flight install` option and enter the public action URL that you generated [here](https://www.notion.so/Create-Test-Flight-Mini-Apps-actions-on-Collab-Land-9ed73b509b4b4a459c8c901b4640c01a), in `action-url` field. For example, here we entered: [https://api-qa.collab.land/hello-action](https://api-qa.collab.land/hello-action)
+Select the `/test-flight install` option and enter your public action URL in the `action-url` field. For example, here we entered: [https://api-qa.collab.land/hello-action](https://api-qa.collab.land/hello-action)
 
 ![Installing hello-action ](../upstream-integrations/imgs/tf-install.png)
 
