@@ -1,7 +1,7 @@
 ---
 id: build-a-miniapp
 title: Build a miniapp with Collab.Land Actions
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 Collab.Land Actions is a set of tools for building and testing custom actions for Discord interactions. With Collab.Land Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
@@ -258,7 +258,9 @@ Upon Authorization, you will be redirected to the Command Center. It is a passwo
 To access the Command Center again, go to: [https://cc-qa.collab.land](https://cc-qa.collab.land)
 
 ### Creating a Community Wallet
+
 <!-- why do they need to create a community wallet? -->
+
 1. In the Command Center, go to the Marketplace tab.
 2. Click on the "Create community wallet" button.
 3. You will receive a message saying "Wallet successfully created” and access to the marketplace apps.
