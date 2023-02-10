@@ -6,7 +6,12 @@ sidebar_position: 1
 
 Collab.Land Actions is a set of tools for building and testing custom actions for Discord interactions. With Collab.Land Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
 
-To get started, use the `hello-action` [template provided on GitHub](https://github.com/abridged/collabland-hello-action/). This template provides a basic structure for building custom actions on top of the Collab.Land engine. Once your custom action is built, it can be run on a TestFlight mini-app within the Collab.Land QA bot to execute the business logic you've developed.
+To get started, use any of the `hello-action` templates we provide on GitHub:
+
+1. [Loopback hello-action template](https://github.com/abridged/collabland-hello-action/).
+2. [Express hello-action template](https://github.com/abridged/collabland-action-express). 
+
+The templates provide a basic structure for building custom actions on top of the Collab.Land engine. Once your custom action is built, it can be run on a TestFlight mini-app within the Collab.Land QA bot to execute the business logic you've developed.
 
 After testing, you can then install the action on your Discord server and test your implementation end to end without any oversight or dependency on Collab.Land. This allows for efficient contribution and extension to Collab.Land without the overhead of manual setup.
 
@@ -86,7 +91,7 @@ With the hello-action template set up, you can now start building and testing yo
 
 ### Building Your Action
 
-1. Use the `src/hello-action.ts` file as a template for your action.
+1. Use the `/src/actions/hello-action.controller.ts` file as a template for your action.
 2. Define the action metadata for Discord in the `getMetadata()` method. This includes information such as the name of the action, developer, version, and description.
 
 ```jsx
