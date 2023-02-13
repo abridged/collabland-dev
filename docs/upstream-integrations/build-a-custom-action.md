@@ -109,7 +109,7 @@ interface ApplicationCommand {
   metadata: {
     // metadata name for the command
     name: "HelloAction",
-    // short metada name for the command
+    // short metadata name for the command
     shortName: "hello-action",
   };
 
