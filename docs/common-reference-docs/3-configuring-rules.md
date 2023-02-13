@@ -4,7 +4,7 @@ TGRs are the rules that the wallet assets will be checked against by Collab.Land
 
 ## Define Token Gating Rules
 
-Token Gating Rules (TGRs) are schemas that describe the required tokens. They usually include information about the token such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that require at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
+Token Gating Rules (TGRs) are schemas that describe the required tokens. They usually include information about the token such as `chain id`, `contract address`, `token types`, `metadata`, etc. The following is an example TGR that requires at least one NFT of contract address `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` on mainnet.
 
 ```json
 "rules": [
@@ -61,7 +61,7 @@ To find the token details, please refer to this article [Find Token Details](./f
 
 > (\*) indicates a required field.
 
-**chainId\***: The chainID is a unique ID assigned to each chain(L1 and L2) - For example `1` is the the chainID for Ethereum Mainnet while `137` is the chainID of Polygon Mainnet. You can find more chainIDs on [Chainlist](https://chainlist.org/).
+**chainId\***: The chainID is a unique ID assigned to each chain(L1 and L2) - For example `1` is the chainID for Ethereum Mainnet while `137` is the chainID of Polygon Mainnet. You can find more chainIDs on [Chainlist](https://chainlist.org/).
 
 **type\***: Select the token type of your token. For example, for EVM based chains, it can be ERC-20, ERC-721, ERC-1155, etc. For non-EVM chains, it can be Solana, Flow, etc. If you are not sure about the token type, you can use the [Find Token Details](./finding-token-details) article to find the token type.
 
@@ -121,7 +121,7 @@ POST https://api.collab.land/access-control/check-roles
 
 ### TGRs for Fungible Tokens
 
-You can have TGRs for Fungible Tokens(ERC-20), for example `$USDC` on Etherum Mainnet, the following example requires at least 1 $USDC token and at most 100 $USDC tokens to qualify for the role ID `001`.
+You can have TGRs for Fungible Tokens(ERC-20), for example `$USDC` on Ethereum Mainnet, the following example requires at least 1 $USDC token and at most 100 $USDC tokens to qualify for the role ID `001`.
 
 ```json
 "rules": [
@@ -150,7 +150,7 @@ You can also have TGRs for NFTs(ERC-721 & ERC-1155). In case of ERC-721 for exam
 ]
 ```
 
-Here's a TGR example of a ERC-1155 token that require at least 1 NFT of contract address `0x2953399124F0cBB46d2CbACD8A89cF0599974963` on Polygon Mainnet which has token ID `12382299798866046354843276329909118056248259593254812422227920898302362517754` to qualify for the role ID `003`.
+Here's a TGR example of a ERC-1155 token that requires at least 1 NFT of contract address `0x2953399124F0cBB46d2CbACD8A89cF0599974963` on Polygon Mainnet which has token ID `12382299798866046354843276329909118056248259593254812422227920898302362517754` to qualify for the role ID `003`.
 
 ```json
 "rules": [
@@ -166,7 +166,7 @@ Here's a TGR example of a ERC-1155 token that require at least 1 NFT of contract
 ]
 ```
 
-For ERC-1155, since it requires entering each token ID, we also support OpenSea collections which are on Etherum mainnet. For example, the following example requires at least 1 NFT of collection `conanscircle` on Ethereum Mainnet.
+For ERC-1155, since it requires entering each token ID, we also support OpenSea collections which are on Ethereum mainnet. For example, the following example requires at least 1 NFT of collection `conanscircle` on Ethereum Mainnet.
 
 ```json
 "rules": [
