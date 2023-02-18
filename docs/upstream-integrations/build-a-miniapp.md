@@ -86,7 +86,7 @@ With the hello-action template set up, you can now start building and testing yo
 
 ### Building Your Action
 
-1. Use the `src/hello-action.ts` file as a template for your action.
+1. Use the [`src/actions/hello-action.controller.ts`](https://github.com/abridged/collabland-hello-action/blob/master/src/actions/hello-action.controller.ts) file as a template for your action.
 2. Define the action metadata for Discord in the `getMetadata()` method. This includes information such as the name of the action, developer, version, and description.
 
 ```jsx
