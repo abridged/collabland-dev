@@ -14,7 +14,7 @@ Collab.Land Actions is a simple REST API endpoint for building custom actions fo
 
 This API should return your mini-apps metadata. [Collab.Land](https://Collab.Land) will call the endpoint to fetch the details of your mini-app for audit and operational purposes. It should return a `metadata` result containing your apps `manifest`, `supportedInteractions` and `applicationCommands` in the format outlined below:
 
-```json
+```jsx
 interface Metadata {
     // Manifest for defining mini-app metadata
     manifest: MiniAppManifest;
