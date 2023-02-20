@@ -4,7 +4,7 @@ title: Build a miniapp with Collab.Land Actions
 sidebar_position: 1
 ---
 
-Collab.Land Actions is a set of tools for building and testing custom actions for Discord interactions. With Collab.Land Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
+**Collab.Land Actions** is a set of tools for building and testing custom actions for Discord interactions. With Collab.Land Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
 
 To get started, use any of the `hello-action` templates we provide on GitHub:
 
@@ -35,7 +35,7 @@ git clone [PROJECT_URL.git]
 1. Navigate to the project directory and install the project dependencies.
 
 ```bash
-cd hello-action
+cd collabland-hello-action
 npm install
 ```
 
@@ -91,7 +91,8 @@ With the hello-action template set up, you can now start building and testing yo
 
 ### Building Your Action
 
-1. Use the `/src/actions/hello-action.controller.ts` file as a template for your action.
+1. Use the [`src/actions/hello-action.controller.ts`](https://github.com/abridged/collabland-hello-action/blob/master/src/actions/hello-action.controller.ts) file as a template for your action.
+
 2. Define the action metadata for Discord in the `getMetadata()` method. This includes information such as the name of the action, developer, version, and description.
 
 ```jsx
@@ -257,7 +258,7 @@ This guide will walk you through the steps of installing and setting up the Coll
 
 Upon Authorization, you will be redirected to the Command Center. It is a password-protected site with:
 
-- Username: `collabland` &
+- Username: `collabland`
 - Password: `nft1024`
 
 To access the Command Center again, go to: [https://cc-qa.collab.land](https://cc-qa.collab.land)
