@@ -62,7 +62,7 @@ Token Gating Rules (TGRs) are schemas that describe the required tokens. TGRs us
 ]
 ```
 
-Collab.Land supports many fungible and non-fungible tokens on many chains. To gate your website with a certain token, you need to provide the token details in the example above. You can find chain IDs [here](https://chainid.network/) and here's a guide to [find your token details](https://collabland.freshdesk.com/support/solutions/articles/70000626242-finding-token-details-on-opensea)
+Collab.Land supports many fungible and non-fungible tokens on many chains. To gate your website with a certain token, you need to provide the token details in the example above. You can find chain IDs [here](https://chainid.network/) and here's a guide to [find your token details](../docs/common-reference-docs/finding-token-details)
 
 ## Tutorial
 
