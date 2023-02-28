@@ -135,9 +135,9 @@ Go to the Discord server in which you installed the [Collab.Land](https://Collab
 
 ![Installing the Test Flight Mini App](../upstream-integrations/imgs/test-flight-command.png)
 
-Select the `/test-flight install` option and enter your public action URL you created earlier using nfgrok in the `action-url` field. For example, here we entered: [https://api-qa.collab.land/hello-action](https://api-qa.collab.land/hello-action)
+Select the `/test-flight install` option and enter your public action URL you created earlier using nfgrok in the `action-url` field. For example, here we entered: [https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/hello-action](https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/hello-action)
 
-![Installing hello-action ](../upstream-integrations/imgs/tf-install.png)
+![Installing hello-action ](../upstream-integrations/imgs/install.png)
 
 You will get a message with a description of the `action` that you are about to install. Click the “Install the action” button. You will get a confirmation that the “action is installed”.
 
