@@ -1,10 +1,10 @@
 ---
 id: build-a-custom-action
-title: Build a custom action
+title: Build a custom Collab Action
 sidebar_position: 3
 ---
 
-Collab.Land Actions is a simple REST API endpoint for building custom actions for Discord interactions. We recommend using the [hello-action template](../upstream-integrations/build-a-miniapp) for contributing mini-apps to Collab.Land. However, if you want to build your own custom actions, you can do that by building and exposing the `/metadata` and `/interactions` endpoints to Collab.Land.
+Collab Actions is a simple REST API endpoint for building custom actions for Discord interactions. We recommend using the [hello-action template](../upstream-integrations/build-a-miniapp) for contributing mini-apps to Collab.Land. However, if you want to build your own custom actions, you can do that by building and exposing the `/metadata` and `/interactions` endpoints to Collab.Land.
 
 ![Action Diagram](../upstream-integrations/imgs/action-diagram.png)
 
@@ -16,18 +16,18 @@ This API should return your mini-apps metadata. [Collab.Land](https://Collab.Lan
 
 ```jsx
 interface Metadata {
-    // Manifest for defining mini-app metadata
-    manifest: MiniAppManifest;
+  // Manifest for defining mini-app metadata
+  manifest: MiniAppManifest;
 
-    // A list of all the supported interactions on your app
-    supportedInteractions: {
-      type: InteractionType;
-      names: ["hello-action"];
-    };
+  // A list of all the supported interactions on your app
+  supportedInteractions: {
+    type: InteractionType,
+    names: ['hello-action'],
+  };
 
-    // All the application commands that will be used
-    applicationCommands: ApplicationCommand;
-  }
+  // All the application commands that will be used
+  applicationCommands: ApplicationCommand;
+}
 ```
 
 ### manifest
@@ -84,7 +84,7 @@ An example implementation for the mini-app manifest:
    shortName: 'hello-action',
    version: {name: '0.0.1'},
    website: 'https://collab.land',
-   description: 'An example Collab.Land action',
+   description: 'An example Collab Action',
 }),
 ```
 
@@ -108,22 +108,22 @@ supportedInteractions:{
 interface ApplicationCommand {
   metadata: {
     // metadata name for the command
-    name: "HelloAction",
+    name: 'HelloAction',
     // short metadata name for the command
-    shortName: "hello-action",
+    shortName: 'hello-action',
   };
 
   // actual name of the command to be used in discord.
-  name: "hello-action";
+  name: 'hello-action';
   type: ApplicationCommandType;
 
   // description of the command
-  description: "/hello-action";
+  description: '/hello-action';
 
   // options for discord command as per [Discord documentation](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-structure)
   options: [
     {
-      name: "your-name",
+      name: 'your-name',
       description: "Name of person we're greeting",
       type: ApplicationCommandOptionType,
       required: true,
@@ -166,13 +166,13 @@ Here are some code implementations (in Javascript) you can leverage to verify si
 ## ECDSA
 
 ```jsx
-const { utils } = require("ethers");
+const { utils } = require('ethers');
 function verifyRequestWithEcdsa(publicKey, signature, body) {
   let verified = false;
   try {
-    console.log("Verifying webhook request with Ecdsa signature...");
+    console.log('Verifying webhook request with Ecdsa signature...');
     console.log(
-      "Public key: %s, signature: %s, message: %s",
+      'Public key: %s, signature: %s, message: %s',
       publicKey,
       signature,
       body
@@ -181,15 +181,15 @@ function verifyRequestWithEcdsa(publicKey, signature, body) {
     verified =
       signature != null &&
       utils.recoverPublicKey(digest, signature) === publicKey;
-    console.log("Signature verified: %s", verified);
+    console.log('Signature verified: %s', verified);
   } catch (err) {
-    console.log("Failed to verify signature: %O", err);
+    console.log('Failed to verify signature: %O', err);
     verified = false;
   }
 
   if (!verified) {
-    console.log("Invalid signature: %s, body: %s", signature, body);
-    throw new Error("Invalid request - Ecdsa signature cannot be verified.");
+    console.log('Invalid signature: %s, body: %s', signature, body);
+    throw new Error('Invalid request - Ecdsa signature cannot be verified.');
   }
   return verified;
 }
@@ -198,13 +198,13 @@ function verifyRequestWithEcdsa(publicKey, signature, body) {
 ## ED2599
 
 ```jsx
-const nacl = require("tweetnacl");
+const nacl = require('tweetnacl');
 function verifyRequestWithEd25519(publicKey, signature, body) {
   let verified = false;
   try {
-    console.log("Verifying webhook request with Ed25519 signature...");
+    console.log('Verifying webhook request with Ed25519 signature...');
     console.log(
-      "Public key: %s, signature: %s, message: %s",
+      'Public key: %s, signature: %s, message: %s',
       publicKey,
       signature,
       body
@@ -212,17 +212,17 @@ function verifyRequestWithEd25519(publicKey, signature, body) {
     verified =
       signature != null &&
       nacl.sign.detached.verify(
-        Buffer.from(body, "utf-8"),
-        Buffer.from(signature, "hex"),
-        Buffer.from(publicKey, "hex")
+        Buffer.from(body, 'utf-8'),
+        Buffer.from(signature, 'hex'),
+        Buffer.from(publicKey, 'hex')
       );
-    console.log("Signature verified: %s", verified);
+    console.log('Signature verified: %s', verified);
   } catch (err) {
     verified = false;
     console.log(err.message);
   }
   if (!verified) {
-    throw new Err("Invalid request - Ed25519 signature cannot be verified.");
+    throw new Err('Invalid request - Ed25519 signature cannot be verified.');
   }
   return verified;
 }

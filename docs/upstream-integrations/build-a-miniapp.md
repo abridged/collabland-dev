@@ -1,15 +1,15 @@
 ---
 id: build-a-miniapp
-title: Build a miniapp with Collab.Land Actions
+title: Build a miniapp with Collab Actions
 sidebar_position: 1
 ---
 
-**Collab.Land Actions** is a set of tools for building and testing custom actions for Discord interactions. With Collab.Land Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
+**Collab Actions** is a set of tools for building and testing custom actions for Discord interactions. With Collab Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
 
 To get started, use any of the `hello-action` templates we provide on GitHub:
 
 1. [Loopback hello-action template](https://github.com/abridged/collabland-hello-action/).
-2. [Express hello-action template](https://github.com/abridged/collabland-action-express). 
+2. [Express hello-action template](https://github.com/abridged/collabland-action-express).
 
 The templates provide a basic structure for building custom actions on top of the Collab.Land engine. Once your custom action is built, it can be run on a TestFlight mini-app within the Collab.Land QA bot to execute the business logic you've developed.
 
