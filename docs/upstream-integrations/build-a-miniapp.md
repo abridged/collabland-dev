@@ -13,7 +13,7 @@ To get started, use any of the `hello-action` templates we provide on GitHub:
 
 The templates provide a basic structure for building custom actions on top of the Collab.Land engine. Once your custom action is built, it can be run on a TestFlight mini-app within the Collab.Land QA bot to execute the business logic you've developed.
 
-After testing, you can then install the action on your Discord server and test your implementation end to end without any oversight or dependency on Collab.Land. This allows for efficient contribution and extension to Collab.Land without the overhead of manual setup.
+You can install the action on your Discord server and test your implementation end to end without any oversight or dependency on Collab.Land. This allows for efficient contribution and extension to Collab.Land without the overhead of manual setup.
 
 # Getting Started
 
@@ -45,196 +45,44 @@ npm install
 npm run build
 ```
 
-5. To test the project, run the following command:
+## Run hello-action with Collab.Land QA bot
 
-```bash
-npm test
-```
+To run the server for Collab.Land QA bot:
 
-### Running template locally
+1. Fetch action public keys for Collab.Land QA
 
-To try out the project, you can run the `hello-action` server using the following command:
+Open https://api-qa.collab.land/config from your browser:
 
-```bash
-npm run server
-```
-
-By default, the server will generate an ECDSA key for signature verification between the client (signing the request payload) and the server (verifying the signature of the request).
-
-To run the `hello-action` server with Collab.Land's public key for signature verification set the environment variable:
-
-```jsx
-export COLLABLAND_ACTION_PUBLIC_KEY=<public-key>
-```
-
-You can also use the following commands to run the server with different types of keys:
-
-```bash
-npm run server -- ecdsa
-npm run server -- ed25519
-npm run server -- <public-key>
-```
-
-When the server is running, it will output the signing key (including ecdsa: or ed25519:) in the console. You can copy this key and use it to run the hello-action test client.
-
-### Running the `hello-action` test client
-
-To run the `hello-action` test client, use the following command:
-
-```bash
-npm run client -- <server-signing-key>
-```
-
-## Next Steps
-
-With the hello-action template set up, you can now start building and testing your own custom actions.
-
-### Building Your Action
-
-1. Use the [`src/actions/hello-action.controller.ts`](https://github.com/abridged/collabland-hello-action/blob/master/src/actions/hello-action.controller.ts) file as a template for your action.
-
-2. Define the action metadata for Discord in the `getMetadata()` method. This includes information such as the name of the action, developer, version, and description.
-
-```jsx
-async getMetadata(): Promise<DiscordActionMetadata> {
-    const metadata: DiscordActionMetadata = {
-        manifest: new MiniAppManifest({
-            appId: 'hello-action',
-            developer: 'collab.land',
-            name: 'HelloAction',
-            platforms: ['discord'],
-            shortName: 'hello-action',
-            version: {name: '0.0.1'},
-            website: 'https://collab.land',
-            description: 'An example Collab.Land action',
-        }),
-        supportedInteractions: this.getSupportedInteractions(),
-        applicationCommands: this.getApplicationCommands(),
-    };
-    return metadata;
+```json
+{
+  "actionEcdsaPublicKey": "0x043b30458cf281461de368fd591b4c9b511a1b9263cea48517f41217ba14aa714fefea1adcfc9d8ae7ec0b4f7272f472178a5e674a1229ce5d2f2526244d62fbd8",
+  "actionEd25519PublicKey": "DhF7T98EBmH1ZFmdGJvBhkmdn3BfAqc3tz8LxER8VH2q"
 }
 ```
 
-3. Implement the `followup()` method to define the supported interactions and application commands for the action.
+2. Download and install `ngrok` from https://ngrok.com/download
 
-The `followup()` method takes in the `request` and `message` as arguments, it is used to build a follow-up message to accompany the initial response. In the example below, it checks for the existence of a callback URL and if it exists, it creates a follow-up message object, waits for 1 second and then sends it using the `followupMessage()` function. It then waits for another second and starts a countdown of 5 seconds.
+3. Run hello-action server
 
-```jsx
-private async followup(
-    request: DiscordActionRequest<APIChatInputApplicationCommandInteraction>,
-    message: string,
-  ) {
-    const callback = request.actionContext?.callbackUrl;
-    if (callback != null) {
-      const followupMsg: RESTPostAPIWebhookWithTokenJSONBody = {
-        content: `Follow-up: **${message}**`,
-        flags: MessageFlags.Ephemeral,
-      };
-      await sleep(1000);
-      let msg = await this.followupMessage(request, followupMsg);
-      await sleep(1000);
-      // 5 seconds count down
-      for (let i = 5; i > 0; i--) {
-        const updated: RESTPatchAPIWebhookWithTokenMessageJSONBody = {
-          content: `[${i}s]: **${message}**`,
-        };
-        msg = await this.editMessage(request, updated, msg?.id);
-        await sleep(1000);
-      }
-      // Delete the follow-up message
-      await this.deleteMessage(request, msg?.id);
-    }
-  }
-```
+   ```sh
+   npm run server -- DhF7T98EBmH1ZFmdGJvBhkmdn3BfAqc3tz8LxER8VH2q
+   ```
 
-It then continues the countdown and sends an updated follow-up message with the remaining seconds in each iteration.
+   From a different terminal window:
 
-- `getSupportedInteraction()` — This function returns an array of supported interactions to provide routing guidance for Collab.Land to understand how to forward Discord interactions to this action.
+   ```sh
+   ngrok http 3000
+   ```
 
-```jsx
-private getSupportedInteractions(): DiscordInteractionPattern[] {
-    return [
-      {
-        // Handle `/hello-action` slash command
-        type: InteractionType.ApplicationCommand,
-        names: ['hello-action'],
-      },
-    ];
-  }
-```
+4. Copy the `https` URL, for example (yours will be **different**):
 
-In this case, it's set to handle the `/hello-action` slash command.
+   ```
+   https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/
+   ```
 
-- `getApplicationCommands()` — This function returns an array of application commands, in this case, it's set to handle the `/hello-action <your-name>` slash command. It is required for Collab.Land to expose the action’s slash command in the Discord server.
+   Append `/hello-action` to get the full URL. For example: `https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/hello-action`
 
-```jsx
-private getApplicationCommands(): ApplicationCommandSpec[] {
-    const commands: ApplicationCommandSpec[] = [
-      // `/hello-action <your-name>` slash command
-      {
-        metadata: {
-          name: 'HelloAction',
-          shortName: 'hello-action',
-        },
-        name: 'hello-action',
-        type: ApplicationCommandType.ChatInput,
-        description: '/hello-action',
-        options: [
-          {
-            name: 'your-name',
-            description: "Name of person we're greeting",
-            type: ApplicationCommandOptionType.String,
-            required: true,
-          },
-        ],
-      },
-    ];
-    return commands;
-  }
-```
-
-4. Implement the `handle()` method to process various Discord interactions. It takes in the `interaction` parameter which is an object that contains information about the interaction.
-
-```jsx
-protected async handle(
-    interaction: DiscordActionRequest<APIChatInputApplicationCommandInteraction>,
-  ): Promise<DiscordActionResponse> {
-    // Get the value of `your-name` argument for `/hello-action`
-    const yourName = getCommandOptionValue(interaction, 'your-name');
-    const message = `Hello, ${
-      yourName ?? interaction.user?.username ?? 'World'
-    }!`;
-    // Build a simple Discord message private to the user
-    const response: APIInteractionResponse = buildSimpleResponse(message, true);
-    // Allow advanced followup messages
-    this.followup(interaction, message).catch(err => {
-      console.error(
-        'Fail to send followup message to interaction %s: %O',
-        interaction.id,
-        err,
-      );
-    });
-    // Return the 1st response to Discord
-    return response;
-  }
-```
-
-This is where you implement your custom action logic. In this example, it calls a `getCommandOptionValue()` function to get the value of an argument called `your-name` from the interaction. Then it creates a message string by concatenating the `your-name` value with the text "Hello, " and if the `yourName` variable is null, it uses the `interaction.user?.username` or `'World'` as a fallback. After that, it creates a response object by calling the function `buildSimpleResponse()` with the message and a boolean value, which is used to build a simple message that is private to the user.
-
-If you’ve gotten to this point, the expectation is that you’ve been able to do a few things:
-
-- Clone the `hello-action` template and run it locally
-- Customize the `hello-action` to implement your custom logic and functionality
-
-# Deployment Guide
-
-This guide provides instructions for deploying a locally built `action` to a public URL, making it accessible to Collab.Land.
-
-> You can deploy your action like any other project to your preferred deployment platform. [Collab.Land](https://Collab.Land) does not enforce any particular deployment practices or platforms.
-
-## Submitting Your Action
-
-Once your action is built, you can [submit it for review](https://forms.gle/rTMmiXa8W7qUVA4f8) to Collab.Land. The metadata provided in the `getMetadata()` method will be reviewed to ensure there are no conflicts with other actions. Upon successful review and approval, the metadata will be saved in the action registry and frozen for that version.
+5. Follow instructions below to test your action with Collab.Land QA bot.
 
 ## Setting Up the TestFlight Mini-App on Discord
 
@@ -287,7 +135,7 @@ Go to the Discord server in which you installed the [Collab.Land](https://Collab
 
 ![Installing the Test Flight Mini App](../upstream-integrations/imgs/test-flight-command.png)
 
-Select the `/test-flight install` option and enter your public action URL in the `action-url` field. For example, here we entered: [https://api-qa.collab.land/hello-action](https://api-qa.collab.land/hello-action)
+Select the `/test-flight install` option and enter your public action URL you created earlier using nfgrok in the `action-url` field. For example, here we entered: [https://api-qa.collab.land/hello-action](https://api-qa.collab.land/hello-action)
 
 ![Installing hello-action ](../upstream-integrations/imgs/tf-install.png)
 
@@ -296,6 +144,8 @@ You will get a message with a description of the `action` that you are about to 
 ![Installed hello-action mini app](../upstream-integrations/imgs/installed-action.png)
 
 You and your users can now start using your `action` in the Discord server by running your slash commands!
+
+To customize this action and test it locally, follow this [guide](./test-locally.md).
 
 <!-- For example, here `/hello-action` command is installed -->
 
