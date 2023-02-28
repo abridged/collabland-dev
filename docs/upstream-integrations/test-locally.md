@@ -1,6 +1,6 @@
 ---
 id: test-locally
-title: Implement & Test your Action Locally
+title: Implement & test your Collab Action locally
 sidebar_position: 2
 ---
 
@@ -70,7 +70,7 @@ Similarly, as your action getting complicated, don't forget to edit `src/client.
 
 You can now start building and testing your own custom actions. Let's take a closer look at how everything's putting together. The following are implementation breakdowns:
 
-### Building Your Action
+### Building Your Collab Action
 
 1. Use the [`src/actions/hello-action.controller.ts`](https://github.com/abridged/collabland-hello-action/blob/master/src/actions/hello-action.controller.ts) file as a template for your action.
 
@@ -87,7 +87,7 @@ async getMetadata(): Promise<DiscordActionMetadata> {
             shortName: 'hello-action',
             version: {name: '0.0.1'},
             website: 'https://collab.land',
-            description: 'An example Collab.Land action',
+            description: 'An example Collab Action',
         }),
         supportedInteractions: this.getSupportedInteractions(),
         applicationCommands: this.getApplicationCommands(),
@@ -213,7 +213,7 @@ In the [previous guide](./build-a-miniapp.md), we showed how you can install you
 
 You can deploy your action to your preferred deployment platform. [Collab.Land](https://Collab.Land) does not enforce any particular deployment practices or platforms.
 
-## Submitting Your Action
+## Submitting Your Collab Action
 
 Once your action is built, you can [submit it for review](https://forms.gle/rTMmiXa8W7qUVA4f8) to Collab.Land. The metadata provided in the `getMetadata()` method will be reviewed to ensure there are no conflicts with other actions. Upon successful review and approval, the metadata will be saved in the action registry and frozen for that version.
 
