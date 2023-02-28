@@ -1,7 +1,7 @@
 ---
 id: build-a-custom-action
 title: Build a custom action
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Collab.Land Actions is a simple REST API endpoint for building custom actions for Discord interactions. We recommend using the [hello-action template](../upstream-integrations/build-a-miniapp) for contributing mini-apps to Collab.Land. However, if you want to build your own custom actions, you can do that by building and exposing the `/metadata` and `/interactions` endpoints to Collab.Land.
