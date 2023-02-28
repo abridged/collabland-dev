@@ -181,6 +181,22 @@ For ERC-1155, since it requires entering each token ID, we also support OpenSea 
 ]
 ```
 
+For Gnosis Safe, enter the chain ID at the start of "asset field". Please refer to the example below:
+
+```json
+"rules": [
+  {
+    "scheme": "gnosis",
+    "version": "2.1.0",
+    "name": "King Kong",
+    "roleId": "005",
+    "asset": "evm:56/gnosis:0xb0147F1a001c890C7040146D6704CeCf56F10F7F",
+    "classifierGroup": "TPC",
+    "minToken": "1"
+  }
+]
+```
+
 Other than EVM based chains, you can also have TGRs for other chains such as Solana and many others.
 
 Here are some examples of TGRs for Solana:
@@ -190,7 +206,7 @@ Here are some examples of TGRs for Solana:
   {
       "tokenId": "2nPkG7zgW8Edr5eNhbaJ1RqNgx6Ds4ZsRM8qTRBNe2i1",
       "name": "Degen Whale",
-      "roleId": "005",
+      "roleId": "006",
       "chainId": 8000000000101,
       "minToken": "5",
       "contractAddress": "creators",
