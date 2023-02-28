@@ -32,20 +32,20 @@ This guide will walk you through the process of setting up and testing your firs
 git clone [PROJECT_URL.git]
 ```
 
-1. Navigate to the project directory and install the project dependencies.
+3. Navigate to the project directory and install the project dependencies.
 
 ```bash
 cd collabland-hello-action
 npm install
 ```
 
-1. Build the project
+4. Build the project
 
 ```bash
 npm run build
 ```
 
-1. To test the project, run the following command:
+5. To test the project, run the following command:
 
 ```bash
 npm test
