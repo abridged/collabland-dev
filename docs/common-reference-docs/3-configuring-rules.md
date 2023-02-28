@@ -181,7 +181,7 @@ For ERC-1155, since it requires entering each token ID, we also support OpenSea 
 ]
 ```
 
-For Gnosis, enter the chain ID at the start of "asset field". Please refer to the example below:
+For Gnosis Safe, enter the chain ID at the start of "asset field". Please refer to the example below:
 
 ```json
 "rules": [
