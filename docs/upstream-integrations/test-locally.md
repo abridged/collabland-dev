@@ -209,7 +209,7 @@ If you’ve gotten to this point, the expectation is that you’ve been able to 
 
 ## Deployment Guide
 
-In the [previous guide](./build-a-miniapp.md), we showed how you can install your action via `/test-flight install` command (eg: https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/hello-action). You can install your own action following the same steps. Notice that you will need update your action if there are parameter changes. You can update it by uninstalling & re-installing the action.
+In the [previous guide](./build-a-miniapp.md), we showed how you can install your action via `/test-flight install` command (eg: https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/hello-action). You can install your own action following the same steps. Notice that you will need to update your action if supported interactions are changed (command params, action path, etc.). You can reinstall the action by `/test-flight install <url>` command.
 
 You can deploy your action to your preferred deployment platform. [Collab.Land](https://Collab.Land) does not enforce any particular deployment practices or platforms.
 
