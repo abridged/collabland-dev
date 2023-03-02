@@ -100,7 +100,7 @@ This guide will walk you through the steps of installing and setting up the Coll
 
 ![Bot Authentication](../upstream-integrations/imgs/bot-invite.png)
 
-1. Grant the required permissions:
+3. Grant the required permissions:
 
 ![Grant Bot Required Permissions](../upstream-integrations/imgs/permissions.png)
 
