@@ -6,18 +6,21 @@ sidebar_position: 1
 
 **Collab Actions** is a set of tools for building and testing custom actions for Discord interactions. With Collab Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
 
-To get started, use any of the `hello-action` templates we provide on GitHub:
+To get started, use any of the `action` templates we provide on GitHub:
 
-1. [Loopback hello-action template](https://github.com/abridged/collabland-hello-action/).
-2. [Express hello-action template](https://github.com/abridged/collabland-action-express).
+1. [Express action template](https://github.com/abridged/collabland-action-express)
+2. [Loopback hello-action template](https://github.com/abridged/collabland-hello-action/)
+3. [Python action template](https://github.com/abridged/collabland-action-fastapi)
 
 The templates provide a basic structure for building custom actions on top of the Collab.Land engine. Once your custom action is built, it can be run on a TestFlight mini-app within the Collab.Land QA bot to execute the business logic you've developed.
 
 You can install the action on your Discord server and test your implementation end to end without any oversight or dependency on Collab.Land. This allows for efficient contribution and extension to Collab.Land without the overhead of manual setup.
 
+You can find more granular information on the template repositories, including how to run the action locally, what interactions types are supported and more in the template README files.
+
 # Getting Started
 
-This guide will walk you through the process of setting up and testing your first action using the `hello-action` template.
+This guide will walk you through the process of setting up and testing your first action using the `Express action` template.
 
 ## Prerequisites
 
@@ -25,7 +28,7 @@ This guide will walk you through the process of setting up and testing your firs
 
 ## Using the hello-action template
 
-1. Fork the `hello-action` [template repository](https://github.com/abridged/collabland-hello-action/) from GitHub.
+1. Fork the `express action` [template repository](https://github.com/abridged/collabland-action-express/fork) from GitHub.
 2. Clone the project.
 
 ```bash
@@ -35,7 +38,7 @@ git clone [PROJECT_URL.git]
 3. Navigate to the project directory and install the project dependencies.
 
 ```bash
-cd collabland-hello-action
+cd collabland-action-express
 npm install
 ```
 
@@ -45,7 +48,7 @@ npm install
 npm run build
 ```
 
-## Run hello-action with Collab.Land QA bot
+## Run action with Collab.Land QA bot
 
 To run the server for Collab.Land QA bot:
 
@@ -62,7 +65,7 @@ Open https://api-qa.collab.land/config from your browser:
 
 2. Download and install `ngrok` from https://ngrok.com/download
 
-3. Run hello-action server
+3. Run the action server
 
    ```sh
    npm run server -- DhF7T98EBmH1ZFmdGJvBhkmdn3BfAqc3tz8LxER8VH2q
@@ -80,7 +83,10 @@ Open https://api-qa.collab.land/config from your browser:
    https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/
    ```
 
-   Append `/hello-action` to get the full URL. For example: `https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/hello-action`
+   To test the the `hello-action` interaction, append `/hello-action` to get the full URL.
+   For example: `https://0c49-2601-646-9e00-80-3964-47d-7146-ff13.ngrok.io/hello-action`
+
+> Repeat the same process to test for other interactions like the `/button-action` and `/popup-action` respectively.
 
 5. Follow instructions below to test your action with Collab.Land QA bot.
 
