@@ -1,6 +1,6 @@
 ---
 id: build-a-template-collab-action
-title: Build Collab Action from Template
+title: Build Actions from Template
 sidebar_position: 3
 ---
 
@@ -72,8 +72,6 @@ The `applicationCommands` array specifies the supported application commands for
 3. Implement the `followup()` function.
 
 The `followup()` function takes in `request` and `message` as arguments, it is used to build a follow-up message to accompany the initial response. In the example below, it checks for the existence of a callback URL and if it exists, it creates a follow-up message object, waits for 1 second and then sends it using the `followupMessage()` function. It then waits for another second and starts a countdown of 5 seconds which sends an updated follow-up message with the remaining seconds in each iteration. Once the countdown is complete, it deletes the follow-up message.
-
-The `followup()` function requires `request` and `message` as arguments. It is used to generate a follow-up message that accompanies the initial response. In the example provided below, the function first checks for the presence of a callback URL. If such a URL exists, the function proceeds to create a follow-up message object. After a 1-second delay, the function sends the follow-up message using the `followupMessage()` function.
 
 Following this, the function initiates a countdown of 5 seconds, waiting for 1 second between each iteration. During each iteration, an updated follow-up message is sent that displays the remaining seconds. Once the countdown is complete, the function deletes the follow-up message.
 
