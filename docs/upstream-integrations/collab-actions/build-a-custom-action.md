@@ -4,7 +4,7 @@ title: Build a custom Collab Action
 sidebar_position: 4
 ---
 
-Collab Actions is a simple REST API endpoint for building custom Actions for Discord interactions. We recommend using the [hello-action template](../upstream-integrations/build-a-miniapp) for contributing mini-apps to Collab.Land. However, if you want to build your own custom actions, you can do that by building and exposing the `/metadata` and `/interactions` endpoints to Collab.Land.
+Collab Actions is a simple REST API endpoint for building custom Actions for Discord interactions. We recommend using the [hello-action template](../collab-actions/getting-started-with-collab-actions) for contributing mini-apps to Collab.Land. However, if you want to build your own custom actions, you can do that by building and exposing the `/metadata` and `/interactions` endpoints to Collab.Land.
 
 ![Action Diagram](../../upstream-integrations/imgs/action-diagram.png)
 
