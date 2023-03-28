@@ -1,58 +1,46 @@
-# Collab.Land actions
+# Collab.Land Actions
+Collab.Land is launching a marketplace for Web3 developers and communities. Collab Actions is a tool for contributing apps to this marketplace. Developers can get started with Collab Actions by following the instructions provided in the [Getting Started with Collab Actions](https://dev.collab.land/docs/upstream-integrations/collab-actions/getting-started-with-collab-actions) guide.
 
-Collab.Land is launching a marketplace for web3 developers and communities.
+## Why a Marketplace?
 
-## Why marketplace?
-
-- Web3 applications are hungry for user adoptions
-- Tokenized communities and crypto users demand for meaning features from their
-  native platforms, such as Discord, Telegram, and Reddit for simpler onboarding
-  and engaging by leveraging Web3 methodology and technology.
-- A decentralized marketplace with distribution channels connect Web3
-  applications with the right users
+The Web3 ecosystem is hungry for user adoption, and tokenized communities and crypto users demand meaningful features from native platforms such as Discord, Telegram, and Reddit for simpler onboarding and engagement. A decentralized marketplace with distribution channels can connect Web3 applications with the right users.
 
 ## Why Collab.Land?
 
-- Collab.Land serves more than 43,000 tokenized communities where web curious
-  and savvy users collaborate. We have been trusted by more than 2M users and
-  verified 8M wallets. The potential user base we can reach is over 90M alone on
-  Discord servers managed by Collab.Land.
-- Collab.Land supports many wallet providers, blockchain networks and digital
-  assets.
-- Collab.Land core team is becoming a bottleneck to meet the demand of our
-  communities and users. We want to teach the teachers so that developers can
-  join us to build and win together.
-- Collab.Land platform is highly extensible to make it much easier to create an
-  ecosystem of many builders.
+- Collab.Land serves over 43,000 tokenized communities with more than 2 million users and 8 million verified wallets. This provides a massive user base for developers to target and enlist their apps.
+- Our APIs are highly extensible and supports multiple wallet providers, blockchain networks, and digital assets making it possible for an ecosystem of builders to emerge.
+- Collab.Land also allows developers to control the development / deployment process and provides an easy-to-use `/test-flight` feature for testing in development.
 
-<!-- ## What's a miniapp? -->
+## MiniApps
+The Apps you develop to list on the Collab.Land marketplace are called miniapps. These miniapps can be developed in one of two ways:
+* Via the Colla.Land Code base
+* Via Collab Actions.
 
-<!-- ## How to build a miniapp directly with Collab.Land's code base?
+## Build MiniApps via the codebase
+This is a legacy approach that we no longer recommend. It introduces the infrastructural overhead of cloning the Collab.Land codebase, setting up locally which could take a considerable amount of time and handling other extras like AWS, security, and auth by yourself.
 
-- Pros
-- Cons -->
-
-## Collab.Land actions for a better/simpler approach
+## Build MiniApps via Collab.Land Actions
+This is the recommended approach that allows you to build on top existing Action templates with all the underlying infrastruce and security concerns built-in. 
 
 - No need to access Collab.Land code base
 - No need to provision AWS accounts/resources for development
-- REST API based
-- Isolation between the action logic and Collab.Land runtime
-- Developers control the deployment
-- Super easy to test with `/test-flight`
+- The actions are REST API-based and have isolation between the action logic and Collab.Land runtime
+- Developers control the development and deployment flow
+- Easily test Actions with `/test-flight`.
 
 ## Architecture
 
-![collabland-actions](collabland-actions.png)
+![collabland-actions](imgs/collabland-actions.png)
 
-## What kinds of actions can you build
+## What kinds of Actions can you build?
 
 - Discord UIs
 - Token gating rules
 - User profiles
 - Community management
 
-## Build an action for Discord commands
+## Build Actions for Discord commands
+Developers can build Actions for Discord commands such as slash commands, popup commands, and message components like buttons, modals, and select menus.
 
 - Slash commands
 - Popup commands (user/message)
@@ -61,33 +49,12 @@ Collab.Land is launching a marketplace for web3 developers and communities.
   - Modal
   - Select menu
 
-## Security and authorization
+## Examples and Resources
+We have three example Collab Action templates for you to consider:
 
-- Webhook signature verification
+- [Loopback Hello Action template](https://github.com/abridged/collabland-hello-action)
 
-## API access
+- [Express Action template](https://github.com/abridged/collabland-action-express)
+- [Python Action template](https://github.com/abridged/collabland-action-fastapi)
 
-- Request permissions
-- API access token
-
-## Common infrastructures
-
-- gmPass
-- Community/User based APIs
-- DIDs/VCreds
-- Pub/sub
-- KYC
-
-<!-- ## How to deploy your actions -->
-
-## Examples
-
-- https://github.com/abridged/collabland-hello-action
-
-![hello-action](collabland-hello-action.png)
-
-- https://github.com/abridged/collabland-action-express
-
-## Docs
-
-- https://docs.collab.land/docs/upstream-integrations/build-a-miniapp
+Learn more about building miniapps with Collab Actions [here](/docs/upstream-integrations/collab-actions/getting-started-with-collab-actions)
