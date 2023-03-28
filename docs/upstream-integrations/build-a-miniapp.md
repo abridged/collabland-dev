@@ -151,7 +151,7 @@ You will get a message with a description of the `action` that you are about to 
 
 You and your users can now start using your `action` in the Discord server by running your slash commands!
 
-To customize this action and test it locally, follow this [guide](./test-locally.md).
+To customize this action and test it locally, follow this [guide](../upstream-integrations/collab-actions/customize-collab-actions.md).
 
 <!-- For example, here `/hello-action` command is installed -->
 
