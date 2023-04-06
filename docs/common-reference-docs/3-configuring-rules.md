@@ -158,6 +158,23 @@ Collab.Land also supports Token Gating with OpenSea collections on Ethereum main
 ]
 ```
 
+### Staked Token Schema
+
+```json
+"rules": [
+  {
+      "version": "1.0.0",
+      "collectionName": "Coco",
+      "roleId": "Staked Token",
+      "chainId": 1,
+      "minToken": "0",
+      "classifierGroup": "TPC",
+      "contractAddress": "0x0Df016Fb18ef4195b2CF9d8623E236272ec52e14",
+      "type": "staking"
+  }
+]
+```
+
 ### Gnosis Safe Schema
 
 You can also gate resources with the Gnosis Safe token which is supported on multiple chains. The following example requires at least 1 Gnosis Safe token on the BSC chain.
@@ -209,6 +226,22 @@ Collab.Land also supports TGRs for non-EVM based chains such as Solana and other
     "minToken": "1",
     "contractAddress": "CJk8TvAXcq1cvC85M9aMQCxPMkTCSuWN5HsFEgAjh4ut",
     "type": "SOLANA_FT"
+  }
+]
+```
+
+### TGR Schema for POAP on Gnosis Chain
+
+```json
+"rules": [
+  {
+      "eventId": "63826",
+      "name": "POAP Holder",
+      "version": "1.0.0",
+      "roleId": "007",
+      "chainId": 100,
+      "contractAddress": "POAP",
+      "type": "POAP"
   }
 ]
 ```
