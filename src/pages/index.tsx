@@ -1,20 +1,20 @@
-import React from "react";
-import clsx from "clsx";
-import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./index.module.css";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import React from 'react';
+import clsx from 'clsx';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import styles from './index.module.css';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div className={styles.header}>
           <div className={styles.content}>
             <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
-            <p className={clsx("hero__subtitle", styles.subtitle)}>
+            <p className={clsx('hero__subtitle', styles.subtitle)}>
               {siteConfig.tagline}
             </p>
             <div className={styles.button}>
@@ -24,7 +24,7 @@ function HomepageHeader() {
                   width={40}
                   height={40}
                   loading="eager"
-                  src={require("@site/static/img/point.png").default}
+                  src={require('@site/static/img/point.png').default}
                 />
               </Link>
             </div>
