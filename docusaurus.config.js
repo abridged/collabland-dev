@@ -1,21 +1,19 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-require('dotenv').config();
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Collab.Land Documentation',
+  title: "Collab.Land Documentation",
   tagline:
-    'Extend the limits of Collab.Land by contributing apps to the marketplace. Build with the Collab.Land API to create your own custom experiences.',
-  url: 'https://dev.collab.land',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-
+    "Extend the limits of Collab.Land by contributing apps to the marketplace. Build with the Collab.Land API to create your own custom experiences.",
+  url: "https://dev.collab.land",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,14 +37,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+          editUrl: "https://github.com/abridged/collabland-dev/tree/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-
+          editUrl: "https://github.com/abridged/collabland-dev/tree/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -96,7 +93,6 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-
     ({
       navbar: {
         title: "Collab.Land Documentation",
@@ -142,16 +138,6 @@ const config = {
           //   position: 'right',
           // },
         ],
-      },
-      algolia: {
-        apiKey: process.env.API_KEY,
-        indexName: 'collabland',
-        appId: process.env.APPLICATION_ID,
-        contextualSearch: true,
-        // Optional: Algolia search parameters
-        searchParameters: {},
-
-        //... other Algolia params
       },
       footer: {
         style: "dark",
