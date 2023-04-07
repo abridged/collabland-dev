@@ -7,8 +7,7 @@ title: Introduction
 
 ## Here’s what [collab.land](http://collab.land) does
 
-Collab.Land provides solutions for managing Web3 communities by token-gating the channels and groups. We also have other features like Tipping(currently limited access), Verifiable Credentials, Decentralized Identities (DIDs), and more.
-We are bringing web2 users to web3. From web2, we support platforms such as Discord, Telegram, and soon Reddit, Github, and Notion. To web3, we support all the popular chains.
+Collab.Land provides solutions for managing Web3 communities by token-gating the channels and groups. Besides token-gating, we support features such as Tipping(currently limited access), Verifiable Credentials, Decentralized Identities (DIDs), and more. Our goal is to bring web2 users to web3. Notably, for our web2 users we support platforms such as Discord, Telegram, and soon Reddit, Github, and Notion. For our web3 users, we support all the popular chains.
 
 ## Why Collab.Land is decentralizing
 
