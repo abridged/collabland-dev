@@ -9,9 +9,10 @@ slug: /token-gating
 Collab.Land offers a token gating feature that allows you to restrict access to elements or pages of your site based on ownership of certain blockchain assets. This tutorial walks you through the process of creating your own token gate for your website using the Collab.Land API.
 
 You can follow this tutorial in a video format here: <https://www.youtube.com/watch?v=EUVdGQuD_kw>
+
 <!-- Embed YouTube video -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EUVdGQuD_kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe webkitallowfullscreen="webkitallowfullscreen" width="560" height="315" src="https://www.youtube.com/embed/EUVdGQuD_kw" allowfullscreen="allowFullScreen" frameBorder="0" title="Token Gating with Collab.Land" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
 ### Website Gating Logic Flow
 
@@ -105,19 +106,19 @@ const res = await getCollabClient().accessControl.checkRoles({
   rules: [
     {
       chainId: 137,
-      minToken: "1",
-      contractAddress: "0x1fdf97e5bee48893eef28116973ca81166e4ec02",
+      minToken: '1',
+      contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
       roleId: MEMBER_ROLE,
-      type: "ERC721",
-      name: "MemberNFT Holder",
+      type: 'ERC721',
+      name: 'MemberNFT Holder',
     },
     {
       chainId: 1,
-      minToken: "1",
-      contractAddress: "0x1fdf97e5bee48893eef28116973ca81166e4ec02",
+      minToken: '1',
+      contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
       roleId: PATRON_ROLE,
-      type: "ERC721",
-      name: "PatronNFT Holder",
+      type: 'ERC721',
+      name: 'PatronNFT Holder',
     },
   ],
 });
