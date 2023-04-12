@@ -117,30 +117,6 @@ const config = {
             activeBaseRegex: `/tutorials/`,
             position: "left",
           },
-          // {
-          //   to: '/internal-docs/introduction',
-          //   label: 'Internal Docs',
-          //   activeBaseRegex: `/internal-docs/`,
-          //   position: 'left',
-          // },
-          // {
-          //   to: '/proposals/intro',
-          //   label: 'Proposals',
-          //   activeBaseRegex: `/proposals/`,
-          //   position: 'left',
-          // },
-          // {
-          //   to: 'apis/',
-          //   activeBasePath: 'apis',
-          //   label: 'APIs',
-          //   position: 'left',
-          // },
-          // {to: '/blog', label: 'Engineering Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/abridged',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       algolia: {
