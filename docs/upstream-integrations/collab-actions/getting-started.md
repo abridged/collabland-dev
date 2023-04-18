@@ -4,7 +4,7 @@ title: Getting started with Collab Actions
 sidebar_position: 1
 ---
 
-**Collab Actions** is a set of tools for building and testing custom Actions for Discord interactions. With Collab Actions, the setup and configuration of the Collab.Land infrastructure, including Docker, AWS, authentications and securities, are handled for you by default.
+**Collab Actions** is a collection of tools designed to help create miniapps for the Collab.Land marketplace. By using Collab Actions, the setup and configuration of the Collab.Land infrastructure, which includes Docker, AWS, security measures, and authentication, is automatically managed for you.
 
 ### Collab.Land Action Templates
 
@@ -14,13 +14,13 @@ To get started, use any of the Collab Action templates we provide on GitHub:
 2. [Loopback Action template](https://github.com/abridged/collabland-hello-action/)
 3. [Python Action template](https://github.com/abridged/collabland-action-fastapi)
 
-Don't want to use a template? You can also build your own Collab Action from scratch. See [Build a Custom Collab Action](/docs/upstream-integrations/collab-actions/build-a-custom-action).
+If you don't want to use a template, you can create your own Collab Action from scratch. Check out [Build a Custom Collab Action](/docs/upstream-integrations/collab-actions/build-a-custom-action) for detailed instructions.
 
-The templates provide a basic structure for building custom Actions on top of the Collab.Land engine. Once your custom action is built, it can be run on a TestFlight mini-app within the Collab.Land QA bot to execute the business logic you've developed.
+The templates offer a basic framework for developing custom Actions using the Collab.Land engine. After building your custom Action, you can run it on a TestFlight mini-app within the Collab.Land QA bot to execute your business logic.
 
-You can install the Action on your Discord server and test your implementation end to end without any oversight or dependency on Collab.Land. This allows for efficient contribution and extension to Collab.Land without the overhead of manual setup.
+Once your Action is installed on your Discord server, you can test your implementation end-to-end without relying on Collab.Land. This approach streamlines the contribution and expansion of Collab.Land while eliminating the manual setup overhead.
 
-You can find more granular information on the template repositories, including how to run the Action locally, what interactions types are supported and more.
+The template repositories provide detailed information, such as how to run the Action locally, supported interaction types, and more.
 
 This guide will walk you through the process of setting up and testing your first Collab Action using the Express Action template.
 
