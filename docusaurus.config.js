@@ -32,12 +32,6 @@ const config = {
   presets: [
     [
       'classic',
-      {
-        gtag: {
-          trackingID: 'G-TT8PTWXCK5',
-          anonymizeIP: true,
-        },
-      },
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -83,6 +77,13 @@ const config = {
         routeBasePath: 'proposals',
         sidebarPath: require.resolve('./sidebars-proposals.js'),
         // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-TT8PTWXCK5',
+        anonymizeIP: true,
       },
     ],
     [
