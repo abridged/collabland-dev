@@ -16,55 +16,51 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Abridged", // Usually your GitHub org/user name.
-  projectName: "CollabLand", // Usually your repo name.
+  organizationName: 'Abridged', // Usually your GitHub org/user name.
+  projectName: 'CollabLand', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
+          sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
     [
-      "redocusaurus",
+      'redocusaurus',
       {
         // debug: Boolean(process.env.DEBUG || process.env.CI),
         specs: [
           {
-            spec: "https://api.collab.land/openapi.yaml",
-            route: "/apis/",
+            spec: 'https://api.collab.land/openapi.yaml',
+            route: '/apis/',
           },
         ],
         theme: {
-          primaryColor: "#1890ff",
+          primaryColor: '#1890ff',
         },
       },
     ],
@@ -72,75 +68,57 @@ const config = {
 
   plugins: [
     [
-      "content-docs",
+      'content-docs',
       {
-        id: "proposals",
-        path: "proposals",
-        routeBasePath: "proposals",
-        sidebarPath: require.resolve("./sidebars-proposals.js"),
+        id: 'proposals',
+        path: 'proposals',
+        routeBasePath: 'proposals',
+        sidebarPath: require.resolve('./sidebars-proposals.js'),
         // ... other options
       },
     ],
     [
-      "content-docs",
+      '@docusaurus/plugin-google-gtag',
       {
-        id: "tutorials",
-        path: "tutorials",
-        routeBasePath: "tutorials",
-        sidebarPath: require.resolve("./sidebars-tutorials.js"),
+        trackingID: 'G-TT8PTWXCK5',
+        anonymizeIP: true,
+      },
+    ],
+    [
+      'content-docs',
+      {
+        id: 'tutorials',
+        path: 'tutorials',
+        routeBasePath: 'tutorials',
+        sidebarPath: require.resolve('./sidebars-tutorials.js'),
         // ... other options
       },
     ],
   ],
-  // themes: ["@docusaurus/theme-search-algolia"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 
     ({
       navbar: {
-        title: "Collab.Land Documentation",
+        title: 'Collab.Land Documentation',
         logo: {
-          alt: "Collab.Land",
-          src: "img/logo1.svg",
+          alt: 'Collab.Land',
+          src: 'img/logo1.svg',
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Docs",
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Docs',
           },
           {
-            to: "/tutorials/introduction",
-            label: "Tutorials",
+            to: '/tutorials/introduction',
+            label: 'Tutorials',
             activeBaseRegex: `/tutorials/`,
-            position: "left",
+            position: 'left',
           },
-          // {
-          //   to: '/internal-docs/introduction',
-          //   label: 'Internal Docs',
-          //   activeBaseRegex: `/internal-docs/`,
-          //   position: 'left',
-          // },
-          // {
-          //   to: '/proposals/intro',
-          //   label: 'Proposals',
-          //   activeBaseRegex: `/proposals/`,
-          //   position: 'left',
-          // },
-          // {
-          //   to: 'apis/',
-          //   activeBasePath: 'apis',
-          //   label: 'APIs',
-          //   position: 'left',
-          // },
-          // {to: '/blog', label: 'Engineering Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/abridged',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       algolia: {
@@ -150,48 +128,46 @@ const config = {
         contextualSearch: true,
         // Optional: Algolia search parameters
         searchParameters: {},
-
-        //... other Algolia params
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "Docs",
+            title: 'Docs',
             items: [
               {
-                label: "Tutorials",
-                to: "/docs/intro",
+                label: 'Tutorials',
+                to: '/docs/intro',
               },
               {
-                label: "API docs",
-                to: "/apis",
+                label: 'API docs',
+                to: '/apis',
               },
             ],
           },
           {
-            title: "Community",
+            title: 'Community',
             items: [
               {
-                label: "Support",
-                href: "https://collabland.freshdesk.com/",
+                label: 'Support',
+                href: 'https://collabland.freshdesk.com/',
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/Collab_Land_",
+                label: 'Twitter',
+                href: 'https://twitter.com/Collab_Land_',
               },
             ],
           },
           {
-            title: "More",
+            title: 'More',
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: 'Blog',
+                to: '/blog',
               },
               {
-                label: "GitHub",
-                href: "https://github.com/abridged",
+                label: 'GitHub',
+                href: 'https://github.com/abridged',
               },
             ],
           },
@@ -202,35 +178,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // algolia: {
-      //   // The application ID provided by Algolia
-      //   appId: "TVKR0A2115",
-
-      //   // Public API key: it is safe to commit it
-      //   apiKey: "777320452e70344bf0ee62ccd2de1012",
-
-      //   indexName: "dev_collabland",
-
-      //   // Optional: see doc section below
-      //   contextualSearch: true,
-
-      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      //   externalUrlRegex: "external\\.com|domain\\.com",
-
-      //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-      //   replaceSearchResultPathname: {
-      //     from: "/docs/", // or as RegExp: /\/docs\//
-      //     to: "/",
-      //   },
-
-      //   // Optional: Algolia search parameters
-      //   searchParameters: {},
-
-      //   // Optional: path for search page that enabled by default (`false` to disable it)
-      //   searchPagePath: "search",
-
-      //   //... other Algolia params
-      // },
     }),
 };
 
