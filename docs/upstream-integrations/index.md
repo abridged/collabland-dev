@@ -35,17 +35,19 @@ password `collabland`
 
 - Have an idea 💡
 - Join the [Collab.Land Discord](https://discord.gg/collabland) server
-- Set your server nickname to the format `${name} | ${project}` or equivalent
+  - Verify your account with Pandez Guard
+  - Visit [#get-roles channel](https://discord.com/channels/904119310702772254/904220931252183072/1063283743059619911) and click the 🦾 emoji to get the `builder` role
+  - Set your server nickname to the format `${name} | ${project}` or equivalent
 - Schedule a development kickoff call with Collab.Land DevRel Kenny `https://calendly(.)com/gmkenny`
 - Communicate with DevRel primarily through [#dev-general](https://discord.com/channels/904119310702772254/971511455633530970) channel of the Collab.Land Discord
 
 #### Beginning Development
 
 - Create a thread in [#miniapp-ideas](https://discord.com/channels/904119310702772254/1090049133299105882) forum of the Collab.Land Discord
-- While building your Miniapp, be available to the community within that thread to answer questions and make them aware of your project
 
 #### Ongoing Development + Documentation
 
+- While building your Miniapp, be available to the community within your project thread to answer questions and make them aware of your project
 - Write documentation for your Miniapp
   1. Miniapp install documentation, hosted in [Marketplace](https://cc.collab.land/)
   2. Miniapp usage/tutorial documentation, hosted at [Admin help docs](https://help.collab.land/marketplace/getting-started)
