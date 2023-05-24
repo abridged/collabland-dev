@@ -38,12 +38,12 @@ password `collabland`
   - Verify your account with Pandez Guard
   - Visit [#get-roles channel](https://discord.com/channels/904119310702772254/904220931252183072/1063283743059619911) and click the 🦾 emoji to get the `builder` role
   - Set your server nickname to the format `${name} | ${project}` or equivalent
-- Schedule a development kickoff call with Collab.Land DevRel Kenny `https://calendly(.)com/gmkenny`
-- Communicate with DevRel primarily through [#dev-general](https://discord.com/channels/904119310702772254/971511455633530970) channel of the Collab.Land Discord
 
 #### Beginning Development
 
 - Create a thread in [#miniapp-ideas](https://discord.com/channels/904119310702772254/1090049133299105882) forum of the Collab.Land Discord
+- Schedule a development kickoff call with Collab.Land DevRel Kenny `https://calendly(.)com/gmkenny`
+- Communicate with DevRel primarily through [#dev-general](https://discord.com/channels/904119310702772254/971511455633530970) channel of the Collab.Land Discord
 
 #### Ongoing Development + Documentation
 
@@ -64,7 +64,7 @@ The Showcase event only happens once per month (3x/season) so if you are not rea
 
 :::info
 
-Note: Your two kinds of documentation should already be drafted, reviewed, and feedback incorporated into final form before this point.
+Note: Your [two kinds of documentation](#ongoing-development--documentation) should already be drafted, reviewed, and feedback incorporated into final form before this point.
 
 :::
 
