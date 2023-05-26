@@ -72,3 +72,7 @@ Note: Your [two kinds of documentation](#documentation) should already be drafte
 The Collab.Land team will sponsor your Miniapp for approval as a [DAO proposal](https://help.collab.land/governance/proposals). This process takes 14 days, following the [2/7/5 Proposal cycle](https://help.collab.land/governance/proposals#proposal-cycle).
 
 If your Miniapp proposal passes, congratulations! You may now pay the Marketplace listing fee using Unlock Protocol. The Collab.Land will add your [documentation](#documentation) to the Marketplace and activate your Miniapp for admins to install to their communities.
+
+### Going Live
+
+At first, your Miniapp will go live exclusively within the Collab.Land Discord server to enable communication between early users and Miniapp developers before wider rollout.
