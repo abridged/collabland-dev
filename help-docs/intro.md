@@ -3,7 +3,7 @@ slug: /
 sidebar_position: 1
 ---
 
-# Welcome to Collab.Land
+# Welcome to Collab.Land Help Docs
 
 Collab.Land is a community management tool that supports a wide range of projects, including DAOs, NFT communities, brands, and creators of all sizes. Our mission is to provide tools that encourage pro-social activity within communities, particularly those that use tokens as a means of membership verification.
 
