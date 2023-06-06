@@ -87,6 +87,16 @@ const config = {
     [
       'content-docs',
       {
+        id: 'Help Docs',
+        path: 'help-docs',
+        routeBasePath: 'help-docs',
+        sidebarPath: require.resolve('./sidebars-help-docs.js'),
+        // ... other options
+      },
+    ],
+    [
+      'content-docs',
+      {
         id: 'tutorials',
         path: 'tutorials',
         routeBasePath: 'tutorials',
@@ -107,6 +117,12 @@ const config = {
           src: 'img/logo1.svg',
         },
         items: [
+          {
+            type: 'doc',
+            docId: 'help-docs/intro',
+            position: 'left',
+            label: 'Help Docs',
+          },
           {
             type: 'doc',
             docId: 'intro',
