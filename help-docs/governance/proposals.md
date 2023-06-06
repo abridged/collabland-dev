@@ -11,7 +11,7 @@ Proposals follow a 2/7/5 day Proposal Cycle.
 - Execution delay 5 days
 
 
-![Collab.Land Proposal Cycle](../../static/img/Proposal_cycle.png)
+![Collab.Land Proposal Cycle](../../static/img/tutorial/Proposal_cycle.png)
 
 ## How to create a DAO Proposal (a Journey)
 Proposals go through a socialization process of consensus gathering long before going to a token vote.
