@@ -87,7 +87,7 @@ const config = {
     [
       'content-docs',
       {
-        id: 'help docs',
+        id: 'help-docs',
         path: 'help-docs',
         routeBasePath: 'help-docs',
         sidebarPath: require.resolve('./sidebars-help-docs.js'),
