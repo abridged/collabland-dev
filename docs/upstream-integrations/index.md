@@ -4,26 +4,12 @@ sidebar_position: 3
 
 # Extending Collab.Land
 
-In this section, you'll learn all you need to know to extend Collab.Land with your custom integrations and build Miniapps for the Collab.Land ecosystem and [Marketplace](../intro#the-miniapp-marketplace).
-
-<!-- ## Add new Discord bot commands
-
-## Add new wallet connections
-
-## Connect to a new blockchain
-
-## Introduce a new governing asset -->
-
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<DocCardList items={useCurrentSidebarCategory().items}/>
-```
+In this section, you'll learn how to build Miniapps for the Collab.Land ecosystem and [Marketplace](../intro#the-miniapp-marketplace).
 
 ## Zero to Hero with Miniapps
 
-View the process of the Miniapp development process within the Collab.Land Co-op in [this flowchart](https://whimsical.com/season-1-miniapps-process-6kqEqtgYqfd7HEFy6wh1ck@2Ux7TurymNxEWyUaUq7k).
+You can find the Miniapp development process within the Collab.Land Co-op in [this flowchart](https://whimsical.com/season-1-miniapps-process-6kqEqtgYqfd7HEFy6wh1ck@2Ux7TurymNxEWyUaUq7k).
+
 <details>
 <summary>Flowchart password</summary>
 password `collabland`
@@ -31,48 +17,52 @@ password `collabland`
 
 ### Development
 
-- Have an idea 💡 and join the [Collab.Land Discord](https://discord.gg/collabland) server
-- Create a thread in [#miniapp-ideas](https://discord.com/channels/904119310702772254/1090049133299105882) to share your idea with us
-- We will give feedback and share resources to help you get started
-- Schedule a call with our DevRel lead Kenny `https://calendly(.)com/gmkenny` to ask questions about implementation details
-- Ask general dev questions and get help from other Miniapp devs by asking in [#dev-general](https://discord.com/channels/904119310702772254/971511455633530970)
+- Generate an idea 💡 for your Miniapp and join the [Collab.Land Discord](https://discord.gg/collabland) server.
+- Create a thread in [#miniapp-ideas](https://discord.com/channels/904119310702772254/1090049133299105882) to share your idea with the community.
+- Receive feedback and access valuable resources to help you kickstart your Miniapp development.
+- Schedule a call with Kenny, our DevRel lead, to discuss implementation details. You can book a call with Kenny using this [Calendly link](https://calendly.com/gmkenny).
+- If you have general development questions or need assistance, ask for help from other Miniapp developers in [#dev-general](https://discord.com/channels/904119310702772254/971511455633530970).
 
-#### Documentation
+### Documentation
 
-While building your Miniapp, be available to the community within your project thread in [#miniapp-ideas](https://discord.com/channels/904119310702772254/1090049133299105882) to answer questions.
+During the development process, it's important to be available to the community within your project thread in [#miniapp-ideas](https://discord.com/channels/904119310702772254/1090049133299105882) to address any questions.
 
-Documentation needed for your Miniapp:
+You'll need to create the following documentation for your Miniapp:
 
-  1. Miniapp install documentation, hosted in [Marketplace](https://cc.collab.land/)
-  2. Miniapp usage/tutorial documentation, hosted in [Admin help docs](https://help.collab.land/marketplace/getting-started)
-     - Use [POAP Miniapp docs](https://help.collab.land/marketplace/apps/poap) as an example
+1. Miniapp installation documentation, which will be hosted in the [Marketplace](https://cc.collab.land/).
+2. Miniapp usage and tutorial documentation, which will be hosted in the [Admin help docs](https://help.collab.land/marketplace/getting-started).
 
-#### Finish
+- You can refer to the [POAP Miniapp docs](https://help.collab.land/marketplace/apps/poap) as an example.
 
-- Submit [Action Review Form](https://forms.gle/jb3oBJB4nmW4QEx88) for review by Collab.Land DevRel
+### Completion
 
-### Project Showcase - Miniapp Madness Demo Day
+Once your Miniapp is ready, follow these steps:
 
-The Showcase event only happens once per month (3x/season) so if you are not ready for the current showcase, you can complete your project and be included in the next month's batch. Note: this process will evolve over time, the cadence will likely change and this document will update accordingly.
+1. Submit your Miniapp on the [Dev Portal](https://dev-portal.collab.land/) for review by Collab.Land.
+2. Participate in the Project Showcase on the Miniapp Madness Demo Day, which occurs once per month (3 times per season). If you're not ready for the current showcase, you can aim to be included in the next batch. You can find the [event agenda here](https://docs.google.com/document/d/e/2PACX-1vRbN8-eBKH5lFCXOmju0kY_Y7nN7OSW7SZqBATToVgqSIeGr5KJwVGKQ2rA9Sct0uZbsDMXLnCK4G_o/pub).
 
 :::info
-
-Note: Your [two kinds of documentation](#documentation) should already be drafted, reviewed, and feedback incorporated into a final form before this point.
-
+Ensure that your installation and usage documentation have been drafted, reviewed, and refined before reaching this point.
 :::
 
-- Sync event to present your completed Miniapp to the Collab.Land DAO for approval voting
-- This event is an opportunity to market your Miniapp to community admins, so bring your best foot forward
-  - memes, ideas, examples, documentation, etc.
-  - Be prepared to answer questions run session(s) for your Miniapp
-- Example [event agenda](https://docs.google.com/document/d/e/2PACX-1vRbN8-eBKH5lFCXOmju0kY_Y7nN7OSW7SZqBATToVgqSIeGr5KJwVGKQ2rA9Sct0uZbsDMXLnCK4G_o/pub)
+During the showcase event, you'll present your completed Miniapp to the Collab.Land DAO for approval voting. This is an opportunity to market your Miniapp to community admins. Come prepared with your best foot forward, including memes, ideas, examples, and documentation. Be ready to answer questions as you run the sessions to showcase your Miniapp.
 
 ### DAO Proposal
 
-The Collab.Land team will sponsor your Miniapp for approval as a [DAO proposal](https://help.collab.land/governance/proposals). This process takes 14 days, following the [2/7/5 Proposal cycle](https://help.collab.land/governance/proposals#proposal-cycle).
+If your Miniapp receives approval during the showcase event, the Collab.Land team will sponsor your Miniapp as a [DAO proposal](https://help.collab.land/governance/proposals). The approval process for a DAO proposal takes 14 days, following the [2/7/5 Proposal cycle](https://help.collab.land/governance/proposals#proposal-cycle). Once your Miniapp proposal is successfully passed:
 
-If your Miniapp proposal passes, congratulations! You may now pay the Marketplace listing fee using Unlock Protocol. The Collab.Land will add your [documentation](#documentation) to the Marketplace and activate your Miniapp for admins to install to their communities.
+1. Congratulations! You can now proceed to pay the Marketplace listing fee using the Unlock Protocol.
+2. The Collab.Land team will list your Miniapp in the Marketplace and activate it for community admins to install in their communities.
 
 ### Going Live
 
-At first, your Miniapp will go live exclusively within the Collab.Land Discord server to enable communication between early users and Miniapp developers before wider rollout.
+Initially, your Miniapp will go live exclusively within the [Collab.Land Discord](https://discord.gg/collabland) server. This limited rollout allows for communication between early users and Miniapp developers, enabling you to gather feedback and make any necessary improvements before a wider rollout.
+
+By following these steps, you can go from zero to hero with Miniapps within the Collab.Land Co-op. Remember to refer to the provided flowchart and leverage the Collab.Land Discord community for support and guidance throughout the process. Good luck with your Miniapp development!
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
+```
