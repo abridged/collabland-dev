@@ -38,3 +38,11 @@ By holding a Collab.Land Patron NFT you are now able to access the Collab.Land t
 
 <!-- ## Contributor Persona
 ## Consumer Persona -->
+
+## The [Miniapp Marketplace](https://help.collab.land/key-features/marketplace)
+
+Collab.Land's Marketplace is the primary method for developers to join the Collab.Land project on our path towards progressive decentralization. It is designed to empower community admins to unlock the full potential of their community by installing Miniapps.
+
+With an extensive collection of Miniapps, admins can add new capabilities and features, such as complex TGRs ([Role Composition](https://help.collab.land/marketplace/apps/role-composition)), off-chain token voting via [Snapshot](https://help.collab.land/marketplace/apps/snapshot), and enhanced community security with [ChainPatrol](https://help.collab.land/marketplace/apps/chainpatrol). There are also community engagement tools like meme contests with [MemeMarket](https://help.collab.land/marketplace/apps/meme-market), easy [POAP distribtution](https://help.collab.land/marketplace/apps/poap), and [Kudos](https://help.collab.land/marketplace/apps/kudos-veramo) to recognize individual contributions in real time.
+
+With the ease of updating installed apps through the Marketplace, admins can ensure their community always has access to the latest features and functionalities.
