@@ -9,7 +9,7 @@ The $COLLAB token is a governance and utility token used within the Collab.Land 
 
 Holders of the $COLLAB token are part of the Collab.Land DAO and play a critical role in the governance of the ecosystem. They can participate in discussions, vote on proposals, and help shape the future of Collab.Land.
 
-$COLLAB is a coordination tool to align interests around the Collab.Land Marketplace and allow for distributed voting on how to change it via the Collab.Land DAO. The value it holds reflects the value of the [Collab.Land Miniapp Marketplace](/marketplace).
+$COLLAB is a coordination tool to align interests around the Collab.Land Marketplace and allow for distributed voting on how to change it via the Collab.Land DAO. The value it holds reflects the value of the [Collab.Land Miniapp Marketplace](../marketplace/).
 
 The token claim began on February 23, 2023 on [wagmi.collab.land](https://wagmi.collab.land) and will end May 23, 2023 at 6pm MST.
 

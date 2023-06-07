@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: Introduction
-slug: /introduction
+slug: /intro
 ---
 
 # Collab.Land Introduction Tutorial

@@ -39,11 +39,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
         },
-        blog: {
-          showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -67,16 +67,16 @@ const config = {
   ],
 
   plugins: [
-    [
-      'content-docs',
-      {
-        id: 'proposals',
-        path: 'proposals',
-        routeBasePath: 'proposals',
-        sidebarPath: require.resolve('./sidebars-proposals.js'),
-        // ... other options
-      },
-    ],
+    // [
+    //   'content-docs',
+    //   {
+    //     id: 'proposals',
+    //     path: 'proposals',
+    //     routeBasePath: 'proposals',
+    //     sidebarPath: require.resolve('./sidebars-proposals.js'),
+    //     // ... other options
+    //   },
+    // ],
     [
       '@docusaurus/plugin-google-gtag',
       {
@@ -118,10 +118,10 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'help-docs/intro',
-            position: 'left',
+            to: '/help-docs/intro',
             label: 'Help Docs',
+            activeBaseRegex: `/help-docs/`,
+            position: 'left',
           },
           {
             type: 'doc',
@@ -130,7 +130,7 @@ const config = {
             label: 'Docs',
           },
           {
-            to: '/tutorials/introduction',
+            to: '/tutorials/intro',
             label: 'Tutorials',
             activeBaseRegex: `/tutorials/`,
             position: 'left',
