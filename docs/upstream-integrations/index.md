@@ -51,7 +51,7 @@ During the showcase event, you'll present your completed Miniapp to the Collab.L
 
 If your Miniapp receives approval during the showcase event, the Collab.Land team will sponsor your Miniapp as a [DAO proposal](https://help.collab.land/governance/proposals). The approval process for a DAO proposal takes 14 days, following the [2/7/5 Proposal cycle](https://help.collab.land/governance/proposals#proposal-cycle). Once your Miniapp proposal is successfully passed:
 
-1. Congratulations! You can now proceed to pay the Marketplace listing fee using the Unlock Protocol.
+1. Congratulations! You can now proceed to stake $COLLAB tokens to guarantee your listing in the Marketplace. (Staking tokens are only applicable in v2 of the Marketplace, staking is not required at the moment).
 2. The Collab.Land team will list your Miniapp in the Marketplace and activate it for community admins to install in their communities.
 
 ### Going Live
