@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 sidebar_label: Token Gating Tutorial
-slug: /token-gating
 ---
 
 # Collab.Land Token Gating Tutorial
@@ -28,15 +27,15 @@ To check if a user has the required tokens via the Collab.Land API, you need:
 - The user's wallet address.
 - Token Gating Rules for your site.
 
-This tutorial implements the gating logic by calling the Collab.Land [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating) endpoint with the user's wallet address and the [token gating rules](#define-token-gating-rules) as the payload for the request. Collab.Land returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
+This tutorial implements the gating logic by calling the Collab.Land [`access-control/check-roles`](../downstream-integrations/api/token-gating) endpoint with the user's wallet address and the [token gating rules](#define-token-gating-rules) as the payload for the request. Collab.Land returns `true/false` for each rule to indicate if the given address fits the provided criteria or not.
 
 ### Get Collab.Land API keys
 
-To call Collab.Land APIs, you need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call the token gating endpoint. You can [request API access here](../docs/downstream-integrations/#request-api-access).
+To call Collab.Land APIs, you need to register an API key for your client application. In addition, your API key needs a specific scope (`token-gating`) to call the token gating endpoint. You can [request API access here](../downstream-integrations/#request-api-access).
 
-This feature is available on the [`access-control/check-roles`](../docs/downstream-integrations/api/token-gating) endpoint.
+This feature is available on the [`access-control/check-roles`](../downstream-integrations/api/token-gating) endpoint.
 
-It is also available in the [Collab.Land SDK](../docs/downstream-integrations/sdk/):
+It is also available in the [Collab.Land SDK](../downstream-integrations/sdk/):
 
 ```js
 await getCollabClient().accessControl.checkRoles({
@@ -63,7 +62,7 @@ Token Gating Rules (TGRs) are schemas that describe the required tokens. TGRs us
 ]
 ```
 
-Collab.Land supports many fungible and non-fungible tokens on many chains. To gate your website with a certain token, you need to provide the token details in the example above. You can find chain IDs [here](https://chainid.network/) and here's a guide to [find your token details](../docs/common-reference-docs/finding-token-details)
+Collab.Land supports many fungible and non-fungible tokens on many chains. To gate your website with a certain token, you need to provide the token details in the example above. You can find chain IDs [here](https://chainid.network/) and here's a guide to [find your token details](../common-reference-docs/finding-token-details)
 
 ## Tutorial
 
@@ -94,11 +93,11 @@ If you need some help to get user addresses, here are a few options:
 
 TGRs are the rules that the wallet assets will be checked against by the Collab.Land. The API will return boolean `true`/`false` for each rule to indicate if the account address fulfills the defined rules or not.
 
-Please see [Configuring your TGRs](../docs/common-reference-docs/configuring-rules) for rule definition details.
+Please see [Configuring your TGRs](../common-reference-docs/configuring-rules) for rule definition details.
 
 ### 3. Call the Collab.Land API
 
-In this demo, we use the [Collab.Land SDK](../docs/downstream-integrations/sdk/) to call the API:
+In this demo, we use the [Collab.Land SDK](../downstream-integrations/sdk/) to call the API:
 
 ```js
 const res = await getCollabClient().accessControl.checkRoles({
@@ -168,12 +167,12 @@ There are several response options available with the Collab.Land API. Select wh
 }
 ```
 
-Learn more about [synchronous API responses](../docs/downstream-integrations/api/token-gating/#check-roles-synchronously).
+Learn more about [synchronous API responses](../downstream-integrations/api/token-gating/#check-roles-synchronously).
 
 Collab.Land also offer two asynchronous methods for handling API responses.
 
-- [Check roles asynchronously with callback](../docs/downstream-integrations/api/token-gating/#check-roles-asynchronously-with-callback)
-- [Check roles asynchronously and poll for the result](../docs/downstream-integrations/api/token-gating/#check-roles-asynchronously-and-poll-for-the-result)
+- [Check roles asynchronously with callback](../downstream-integrations/api/token-gating/#check-roles-asynchronously-with-callback)
+- [Check roles asynchronously and poll for the result](../downstream-integrations/api/token-gating/#check-roles-asynchronously-and-poll-for-the-result)
 
 ### 5. Render gated content based on API response
 

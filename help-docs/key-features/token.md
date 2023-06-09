@@ -34,6 +34,6 @@ Note:
 
 :::tip
 
-If you don't know how to claim the $COLLAB token, click [here](../token/claim).
+If you don't know how to claim the $COLLAB token, click [here](../../dao/token/claim).
 
 :::

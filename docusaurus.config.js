@@ -97,13 +97,23 @@ const config = {
     [
       'content-docs',
       {
-        id: 'tutorials',
-        path: 'tutorials',
-        routeBasePath: 'tutorials',
-        sidebarPath: require.resolve('./sidebars-tutorials.js'),
+        id: 'dao',
+        path: 'dao',
+        routeBasePath: 'dao',
+        sidebarPath: require.resolve('./sidebars-dao.js'),
         // ... other options
       },
     ],
+    // [
+    //   'content-docs',
+    //   {
+    //     id: 'tutorials',
+    //     path: 'tutorials',
+    //     routeBasePath: 'tutorials',
+    //     sidebarPath: require.resolve('./sidebars-tutorials.js'),
+    //     // ... other options
+    //   },
+    // ],
   ],
 
   themeConfig:
@@ -118,23 +128,29 @@ const config = {
         },
         items: [
           {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Developers',
+          },
+          {
             to: '/help-docs/intro',
-            label: 'Help Docs',
+            label: 'Users',
             activeBaseRegex: `/help-docs/`,
             position: 'left',
           },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
-            to: '/tutorials/intro',
-            label: 'Tutorials',
-            activeBaseRegex: `/tutorials/`,
+            to: '/dao/intro',
+            label: 'DAO',
+            activeBaseRegex: `/dao/`,
             position: 'left',
           },
+          // {
+          //   to: '/tutorials/intro',
+          //   label: 'Tutorials',
+          //   activeBaseRegex: `/tutorials/`,
+          //   position: 'left',
+          // },
         ],
       },
       algolia: {
@@ -153,11 +169,11 @@ const config = {
             items: [
               {
                 label: 'Tutorials',
-                to: '/docs/intro',
+                to: '/docs/tutorials',
               },
               {
                 label: 'API docs',
-                to: '/apis',
+                to: '/docs/downstream-integrations',
               },
             ],
           },
@@ -165,25 +181,29 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Support',
-                href: 'https://collabland.freshdesk.com/',
-              },
-              {
                 label: 'Twitter',
                 href: 'https://twitter.com/Collab_Land_',
               },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/collabland',
+              }
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/abridged',
+              },
+              {
+                label: 'Support',
+                href: 'https://collabland.freshdesk.com/',
               },
             ],
           },

@@ -10,7 +10,7 @@ title: Governance
 
 The primary duty of COLLAB holder governance is to ensure the growth and stewardship of the Co-op by managing parameters of Collab.Land. This includes:
 
-- [Miniapp Marketplace](../marketplace) parameters like submission fees, bug bounties, and more
+- [Miniapp Marketplace](../../help-docs/marketplace/) parameters like submission fees, bug bounties, and more
 - Distributions from the Co-op Treasury
 - Making changes to the Collab.Land Co-op Charter
 - Voting on requests for budgets

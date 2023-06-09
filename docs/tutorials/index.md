@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
-sidebar_label: Introduction
-slug: /intro
+sidebar_position: 4
 ---
 
-# Collab.Land Introduction Tutorial
+# Tutorials
+
+## Collab.Land Introduction Tutorial
 
 This tutorial will walk you through the basics of Collab.Land. We will cover:
 
@@ -31,7 +31,7 @@ Collab.Land provides a bot that you can install to help manage access, roles and
 
 ## Build with Collab.Land
 
-Collab.Land provides a list of [REST APIs](../docs/downstream-integrations/api/) and an [SDK](../docs/downstream-integrations/sdk/) to allow client applications to:
+Collab.Land provides a list of [REST APIs](../downstream-integrations/api/) and an [SDK](../downstream-integrations/sdk/) to allow client applications to:
 
 1. Check a wallet address or account with a list of token gating rules
 2. Access a user's information from Collab.Land if the user grants required permissions to the client application
