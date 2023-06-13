@@ -39,11 +39,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
         },
-        blog: {
-          showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -67,16 +67,16 @@ const config = {
   ],
 
   plugins: [
-    [
-      'content-docs',
-      {
-        id: 'proposals',
-        path: 'proposals',
-        routeBasePath: 'proposals',
-        sidebarPath: require.resolve('./sidebars-proposals.js'),
-        // ... other options
-      },
-    ],
+    // [
+    //   'content-docs',
+    //   {
+    //     id: 'proposals',
+    //     path: 'proposals',
+    //     routeBasePath: 'proposals',
+    //     sidebarPath: require.resolve('./sidebars-proposals.js'),
+    //     // ... other options
+    //   },
+    // ],
     [
       '@docusaurus/plugin-google-gtag',
       {
@@ -87,13 +87,33 @@ const config = {
     [
       'content-docs',
       {
-        id: 'tutorials',
-        path: 'tutorials',
-        routeBasePath: 'tutorials',
-        sidebarPath: require.resolve('./sidebars-tutorials.js'),
+        id: 'help-docs',
+        path: 'help-docs',
+        routeBasePath: 'help-docs',
+        sidebarPath: require.resolve('./sidebars-help-docs.js'),
         // ... other options
       },
     ],
+    [
+      'content-docs',
+      {
+        id: 'dao',
+        path: 'dao',
+        routeBasePath: 'dao',
+        sidebarPath: require.resolve('./sidebars-dao.js'),
+        // ... other options
+      },
+    ],
+    // [
+    //   'content-docs',
+    //   {
+    //     id: 'tutorials',
+    //     path: 'tutorials',
+    //     routeBasePath: 'tutorials',
+    //     sidebarPath: require.resolve('./sidebars-tutorials.js'),
+    //     // ... other options
+    //   },
+    // ],
   ],
 
   themeConfig:
@@ -111,14 +131,26 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'Developers',
           },
           {
-            to: '/tutorials/introduction',
-            label: 'Tutorials',
-            activeBaseRegex: `/tutorials/`,
+            to: '/help-docs/intro',
+            label: 'Users',
+            activeBaseRegex: `/help-docs/`,
             position: 'left',
           },
+          {
+            to: '/dao/intro',
+            label: 'DAO',
+            activeBaseRegex: `/dao/`,
+            position: 'left',
+          },
+          // {
+          //   to: '/tutorials/intro',
+          //   label: 'Tutorials',
+          //   activeBaseRegex: `/tutorials/`,
+          //   position: 'left',
+          // },
         ],
       },
       algolia: {
@@ -137,11 +169,11 @@ const config = {
             items: [
               {
                 label: 'Tutorials',
-                to: '/docs/intro',
+                to: '/docs/tutorials',
               },
               {
                 label: 'API docs',
-                to: '/apis',
+                to: '/docs/downstream-integrations',
               },
             ],
           },
@@ -149,25 +181,29 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Support',
-                href: 'https://collabland.freshdesk.com/',
-              },
-              {
                 label: 'Twitter',
                 href: 'https://twitter.com/Collab_Land_',
               },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/collabland',
+              }
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/abridged',
+              },
+              {
+                label: 'Support',
+                href: 'https://collabland.freshdesk.com/',
               },
             ],
           },

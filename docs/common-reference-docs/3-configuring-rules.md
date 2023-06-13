@@ -246,4 +246,4 @@ Collab.Land also supports TGRs for non-EVM based chains such as Solana and other
 ]
 ```
 
-To learn how to utilize these Token Gated Rules in your website, please refer to our [website Token Gating Tutorial](../../tutorials/token-gating)
+To learn how to utilize these Token Gated Rules in your website, please refer to our [website Token Gating Tutorial](../tutorials/token-gating-tutorial)
