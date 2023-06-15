@@ -18,7 +18,7 @@ Membership Agreement is split into its own post to allow posting on the forum.
 
 ---
 
-# Collab.Land DAO Charter  
+## Collab.Land DAO Charter  
 
 This Charter is based on The Origami Framework.
 Last Revised Date: Feb 22, 2023
@@ -57,12 +57,12 @@ Collab.Land Co-op (the “**DAO**”) is a limited cooperative association organ
 
 - 2.2.1. By joining the DAO, you agree to: 
 
-    - 2.2.1.1. Abide by this Charter, 
-    - 2.2.1.2. Abide by the Membership Agreement, 
-    - 2.2.1.3. Share the values of the Code of Ethics, 
-    - 2.2.1.4. Act in accordance with the Code of Conduct, 
-    - 2.2.1.5. Participate in the official communications channels on a regular  basis. 
-    - 2.2.1.6. Act in the best interest of the DAO and its members. 
+  - 2.2.1.1. Abide by this Charter, 
+  - 2.2.1.2. Abide by the Membership Agreement, 
+  - 2.2.1.3. Share the values of the Code of Ethics, 
+  - 2.2.1.4. Act in accordance with the Code of Conduct, 
+  - 2.2.1.5. Participate in the official communications channels on a regular  basis. 
+  - 2.2.1.6. Act in the best interest of the DAO and its members. 
 
 ### 2.3. Membership 
 
@@ -84,7 +84,7 @@ Investor Members, as a class, have voting power limited to 25% of the total voti
 
   - 2.3.2.3. **Admission**. When an eligible person has applied to be Patron  Member, has acquired the appropriate number of $COLLAB tokens  and signed the DAO Membership Agreement, including providing  certain personal identifying information, the DAO will add that  person to its records and will award a Membership NFT to the  person who becomes a member, unless the DAO has a reason not  to accept the membership application. The Board will have ultimate  decision-making authority to accept or reject a person’s membership in the DAO. 
 
-   - 2.3.2.4. **Patron Member Voting**. Members holding governance tokens will  be entitled to vote based on the number of tokens held by the Member. 
+  - 2.3.2.4. **Patron Member Voting**. Members holding governance tokens will  be entitled to vote based on the number of tokens held by the Member. 
   - 2.3.2.5. **Patron Member profit-sharing, aka, Patronage Distributions**. A Member’s portion of the DAO’s Net Income (as defined in Section  8.2), on the basis of patronage, which means in the ratio of each Member’s patronage to the total patronage of all Patron Members during the relevant time period. Patron member profit-sharing is set forth in more detail in Section 8. 
   - 2.3.2.6. **Restrictions on Transfer**. A Member’s membership interest in the  DAO is not transferable, therefore, the Membership NFT held by a  Member is also non-transferable. Members cannot sell or give their  membership or governance rights to any other person, by operation  of law or otherwise, and cannot use the membership as collateral  for any obligation. Any attempt to do so will be void. 
   - 2.3.2.7. The DAO doesn't have to give any proof of membership or  investment. But if it decides to do so, the certificate or document of  proof must include the membership transfer restriction. If the certificate is in digital form such as an NFT, it will also have the  same restrictions and conditions. If there's an option to redeem the  certificate or NFT, it will also include information on how to do it. 
@@ -106,7 +106,7 @@ Investor Members, as a class, have voting power limited to 25% of the total voti
 
 - 2.4.2. Removal or Automatic Termination of Members 
 
-   - 2.4.2.1. Removal is the involuntary termination of a Member by the DAO,  whether it is initiated by the DAO or as a proposal of the Members. 
+  - 2.4.2.1. Removal is the involuntary termination of a Member by the DAO,  whether it is initiated by the DAO or as a proposal of the Members. 
   - 2.4.2.2. Members may be removed from membership in the DAO by vote of  the Board for violating this Charter, the Code of Conduct or Code  of Ethics.  
   - 2.4.2.3. The Board may warn, suspend, or expel a member who fails to pay  a required membership fee, or who behaves in a way that is  significantly harmful to the DAO, as long as the DAO uses a written,  consistently applied, fair, and reasonable procedure for expulsion  that gives the Member a reasonable period to explain and/or correct a problem. 
   - 2.4.2.4. Notice of Termination. 
@@ -122,10 +122,10 @@ Investor Members, as a class, have voting power limited to 25% of the total voti
 
 - 2.4.4. The DAO may adopt policies providing for Members who are removed to be heard. 
 
-### 2.8. Member Meetings. 
+### 2.8. Member Meetings.
 
 - 2.8.1. The DAO will organize at least 1 member meeting every Season. One of  these member meetings will be the “Annual Meeting,” and if member  meetings are held regularly more often than once every 12 months, the  other meetings are called “regular meetings.” The DAO may organize  additional member meetings (“Special Meetings”) (1) as needed, by  request of a majority vote of the board, or any committee, if any is adopted,  and (2) if a meeting is requested by members with at least 10% of the voting  power of any class entitled to vote on the matter that is the subject of the  meeting, or at least 10% of the total voting power entitled to vote on the  matter that is the subject of the meeting. All member meetings may be  conducted through any means of communication that allows all members in attendance to communicate with each other at the same time. 
- - 2.8.2. Annual Meeting. At the Annual Meeting, the Board will report the DAO’s  business and financial condition as of the end of the Season, and if the  Season is shorter than the fiscal year, then for the previous fiscal year. 
+- 2.8.2. Annual Meeting. At the Annual Meeting, the Board will report the DAO’s  business and financial condition as of the end of the Season, and if the  Season is shorter than the fiscal year, then for the previous fiscal year. 
 - 2.8.3. Notices.The Board will give at least 10 days notice of the meeting, by any  means of communication regularly used by the DAO to communicate with  its members. Notice must contain the purposes of the meeting and the  matters subject to vote, and in the case of Special Meetings, only the  matters indicated in the notice can be voted on. 
 - 2.8.4. Waiver of Notice. When the law or the rules of the cooperative require that  a notice be given to a member, the member can waive the notice in writing,  which will be considered the same as receiving the notice. The member  can sign the waiver in any way that the board accepts, including  electronically, before, during, or after the notice is supposed to be given. 
 - 2.8.5. Waiver by Attendance. If a member attends a meeting, they give up the  right to complain about not getting proper notice of the meeting or about the meeting being held improperly, unless they make their complaint at the  start of the meeting. They also give up the right to complain about the  meeting discussing subjects that were not mentioned in the notice, unless  they object when the topic comes up. Attendance includes being there in person, participating over the phone, or joining in through any other technology that the DAO has approved for that meeting. 
@@ -135,11 +135,11 @@ Investor Members, as a class, have voting power limited to 25% of the total voti
 
 - 2.9.1. Collab.Land DAO will measure its health in the following ways: 
 
-    - 2.9.1.1. Members are participating. 
-    - 2.9.1.2. Membership is growing. 
-    - 2.9.1.3. The DAO is working to fulfill its Mission and Vision.Startups are  supported by the DAO and its members. 
-    - 2.9.1.4. The DAO financially supports its own operations. 
-    - 2.9.1.5. Documents and code are created, amended, and published as  lessons are learned.  
+  - 2.9.1.1. Members are participating. 
+  - 2.9.1.2. Membership is growing. 
+  - 2.9.1.3. The DAO is working to fulfill its Mission and Vision.Startups are  supported by the DAO and its members. 
+  - 2.9.1.4. The DAO financially supports its own operations. 
+  - 2.9.1.5. Documents and code are created, amended, and published as  lessons are learned.  
 
 ### 2.10. Taxes and Legal Compliance 
 
@@ -159,8 +159,8 @@ Each Member must notify the DAO (or the third-party) immediately of any change t
 ### 3.1. DAOs are Decentralized and Member-governed but wrapped DAOs may be subject to legal constraints
 
 - 3.1.1. Collab.Land DAO builds on shared interests managed through open and  secure software that will help in the DAO’s governance. While many of the operations of the DAO may be member-lead, and largely autonomous, we operate within legal constraints that require that a governing body be put in  place, that is, a Board of Stewards (the “Board”). The Board will have general supervision and control of the business and affairs of the DAO and will make rules and regulations not inconsistent with the law, the Articles, this Charter, and the policies adopted by the DAO membership, for the management of the business and the guidance of the Members, employees, and agents of the DAO. The Board may employ a person or more people to oversee the operations of the DAO.
- - 3.1.2. In true co-operative form, the DAO’s board will be appointed by the original  organizer of the DAO and this appointed board (the “Initial Board”) will be replaced by a board that must be elected by the Members. 
- - 3.1.3. The Initial Board shall have the authority to make all amendments to this Charter within the initial term (until the membership meeting of 2025) which are required to further the purposes of the DAO, provided that they do not remove the financial and governance rights of the Members in any way contrary to the law. 
+- 3.1.2. In true co-operative form, the DAO’s board will be appointed by the original  organizer of the DAO and this appointed board (the “Initial Board”) will be replaced by a board that must be elected by the Members. 
+- 3.1.3. The Initial Board shall have the authority to make all amendments to this Charter within the initial term (until the membership meeting of 2025) which are required to further the purposes of the DAO, provided that they do not remove the financial and governance rights of the Members in any way contrary to the law. 
 
 ### 3.2. Board 
 
@@ -191,7 +191,7 @@ Each Member must notify the DAO (or the third-party) immediately of any change t
 
 - 3.3.1. The DAO shall use the Handshake emoji 🤝 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IArs4c6QAAAZZJREFUKFMtUc0rRFEcPb8xvcdoGh+ZN0VmFkOZGAtfsWCBpJQixcJGkmSBrPAfTMkGJUlZUMNG8q0kSVjJSogmX4PBGOMx897VvW9ut3vr/M7v3Ps7h0AEgIEYgYEBIBAxDnEUIH4SGOMVvvniYIIg2oSI0BE1QSFAaq6Sa8+OfvdtOZTdUG2vDzxHA/69yDaAP4PEDOWZsXxfV7t3WA1eaJEwTDYli7T4D1Q9Obhz+LZ2fRd6bK3LbWobOW+lwLLr1uFyOblCJPgEOd0O2WrHV/AOLP4Da6YCpkWxunW1RB1V6B5slsY9ZW6rxeEFmS3gb+p6DGr4E6HrE6RYktjO6bef+KdLnaiZ7JU2PRV5yalKEXSWBC2mIhYJIfxwCd/s/cT4Ng1yn8Sk0z3ySl2J1KK4nTDJGfj9CkGL/+H44Oaiby7ecP/KHhL+APkKFfs6pYXySkeByWwyE9N0//rL4qhf7f94Zx+cKHwWsRCQZmNpA43SkMedUji/EZ3aOIvtikiEdZxnhGSklQjHCILEoIaScf0D5+GlUwR2/TEAAAAASUVORK5CYII=) as its branded emoji. "Collab.Land Coop", or "Collab.Land Co-op" as typeset are acceptable. Use of the DAO branding requires the DAO's approval.
 
-    - 3.3.1.1. For example, you cannot use the DAO’s branding in a way that implies that the DAO supports another project without the approval of the DAO. 
+  - 3.3.1.1. For example, you cannot use the DAO’s branding in a way that implies that the DAO supports another project without the approval of the DAO. 
 
 ## 4. Proposals and Quorum 
 
@@ -353,7 +353,7 @@ Each Member must notify the DAO (or the third-party) immediately of any change t
 ### 10.1. **Governing law and jurisdiction**: 
 
 - 10.1.1 The DAO and its members agree to be governed  by the laws of the United States, and specifically the laws of the state of Colorado. 
-- 
+
 ### 10.2. **Conflict Resolution, litigation and Waiver of jury trial**: 
 
 - 10.2.1 If the DAO or the  members haven't chosen a system to solve conflicts, including on-chain, and if two  (or more) members or a member and the DAO have a problem that they can't solve by talking openly and honestly, using the conflict resolution processes adopted by  the DAO, then one of them can ask for mediation. A mediator will be chosen by  both sides or by the Board if they can't agree. If all these steps don't solve the conflict, then the Member who is not satisfied by the final decision of the DAO can  take the matter to court. This must be done in Colorado and the parties agree that they will only go to court in Denver, Colorado. The Members and the DAO agree, by entering into the membership relationship, that they cannot change the place  where they go to court. **Both members and the company agree to waive their right to a jury trial in any case related to these rules**. 
@@ -416,7 +416,7 @@ If the DAO dissolves, is liquidated, sold, or has all or substantially all of it
 
 - #### **Obligations and Restrictions**. Once admitted as a member, your membership will be subject to  the following: 
 
-   - Understand that your membership (including any tokens representing your membership or your co-op benefits) is not transferable – so you cannot transfer it to another person; and is not redeemable, which means that you are not entitled to any reimbursement, should you decide to no longer be a member in the DAO. 
+  - Understand that your membership (including any tokens representing your membership or your co-op benefits) is not transferable – so you cannot transfer it to another person; and is not redeemable, which means that you are not entitled to any reimbursement, should you decide to no longer be a member in the DAO. 
   - You may be required to provide at least your (entity) name, address, and tax information  for the records of the DAO. 
   - Natural persons and entities may be eligible for membership. If the Membership is of an  entity, you will be required to appoint a natural person on behalf of your entity to represent  you in the Board, in voting, and entering into agreements with the DAO.
  
@@ -445,6 +445,6 @@ If the DAO dissolves, is liquidated, sold, or has all or substantially all of it
 
 3. The laws of the State of Colorado will govern this Agreement, and the Parties agree that  the venue for enforcement of this Agreement will be in the U.S. jurisdiction against whom  any claims are brought under this Agreement 
 
-4. You and the DAO agree that, in the event that (i) a dispute arises between you and the  DAO concerning this Membership Agreement, and any other agreements between you and  the DAO, and (ii) if we are unable to resolve the dispute through discussion, we agree to  submit that dispute to mediation and the dispute resolution mechanism in the Charter, before the dispute is arbitrated or take to court. In any event, you agree to and by signing  this Agreement you do WAIVE ANY RIGHT TO A JURY. 
+4. You and the DAO agree that, in the event that (i) a dispute arises between you and the  DAO concerning this Membership Agreement, and any other agreements between you and  the DAO, and (ii) if we are unable to resolve the dispute through discussion, we agree to  submit that dispute to mediation and the dispute resolution mechanism in the Charter, before the dispute is arbitrated or take to court. In any event, you agree to and by signing  this Agreement you do WAIVE ANY RIGHT TO A JURY.
 
 By clicking here and continuing, you indicate that you understand and agree to be bound by these  provisions.
