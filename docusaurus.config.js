@@ -28,6 +28,17 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  scripts: [
+    {
+      src: 'https://widget.kapa.ai/kapa-widget.bundle.js',
+      'data-website-id': '7d20e0b5-97d8-4081-94c5-62ecf4a19bdc',
+      'data-project-name': 'Collab.Land',
+      'data-project-color': '#9B9EFF',
+      'data-project-logo':
+        'https://res.cloudinary.com/kennyy/image/upload/v1686681959/Logo-Mark-Color_evjsgi.png',
+      async: true,
+    },
+  ],
 
   presets: [
     [
