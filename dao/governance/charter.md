@@ -4,7 +4,7 @@ sidebar_position: 4
 title: Co-op Charter
 ---
 
-import img1 from '@site/static/img/Commit_history.png';
+import img1 from '@site/static/img/tutorial/Commit_history.png';
 
 This is a living document that will be updated as changes are made. You can view the edit history using the [commit history on github](https://github.com/abridged/collabland-help-center/commits/master/docs/governance/charter.md).
 
