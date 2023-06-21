@@ -19,7 +19,10 @@ function HomepageHeader() {
               {siteConfig.tagline}
             </p>
             <div className={styles.button}>
-              <Link className={styles.buttonContent} to="/docs/intro">
+              <Link
+                className={styles.buttonContent}
+                to="/docs/upstream-integrations/collab-actions/getting-started-with-collab-actions"
+              >
                 Get Started
                 <img
                   width={40}

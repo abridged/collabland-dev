@@ -146,14 +146,14 @@ const config = {
           },
           {
             to: '/help-docs/intro',
-            label: 'Users',
+            label: 'Members & Admins',
             activeBaseRegex: `/help-docs/`,
             position: 'left',
           },
           {
-            to: '/dao/intro',
+            to: '/dao/token/token_overview',
             label: 'DAO',
-            activeBaseRegex: `/dao/`,
+            activeBaseRegex: `/dao/token/token_overview/`,
             position: 'left',
           },
           // {
@@ -198,7 +198,7 @@ const config = {
               {
                 label: 'Discord',
                 href: 'https://discord.gg/collabland',
-              }
+              },
             ],
           },
           {
