@@ -11,3 +11,22 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonContent {
+  border: 1px solid #000;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  font-weight: bold;
+  border-radius: 32px;
+  border-color: #fff;
+  border-width: 5px;
+  padding: 0.1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.1);
+}
