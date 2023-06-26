@@ -22,8 +22,8 @@ Follow these steps to verify with OpenSea:
     i. Download the customised image
 
     ii. Upload the image to your OpenSea as a profile picture
-    
-    iii. Click "Verify" once you have uploaded the image.
+
+    iii. Please wait for some time and then click "Verify" button once you have uploaded the image.
 
 8. Once the connection process is complete, you can close the window and return to your platfom.
 
