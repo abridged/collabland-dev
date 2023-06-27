@@ -35,7 +35,7 @@ const config = {
       'data-project-name': 'Collab.Land',
       'data-project-color': '#9B9EFF',
       'data-project-logo':
-        'https://res.cloudinary.com/kennyy/image/upload/v1686681959/Logo-Mark-Color_evjsgi.png',
+        'https://pbs.twimg.com/profile_images/1598394761005727760/5_QGhWNT_400x400.png',
       async: true,
     },
   ],
@@ -204,10 +204,6 @@ const config = {
           {
             title: 'More',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/abridged',
