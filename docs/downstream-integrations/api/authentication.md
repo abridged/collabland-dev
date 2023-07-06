@@ -7,8 +7,9 @@ sidebar_position: 1
 Collab.Land APIs support a few schemes of authentications.
 
 ## API key
+Collab.Land API keys can be used as a convenient way to invoke Collab.Land APIs that don't involve users, such as token-gating services. To get user authorization for data access, you can use any of our [Oauth2 flows](#register-your-oauth2-client-application).
 
-The API key must be passed in the HTTP `X-API-Key` (case insensitive) request header.
+API key must be passed in the HTTP `X-API-Key` (case insensitive) request header:
 
 ```
 X-API-Key: <api-key-for-your-client-application>
@@ -40,39 +41,6 @@ To begin using the Collab.Land API OAuth2 flow, you must first register your cli
 
 These credentials are essential for initiating the OAuth2 flow and obtaining access tokens.
 
-## Understand Scopes
-
-Collab.Land API uses scopes to define the level of access and permissions requested by the client application. Scopes determine the resources and operations that the access token can be used for. It is crucial to understand the available scopes and select the appropriate ones based on your application's requirements.
-
-The following scopes are available:
-
-**account:read**
-
-- Read all the wallet address(es) you connected with Collab.Land and their balances.
-- Read basic user information including username, id , pfp.
-- See communities you are in and administrating.
-
-**access-control:read**
-Read user roles in a certain community
-
-**asset-ownership:read**
-Check ownership for the given account for the given token assets
-
-**gm-pass:read**
-Read gmPASS address and DID info
-
-**read-vcs**
-Read all public verifiable credentials issued to you
-
-**request-vcreds**
-Issue verifiable credentials to your DID (gmPASS)
-
-**kudos:read**
-Read certain type public verifiable credentials issued to you
-
-:::success Please be aware that these scopes are currently being revised and will soon be updated to ensure accurate naming conventions and consistency.
-:::
-
 ## Login with Collab.Land (LWC) Flow
 
 To initiate the OAuth2 flow, direct users to the Collab.Land OAuth2 authorization endpoint:
@@ -85,8 +53,10 @@ Include the following parameters in the URL:
 
 - **`response_type`**: Set this to **`code`** for the authorization code flow or **`token`** for the implicit token flow.
 - **`client_id`**: The client ID obtained during the application registration process.
-- **`redirect_uri`**: The URI to which Collab.Land will redirect the user after authentication. Must be one of your registered redirect URIs. Register your localhost URIs for testing.
-- **`scope`**: The desired scopes requested by your application, separated by spaces.
+- **`redirect_uri`**: The URI to which Collab.Land will redirect the user after authentication. It must match one of your registered redirect URIs on the devportal. For local development, you can register your local URIs for testing purposes, we allow: `localhost`, `127.0.0.1`, and `[::1] (ipv6)`. The port number does not matter and subdirs are fine. For example, if you register `http://localhost:3000/oauth2` on the dev portal as one of your redirect uris, we consequently allow the following: 
+  *  `http://localhost:5000/oauth2/implicit-flow.html`, 
+  *  `http://127.0.0.1:3001/oauth2/authorization-code-flow.html`
+- **`scope`**: The desired [scopes](https://api-qa.collab.land/scopes) requested by your application, separated by spaces.
 - **`state`**: An opaque string that the client application provides, the value will be sent back as-is for the callback through a redirect uri.
 
 For example, to initiate the authorization code flow:
@@ -147,7 +117,53 @@ Replace **`ACCESS_TOKEN`** with the actual access token obtained in the previous
 
 The Collab.Land API will validate the access token and authorize the requested actions based on the associated user and scopes.
 
-<!-- Remember to handle token expiration and obtain refreshed tokens when necessary to ensure uninterrupted access to the Collab.Land API. By following this flow, your client application can securely authenticate users and interact with the Collab.Land API to leverage the provided resources and functionalities. -->
+## Understand Scopes
+
+Collab.Land API uses scopes to define the level of access and permissions requested by the client application. Scopes determine the resources and operations that the access token can be used for. It is crucial to understand the available scopes and select the appropriate ones based on your application's requirements.
+
+The following scopes are available:
+
+**user:wallet:write**
+
+- Add a new wallet or remove an existing wallet
+
+**user:wallet:read**
+- Read user wallets that they have connected with Collab.Land
+
+**user:community:read**
+- Read user communities, communities they belong to and communities they administrate.
+
+**user:read**
+- Read basic user profile (name, pfp, username, etc)
+
+**community:read**
+- Read community information like roles, stats, tgrs
+
+**community:write**
+- Update community information like roles, stats, tgrs
+
+**token-gating**
+- Check user wallet holdings
+
+**verifiable-credential:read**
+- Read public verifiable credentials
+
+**user:verifiable-credential:read**
+- Read users' verifiable credentials
+
+**user:verifiable-credential:write**
+- Issue users' verifiable credentials
+
+**user:webauthn-credential:read**
+- Read webauthn/passkey credentials
+
+**user:webauthn-credential:write**
+- Update or delete your webauthn/passkey credentials
+
+<!-- 
+:::success Please be aware that these scopes are currently being revised and will soon be updated to ensure accurate naming conventions and consistency.
+::: -->
+
 
 ### Sign in with Ethereum (SIWE)
 
