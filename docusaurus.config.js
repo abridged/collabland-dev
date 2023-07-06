@@ -50,11 +50,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-        // },
+        blog: {
+          showReadingTime: true,
+          // Remove this to remove the "edit this page" links.
+          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -156,12 +156,12 @@ const config = {
             activeBaseRegex: `/dao/token/token_overview/`,
             position: 'left',
           },
-          // {
-          //   to: '/tutorials/intro',
-          //   label: 'Tutorials',
-          //   activeBaseRegex: `/tutorials/`,
-          //   position: 'left',
-          // },
+          {
+            to: '/blog',
+            label: 'Blog',
+            activeBaseRegex: `/blog/`,
+            position: 'left',
+          },
         ],
       },
       algolia: {
