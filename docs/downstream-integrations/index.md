@@ -19,13 +19,13 @@ Collab.Land publishes `@collabland/sdk` npm module that provides a set of APIs y
 
 Collab.Land Miniapps are a set of web3 applications that can be installed on a community to provide additional features and functionalities. Learn How to build Miniapps [here](/docs/upstream-integrations/collab-actions/getting-started-with-collab-actions)
 
-<!---
+<!--
 ## Request API access
 
 - Register client application with Collab.Land to get an API key
 - Fill out this Google Form to request access to Collab.Land APIs:
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUKGy69dMDz-0MPVfNoPrtvV9ouZNiHqUun5-Z-0XyTOReMg/viewform?embedded=true" width="820" height="2219" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
----> 
+--> 
 
 <!-- Check out [API docs](../%5BShould-This-Move-To-Down-Stream-API-Folder%5D-api-docs). -->
 
