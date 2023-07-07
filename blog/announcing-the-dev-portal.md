@@ -15,7 +15,7 @@ The Developer Portal provides a dedicated platform for developers to contribute 
 * Contribute Miniapps to the Collab.Land Marketplace. 
 * Leverage LWC flow to request user permissions for data access.
 
-This significant evolution enables developers to reach over 50,000 communities who are actively seeking to enhance their members' experiences. Through the dev portal, developers can build and submit miniapps https://7671234c.collabland-dev.pages.dev/docs/downstream-integrations/api/authentication#login-with-collabland-lwc---beta to provide to a vast array of applications and services for community admins to customize their communities.
+This significant evolution enables developers to reach over 50,000 communities who are actively seeking to enhance their members' experiences. Through the dev portal, developers can build and submit miniapps to provide to a vast array of applications and services for community admins to customize their communities.
 
 ## First Look at Collab.Land APIs
 For the first time, the Developer Portal offers developers access to Collab.Land's APIs. These APIs encourage direct interaction with Collab.Land's network, facilitating a seamless integration process for active members across various websites, platforms, or apps.
