@@ -6,7 +6,7 @@ tags: [collabland, developers, api, miniapps, clientapps]
 ---
 
 
-Collab.Land is proud to announce the launch of its new Developer Portal and API product offering. These pivotal additions serve to broaden accessibility for developers, paving the way for further innovation within the comprehensive Collab.Land network of communities.
+Collab.Land is proud to announce the launch of its new [Developer Portal and API product offering](https://dev-portal.collab.land). These pivotal additions serve to broaden accessibility for developers, paving the way for further innovation within the comprehensive Collab.Land network of communities.
 
 ## Introducing the Developer Portal
 The Developer Portal provides a dedicated platform for developers to contribute their Miniapps to:
