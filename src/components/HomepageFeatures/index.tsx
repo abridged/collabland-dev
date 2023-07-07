@@ -12,6 +12,27 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   // add a button to all of these items
   {
+    title: 'Developer Portal',
+    ImageURL:
+      'https://res.cloudinary.com/collabland/image/upload/f_auto,q_auto/v1673350407/tools.webp',
+    description: (
+      <>
+        Access your developer dashboard and perform more actions like creating
+        client apps, generating API credentials and more...
+      </>
+    ),
+    button: (
+      <div className={styles.button}>
+        <Link
+          className={styles.buttonContent}
+          to="https://dev-portal.collab.land/"
+        >
+          Developers
+        </Link>
+      </div>
+    ),
+  },
+  {
     title: 'Easy to connect and collaborate',
     ImageURL:
       'https://res.cloudinary.com/collabland/image/upload/f_auto,q_auto/v1673350408/globe.webp',
@@ -30,24 +51,7 @@ const FeatureList: FeatureItem[] = [
       </div>
     ),
   },
-  {
-    title: 'Create a community of communities',
-    ImageURL:
-      'https://res.cloudinary.com/collabland/image/upload/f_auto,q_auto/v1673350407/rocket.webp',
-    description: (
-      <>
-        Using decentralized identities, crypto assets, and verifiable
-        credentials, Collab.Land is creating a community of communities.
-      </>
-    ),
-    button: (
-      <div className={styles.button}>
-        <Link className={styles.buttonContent} to="/help-docs/intro">
-          Admins
-        </Link>
-      </div>
-    ),
-  },
+
   {
     title: 'Build a decentralized platform',
     ImageURL:
@@ -68,22 +72,19 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Developer Portal',
+    title: 'Create a community of communities',
     ImageURL:
-      'https://res.cloudinary.com/collabland/image/upload/f_auto,q_auto/v1673350407/tools.webp',
+      'https://res.cloudinary.com/collabland/image/upload/f_auto,q_auto/v1673350407/rocket.webp',
     description: (
       <>
-        Access your developer dashboard and request more resources such as API
-        keys, cloud wallets, and Collab tokens.
+        Using decentralized identities, crypto assets, and verifiable
+        credentials, Collab.Land is creating a community of communities.
       </>
     ),
     button: (
       <div className={styles.button}>
-        <Link
-          className={styles.buttonContent}
-          to="/docs/downstream-integrations/"
-        >
-          Developers
+        <Link className={styles.buttonContent} to="/help-docs/intro">
+          Admins
         </Link>
       </div>
     ),
