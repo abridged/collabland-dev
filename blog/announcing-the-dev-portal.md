@@ -13,7 +13,7 @@ The Developer Portal provides a dedicated platform for developers to contribute 
 
 * Create client applications and get access to API credentials
 * Contribute Miniapps to the Collab.Land Marketplace. 
-* Leverage LWC flow to request user user permissions for data access.
+* Leverage LWC flow to request user permissions for data access.
 
 This significant evolution enables developers to reach over 50,000 communities who are actively seeking to enhance their members' experiences. Through the dev portal, developers can build and submit miniapps https://7671234c.collabland-dev.pages.dev/docs/downstream-integrations/api/authentication#login-with-collabland-lwc---beta to provide to a vast array of applications and services for community admins to customize their communities.
 
@@ -22,17 +22,17 @@ For the first time, the Developer Portal offers developers access to Collab.Land
 
 ## Tiered API Product Offering
 
-Designed with diverse needs in mind, Collab.Land's API product is available in three tiers.
+Designed with diverse needs in mind, Collab.Land's API product is available in [three tiers](https://dev-portal.collab.land/pricing).
 
-**Free Tier**: Ideal for newcomers to the API, offering limited requests and rate limits for initial experimentation and familiarization.
+**Free Tier**: Ideal for newcomers to the API, offering limited requests and rate limits for initial experimentation and familiarization as well as development.
 - 10 requests per second
-- 5000 requests per month
+- 10000 requests per month
 - 5 Max marketplace keys
 - 5 Max client apps
 
 **Paid Tier**: Geared towards developers requiring higher request and rate limits. This tier covers most use cases, perfectly suited for those ready to incorporate the API into larger projects:
-- 10 requests per second
-- 50000 requests per month
+- 15 requests per second
+- 1000000 requests per month
 - 500 Max marketplace keys
 - 500 Max client apps
 
