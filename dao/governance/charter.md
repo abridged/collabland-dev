@@ -4,15 +4,19 @@ sidebar_position: 4
 title: Co-op Charter
 ---
 
-import img1 from '@site/static/img/tutorial/Commit_history.png';
+import img1 from '@site/static/img/tutorial/Charter_commit_history.png';
 
-This is a living document that will be updated as changes are made. You can view the edit history using the [commit history on github](https://github.com/abridged/collabland-help-center/commits/master/docs/governance/charter.md).
+This is a living document that will be updated as changes are made. You can view the edit history using the [commit history on github](https://github.com/abridged/collabland-dev/commits/master/dao/governance/charter.md).
 
 <div class="text--center">
   <img  src={img1} alt="Charter edit history" />
 </div>
 
-Last edit - June 06 2023, a faithful conversion from the gdoc [DAO Charter stored on Origami](https://drive.google.com/file/d/1sjpVGYMMoV-dCBjBc1a9oZ9afjOVqvLE/preview?format=pdf). Some minor formatting changes required to convert to `md` document. Gramatical errors have been left intact to remain faithful to the original document.
+### Edits 
+Last Edit
+- June 19 2023, change commit history link + image to point to unified docs after docs repo conversion
+
+- June 06 2023, a faithful conversion from the gdoc [DAO Charter stored on Origami](https://drive.google.com/file/d/1sjpVGYMMoV-dCBjBc1a9oZ9afjOVqvLE/preview?format=pdf). Some minor formatting changes required to convert to `md` document. Gramatical errors have been left intact to remain faithful to the original document.
 
 Membership Agreement is split into its own post to allow posting on the forum.
 
