@@ -14,7 +14,7 @@ This is a living document that will be updated as changes are made. You can view
 
 ### Edits 
 Last Edit
-- June 19 2023, change commit history link + image to point to unified docs after docs repo conversion
+- July 19 2023, change commit history link + image to point to unified docs after docs repo conversion
 
 - June 06 2023, a faithful conversion from the gdoc [DAO Charter stored on Origami](https://drive.google.com/file/d/1sjpVGYMMoV-dCBjBc1a9oZ9afjOVqvLE/preview?format=pdf). Some minor formatting changes required to convert to `md` document. Gramatical errors have been left intact to remain faithful to the original document.
 
