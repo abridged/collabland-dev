@@ -12,6 +12,11 @@ At the moment, the $COLLAB Tokens are only available on Optimism so to begin, yo
 - Symbol: [Insert Optimism Symbol, e.g., ETH]
 - Block Explorer URL: [Insert Optimism Block Explorer URL]
 
+For instance, you can add the Optimism network to your MetaMask wallet by going to [https://chainlist.org/chain/10](https://chainlist.org/chain/10) and clicking:
+
+- `Connect Wallet` (to connect your metamask wallet) and
+- `Add to MetaMask` (to add the Optimism network to the connected wallet).
+
 Once you have added the Optimism network, ensure that you have selected it as your active network in your wallet interface.
 
 ## Step 2: Fund Your Wallet with Optimism ETH
