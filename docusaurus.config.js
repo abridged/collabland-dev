@@ -28,6 +28,17 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  scripts: [
+    {
+      src: 'https://widget.kapa.ai/kapa-widget.bundle.js',
+      'data-website-id': '7d20e0b5-97d8-4081-94c5-62ecf4a19bdc',
+      'data-project-name': 'Collab.Land',
+      'data-project-color': '#9B9EFF',
+      'data-project-logo':
+        'https://pbs.twimg.com/profile_images/1598394761005727760/5_QGhWNT_400x400.png',
+      async: true,
+    },
+  ],
 
   presets: [
     [
@@ -39,11 +50,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-        // },
+        blog: {
+          showReadingTime: true,
+          // Remove this to remove the "edit this page" links.
+          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -135,22 +146,22 @@ const config = {
           },
           {
             to: '/help-docs/intro',
-            label: 'Users',
+            label: 'Members & Admins',
             activeBaseRegex: `/help-docs/`,
             position: 'left',
           },
           {
-            to: '/dao/intro',
+            to: '/dao/token/token_overview',
             label: 'DAO',
-            activeBaseRegex: `/dao/`,
+            activeBaseRegex: `/dao/token/token_overview/`,
             position: 'left',
           },
-          // {
-          //   to: '/tutorials/intro',
-          //   label: 'Tutorials',
-          //   activeBaseRegex: `/tutorials/`,
-          //   position: 'left',
-          // },
+          {
+            to: '/blog',
+            label: 'Blog',
+            activeBaseRegex: `/blog/`,
+            position: 'left',
+          },
         ],
       },
       algolia: {
@@ -187,16 +198,12 @@ const config = {
               {
                 label: 'Discord',
                 href: 'https://discord.gg/collabland',
-              }
+              },
             ],
           },
           {
             title: 'More',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/abridged',

@@ -234,7 +234,7 @@ After the security measures have been handled and the request has been processed
 
 ## Handling Subsequent Interactions
 
-The request body comes with a `callbackUrl` property that provides a channel for subsequent communication. With the `callbackUrl`, you can perform CRUP operations to `follow-up` `delete` or `update` messages.
+The request body comes with a `callbackUrl` property that provides a channel for subsequent communication. With the `callbackUrl`, you can perform CRUD operations to `follow-up` `delete` or `update` messages.
 
 - `POST` to the `callbackUrl` to send replies or responses to the initial interaction message.
 - `PATCH` to `{callbackUrl}/messages/{messageId}` to update an old message.
