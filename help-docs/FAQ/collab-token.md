@@ -39,7 +39,7 @@ Once your wallet is funded with Optimism ETH, it's time to swap them for $COLLAB
 - Ensure that your wallet is connected to the Optimism network. You can usually find a "Connect Wallet" or similar button on the DEX interface. Select your wallet and authorize the connection.
 - In the swap interface, select the Optimism ETH token as the input token.
 - Specify the amount of Optimism ETH you wish to swap for $COLLAB tokens.
-- Locate and select $COLLAB as the output token. Ensure that the token details match the official $COLLAB token: `0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a`.
+- Locate and select $COLLAB as the output token. Ensure that the token details match the official $COLLAB token: [`0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a`](https://optimistic.etherscan.io/token/0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a).
 - Review the transaction details, including the estimated gas fees, before confirming the swap.
 - Once you are satisfied with the details, initiate the swap transaction and confirm it using your wallet.
 
