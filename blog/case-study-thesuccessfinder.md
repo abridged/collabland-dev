@@ -50,4 +50,4 @@ This process has been simplified and made easier by the launch of the Collab.Lan
 
 Looking to the future, TSF believes that token gating technology will continue to play a pivotal role in shaping online experiences. The platform has already adopted token gating in more areas than initially planned, including communities, video rooms, courses, modules, and audio rooms. TSF remains committed to exploring further possibilities and plans to introduce a subscription feature that will allow learners to opt into a subscription plan on their platform. The ongoing partnership with Collab.Land and the continued utilization of token gating technology
 
-visit the [Dev Portal!](https://dev-portal.collab.land/)to get started building your own integration!
+Visit the [Dev Portal](https://dev-portal.collab.land/) to start building your own integration!
