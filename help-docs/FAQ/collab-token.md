@@ -1,21 +1,17 @@
-# Get $COLLAB Tokens
+# How to get $COLLAB tokens
+
+## TLDR
+
+- If you have a completely new wallet without any assets, fund your wallet with Optimism ETH from an existing wallet or a centralised exchange and then swap the Optimism ETH for COLLAB tokens.
+- If you have an old wallet but only have Mainnet ETH on it, swap it for Optimism ETH and then swap the Optimism ETH with COLLAB tokens.
+- If you have an lld wallet with some Optimism ETH in it, directly swap for COLLAB tokens.
 
 If you have recently created a new wallet address and are ready to acquire $COLLAB tokens, follow these steps to successfully add $COLLAB tokens to your new wallet:
 
 ## Step 1: Add Optimism Network to Your Wallet
 
-At the moment, the $COLLAB Tokens are only available on Optimism so to begin, you need to add the Optimism network to your wallet. Refer to your wallet's settings or preferences and locate the option to add a new network. Depending on your wallet providder, you might be required to provide the following details to add the Optimism network:
-
-- Network Name: Optimism
-- Network RPC URL: [Insert Optimism RPC URL]
-- Chain ID: [Insert Optimism Chain ID]
-- Symbol: [Insert Optimism Symbol, e.g., ETH]
-- Block Explorer URL: [Insert Optimism Block Explorer URL]
-
-For instance, you can add the Optimism network to your MetaMask wallet by going to [https://chainlist.org/chain/10](https://chainlist.org/chain/10) and clicking:
-
-- `Connect Wallet` (to connect your metamask wallet) and
-- `Add to MetaMask` (to add the Optimism network to the connected wallet).
+At the moment, the $COLLAB Tokens are only available on Optimism so to begin, you need to add the Optimism network to your wallet.
+For instance, you can add the Optimism network to your MetaMask wallet by going to [https://chainlist.org/chain/10](https://chainlist.org/chain/10).
 
 Once you have added the Optimism network, ensure that you have selected it as your active network in your wallet interface.
 
@@ -37,13 +33,13 @@ An alternative method is to bridge your Mainnet ETH to the Optimism network. Thi
 
 ## Step 3: Swap Optimism ETH for $COLLAB Tokens
 
-Once your wallet is funded with Optimism ETH, it's time to swap them for $COLLAB tokens. This step requires the use of a decentralized exchange (DEX) such as Uniswap. Follow the steps below to complete the swap:
+Once your wallet is funded with Optimism ETH, it's time to swap them for $COLLAB tokens. This step requires the use of a decentralized exchange (DEX) such as [Uniswap](<(https://app.uniswap.org/#/swap)>). Follow the steps below to complete the swap:
 
 - Access the Uniswap platform using this URL: [https://app.uniswap.org/#/swap](https://app.uniswap.org/#/swap).
 - Ensure that your wallet is connected to the Optimism network. You can usually find a "Connect Wallet" or similar button on the DEX interface. Select your wallet and authorize the connection.
 - In the swap interface, select the Optimism ETH token as the input token.
 - Specify the amount of Optimism ETH you wish to swap for $COLLAB tokens.
-- Locate and select $COLLAB as the output token. Ensure that the token details match the official $COLLAB token.
+- Locate and select $COLLAB as the output token. Ensure that the token details match the official $COLLAB token: `0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a`.
 - Review the transaction details, including the estimated gas fees, before confirming the swap.
 - Once you are satisfied with the details, initiate the swap transaction and confirm it using your wallet.
 
