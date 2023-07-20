@@ -4,7 +4,7 @@
 
 - If you have a completely new wallet without any assets, fund your wallet with Optimism ETH from an existing wallet or a centralised exchange and then swap the Optimism ETH for COLLAB tokens.
 - If you have an old wallet but only have Mainnet ETH on it, swap it for Optimism ETH and then swap the Optimism ETH with COLLAB tokens.
-- If you have an lld wallet with some Optimism ETH in it, directly swap for COLLAB tokens.
+- If you have an old wallet with some Optimism ETH in it, directly swap for COLLAB tokens.
 
 If you have recently created a new wallet address and are ready to acquire $COLLAB tokens, follow these steps to successfully add $COLLAB tokens to your new wallet:
 
