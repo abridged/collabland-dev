@@ -15,21 +15,25 @@ For instance, you can add the Optimism network to your MetaMask wallet by going 
 
 Once you have added the Optimism network, ensure that you have selected it as your active network in your wallet interface.
 
+---
+
 ## Step 2: Fund Your Wallet with Optimism ETH
 
 Now it's time to fund your wallet with Optimism Ether (ETH). There are a few methods to acquire Optimism ETH:
 
-### Option 1: Transfer from Another Address
+##### Option 1: Transfer from Another Address
 
 If you already possess Optimism ETH in another wallet or address, you can initiate a transfer to your new wallet address. Ensure that you have access to the wallet containing the Optimism ETH and follow the appropriate steps to initiate the transfer. Specify your new wallet address as the recipient.
 
-### Option 2: Purchase from a Centralized Exchange
+##### Option 2: Purchase from a Centralized Exchange
 
 Another way to obtain Optimism ETH is by purchasing it from a centralized exchange. Identify a reputable exchange that supports Optimism ETH and follow their processes to deposit funds into your exchange account. Once you have successfully deposited funds, execute a trade to acquire the desired amount of Optimism ETH.
 
-### Option 3: Bridge Mainnet ETH to Optimism
+##### Option 3: Bridge Mainnet ETH to Optimism
 
 An alternative method is to bridge your Mainnet ETH to the Optimism network. This process involves using a bridge service that facilitates the transfer of Mainnet ETH to the Optimism network. You can utilize bridges like [Optimism bridge](https://app.optimism.io/bridge/deposit) or [Hop Exchange](https://app.hop.exchange/#/send?sourceNetwork=ethereum&destNetwork=optimism&token=ETH). Access the bridge service of your choice and follow their instructions to bridge your Mainnet ETH to Optimism.
+
+---
 
 ## Step 3: Swap Optimism ETH for $COLLAB Tokens
 
