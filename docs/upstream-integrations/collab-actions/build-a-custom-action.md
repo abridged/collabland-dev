@@ -32,9 +32,20 @@ interface Metadata {
 
 ### manifest
 
-The `manifest` is a model that defines the details of the mini-app. It has the following structure:
+The `manifest` is a model that defines the details of the miniapp. It has the following structure:
 
 ```jsx
+type Thumbnail = {
+  label: string;
+  src: string;
+  sizes: string;
+};
+
+type Icon = {
+  label: string;
+  src: string;
+  sizes: string;
+};
 interface MiniAppManifest {
 // Unique Id for Mini App
  appId: string;
@@ -66,10 +77,17 @@ interface MiniAppManifest {
 // Short Description of the mini app which will reflect on listing page
  shortDescription?: string;
 
-// This can be markdown or docs for what Mini App can do and what is it for?
+// This can be markdown or docs for what Mini App can do and what is it for? Be elaborate as needed.
  description?: string;
 
+// Currently only discord for now
  platforms?: [‘discord’];
+
+// thumbnail URL for your miniapp
+ thumbnails?: Thumbnail[];
+
+// icon URL for your miniapp
+ icons?: Icon[];
 }
 ```
 
@@ -84,7 +102,28 @@ An example implementation for the mini-app manifest:
    shortName: 'hello-action',
    version: {name: '0.0.1'},
    website: 'https://collab.land',
-   description: 'An example Collab Action',
+   description: 'A long description of your miniapp for the overview page',
+   shortDescription: 'a short description of your miniapp for the miniapp cards',
+   thumbnails: [
+      {
+        label: 'Member Directory',
+        src: 'thumbnail url',
+        sizes: '40x40',
+      },
+      {
+        label: 'Overview',
+        src: 'thumbnail url here',
+        sizes: '40x40',
+      }
+    ],
+
+  icons: [
+      {
+        label: 'App icon',
+        src: 'App icon URL here',
+        sizes: '40x40',
+      },
+    ],
 }),
 ```
 

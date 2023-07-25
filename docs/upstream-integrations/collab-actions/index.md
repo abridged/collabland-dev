@@ -64,7 +64,6 @@ Developers can build Actions for Discord commands such as slash commands, popup 
 We have three example Collab Action templates for you to consider:
 
 - [Loopback Hello Action template](https://github.com/abridged/collabland-hello-action)
-
 - [Express Action template](https://github.com/abridged/collabland-action-express)
 - [Python Action template](https://github.com/abridged/collabland-action-fastapi)
 
