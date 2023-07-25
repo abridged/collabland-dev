@@ -19,6 +19,25 @@ router.get("/metadata", function (req, res) {
     version: { name: "0.0.1" },
     website: "https://collab.land",
     description: "An example Collab.Land action",
+    thumbnails: [
+      {
+        label: 'Member Directory',
+        src: 'thumbnail url',
+        sizes: '40x40',
+      },
+      {
+        label: 'Overview',
+        src: 'thumbnail url here',
+        sizes: '40x40',
+      }
+    ],
+    icons: [
+      {
+        label: 'App icon',
+        src: 'App icon URL here',
+        sizes: '40x40',
+      },
+    ],
   });
   const metadata: DiscordActionMetadata = {
     /**
