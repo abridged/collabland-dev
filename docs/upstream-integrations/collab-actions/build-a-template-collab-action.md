@@ -175,7 +175,3 @@ If you’ve gotten to this point, the expectation is that you’ve been able to 
 ## Deployment Guide
 
 You can deploy your Action to your preferred deployment platform. You can follow deployment instruction to host your Action on GCP, AWS, Digital Ocean, Heroku, Azure etc. [Collab.Land](https://Collab.Land) does not enforce any particular deployment practices or platforms.
-
-## Submitting Your Collab Action
-
-Once your Action is built, you can [submit it for review](https://forms.gle/rTMmiXa8W7qUVA4f8) to Collab.Land. The metadata provided in the `getMetadata()` method will be reviewed to ensure there are no conflicts with other existing Colla Actions. Upon successful review and approval, the metadata will be saved in the Action registry and frozen for that version.
