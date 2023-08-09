@@ -17,13 +17,13 @@ To create a TGR in Discord, follow these steps:
 2. From the left panel, select the server in which you would like to create the TGR. Then, click on "TGRs".
 3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR.
 5. You will be taken to the TGR configuration page. Fill in the fields to create your TGR. If any information provided is incorrect, an error message will appear. The fields include:
-   - Description (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
-   - Chain type: The blockchain network that the token for this TGR is on.
-   - Token type: The type of token used for the TGR.
-   - Address: The contract address of your token.
-   - Token ID (optional): Give the specific `tokenId`s of the tokens required to obtain the role.
-   - Balance: The minimum and maximum (optional) amount of tokens required to obtain the role.
-   - Attributes (conditional): For specific tokens, such as NFTs, you can add metadata conditions that must be met in order for the member to receive the role. If your NFT contains metadata traits and values, you can enter them by clicking on the "Attributes" button and then "Add metadata".
+   - `Description` (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
+   - `Chain type`: The blockchain network that the token for this TGR is on.
+   - `Token type`: The type of token used for the TGR.
+   - `Address`: The contract address of your token.
+   - `Token ID` (optional): Give the specific `tokenId`s of the tokens required to obtain the role.
+   - `Balance`: The minimum and maximum (optional) amount of tokens required to obtain the role.
+   - `Attributes` (conditional): For specific tokens, such as NFTs, you can add metadata conditions that must be met in order for the member to receive the role. If your NFT contains metadata traits and values, you can enter them by clicking on the "Attributes" button and then "Add metadata".
 1. If you need to start over, click "Reset". This action is not reversible.
 2. Once you have filled in the fields, click "Save" to create your TGR. 
 
