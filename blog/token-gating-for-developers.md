@@ -1,8 +1,8 @@
 ---
-slug: thesuccessfinder-case-study
+slug: token-gating-for-developers
 title: Token Gating for Developers
 authors: kenny
-tags: [collabland, developers, api]
+tags: [collabland, developers, token-gating, api]
 date: 2023-08-16
 ---
 
@@ -19,8 +19,8 @@ The success of this approach grew the Collab.Land ecosystem to over 50k communit
 In January, we [announced](https://medium.com/collab-land/announcing-collab-land-token-gating-for-websites-v-1-82f41c7a6ea9) a new `/access-control` endpoint for token gating that allows developers to control access to their applications based on the possession of specific on-chain tokens.
 The endpoint accepts two parameters:
 
-`account` - The wallet address of the user.
-`rules` - The token gating rules that specifies the assets that qualify a user.
+- `account` - The wallet address of the user.
+- `rules` - The token gating rules that specifies the assets that qualify a user.
 
 For each rule, Collab.Land will return a response indicating whether or not the rule has been granted or denied for the user. Here’s a sample request to the Collab.Land /access-control endpoint:
 
