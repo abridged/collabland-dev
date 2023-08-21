@@ -61,6 +61,7 @@ Community members should reference the [list of supported wallets](../wallets/ve
 | Q Chain          | ERC20, ERC721, ERC1155                                                              |
 | **Non-EVM Chains**     | ------------------                                                            |
 | Solana           | Solana FT, Solana NFT                                                               |
+| NEAR             | NEAR FT, NEAR NFT                                                                   |
 | Eluvio           | ERC721                                                                              |
 | Flow             | FLOW FT, FLOW NFT                                                                   |
 | Kusama           | RMRK                                                                                |
