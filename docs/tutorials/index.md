@@ -8,10 +8,12 @@ sidebar_position: 4
 
 This tutorial will walk you through the basics of Collab.Land. We will cover:
 
-- [What is Collab.Land?](#what-is-collabland)
-- [How does Collab.Land work?](#how-does-collabland-work)
-- [How to use Collab.Land?](#how-to-use-collabland)
-- [Build with Collab.Land](#build-with-collabland)
+- [Tutorials](#tutorials)
+  - [Collab.Land Introduction Tutorial](#collabland-introduction-tutorial)
+  - [What is Collab.Land?](#what-is-collabland)
+  - [How does Collab.Land work?](#how-does-collabland-work)
+  - [How to use Collab.Land bot?](#how-to-use-collabland-bot)
+  - [Build with Collab.Land](#build-with-collabland)
 
 ## What is Collab.Land?
 
@@ -33,6 +35,6 @@ Collab.Land provides a bot that you can install to help manage access, roles and
 
 Collab.Land provides a list of [REST APIs](../downstream-integrations/api/) and an [SDK](../downstream-integrations/sdk/) to allow client applications to:
 
-1. Check a wallet address or account with a list of token gating rules
+1. Check a wallet address or account against a list of Token Gating Rules
 2. Access a user's information from Collab.Land if the user grants required permissions to the client application
-3. Manage token granted roles for community administrators
+3. Manage Token Gating Rules for community administrators

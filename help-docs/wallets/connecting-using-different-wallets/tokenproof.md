@@ -30,6 +30,6 @@ Follow these steps to verify your membership on Discord:
 
 7. Select the public wallet address you want to share with Collab.Land.
 
-8. Return to Discord, and you'll see a custom message with your token-granted roles.
+8. Return to Discord, and you'll see a custom message with your token-granted Discord roles.
 
 Please note that Telegram support is coming soon with the next update, and the steps will be similar to those described for Discord.
