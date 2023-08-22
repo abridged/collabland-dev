@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Using Collab.Land APIs
 ---
 
-## Collab.Land APIs
+# Collab.Land APIs
 
 Collab.Land provides a list of [REST APIs](https://api.collab.land/explorer) to allow client applications to:
 

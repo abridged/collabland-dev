@@ -26,4 +26,4 @@ Note: It is recommended to specify both unknown and true cases and specify an OR
 
    <div class="text--center">
         <img  src={img2} alt="Royalties Detection Rule TGR" />
-   </div
+   </div>
