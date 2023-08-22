@@ -78,4 +78,4 @@ const res = await fetch(`https://api.collab.land/access-control/check-roles`, {
 
 With our token gating APIs, we are extending the successful access control patterns in our communities and DAOs to developers. With one endpoint, developers can gate and grant access to websites, web applications, games, mobile applications and so on.
 
-I look forward to seeing what you build, and when you do, I’d be happy to amplify it for you. I've also linked a video tutorial on the [Getting Started scetion](#how-to-get-started) to show you how to implement this API in a Next.js project specifically.
+I look forward to seeing what you build, and when you do, I’d be happy to amplify it for you. I've also linked a video tutorial on the [Getting Started section](#how-to-get-started) to show you how to implement this API in a Next.js project specifically.
