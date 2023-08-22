@@ -8,9 +8,9 @@ date: 2023-08-16
 
 Token gating (AKA Token Granted Access) is a concept that has gained significant traction in recent years, particularly within decentralized autonomous organizations (DAOs) and non-fungible token (NFT) communities. At its core, token gating involves using on-chain assets to grant or restrict access to a community or a resource.
 
-The concept of token gating was first popularized by the [Collab.Land](https://collab.land) team, who made it possible for DAOs and other tokenized communities to verify membership through the possession of on-chain assets. A good example of this is how communities like [Axie Infinity](https://axieinfinity.com/) uses Collab.Land to authenticate new users who are joining their community. New members are required to go through a one-time wallet connection flow, after which they will be assigned roles based on their asset holdings. These roles will give them a tailored experience in the community, like access to exclusive messaging permissions, private channels etc.
+The concept of token gating was first popularized by the [Collab.Land](https://collab.land) team, who made it possible for DAOs and other tokenized communities to verify membership through the possession of on-chain assets. A good example of this is how communities like [Axie Infinity](https://axieinfinity.com/) use Collab.Land to authenticate new users who are joining their community. New members are required to go through a one-time wallet connection flow, after which they will be assigned roles based on their asset holdings. These roles will give them a tailored experience in the community, like access to exclusive messaging permissions, private channels etc.
 
-The success of this approach grew the Collab.Land ecosystem to over 50k communities with a reach of over 100Million members. That is huge, but we’re not stopping there! We are moving to the next stage - exposing our infrastructure to developers. What if developers had the ability to gate or grant access to their websites or specific parts of their projects based on the possession of some specified on-chain assets? Well, they can, with our website token gating APIs.
+The success of this approach grew the Collab.Land ecosystem to over 50k communities with a reach of over 100MM. That is huge, but we’re not stopping there! We are moving to the next stage - exposing our infrastructure to developers. What if developers had the ability to gate or grant access to their websites or specific parts of their projects based on the possession of some specified on-chain assets? Well, they can, with our website token gating APIs.
 
 ## Introducing Collab.Land’s Token Gating APIs
 
@@ -18,7 +18,7 @@ In January, we [announced](https://medium.com/collab-land/announcing-collab-land
 The endpoint accepts two parameters:
 
 - `account` - The wallet address of the user.
-- `rules` - The token gating rules that specifies the assets that qualify a user.
+- `rules` - The token gating rules that specify the assets that qualify a user.
 
 For each rule, Collab.Land will return a response indicating whether or not the rule has been granted or denied for the user. Here’s a sample request to the Collab.Land `/access-control` endpoint:
 
