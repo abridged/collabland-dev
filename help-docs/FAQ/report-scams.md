@@ -1,25 +1,42 @@
 # Report Scams
 
 import img1 from '@site/static/img/tutorial/faq/collab-bot.jpg';
+import img2 from '@site/static/img/tutorial/faq/cl-bot-telegram.png';
 
 ## Verify the Collab.Land bot
 
-You should always verify the bot number when interacting with bots that look like Collab.Land. There are many scammers who take advantage of the unsuspecting.
+You should always verify the bot when interacting with bots that look like Collab.Land. There are many scammers who take advantage of the unsuspecting.
 
-1. Click on the bot's username
+#### Verify the Collab.Land Discord bot
 
-2. Compare to the official Collab.Land bot
+1. Click on the bot's profile picture to open its Discord profile
 
-    - username `Collab.Land#6372`
+2. Compare to the official Collab.Land Discord bot
+
+    - username: `Collab.Land#6372`
 
     - user_id: `704521096837464076`
   
     - discriminator: `#6372`
 
-The official Collab.Land bot has `#6372` and the blue `✔ BOT` tag as shown below.
+The official Collab.Land Discord bot has `#6372` and the blue `✔ BOT` tag as shown below.
 
    <div class="text--center">
-     <img  src={img1} alt="Official Collab.Land bot" />
+     <img  src={img1} alt="Official Collab.Land Discord bot" />
+   </div>
+
+#### Verify the Collab.Land Telegram bot
+
+1. Click on the bot's profile picture to open its Telegram profile
+
+2. Compare to the official Collab.Land Telegram bot
+
+   - username: `collablandbot`
+
+The official Collab.Land Telegram bot has username `collablandbot` as shown below.
+
+   <div class="text--center">
+     <img  src={img2} alt="Official Collab.Land Telegram bot" />
    </div>
 
 ## Report scams
