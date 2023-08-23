@@ -30,7 +30,7 @@ All reports to Collab.Land or Discord need to include the [discord user id](http
 
 :::
 
-Please report all suspicious accounts and potential scams in the [#report-scam channel](https://discord.com/channels/904119310702772254/909954920780816486).
+Please report all suspicious accounts and potential scams in the [#report-scam channel](https://discord.com/channels/904119310702772254/909954920780816486) of the [Collab.Land Discord](https://discord.gg/collabland).
 
 ### How to Report to Collab.Land
 
@@ -53,6 +53,10 @@ We accept scam reports in 3 ways:
 How to [get someone's discord user id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
 
 :::
+
+#### Security and Reporting using the ChainPatrol Miniapp
+
+The [ChainPatrol Miniapp](../marketplace/apps/chainpatrol.md) allows server members to check links against a global blocklist and report suspicious links within your community's Discord server.
 
 ### How to Report a URL to Google
 
