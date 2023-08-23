@@ -234,7 +234,7 @@ function verifyRequestWithEcdsa(publicKey, signature, body) {
 }
 ```
 
-## ED2599
+## ED25199
 
 ```jsx
 const nacl = require("tweetnacl");
