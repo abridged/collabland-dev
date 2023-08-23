@@ -93,6 +93,27 @@ If you need some help to get user addresses, here are a few options:
 
 TGRs are the rules that the wallet assets will be checked against by the Collab.Land. The API will return boolean `true`/`false` for each rule to indicate if the account address fulfills the defined rules or not.
 
+```json
+  rules: [
+    {
+      chainId: 137,
+      minToken: '1',
+      contractAddress: '0x1fdf................81166e4ec02',
+      roleId: MEMBER_ROLE,
+      type: 'ERC721',
+      name: 'MemberNFT Holder',
+    },
+    {
+      chainId: 1,
+      minToken: '1',
+      contractAddress: '0x1fdf................81166e4ec02',
+      roleId: PATRON_ROLE,
+      type: 'ERC721',
+      name: 'PatronNFT Holder',
+    },
+  ]
+```
+
 Please see [Configuring your TGRs](../common-reference-docs/configuring-rules) for rule definition details.
 
 ### 3. Call the Collab.Land API
@@ -106,7 +127,7 @@ const res = await getCollabClient().accessControl.checkRoles({
     {
       chainId: 137,
       minToken: '1',
-      contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+      contractAddress: '0x1fdf................81166e4ec02',
       roleId: MEMBER_ROLE,
       type: 'ERC721',
       name: 'MemberNFT Holder',
@@ -114,7 +135,7 @@ const res = await getCollabClient().accessControl.checkRoles({
     {
       chainId: 1,
       minToken: '1',
-      contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+      contractAddress: '0x1fdf................81166e4ec02',
       roleId: PATRON_ROLE,
       type: 'ERC721',
       name: 'PatronNFT Holder',
@@ -197,7 +218,7 @@ const apiResponse = await getCollabClient().accessControl.checkRoles({
     {
         chainId: 137,
         minToken: '1',
-        contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+        contractAddress: '0x1fdf................81166e4ec02',
         roleId: MEMBER_ROLE,
         type: 'ERC721',
         name: 'MemberNFT Holder',
@@ -205,7 +226,7 @@ const apiResponse = await getCollabClient().accessControl.checkRoles({
     {
         chainId: 1,
         minToken: '1',
-        contractAddress: '0x1fdf97e5bee48893eef28116973ca81166e4ec02',
+        contractAddress: '0x1fdf................81166e4ec02',
         roleId: PATRON_ROLE,
         type: 'ERC721',
         name: 'PatronNFT Holder',
