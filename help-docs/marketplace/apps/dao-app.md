@@ -2,6 +2,7 @@
 sidebar_position: 11
 title: The DAO App
 ---
+import img1 from '@site/static/img/tutorial/marketplace/dao-app.png';
 
 ## The DAO App
 
@@ -20,6 +21,10 @@ Included with the transparency dashboard are: treasury details, transaction hist
 2. Reach out to us [via our Discord server](https://discord.gg/H9h4wHRWsc) to get your community set up on The DAO App.
 
 3. After setup, this one single command `/community` provides your community with everything they need in order to find out what they want to know. The DAO App aggregates data from Snapshot, other on-chain ledgers, and can also optionally integrate with your communities’ native website for ultimate transparency and accessibility.
+
+  <div class="text--center">
+    <img  src={img1} alt="/community bot response" />
+  </div>
 
 ### Commands
 
