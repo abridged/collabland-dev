@@ -7,9 +7,9 @@ title: Using Collab.Land APIs
 
 Collab.Land provides a list of [REST APIs](https://api.collab.land/explorer) to allow client applications to:
 
-- Check a wallet address or account with a list of token gating rules
+- Check a wallet address or account against a list of Token Gating Rules
 - Access a user's information from Collab.Land if the user grants required permissions to the client application
-- Manage token granted roles for community administrators
+- Manage Token Gating Rules for community administrators
 - Check out [API docs](/docs/downstream-integrations/api/).
 
 ## Collab.Land JavaScript/TypeScript SDK
