@@ -4,8 +4,6 @@ title: The DAO App
 ---
 import img1 from '@site/static/img/tutorial/marketplace/dao-app.png';
 
-## The DAO App
-
 ### About this app
 
 The DAO App gives your community the ultimate, automated, and customizable transparency dashboard of critical community information all in one-single, easy to use interface.
