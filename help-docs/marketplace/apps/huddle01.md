@@ -4,10 +4,9 @@ Your one app to meet, work or hang out. Enjoy exciting features like wallet and 
 
 ### Getting Started
 
-1. Install the Huddle01 MiniApp from [Collab.land Marketplace](https://cc.collab.land)
+1. Install the Huddle01 MiniApp from [Collab.land Marketplace](https://cc.collab.land).
 
-2. Once you have installed Huddle01 MiniApp, go to the Discord and use the command:
-
+2. Once you have installed Huddle01 MiniApp, go to the Discord and use the command: <br/>
     ```
     /create-huddle01-meet
     ```
@@ -15,7 +14,7 @@ Your one app to meet, work or hang out. Enjoy exciting features like wallet and 
 
     - Write `na` if there is no host wallet.
 
-3. You can also create Token Gated Meeting using Huddle01 MiniApp. For that use the command <br/> 
+3. You can also create a Token Gated Meeting using Huddle01 MiniApp. For that use the command: <br/>
     ```
     /create-huddle01-tokengated-meet
     ```
