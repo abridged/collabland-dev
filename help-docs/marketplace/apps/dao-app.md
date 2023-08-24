@@ -17,7 +17,7 @@ Included with the transparency dashboard are: treasury details, transaction hist
 
 1. Community admins install The DAO App Miniapp from the [Collab.Land Marketplace](https://cc.collab.land/).
 
-2. Reach out to us [via our Discord server](https://discord.gg/QQAJX9Xz) to get your community set up on The DAO App.
+2. Reach out to us [via our Discord server](https://discord.gg/H9h4wHRWsc) to get your community set up on The DAO App.
 
 3. After setup, this one single command `/community` provides your community with everything they need in order to find out what they want to know. The DAO App aggregates data from Snapshot, other on-chain ledgers, and can also optionally integrate with your communities’ native website for ultimate transparency and accessibility.
 
@@ -29,7 +29,7 @@ Included with the transparency dashboard are: treasury details, transaction hist
 
 ### Support
 
-* Discord: [NodeBlocks Discord server](https://discord.gg/QQAJX9Xz)
+* Discord: [NodeBlocks Discord server](https://discord.gg/H9h4wHRWsc)
 * Twitter: [@memebrains](https://twitter.com/memebrains) 
 * Website: [nodeblocks.io](https://nodeblocks.io)
 
