@@ -37,3 +37,5 @@ Your one app to meet, work or hang out. Enjoy exciting features like wallet and 
 | --- | --- | --- |
 | `/create-huddle01-meet` | Host Wallet Addresses (comma seperated values) | Create a standard Huddle01 meeting with specified host wallets. |
 | `/create-huddle01-tokengated-meet` | Host Wallet Addresses (csv), chain, tokenType, tokenAddress, and tokenId | Create token gated meetings on Huddle01. Supported token standards include `ERC20`, `ERC721`, `ERC1155`, `BEP20` and `BEP721`. Supported chains are `ETHEREUM`, `POLYGON` and `BSC`.
+
+## Support
