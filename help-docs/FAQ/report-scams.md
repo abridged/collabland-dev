@@ -95,25 +95,25 @@ The [ChainPatrol Miniapp](../marketplace/apps/chainpatrol.md) allows server memb
 
 1. Click the `...` in the top right of the profile or tweet
 
-2. Report tweet/account
+2. Select `Report tweet/account`
 
-3. Everyone on Twitter
+3. Select `Everyone on Twitter`
 
-4. Offered tips or currency ... or causes harm
+4. Select `Offered tips or currency ... or causes harm`
 
-5. Tricking other people into sending tips, currency, or private financial info
+5. Select `Tricking other people into sending tips, currency, or private financial info`
 
 ### How to Report to Twitter (impersonation)
 
 1. Click the `...` in the top right of the profile or tweet
 
-2. Report tweet/account
+2. Select `Report tweet/account`
 
-3. Everyone on Twitter
+3. Select `Everyone on Twitter`
 
-4. They're being impersonated or shown a deceptive identity
+4. Select `They're being impersonated or shown a deceptive identity`
 
-5. Pretending to be them
+5. Select `Pretending to be them`
 
 6. Select account being impersonated
 
