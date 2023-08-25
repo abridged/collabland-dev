@@ -20,18 +20,18 @@ Step 2 in Getting Started below is required to set up your community to use your
     
 <details>
     <summary>Enter Promo Code:</summary>
-    `CollabLandFTW2023`
+    CollabLandFTW2023
 </details>
 
 :::
 
-1. Members use `/buy-emoji` command in Discord to buy/mint your community Emoji NFTs in the [MarkX marketplace (in testnet right now)](https://xyzport.com/browseProducts)
+3. Members use `/buy-emoji` command in Discord to buy/mint your community Emoji NFTs in the [MarkX marketplace (in testnet right now)](https://xyzport.com/browseProducts)
 
-2. Members use `/connect-wallet` command to give Miniapp permission to read wallets you have connected with [Collab.Land](https://collab.land)
+4. Members use `/connect-wallet` command to give Miniapp permission to read wallets you have connected with [Collab.Land](https://collab.land)
 
-3. Use `/view-emojis` command to view all the Emoji NFTs you own
+5. Use `/view-emojis` command to view all the Emoji NFTs you own
 
-4. Use `/post-emoji` command to post the Emoji NFT you own as stickers with others
+6. Use `/post-emoji` command to post the Emoji NFT you own as stickers with others
 
 ## Commands
 
