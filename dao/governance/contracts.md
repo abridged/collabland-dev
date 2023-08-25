@@ -17,3 +17,5 @@ Collab.Land's governor contract is a modified variant of [Compound's governor br
 | Voting Cycle | [2/7/5 days](./proposals#proposal-cycle) | Voting delay 2 days, Voting period 7 days, Execution delay 5 days |
 | Quorum Requirement | 1.39M COLLAB, 10% of [circulating supply](https://dune.com/queries/2412517), defined as COLLAB held in wallets also holding DAO Pass | 0.139% of `total supply` as of 05/26/23, to be updated seasonally |
 | Proposal Threshold | 695,000 COLLAB required to create proposal on governor contract | To be updated seasonally to be 50% of Quorum Requirement |
+| Governor contract | op:`0xb18c10E49bC7C5f09A564f3A8DaF28Df54dc6672` | [Governor contract](https://optimistic.etherscan.io/address/0xb18c10E49bC7C5f09A564f3A8DaF28Df54dc6672) deployed on Optimism Mainnet
+| Timelock controller | op:`0x43F6Df8E94F9029805C8eE6c11a06Cc801E8C586` | [Timelock controller](https://optimistic.etherscan.io/address/0x43F6Df8E94F9029805C8eE6c11a06Cc801E8C586) deployed on Optimism Mainnet
