@@ -1,3 +1,8 @@
+---
+sidebar_position: 10
+title: Huddle01
+---
+
 ### About this app
 
 Your one app to meet, work or hang out. Enjoy exciting features like wallet and social login, token-gating, live streaming, recording, NFTs as PFPs, DIDs as display names, and more on Huddle01.
