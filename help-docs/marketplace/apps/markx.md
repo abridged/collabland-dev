@@ -15,10 +15,15 @@ Step 2 in Getting Started below is required to set up your community to use your
 1. Admins install the MarkX Emoji Miniapp from the [Collab.Land Marketplace](../getting-started.md)
 
 2. Admins [create a free Emoji](https://www.markx.io/create-emojis) collection for your IP (NFT or Brand) with MarkX
-    <details>
-      <summary>Enter Promo Code:</summary>
-      `CollabLandFTW2023`
-    </details>
+    
+:::info
+    
+<details>
+    <summary>Enter Promo Code:</summary>
+    `CollabLandFTW2023`
+</details>
+
+:::
 
 1. Members use `/buy-emoji` command in Discord to buy/mint your community Emoji NFTs in the [MarkX marketplace (in testnet right now)](https://xyzport.com/browseProducts)
 
