@@ -7,7 +7,7 @@ import img4 from '@site/static/img/tutorial/token/import-token.png';
 
 :::info
 
-Check out Collab.Land's [token story](https://wagmi.collab.land/) and the [DAO token docs](../../dao/token/token_overview.md) to learn about _why_ the $COLLAB token exists.
+Check out Collab.Land's [token story](https://wagmi.collab.land/) and the [DAO token docs](../../dao/token/token_overview) to learn about _why_ the $COLLAB token exists.
 
 :::
 
@@ -19,7 +19,7 @@ Check out Collab.Land's [token story](https://wagmi.collab.land/) and the [DAO t
 
 :::tip
 
-Check out the [$COLLAB token details](../../dao/token/token_overview.md) page.
+Check out the [$COLLAB token details](././dao/token/token_overview) page.
 
 :::
 
@@ -76,7 +76,7 @@ See [How to add the Optimism network to MetaMask (or preferred EVM wallet)](http
 
 ### GIF Tutorial
 
-Contract address is `0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A` and you can view the contract on [Optimistic Etherscan](https://optimistic.etherscan.io/token/0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a). You can read more about the token details on the [DAO docs](../../dao/token/token_overview.md).
+Contract address is `0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A` and you can view the contract on [Optimistic Etherscan](https://optimistic.etherscan.io/token/0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a). You can read more about the token details on the [DAO docs](../../dao/token/token_overview).
 
   <div class="text--center">
     <img  src={img1} alt="How to add COLLAB tokens to EVM wallets like MetaMask" />

@@ -33,7 +33,7 @@ View the [Mission, Vision, and Values](https://gov.collab.land/t/collab-land-mis
 
 To protect our users and prevent scams we do not handle support questions via Discord.
 
-For support questions, please [check the help docs](../intro.md), [submit a support ticket](https://collabland.freshdesk.com/support/tickets/new) , or email us at: `support(@)collab.land`.
+For support questions, please [check the help docs](../intro), [submit a support ticket](https://collabland.freshdesk.com/support/tickets/new) , or email us at: `support(@)collab.land`.
 
 ---
 
@@ -45,11 +45,11 @@ The Collab.Land bot is an automated community management tool that curates membe
 
 #### Governance
 
-Check out the [DAO section](../../dao/intro.md) of the documentation.
+Check out the [DAO section](../../dao/intro) of the documentation.
 
 #### $COLLAB token
 
-Check out the [token section](../../dao/token/token_overview.md) of the documentation.
+Check out the [token section](../../dao/token/token_overview) of the documentation.
 
 ---
 
