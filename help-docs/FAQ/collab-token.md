@@ -71,13 +71,13 @@ Congratulations! You have successfully acquired $COLLAB tokens and they are now 
 
 ## Step 4: Add $COLLAB token to MetaMask
 
-Note: You must be on the Optimism network to start this process. 
+Note: You must be on the Optimism network to start this process.
 See [How to add the Optimism network to MetaMask (or preferred EVM wallet)](https://www.notion.so/How-to-add-the-Optimism-network-to-MetaMask-or-preferred-EVM-wallet-61d314fe3dee49909f2000d41388cf5f?pvs=21) if needed.
 
 ### GIF Tutorial
 
 Contract address is `0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A` and you can view the contract on [Optimistic Etherscan](https://optimistic.etherscan.io/token/0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a). You can read more about the token details on the [DAO docs](../../dao/token/token_overview.md).
-    
+
   <div class="text--center">
     <img  src={img1} alt="How to add COLLAB tokens to EVM wallets like MetaMask" />
   </div>
