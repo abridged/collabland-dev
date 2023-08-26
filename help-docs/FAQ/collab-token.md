@@ -1,3 +1,8 @@
+import img1 from '@site/static/img/tutorial/token/add-collab-token.gif';
+import img2 from '@site/static/img/tutorial/token/switch-to-op.png';
+import img3 from '@site/static/img/tutorial/token/assets-tab.png';
+import img4 from '@site/static/img/tutorial/token/import-token.png';
+
 # How to get $COLLAB tokens
 
 ## TLDR
@@ -49,3 +54,41 @@ Once your wallet is funded with Optimism ETH, it's time to swap them for $COLLAB
 
 Wait for the transaction to be processed on the Optimism network. You can monitor the progress and view the transaction details on the Optimism block explorer.
 Congratulations! You have successfully acquired $COLLAB tokens and they are now stored in your wallet on the Optimism network. You can view your token balance in your wallet interface or explore further opportunities to utilize your $COLLAB tokens within the Optimism ecosystem.
+
+---
+
+## Step 4: Add $COLLAB token to MetaMask
+
+Note: You must be on the Optimism network to start this process. 
+See [How to add the Optimism network to MetaMask (or preferred EVM wallet)](https://www.notion.so/How-to-add-the-Optimism-network-to-MetaMask-or-preferred-EVM-wallet-61d314fe3dee49909f2000d41388cf5f?pvs=21) if needed.
+
+### GIF Tutorial
+
+Contract address is `0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A` and you can view the contract on [Optimistic Etherscan](https://optimistic.etherscan.io/token/0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a). You can read more about the token details on the [DAO docs](../../dao/token/token_overview.md).
+    
+  <div class="text--center">
+    <img  src={img1} alt="How to add COLLAB tokens to EVM wallets like MetaMask" />
+  </div>
+
+1. Switch to the Optimism network in your wallet
+
+  <div class="text--center">
+    <img  src={img2} alt="Switch to the Optimism network" />
+  </div>
+
+2. Select “Assets” tab in MetaMask
+
+  <div class="text--center">
+    <img  src={img3} alt="Select the Assets tab in MetaMask" />
+  </div>
+
+3. Press the "Import tokens" option at the bottom of the Assets list.
+    1. Enter “Token contract address”: `0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a`
+    2. “Token Symbol”: `COLLAB`
+    3. “Token Decimal”: `18`
+
+  <div class="text--center">
+    <img  src={img4} alt="Click the Import tokens option" />
+  </div>
+
+4. Your Collab tokens will now be visible in your MetaMask wallet.
