@@ -3,7 +3,13 @@ import img2 from '@site/static/img/tutorial/token/switch-to-op.png';
 import img3 from '@site/static/img/tutorial/token/assets-tab.png';
 import img4 from '@site/static/img/tutorial/token/import-token.png';
 
-# How to get $COLLAB tokens
+# How to Acquire $COLLAB tokens
+
+:::info
+
+Check out Collab.Land's [token story](https://wagmi.collab.land/) and the [DAO token docs](../../dao/token/token_overview.md) to learn about _why_ the $COLLAB token exists.
+
+:::
 
 ## TLDR
 

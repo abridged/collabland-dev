@@ -9,6 +9,14 @@ The $COLLAB token serves as the [governance](../governance/contracts) and utilit
 
 COLLAB is an `ERC20` token minted on Ethereum and bridged to Optimistic Ethereum. The token contract address is [`0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A`](https://optimistic.etherscan.io/address/0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a) on Optimism.
 
+## How to Acquire $COLLAB
+
+:::tip
+
+Check out the [How to Acquire $COLLAB tokens](../../help-docs/FAQ/collab-token.md#how-to-acquire-collab-tokens) page.
+
+:::
+
 ## COLLAB airdrop
 
 The details are online at the [Token FAQ](https://wagmi.collab.land/token-story).

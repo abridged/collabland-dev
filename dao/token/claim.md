@@ -5,6 +5,12 @@ title: How to claim
 
 import img1 from '@site/static/img/tutorial/token/add-collab-token.gif';
 
+:::info
+
+The $COLLAB retroactive rewards airdrop claim ended May 23, 2023.
+
+:::
+
 ## Who is eligible to claim the token?
 
 The following four groups are eligible for a sponsored claim. A sponsored claim means that Collab.Land is not requiring claimants to pay gas. This also means that no wallet connection is required.

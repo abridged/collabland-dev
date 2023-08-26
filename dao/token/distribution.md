@@ -6,7 +6,7 @@ title: Distribution
 import img1 from '@site/static/img/tutorial/token/distribution.png';
 import img2 from '@site/static/img/tutorial/token/retroactive-distribution.png';
 
-## What is the $COLLAB token distribution?
+## What is the $COLLAB token initial distribution?
 
 The $COLLAB token distribution is as follows:
 DAO Treasury = 50% (500MM) (reserved for future distributions and use)
@@ -23,17 +23,15 @@ The Collab.Land core team, investors, and partners have been allocated 25% of th
      <img  src={img1} alt="$COLLAB token distribution" />
 </div>
 
-## Retroactive-distribution
+## Retroactive Reward Distribution
 
-For the Retroactive Distribution, the breakdown is as follows:
+For the Retroactive Reward Distribution airdrop, the breakdown is as follows:
 Top 100 Discord Communities = 60%
 Collab.Land Patron NFT Holders (token numbers 1-142) = 16%
 Collab.Land Membership NFT Holders = 16%
 Verified Community Members as of 2/14/23 = 8%
 
 Any tokens that remain unclaimed on 5/23/23 will return to the DAO Treasury.
-
-
 
 <div class="text--center">
      <img  src={img2} alt="$COLLAB token retroactive-distribution" />
