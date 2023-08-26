@@ -11,6 +11,12 @@ import img4 from '@site/static/img/tutorial/token/import-token.png';
 - If you have an old wallet but only have Mainnet ETH on it, swap it for Optimism ETH and then swap the Optimism ETH with COLLAB tokens.
 - If you have an old wallet with some Optimism ETH in it, directly swap for COLLAB tokens.
 
+:::tip
+
+Check out the [$COLLAB token details](../../dao/token/token_overview.md) page.
+
+:::
+
 If you have recently created a new wallet address and are ready to acquire $COLLAB tokens, follow these steps to successfully add $COLLAB tokens to your new wallet:
 
 ## Step 1: Add Optimism Network to Your Wallet
