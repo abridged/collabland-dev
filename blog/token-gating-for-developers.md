@@ -1,7 +1,6 @@
 ---
 slug: token-gating-for-developers
 title: Token Gating for Developers
-image: /static/img/tsf.png
 authors: kenny
 tags: [collabland, developers, token-gating, api]
 date: 2023-08-16
