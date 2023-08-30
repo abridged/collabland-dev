@@ -4,7 +4,7 @@ title: Signature Verification for Collab.Land Miniapp Developers
 image: /static/img/sigverify.png
 authors: kenny
 tags: [collabland, developers, security, verification, miniapp]
-date: 2023-08-29
+date: 2023-08-30
 ---
 
 Security is a top priority for us here at Collab.Land. We not only ensure the safety of our members and admins but also take great care in securing the connections and data shared by developers through our APIs. One essential aspect of this security is signature verification. Today, we'll explore the importance of signature verification and guide you through the process of implementing it in your Miniapps on Collab.Land.
