@@ -1,6 +1,6 @@
 ---
 slug: signature-verification-in-miniapps
-title: Implementing Signature Verification for Collab.Land Miniapps
+title: Signature Verification for Collab.Land Miniapp Developers
 image: /static/img/sigverify.png
 authors: kenny
 tags: [collabland, developers, security, verification, miniapp]
