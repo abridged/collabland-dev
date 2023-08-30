@@ -5,9 +5,15 @@ title: OpenSea
 
 import img1 from '@site/static/img/tutorial/wallets/opensea-auth.gif';
 
-OpenSea is the largest NFT marketplace.
+Marketplace Auth is the next wave of authentication strategies in web3. Marketplace authentication is when the user verifies their identity through a marketplace profile which they use for everyday NFT transactions and trading.
 
-[Get started](https://opensea.io/) with OpenSea.
+We understand that web3 should be accessible, and easy to adopt for new users. Marketplace authentication allows users to safely authenticate their identity without signing any signatures with their wallet on other websites.
+
+### Why OpenSea?
+
+[OpenSea](https://opensea.io/) is the world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). It allows users to create profiles using their wallets, and then customize their profile pictures, bios, and social media profiles.
+
+OpenSea also allows developers to access their API, and through it they can then collect user profile pictures and the wallet addresses users have verified with OpenSea. So, once the user verifies their wallet on OpenSea by signing signatures, developers can verify users through OpenSea.
 
 ### OpenSea verification guide
 
