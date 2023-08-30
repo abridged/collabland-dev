@@ -14,23 +14,22 @@ View the [wallet disconnection tutorial](https://www.youtube.com/watch?v=nPZ0X2S
 
 :::
 
-If you wish to disconnect your wallet from the current community, you can do so by following a few simple steps: 
+If you wish to disconnect your wallet from all current communities, you can do so by following a few simple steps:
 
 <div class="text--center">
   <img  src={img1} alt="Wallet Disconnect" />
 </div>
 
-1. Log into the Discord server where you would like to disconnect your wallet from.
-2. Click the “Let’s Go!” button in the collabland-join channel.
-3. Click your connected wallet.
-4. Click the "Disconnect" button that is now available.
-5. Confirm that you want to disconnect your wallet.
-6. Your wallet is now disconnected.
+1. Log into a Discord server where you would like to disconnect your wallet from.
+2. Click the “Let’s Go!” button in your server's `#collabland-join` channel.
+3. Click through the bot prompts to the connect.collab.land website.
+4. Select a wallet to disconnect.
+5. Click the "Disconnect" button that is now available.
+6. Confirm that you want to disconnect your wallet.
+7. Your wallet is now disconnected from _all_ communities. You will lose all roles and access associated with that wallet.
 
 :::caution
 
-Disconnecting a wallet now disconnects it from _all_ communities. The wallet will disconnect from every other server.
+**_Disconnecting your wallet will result in the loss of all roles associated with that wallet for all communities_** because it disconnects from _all_ communities. The wallet will disconnect from _every_ community you used it in and you will lose _all_ roles and access associated with that wallet.
 
 :::
-
-It's important to note that disconnecting your wallet will result in the loss of all roles associated with that wallet for all communities. So, before proceeding with the disconnection process, please ensure that you understand the consequences of this action
