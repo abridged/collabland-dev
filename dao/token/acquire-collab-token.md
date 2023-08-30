@@ -1,3 +1,7 @@
+---
+
+---
+
 import img1 from '@site/static/img/tutorial/token/add-collab-token.gif';
 import img2 from '@site/static/img/tutorial/token/switch-to-op.png';
 import img3 from '@site/static/img/tutorial/token/assets-tab.png';
@@ -56,7 +60,7 @@ An alternative method is to bridge your Mainnet ETH to the Optimism network. Thi
 
 Once your wallet is funded with Optimism ETH, it's time to swap them for $COLLAB tokens. This step requires the use of a decentralized exchange (DEX) such as [Uniswap](https://app.uniswap.org/). Follow the steps below to complete the swap:
 
-- Access the Uniswap platform using this URL: https://app.uniswap.org/#/swap.
+- Access the [Uniswap platform](https://app.uniswap.org/#/swap).
 - Ensure that your wallet is connected to the Optimism network. You can usually find a "Connect Wallet" or similar button on the DEX interface. Select your wallet and authorize the connection.
 - In the swap interface, select the Optimism ETH token as the input token.
 - Specify the amount of Optimism ETH you wish to swap for $COLLAB tokens.
