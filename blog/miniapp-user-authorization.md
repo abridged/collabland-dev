@@ -1,5 +1,5 @@
 ---
-slug: miniapp-user authorization
+slug: miniapp-user-authorization
 title: User Authorization for Miniapp Developers
 image: /static/img/sigverify.png
 authors: kenny
@@ -7,15 +7,15 @@ tags: [collabland, developers, security, verification, miniapp]
 date: 2023-09-01
 ---
 
-<head>
-  <script>
-    setSocialMetaTags(
-      "My Blog Post", 
-      "This is my awesome blog post.", 
-      "/static/img/sigverify.png"
-    );
-  </script>
-</head>
+<script>
+  const title = document.querySelector('meta[property="og:title"]');
+  const description = document.querySelector('meta[property="og:description"]');
+  const image = document.querySelector('meta[property="og:image"]');
+
+  title.setAttribute('content', 'User Authorization for Miniapp Developers');
+  description.setAttribute('content', 'This is the description that will appear on the SEO card for indexing purposes');
+  image.setAttribute('content', '/static/img/sigverify.png');
+</script>
 
 Token gating (AKA Token Granted Access) is a concept that has gained significant traction in recent years, particularly within decentralized autonomous organizations (DAOs) and non-fungible token (NFT) communities. At its core, token gating involves using on-chain assets to grant or restrict access to a community or a resource.
 
