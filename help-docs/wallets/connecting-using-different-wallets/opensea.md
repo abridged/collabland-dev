@@ -9,6 +9,12 @@ Marketplace Auth is the next wave of authentication strategies in web3. Marketpl
 
 We understand that web3 should be accessible, and easy to adopt for new users. Marketplace authentication allows users to safely authenticate their identity without signing any signatures with their wallet on other websites.
 
+:::info
+
+Check out the [OpenSea verification tutorial](https://youtu.be/r1qal_nkmQ4) on our YouTube channel.
+
+:::
+
 ### Why OpenSea?
 
 [OpenSea](https://opensea.io/) is the world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). It allows users to create profiles using their wallets, and then customize their profile pictures, bios, and social media profiles.
