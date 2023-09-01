@@ -31,6 +31,20 @@ The DAO Pass is a [soul-bound NFT](https://vitalik.ca/general/2022/01/26/soulbou
 
 The DAO Pass smart contract address is [`0xfc130bEA3Caba3e97db9D18c4AC5e2478c4eb996`](https://optimistic.etherscan.io/token/0xfc130bea3caba3e97db9d18c4ac5e2478c4eb996) on Optimism.
 
+:::note
+
+Currently, DAO Passes can only be minted to [EOAs](https://ethereum.org/en/developers/docs/accounts/#types-of-account), wallets that are not smart contracts.
+
+For example,
+
+❌~~SAFE~~, ~~friend.tech~~, ~~patch wallet~~
+
+✅ MetaMask, Coinbase Wallet, Ledger, Zengo, Bitski...
+
+Origami is planning to add this functionality but it is not yet live.
+
+:::
+
 #### DAO Members
 Only DAO Members (wallets that hold a DAO Pass) are eligible to particpate in governance. Members:
 
