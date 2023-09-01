@@ -19,3 +19,11 @@ Collab.Land's governor contract is a modified variant of [Compound's governor br
 | Proposal Threshold | 695,000 COLLAB required to create proposal on governor contract | To be updated seasonally to be 50% of Quorum Requirement |
 | Governor contract | op:`0xb18c10E49bC7C5f09A564f3A8DaF28Df54dc6672` | [Governor contract](https://optimistic.etherscan.io/address/0xb18c10E49bC7C5f09A564f3A8DaF28Df54dc6672) deployed on Optimism Mainnet
 | Timelock controller | op:`0x43F6Df8E94F9029805C8eE6c11a06Cc801E8C586` | [Timelock controller](https://optimistic.etherscan.io/address/0x43F6Df8E94F9029805C8eE6c11a06Cc801E8C586) deployed on Optimism Mainnet
+
+:::note
+
+Collab.Land uses two factors as part of the contract to achieve the Quorum Requirement and Proposal Threshold above.
+- Factor 1 `1/100`
+- Factor 2 `139/1000`
+
+:::
