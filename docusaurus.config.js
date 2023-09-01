@@ -1,6 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// const SEO = require('./src/components/SEO');
 require('dotenv').config();
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -38,6 +39,10 @@ const config = {
         'https://pbs.twimg.com/profile_images/1598394761005727760/5_QGhWNT_400x400.png',
       async: true,
     },
+    {
+      src: "/utils/dynamicMetaData.js",
+      async: true,
+    }
   ],
 
   presets: [
