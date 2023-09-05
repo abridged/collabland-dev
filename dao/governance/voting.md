@@ -1,5 +1,5 @@
 ---
-slug: contracts
+slug: voting
 sidebar_position: 5
 title: Voting
 ---
