@@ -16,13 +16,20 @@ To get started, use any of the Collab Action templates we provide on GitHub:
 
 If you don't want to use a template, you can create your own Collab Action from scratch. Check out [Build a Custom Collab Action](/docs/upstream-integrations/collab-actions/build-a-custom-action) for detailed instructions.
 
-The templates offer a basic framework for developing custom Actions using the Collab.Land engine. After building your custom Action, you can run it on a TestFlight mini-app within the Collab.Land QA bot to execute your business logic.
+### Collab.Land Action OSS Repositories
+
+Take inspiration or learn from existing miniapps built with Collab Actions, check out the following repositories:
+
+1. [ChainPatrol](https://github.com/chainpatrol/collab-action)
+2. [Huddle01](https://github.com/Huddle01/collabland-huddle01-mini-app)
+
+<!-- The templates offer a basic framework for developing custom Actions using the Collab.Land engine. After building your custom Action, you can run it on a TestFlight mini-app within the Collab.Land QA bot to execute your business logic.
 
 Once your Action is installed on your Discord server, you can test your implementation end-to-end without relying on Collab.Land. This approach streamlines the contribution and expansion of Collab.Land while eliminating the manual setup overhead.
 
 The template repositories provide detailed information, such as how to run the Action locally, supported interaction types, and more.
 
-This guide will walk you through the process of setting up and testing your first Collab Action using the Express Action template.
+This guide will walk you through the process of setting up and testing your first Collab Action using the Express Action template. -->
 
 ## Prerequisites
 
@@ -30,7 +37,7 @@ This guide will walk you through the process of setting up and testing your firs
 
 ## Using a Collab Action template
 
-1. Fork the Action [template repository](https://github.com/abridged/collabland-action-express/fork) from GitHub.
+1. [Fork the Action](https://github.com/abridged/collabland-action-express/fork).
 2. Clone the project.
 
 ```bash
