@@ -19,7 +19,7 @@ All members must register in order to vote on proposals.
 
 2. Agree to DAO Charter in Origami
 
-3. Mint [DAO Pass](./gov_overview#dao-pass)
+3. Mint [DAO Pass](./gov-overview#dao-pass)
 
 4. Click `Proposals` on the left sidebar then click `Delegate` on the right
 
