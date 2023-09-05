@@ -10,7 +10,6 @@ Proposals follow a 2/7/5 day Proposal Cycle.
 - Voting period 7 days
 - Execution delay 5 days
 
-
 ![Collab.Land Proposal Cycle](../../static/img/tutorial/Proposal_cycle.png)
 
 ## How to create a DAO Proposal (a Journey)
