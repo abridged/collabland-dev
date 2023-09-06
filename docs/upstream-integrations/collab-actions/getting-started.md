@@ -22,6 +22,7 @@ Take inspiration or learn from existing miniapps built with Collab Actions, chec
 
 1. [ChainPatrol](https://github.com/chainpatrol/collab-action)
 2. [Huddle01](https://github.com/Huddle01/collabland-huddle01-mini-app)
+3. [Token Price](https://github.com/abridged/collabland-token-price-action)
 
 <!-- The templates offer a basic framework for developing custom Actions using the Collab.Land engine. After building your custom Action, you can run it on a TestFlight mini-app within the Collab.Land QA bot to execute your business logic.
 
