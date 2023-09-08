@@ -7,7 +7,7 @@ tags: [collabland, developers, security, authorization, miniapp]
 date: 2023-09-06
 ---
 
-A few months ago we announced the [Login with Collab.Land Flow](https://docs.collab.land/docs/downstream-integrations/api/authentication#login-with-collabland-lwc---beta). An effort that allows Collab.Land developers to securely authenticate users and gain access to their Collab.Land resources. By registering a client application through the [developer portal](https://dev-portal.collab.land/signin), developers can obtain credentials that enable them to interact with the Collab.Land API on behalf of authenticated users.
+A few months ago we announced the [Login with Collab.Land Flow](https://docs.collab.land/docs/downstream-integrations/api/authentication#login-with-collabland-lwc---beta). An effort that allows Collab.Land developers to securely authenticate users and gain access to their Collab.Land resources. By registering a client application through the [developer portal](https://dev-portal.collab.land/invite/blog), developers can obtain credentials that enable them to interact with the Collab.Land API on behalf of authenticated users.
 
 This has been very well received with many adoption instances and use cases emerging within our online communities. For community administrators, this represents a great opportunity to create online resources exclusively accessible to their community members, all without the need for extensive development work.
 
@@ -23,7 +23,7 @@ When you run the Action locally, users can execute a slash command and provide a
 
 What we've done to enhance this flow is to introduce an additional step that enables you (the developer) to request user authorization for data access. To implement this feature, we've added two functions behind the scenes: one to request user permission and another to construct the modal for user authorization.
 
-The `requestUserPermissions` **\*\*\*\***function is responsible for requesting user permission to access their data:
+The `requestUserPermissions` function is responsible for requesting user permission to access their data:
 
 ```jsx
 async requestUserPermissions(
