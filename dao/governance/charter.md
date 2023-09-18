@@ -14,11 +14,55 @@ This is a living document that will be updated as changes are made. You can view
 
 ### Edits 
 Last Edit
+
+- Sept 18 2023, addition of GPT summary tl;dr
+
 - July 19 2023, change commit history link + image to point to unified docs after docs repo conversion
 
 - June 06 2023, a faithful conversion from the gdoc [DAO Charter stored on Origami](https://drive.google.com/file/d/1sjpVGYMMoV-dCBjBc1a9oZ9afjOVqvLE/preview?format=pdf). Some minor formatting changes required to convert to `md` document. Gramatical errors have been left intact to remain faithful to the original document.
 
 Membership Agreement is split into its own post to allow posting on the forum.
+
+---
+
+## Collab.Land DAO Charter TL;DR
+
+### Introduction
+- **Framework:** Based on the Origami Framework
+- **Approval Date:** February 22, 2023
+- **Governing Law:** Operates under the Colorado Uniform Limited Cooperative Association Act
+- **Principles:** Adopts seven cooperative principles including voluntary membership, democratic control, and concern for the community
+
+### 1. About Collab.Land DAO
+- **Mission:** To foster communities through incentive alignment and shared values
+- **Vision:** Focus on creating value for active members in the Collab.Land network
+
+### 2. Member Privileges and Obligations
+- **Membership Requirements:**
+  - Adherence to the charter, membership agreement, and code of ethics
+  - Active participation in DAO communications
+- **Membership Classes:**
+  - **Patron Members:** Individuals or entities contributing to and doing business with the DAO
+  - **Investor Members:** Individuals or entities investing money in the DAO, with limited voting power
+- **Membership NFT:** Represents proof of DAO membership and grants access to DAO spaces and services
+- **Member Termination:** Policies on voluntary withdrawal and involuntary removal of members
+- **DAO Health:** Metrics for assessing the health of the DAO, including member participation and financial self-sufficiency
+- **Taxes and Legal Compliance:** Members are responsible for their own tax and legal compliance
+- **Authorized Capital:** Details on membership units and investor units
+
+### 3. DAO Organization, Operations, and Governance
+- **Board of Stewards (the Board):**
+  - Governs the DAO within legal constraints
+  - Initial board appointed by the DAO organizer, with subsequent boards elected by members
+- **Branding:**
+  - **Handshake Emoji:** 🤝
+  - **Name:** "Collab.Land Coop"
+  - **Usage:** Requires DAO approval
+
+### 4. Proposals and Quorum
+- **Proposal Requirements:** Actions necessitating a proposal include amendments to the charter and allocation of tokens from the treasury
+- **Proposal Process:** Details on proposal creation, including digital platforms and voting thresholds
+- **Quorum:** Quorum threshold of 10% of circulating supply, defined as the number of COLLAB tokens in circulation among DAO members
 
 ---
 
