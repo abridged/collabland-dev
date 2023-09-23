@@ -61,6 +61,7 @@ Admins should reference the [list of supported blockchains](../key-features/toke
 | [Opolis(Magic.Link)](https://magic.link/docs/get-started#support-list)     | Mainnet, Optimism, Polygon |
 | [Bitski](https://docs.bitski.com/wallet-as-a-service/web-3/web3-get-started)                 | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, Mumbai |
 | [Loopring](./connecting-using-different-wallets/loopring)               | Loopring L2                                                                                                                  |
+| [OpenSea Auth](./connecting-using-different-wallets/opensea) | ------------------ |
 | **EVM + Beyond**           |    ------------------                                                                                                    |
 | [tokenproof](./connecting-using-different-wallets/tokenproof)             | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis,  Avalanche, Solana, "NIFTY", Flow |
 | [Ledger (MetaMask)](./connecting-using-different-wallets/ledger)       | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche |
@@ -69,6 +70,7 @@ Admins should reference the [list of supported blockchains](../key-features/toke
 | [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support)             | Mainnet, Goerli, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
 | **Non-EVM**                |         ------------------                                                                                               |
 | Solana                 | Solana                                                                                                                       |
+| [NEAR (NEAR, Meteor)](https://meteorwallet.app/)    | NEAR |
 | [Dapper](https://www.meetdapper.com/)                 | Flow                                                                                                                         |
 | [Blocto](https://docs.blocto.app/blocto-sdk/javascript-sdk/flow/flow-networks)                 | Flow                                                                                                                         |
 | [ImmutableX](./connecting-using-different-wallets/immutable-x)             | ImmutableX                                                                                                                   |
@@ -84,6 +86,6 @@ Admins should reference the [list of supported blockchains](../key-features/toke
 
 :::tip
 
-If your blockchain or wallet project is not supported, you may [request an integration](https://bit.ly/3HzRmnA), or contact us directly by email at [integrations@collab.land](mailto:integrations@collab.land).
+If your blockchain or wallet project is not supported, [request an integration](https://bit.ly/3HzRmnA) or contact us directly by email at [integrations@collab.land](mailto:integrations@collab.land).
 
 :::
