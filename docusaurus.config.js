@@ -49,6 +49,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -102,6 +103,9 @@ const config = {
         path: 'help-docs',
         routeBasePath: 'help-docs',
         sidebarPath: require.resolve('./sidebars-help-docs.js'),
+        editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
         // ... other options
       },
     ],
@@ -112,6 +116,9 @@ const config = {
         path: 'dao',
         routeBasePath: 'dao',
         sidebarPath: require.resolve('./sidebars-dao.js'),
+        editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: false,
         // ... other options
       },
     ],
