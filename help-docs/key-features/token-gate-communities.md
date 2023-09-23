@@ -8,17 +8,23 @@ sidebar_position: 1
 
 Collab.Land's bot functionality is built around the concept of Token-Gating. This refers to the ability to create roles on social platforms such as Discord and Telegram, that are only accessible to users who meet certain token-related criteria.
 
-At the heart of this concept are Token Gating Rules (TGRs). These are the rules that determine which roles a user will be assigned based on the token-related criteria defined by the community admin. For example, a TGR may grant access to a "VIP" role for users who hold a certain number of tokens.
+At the heart of this concept are Token Gating Rules (TGRs). These are the rules that determine which roles a user will be assigned based on the token-related criteria defined by the community admin. For example, a TGR may grant access to a "VIP" role for members who hold a certain number of tokens.
+
+:::info
+
+Collab.Land's [balance check](../command-center/bot-config/balance-check) feature means that members who no longer hold a community's tokens will lose their roles in that community automatically.
+
+:::
 
 ## What types of TGRs are there?
 
-When creating TGRs, there are two types to choose from: **Balance-based & Attributes-based**.
+When creating TGRs, there are two types to choose from: **Balance-based** and **Attributes-based**.
 
 ### Balance-based
 
 [Balance-based TGRs](../command-center/create-a-tgr/how-to-create-a-tgr#create-a-balance-based-tgr) check the quantity of a specific token in the user's wallet. If the user holds more tokens than the lower limit and less than the upper limit (upper limit is optional), then the role is granted. This allows for the creation of roles based on the amount of a specific token that a user holds.
 
-:::info
+:::tip
 
 This TGR type is commonly used by groups built on fungible tokens, such as `ERC20`.
 
