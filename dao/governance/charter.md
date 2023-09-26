@@ -15,6 +15,8 @@ This is a living document that will be updated as changes are made. You can view
 ### Edits 
 Last Edit
 
+- Sept 26 2023, addition of link to Mission Vision Values
+
 - Sept 18 2023, addition of GPT summary tl;dr
 
 - July 19 2023, change commit history link + image to point to unified docs after docs repo conversion
@@ -93,6 +95,12 @@ Collab.Land Co-op (the “**DAO**”) is a limited cooperative association organ
 - 1.2.1 Collab.Land co-op is the legal name of the DAO (referred to as the “DAO”). The  DAO is a values based organization that is mission driven, focused on our vision of bringing communities together through incentive alignment and shared values.
 - 1.2.2 As we work toward our shared mission, our priority is to create value for those active  in the Collab.Land network. We look for ways that DAO members can innovate, collaborate and grow themselves and the organization.  
 - 1.2.3 This guides our values and how we stay connected and aligned with each other, how  we present ourselves online, and what directs our priorities.
+
+:::note
+
+DAO-approved Values can be found on [Mission Vision Values page](./mission).
+
+:::
 
 ## 2. Member Privileges and Obligations
 
