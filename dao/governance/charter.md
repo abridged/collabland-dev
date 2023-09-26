@@ -1,6 +1,6 @@
 ---
 slug: charter
-sidebar_position: 4
+sidebar_position: 3
 title: Co-op Charter
 ---
 
