@@ -3,8 +3,8 @@ slug: gov-overview
 sidebar_position: 1
 title: Governance
 keywords: Collab.Land DAO
-pagination_label: title
-pagination_next: null
+pagination_label: Governance
+pagination_prev: null
 ---
 
 ## Collab.Land Governance
