@@ -10,13 +10,17 @@ This is something the core team is incredibly proud and excited about, allowing 
 
 These communities were chosen based on three factors. First, the number of verified wallets connected to a given community. Second, the number of days a given community has been using the Collab.Land bot. And third, has met the minimum activity threshold determined by the core team.
 
+:::tip
+
+The [results of the Top 100 Communities COLLAB token claim](https://docs.google.com/spreadsheets/d/e/2PACX-1vTzKEXj3N8b3_rF_cjTGDGghdbJ9Cl00q0Q0BeAz4JVICi0WurI7EF68fhGoM6jZYWE4U-TgTpFs9NW/pubhtml?gid=0&single=true) are published.
+
+:::
 
 ## Who are the Top 100?
 
-
-| Communities                     | Number of Tokens |
+| Communities                    | Number of Tokens |
 |--------------------------------|-----------------|
-| Parallel Finance                | 7,671,940       |
+| Parallel Finance               | 7,671,940       |
 | Axie Infinity                  | 7,648,106       |
 | NBA Top Shot                   | 3,648,655       |
 | Clipper                        | 2,936,316       |
