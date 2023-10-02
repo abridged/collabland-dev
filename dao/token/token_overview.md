@@ -13,7 +13,7 @@ COLLAB is an `ERC20` token minted on Ethereum and bridged to Optimistic Ethereum
 
 :::tip
 
-Check out the [How to Acquire $COLLAB tokens](../../help-docs/FAQ/collab-token#how-to-acquire-collab-tokens) page.
+Check out the [How to Acquire $COLLAB tokens](./acquire-collab-token) page.
 
 :::
 
