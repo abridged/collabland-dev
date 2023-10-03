@@ -21,6 +21,7 @@ Collab.Land's governor contract is a modified variant of [Compound's governor br
 | Timelock controller | op:`0x43F6Df8E94F9029805C8eE6c11a06Cc801E8C586` | [Timelock controller](https://optimistic.etherscan.io/address/0x43F6Df8E94F9029805C8eE6c11a06Cc801E8C586) deployed on Optimism Mainnet
 
 #### Circulating Supply
+
 Circulating Supply is defined to be the amount of COLLAB held in wallets that also hold [DAO Passes](./gov_overview#dao-pass).
 
 Circulating Supply is 0.139% of `total supply` as of May 26, 2023. This number will be updated seasonally.
