@@ -40,11 +40,11 @@ Currently, DAO Passes can only be minted to [EOAs](https://ethereum.org/en/devel
 
 For example,
 
-❌~~SAFE~~, ~~friend.tech~~, ~~patch wallet~~
+❌ ~~SAFE~~, ~~friend.tech~~, ~~patch wallet~~
 
 ✅ MetaMask, Coinbase Wallet, Ledger, Zengo, Bitski...
 
-Origami is planning to add this functionality later on.
+Origami is planning to add this functionality later.
 
 :::
 
