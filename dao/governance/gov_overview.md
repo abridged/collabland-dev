@@ -49,6 +49,7 @@ Origami is planning to add this functionality later.
 :::
 
 #### DAO Members
+
 Only DAO Members (wallets that hold a DAO Pass) are eligible to particpate in governance. Members:
 
 - Hold 10 or more [COLLAB](../token/token_overview) in a wallet
@@ -63,9 +64,11 @@ The major tools for Collab.Land governance are:
 - [Discord](https://discord.gg/collabland): For informal governance discussion, feedback, and more.
 
 ### Governance contracts
+
 Collab.Land governance uses a fork of [Compound's Governor Bravo](https://docs.compound.finance/v2/governance/) smart contracts.
 
 Collab.Land's [deployed governance contracts](./contracts) are on Optimism.
 
 ### Treasury
+
 The treasury multisig is a SAFE on Optimism at [`0x3A0xA3E3CE39BD5495af1B026920BAe27C803686c23B`](https://app.safe.global/home?safe=oeth%3A0xA3E3CE39BD5495af1B026920BAe27C803686c23B).
