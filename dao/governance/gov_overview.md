@@ -66,3 +66,6 @@ The major tools for Collab.Land governance are:
 Collab.Land governance uses a fork of [Compound's Governor Bravo](https://docs.compound.finance/v2/governance/) smart contracts.
 
 Collab.Land's [deployed governance contracts](./contracts) are on Optimism.
+
+### Treasury
+The treasury multisig is a SAFE on Optimism at [`0x3A0xA3E3CE39BD5495af1B026920BAe27C803686c23B`](https://app.safe.global/home?safe=oeth%3A0xA3E3CE39BD5495af1B026920BAe27C803686c23B).
