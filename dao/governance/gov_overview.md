@@ -2,7 +2,7 @@
 slug: gov-overview
 sidebar_position: 1
 title: Governance
-keywords: Collab.Land DAO
+keywords: [Collab.Land DAO]
 pagination_label: Governance
 pagination_prev: null
 ---
