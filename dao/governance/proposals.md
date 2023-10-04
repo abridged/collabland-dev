@@ -1,6 +1,6 @@
 ---
 slug: proposals
-sidebar_position: 2
+sidebar_position: 5
 title: Proposal Process
 ---
 

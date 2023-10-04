@@ -12,8 +12,8 @@ Collab.Land is a community management tool that supports a wide range of project
 ## What we do
 
 We offer an automated process for verifying and managing community membership based on token ownership. This includes:
-- Initial verification to confirm that prospective members possess the required token(s) to join and participate in a community.
-- Routine checks to ensure that members continue to meet the community's requirements.
+- [Token Gating](./key-features/token-gate-communities) - Initial verification to confirm that prospective members possess the required token(s) to join and participate in a community.
+- Routine [balance checks](./command-center/bot-config/balance-check) to ensure that members continue to meet the community's requirements.
 
 ## Where to start
 

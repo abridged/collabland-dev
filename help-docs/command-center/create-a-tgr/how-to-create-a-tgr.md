@@ -24,6 +24,12 @@ To create a TGR in Discord, follow these steps:
 
    - Chain type: The blockchain network that the token for this TGR is on.
 
+:::tip
+
+See the [full list](../../key-features/token-gate-communities#supported-blockchains--tokens) of Collab.Land-supported chains and corresponding token types.
+
+:::
+
    - Token type: The type of token used for the TGR.
 
    - Address: The contract address of your token.
@@ -34,9 +40,9 @@ To create a TGR in Discord, follow these steps:
 
    - Attributes (conditional): For specific tokens, such as NFTs, you can add metadata conditions that must be met in order for the member to receive the role. If your NFT contains metadata traits and values, you can enter them by clicking on the "Attributes" button and then "Add metadata".
 
-5. If you need to start over, click "Reset". This action is not reversible.
+1. If you need to start over, click "Reset". This action is not reversible.
 
-6. Once you have filled in the fields, click "Save" to create your TGR.
+2. Once you have filled in the fields, click "Save" to create your TGR.
 
 :::info
 

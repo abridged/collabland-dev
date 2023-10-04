@@ -2,6 +2,9 @@
 slug: gov-overview
 sidebar_position: 1
 title: Governance
+keywords: [Collab.Land DAO]
+pagination_label: Governance
+pagination_prev: null
 ---
 
 ## Collab.Land Governance
@@ -31,21 +34,22 @@ The DAO Pass is a [soul-bound NFT](https://vitalik.ca/general/2022/01/26/soulbou
 
 The DAO Pass smart contract address is [`0xfc130bEA3Caba3e97db9D18c4AC5e2478c4eb996`](https://optimistic.etherscan.io/token/0xfc130bea3caba3e97db9d18c4ac5e2478c4eb996) on Optimism.
 
-:::note
+:::caution
 
-Currently, DAO Passes can only be minted to [EOAs](https://ethereum.org/en/developers/docs/accounts/#types-of-account), wallets that are not smart contracts.
+Currently, DAO Passes can only be minted to [EOAs](https://ethereum.org/en/developers/docs/accounts/#types-of-account), wallets that are _**not**_ smart contracts.
 
 For example,
 
-❌~~SAFE~~, ~~friend.tech~~, ~~patch wallet~~
+❌ ~~SAFE~~, ~~friend.tech~~, ~~patch wallet~~
 
 ✅ MetaMask, Coinbase Wallet, Ledger, Zengo, Bitski...
 
-Origami is planning to add this functionality but it is not yet live.
+Origami is planning to add this functionality later.
 
 :::
 
 #### DAO Members
+
 Only DAO Members (wallets that hold a DAO Pass) are eligible to particpate in governance. Members:
 
 - Hold 10 or more [COLLAB](../token/token_overview) in a wallet
@@ -60,6 +64,11 @@ The major tools for Collab.Land governance are:
 - [Discord](https://discord.gg/collabland): For informal governance discussion, feedback, and more.
 
 ### Governance contracts
+
 Collab.Land governance uses a fork of [Compound's Governor Bravo](https://docs.compound.finance/v2/governance/) smart contracts.
 
 Collab.Land's [deployed governance contracts](./contracts) are on Optimism.
+
+### Treasury
+
+The treasury multisig is a SAFE on Optimism at [`0x3A0xA3E3CE39BD5495af1B026920BAe27C803686c23B`](https://app.safe.global/home?safe=oeth%3A0xA3E3CE39BD5495af1B026920BAe27C803686c23B).
