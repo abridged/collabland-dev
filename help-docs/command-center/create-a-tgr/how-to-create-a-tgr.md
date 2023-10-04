@@ -12,7 +12,7 @@ import img6 from '@site/static/img/tutorial/command-center/create-metadata-tgr2.
 
 To create a TGR in Discord, follow these steps:
 
-1. Log in to the [Command Center](../../key-features/command-center.md) at https://cc.collab.land using Discord.
+1. Log in to the [Command Center](../../key-features/command-center) at https://cc.collab.land using Discord.
 
 2. From the left panel, select the server in which you would like to create the TGR. Then, click on "TGRs".
 
@@ -26,7 +26,7 @@ To create a TGR in Discord, follow these steps:
 
 :::tip
 
-See the [full list](../../key-features/token-gate-communities#supported-blockchains--tokens) of Collab.Land-supported chains and corresponding token types.
+See the [full list](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) of Collab.Land-supported chains and corresponding token types.
 
 :::
 
