@@ -22,15 +22,15 @@ gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://dev
 
 The seed phrase is split up (sharded) across the nodes of the LIT Protocol signer network so no single entity controls the private key.
 
-The LIT Protocol network recombines the shards of the private key of the gmPASS to sign and authorize transactions of the smart account(s) controlled by a member's gmPASS.
+The LIT Protocol network uses the shards of the private key of the gmPASS to sign and authorize transactions of the smart account(s) controlled by a member's gmPASS.
 
 :::note
 
-The splitting and recombining of the private keys to sign transactions is called [Multi-Party Computation](https://developer.litprotocol.com/v2/resources/howItWorks#mpc-wallets) `MPC`.
+The sharding of the private keys to sign transactions is called [Multi-Party Computation](https://developer.litprotocol.com/v2/resources/howItWorks#mpc-wallets) `MPC`.
 
 :::
 
-Collab.Land's gmPASS is a noncustodial wallet solution because private key shards are spread out over the network so one entity is never controls (custodies) the complete key and account for members.
+Collab.Land's gmPASS is a noncustodial wallet solution because private key shards are spread out over the network so one entity never controls (custodies) the complete key and account for members.
 
 Members who wish to later choose to take self-custody of their keys will be able to export the full private key of their gmPASS and import it into self-custodial wallets such as Rainbow, Metamask, and others.
 
