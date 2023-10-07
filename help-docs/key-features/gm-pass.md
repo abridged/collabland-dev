@@ -8,9 +8,11 @@ title: gmPASS
 
 :::info
 
-**tl;dr** The gmPASS is a [privacy-preserving (1)](#privacy-preserving), [non-custodial (2)](#non-custodial) [web3 identity (3)](#web3-identity) for [blockchain execution (4)](#blockchain-execution) from [social platforms (5)](#social-platforms). Let's break down what that means.
+**tl;dr** gmPASS is a smart account for members to use and interact with blockchains and dapps using their social accounts on Discord and Telegram.
 
 :::
+
+The gmPASS is a [privacy-preserving (1)](#privacy-preserving), [non-custodial (2)](#non-custodial) [web3 identity (3)](#web3-identity) for [blockchain execution (4)](#blockchain-execution) from [social platforms (5)](#social-platforms). Let's break down what that means.
 
 ### Privacy-Preserving
 
