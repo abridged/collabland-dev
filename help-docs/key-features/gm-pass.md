@@ -8,7 +8,7 @@ title: gmPASS
 
 :::info
 
-**tl;dr** gmPASS is a smart account for members to use and interact with blockchains and dapps using their social accounts on Discord and Telegram.
+**tl;dr** gmPASS is a smart account for members to use and interact with Collab.Land-supported blockchains and dapps using their social accounts on Discord and Telegram.
 
 :::
 
@@ -16,35 +16,37 @@ The gmPASS is a [privacy-preserving (1)](#privacy-preserving), [non-custodial (2
 
 ### Privacy-Preserving
 
-A member's gmPASS functions as the canonical identity for that member within the Collab.Land ecosystem of products. Members can interact with and use the web3 functions of Collab.Land miniapps and transactions without revealing their private wallets.
+A member's gmPASS is the canonical identity for that member within the Collab.Land ecosystem of products. It controls new blockchain smart accounts without revealing members' previously connected wallets.
+
+Members can interact with Collab.Land miniapps and services that do blockchain transactions without revealing their private wallets.
 
 ### Non-Custodial
 
-gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet) to act as the default signer on an `ERC4337` smart account. Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
+A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains. <!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)-->. Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
 
 The seed phrase is split up (sharded) across the nodes of the LIT Protocol signer network so no single entity controls the private key.
 
-The LIT Protocol network uses the shards of the private key of the gmPASS to sign and authorize transactions of the smart account(s) controlled by a member's gmPASS.
+The LIT Protocol network uses the shards to sign and authorize transactions for the smart account(s) controlled by a member's gmPASS.
 
-:::note
+<!--:::note
 
 The sharding of the private keys to sign transactions is called [Multi-Party Computation](https://developer.litprotocol.com/v2/resources/howItWorks#mpc-wallets) `MPC`.
 
-:::
+:::-->
 
 Collab.Land's gmPASS is a noncustodial wallet solution because private key shards are spread out over the network so one entity never controls (custodies) the complete key and account for members.
 
-Members who wish to later choose to take self-custody of their keys will be able to export the full private key of their gmPASS and import it into self-custodial wallets such as Rainbow, Metamask, and others.
+In a later update, members who wish to later take self-custody of their keys will be able to export the private key of their gmPASS and import it into self-custodial wallets such as Rainbow, Metamask, and others.
 
 ### web3 Identity
 
-A member's gmPASS is their canonical identity within Collab.Land that connects web2 onboarding with web3 execution. Members can send tips to each other, accumulate reputation, send vibes, and trade crypto all using their gmPASS.
+A member's gmPASS is their canonical identity within Collab.Land; it connects web2 onboarding with web3 execution. Members can send tips to each other, accumulate reputation, send vibes, and trade crypto all using their gmPASS.
 
-The gmPASS is blockchain-agnostic, meaning it can be used to sign transactions on any blockchain that uses ECDSA for digital signatures. Collab.Land functions as a blockchain-function aggregator across [Collab.Land's supported blockchains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens)!
+The gmPASS is blockchain-agnostic, meaning it can be used to sign transactions on any blockchain that uses [ECDSA](https://ethereum.org/en/glossary/#ecdsa) for digital signatures. With the gmPASS, Collab.Land functions as a service aggregator across [Collab.Land's supported blockchains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens)!
 
 ### Blockchain Execution
 
-After a member authorizes a transaction, Collab.Land facillitates execution on the member's preferred blockchain. Collab.Land serves as a bridge, aggregator, and interface for members to interact with blockchain technology through familiar social platforms.
+After a member authorizes a transaction, Collab.Land facillitates execution on a blockchain. Collab.Land serves as a bridge, aggregator, and interface for members to interact with blockchain technology through familiar social platforms.
 
 Collab.Land uses [Biconomy](https://www.biconomy.io/) to power its bundler/paymaster for ERC4337 smart accounts.
 
@@ -55,6 +57,10 @@ Members interact with the gmPASS using their social accounts. They use it in a f
 Collab.Land's gmPASS is controlled by members' social accounts, Discord and Telegram. Members will have access to social recovery and security settings via the Member Portal.
 
 ## How it works
+
+<!--Developers can view in depth details on gmPASS and how to leverage it on the developer documentation.-->
+
+The flowcharts linked below are meant to give a high-level overview of how gmPASS works.
 
 gmPASS [member onboarding flow](https://whimsical.com/gmpass-onboarding-8knTfdF4FVCxBegUtpSJWn@2Ux7TurymN5ii8TLLKwC)
 
@@ -69,6 +75,10 @@ gmPASS [member transaction flow](https://whimsical.com/gmpass-txn-flow-TSuDgQTbo
 <details> <summary> transaction flow </summary>
 password `gmgmgm`
 </details>
+
+### Security
+
+When creating their gmPASS, uses register a [passkey](https://blog.1password.com/what-are-passkeys/) with Collab.Land. Their on-device authorization is the key to unlock their gmPASS and the functions of its blockchain smart account(s).
 
 <!-- Collab.Land uses [passkeys](https://blog.1password.com/what-are-passkeys/) to safely pass authorization between the Member and various services. 
 
