@@ -58,7 +58,7 @@ Collab.Land's gmPASS is controlled by members' social accounts, Discord and Tele
 
 ## How it works
 
-::note
+:::note
 
 Technical details on the `gmPASS` and how to leverage it will be added to the [developer documentation](/docs/downstream-integrations/index).
 
