@@ -58,27 +58,29 @@ Collab.Land's gmPASS is controlled by members' social accounts, Discord and Tele
 
 ## How it works
 
-<!--Developers can view in depth details on gmPASS and how to leverage it on the developer documentation.-->
+:::note
+
+Technical details on `gmPASS` and how to leverage it will be added to the developer documentation.
+
+:::
 
 The flowcharts linked below are meant to give a high-level overview of how gmPASS works.
 
-gmPASS [member onboarding flow](https://whimsical.com/gmpass-onboarding-8knTfdF4FVCxBegUtpSJWn@2Ux7TurymN5ii8TLLKwC)
-
 <details> <summary> onboarding flow </summary>
-password `gmgmgm`
+
+- gmPASS [member onboarding flow](https://whimsical.com/gmpass-onboarding-8knTfdF4FVCxBegUtpSJWn@2Ux7TurymN5ii8TLLKwC)
+- password `gmgmgm`
 </details>
 
----
-
-gmPASS [member transaction flow](https://whimsical.com/gmpass-txn-flow-TSuDgQTboPMq3SKVnJWpQy@2Ux7TurymMn4SpzrssMS)
-
 <details> <summary> transaction flow </summary>
-password `gmgmgm`
+
+- gmPASS [member transaction flow](https://whimsical.com/gmpass-txn-flow-TSuDgQTboPMq3SKVnJWpQy@2Ux7TurymMn4SpzrssMS)
+- password `gmgmgm`
 </details>
 
 ### Security
 
-When creating their gmPASS, uses register a [passkey](https://blog.1password.com/what-are-passkeys/) with Collab.Land. Their on-device authorization is the key to unlock their gmPASS and the functions of its blockchain smart account(s).
+When creating their gmPASS, uses register a [passkey](https://blog.1password.com/what-are-passkeys/) with Collab.Land. Their on-device authorization is the key to unlock their gmPASS and the functions of its associated blockchain smart account(s).
 
 <!-- Collab.Land uses [passkeys](https://blog.1password.com/what-are-passkeys/) to safely pass authorization between the Member and various services. 
 
