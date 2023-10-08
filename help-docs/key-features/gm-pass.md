@@ -46,9 +46,9 @@ The gmPASS is blockchain-agnostic, meaning it can be used to sign transactions o
 
 ### Blockchain Execution
 
-After a member authorizes a transaction, Collab.Land facillitates execution on a blockchain. Collab.Land serves as a bridge, aggregator, and interface for members to interact with blockchain technology through familiar social platforms.
+After a member authorizes a transaction, Collab.Land facilitates execution on a blockchain. Collab.Land serves as a bridge, aggregator, and interface for members to interact with blockchain technology through familiar social platform interfaces.
 
-Collab.Land uses [Biconomy](https://www.biconomy.io/) to power its bundler/paymaster for ERC4337 smart accounts.
+Collab.Land uses [Biconomy](https://www.biconomy.io/) to power its bundler/paymaster for `ERC4337` smart accounts.
 
 ### Social Platforms
 
