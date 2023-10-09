@@ -2,6 +2,7 @@
 sidebar_position: 4
 id: kudos
 title: Kudos by Veramo
+sidebar_label: Kudos
 ---
 
 import img1 from '@site/static/img/tutorial/marketplace/kudos.png';

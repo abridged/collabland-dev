@@ -2,6 +2,7 @@
 sidebar_position: 13
 title: Give by SKALE
 id: give
+sidebar_label: Give
 ---
 
 import img1 from '@site/static/img/tutorial/marketplace/poap.png';
