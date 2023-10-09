@@ -4,13 +4,9 @@ id: gm-pass
 title: gmPASS
 ---
 
-## gmPASS
-
-:::info
-
 **tl;dr** gmPASS is a smart account for members to use and interact with Collab.Land-supported blockchains and dapps using their social accounts on Discord and Telegram.
 
-:::
+## gmPASS
 
 The gmPASS is a [privacy-preserving (1)](#privacy-preserving), [non-custodial (2)](#non-custodial) [web3 identity (3)](#web3-identity) for [blockchain execution (4)](#blockchain-execution) from [social platforms (5)](#social-platforms). Let's break down what that means.
 
@@ -60,7 +56,7 @@ Collab.Land's gmPASS is controlled by members' social accounts, Discord and Tele
 
 :::note
 
-Technical details on the `gmPASS` and how to leverage it will be added to the [developer documentation](/docs/downstream-integrations/index).
+Technical details on the `gmPASS` and how to leverage it will be added to the [developer documentation](/docs/intro).
 
 :::
 
