@@ -54,7 +54,7 @@ Collab.Land uses [Biconomy](https://www.biconomy.io/) to power its bundler/payma
 
 Members interact with the gmPASS using their social accounts. They use it in a familiar environment of Discord and Telegram, abstracting away the difficult UX of blockchain technology. We will onboard the next 1B users!
 
-Collab.Land's gmPASS is controlled by members' social accounts, Discord and Telegram. Members will have access to social recovery and security settings via the Member Portal.
+Collab.Land's gmPASS is controlled by members' social accounts, Discord and Telegram. Members will have access to social recovery and security settings via the [Member Portal](/help-docs/key-features/member-portal).
 
 ## How it works
 
