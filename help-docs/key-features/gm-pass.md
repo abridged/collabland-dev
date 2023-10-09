@@ -8,17 +8,17 @@ title: gmPASS
 
 ## gmPASS
 
-The gmPASS is a [privacy-preserving (1)](#privacy-preserving), [non-custodial (2)](#non-custodial) [web3 identity (3)](#web3-identity) for [blockchain execution (4)](#blockchain-execution) from [social platforms (5)](#social-platforms). Let's break down what that means.
+The gmPASS is a [public (1)](#public), [non-custodial (2)](#non-custodial) [web3 identity (3)](#web3-identity) for [blockchain execution (4)](#blockchain-execution) from [social platforms (5)](#social-platforms). Let's break down what that means.
 
-### Privacy-Preserving
+### Public
 
-A member's gmPASS is the canonical identity for that member within the Collab.Land ecosystem of products. It controls new blockchain smart accounts without revealing members' previously connected wallets.
+A member's gmPASS is the canonical public identity for that member within the Collab.Land ecosystem of products. It controls a member's blockchain smart accounts.
 
-Members can interact with Collab.Land miniapps and services that do blockchain transactions without revealing their private wallets.
+Members can use the gmPASS to interact with Collab.Land miniapps and services that do blockchain transactions.
 
 ### Non-Custodial
 
-A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains. <!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)-->. Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
+A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains. <!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)-->. Members no longer have to go through the difficult onboarding of self-custodying their te keys or trust an entity to guard the keys for them!
 
 The seed phrase is split up (sharded) across the nodes of the [LIT Protocol](https://litprotocol.com/) signer network so no single entity controls the private key.
 
@@ -94,4 +94,4 @@ Developers can read technical details about passkeys from [Google's documentatio
 Notably, as a PKP, gmPASS has the following features:
 1. It is blockchain agnostic, meaning it can be used to sign transactions on any blockchains using ECDSA for digital signatures.
 2. It is programmable and contains application logic that it should follow, allowing for functionalities like defining signing automations.
-3. It is fault-tolerant, meaning it is generated collectively by Collab.Land’s Lit nodes through a process called Distributed Key Generation (DKG). This allows Collab.Land to generate a new key-pair where the private key never exists in its entirety. -->
+3. It is fault-tolerant, meaning it is generated collectively by Collab.Land’s Lit nodes through a process called Distributed Key Generation (DKG). This allows Collab.Land to generate a new key-pair where the te key never exists in its entirety. -->
