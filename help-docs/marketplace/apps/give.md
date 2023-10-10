@@ -13,15 +13,26 @@ Send and receive tokens on the [SKALE blockchain](https://skale.space/).
 
 ### About this app
 
-Give allows community members to give and receive tokens onchain on the SKALE blockchain. Tokens are sent between members' [gmPASS-controlled smart accounts](/help-docs/key-features/gm-pass), creating a personal web of onchain connections between community members.
+Give allows community members to give and receive tokens onchain<!-- on the SKALE blockchain. Tokens are sent between members' [gmPASS-controlled smart accounts](/help-docs/key-features/gm-pass), creating a personal web of onchain connections between community members-->.
 
-Give replaces the sunset Kchannel `/tip send` commands.
+Give is initially available for partner communities who had previously used Kchannel `/tip` commands.
+
+Give replaces the sunset Kchannel `/tip` commands.
+
+:::note
+
+Deposit and withdraw commands for Give are currently disabled.
+
+:::
 
 ### Getting Started
 
-<!-- 1. Install the Give Miniapp from the [Collab.Land Marketplace](https://cc.collab.land).
+1. Install the Give Miniapp from the [Collab.Land Marketplace](https://cc.collab.land).
 
-2. -->
+2. In your community's Discord server check your balance with `/give balance`.
+   1. See which tokens are available to give using `/give token-list`.
+   2. If you want to give your community's token, contact us by [creating a ticket](https://collabland.freshdesk.com/support/tickets/new).
+3. Start sending tokens on SKALE with the `/give to` command. Make sure to specify the member(s) you are sending to `[{@user1}, {@user2}, ...]`, which tokens you are sending `{tokenSymbol}`, and how many to each person `{amount}`.
 
 ### Commands available:
 
@@ -30,7 +41,7 @@ There is one command `/give` with four total subcommands.
 | Command | Additional Parameters | Description |
 |--------------------|-----------------------------------------------|----------------------------------------------------------|
 | `/give balance`    | -                                             | Display your balance of supported tokens.               |
-| `/give to`         | `[@user1, @user2,...]`, `{tokenSymbol}`, `{amount}` | Give specified amount of tokens to each community member. |
+| `/give to`         | `[{@user1}, {@user2}, ...]`, `{tokenSymbol}`, `{amount}` | Give the specified amount of tokens to each mentioned community member. |
 | `/give token-list` | -                                             | Show the supported token list.                           |
 | `/give help`       | -                                             | Display the available commands.                          |
 
