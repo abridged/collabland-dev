@@ -30,7 +30,7 @@ To configure a Passport TGR, follow these steps:
 
 7. Click "Save".
 
-The TGR configuration of a Passport TGR should look like this:
+The final configuration of a Passport TGR should look like this:
 
 <div class="text--center">
    <img  src={img1} alt="Create a Gitcoin Passport TGR" />
