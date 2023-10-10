@@ -35,4 +35,3 @@ The TGR configuration of a Passport TGR should look like this:
 <div class="text--center">
    <img  src={img1} alt="Create a Gitcoin Passport TGR" />
 </div>
-
