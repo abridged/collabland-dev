@@ -12,21 +12,21 @@ Gitcoin Passport is an identity verification application. Read more about Passpo
 
 ### How to Create a Passport TGR
 
-To create a TGR in Discord, follow these steps:
+To configure a Passport TGR, follow these steps:
 
 1. Log in to the [Command Center](../../key-features/command-center) at https://cc.collab.land using Discord.
 
-2. From the left panel, select the server in which you would like to create the TGR. Then, click on "TGRs".
+2. From the left panel, select the server you would like to create the TGR in. Then, click on "TGRs".
 
 3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR.
-   1. Write an informative description for the TGR.
+   - Write an informative description for the TGR.
 
 4. Set the `Chain Type` to Gitcoin Passport.
 
 5. Set `Token Type` to Humanity Score.
 
 6. Set the Minimum score a member must have to get the Discord role.
-   1. Optional: Set a Maximum score.
+   - Optional: Set a Maximum score.
 
 7. Click "Save".
 
