@@ -21,7 +21,7 @@ Give replaces the sunset Kchannel `/tip` commands.
 
 :::note
 
-Deposit and withdraw commands for Give are currently disabled.
+Deposit and withdraw commands for Give are not currently enabled.
 
 :::
 
