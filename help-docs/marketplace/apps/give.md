@@ -9,7 +9,7 @@ import img1 from '@site/static/img/tutorial/marketplace/poap.png';
 
 ## Overview
 
-Send and receive tokens on the SKALE blockchain.
+Send and receive tokens on the [SKALE blockchain](https://skale.space/).
 
 ### About this app
 
@@ -28,7 +28,6 @@ Give replaces the sunset Kchannel `/tip send` commands.
 There is one command `/give` with four total subcommands.
 
 | Command | Additional Parameters | Description |
-| --- | --- | --- |
 |--------------------|-----------------------------------------------|----------------------------------------------------------|
 | `/give balance`    | -                                             | Display your balance of supported tokens.               |
 | `/give to`         | `[@user1, @user2,...]`, `{tokenSymbol}`, `{amount}` | Give specified amount of tokens to each community member. |
@@ -37,7 +36,7 @@ There is one command `/give` with four total subcommands.
 
 ## Supported Tokens
 
-| Token Symbol | Ethereum Mainnet Token Address                                                                                                 | Skalechain Token Address                                                                                                                                              |
+| Token Symbol | Ethereum Mainnet Token Address                                                                                                 | SKALE Chain Token Address                                                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `INDEX`      | [`0x0954906da0Bf32d5479e25f46056d22f08464cab`](https://etherscan.io/token/0x0954906da0Bf32d5479e25f46056d22f08464cab) | [`0xFbbDF9aC97093b1E88aB79F7D0c296d9cc5eD0d0`](https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com/address/0xFbbDF9aC97093b1E88aB79F7D0c296d9cc5eD0d0) |
 | `POOL`       | [`0x0cEC1A9154Ff802e7934Fc916Ed7Ca50bDE6844e`](https://etherscan.io/token/0x0cEC1A9154Ff802e7934Fc916Ed7Ca50bDE6844e) | [`0xB6471DE869aBb02D5D4cfAf45a892F3c9807979F`](https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com/address/0xB6471DE869aBb02D5D4cfAf45a892F3c9807979F) |
