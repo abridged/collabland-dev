@@ -37,3 +37,9 @@ The final configuration of a Passport TGR should look like this:
 <div class="text--center">
    <img  src={img1} alt="Create a Gitcoin Passport TGR" />
 </div>
+
+### How to Create Your Passport
+
+1. Go to the [Gitcoin Passport app](https://passport.gitcoin.co/).
+
+2. Follow the directions in the [Gitcoin support docs](https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-passport/creating-a-gitcoin-passport#sign-into-gitcoin-passport).
