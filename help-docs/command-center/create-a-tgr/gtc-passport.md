@@ -6,6 +6,8 @@ id: gtc-passport
 
 import img1 from '@site/static/img/tutorial/command-center/create-passport-tgr.png';
 
+Passport is a tool that allows members to present evidence that they are real, unique humans and signal their trustworthiness to apps.
+
 ## Gitcoin Passport
 
 Gitcoin Passport is an identity verification application. Read more about Passport on the [Gitcoin support docs](https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-passport/what-is-gitcoin-passport) and the [Passport dev docs](https://docs.passport.gitcoin.co/building-with-passport/introduction#what-is-passport).
