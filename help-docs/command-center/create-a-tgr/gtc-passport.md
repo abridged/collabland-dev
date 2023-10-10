@@ -6,7 +6,7 @@ id: gtc-passport
 
 import img1 from '@site/static/img/tutorial/command-center/create-passport-tgr.png';
 
-Passport is a tool that allows members to present evidence that they are real, unique humans and signal their trustworthiness to apps.
+The citizenship pass for the decentralized internet. Passport is a tool that allows members to present evidence that they are real, unique humans and signal their trustworthiness to apps.
 
 ## Gitcoin Passport
 
