@@ -10,7 +10,7 @@ import img1 from '@site/static/img/tutorial/command-center/create-passport-tgr.p
 
 Gitcoin Passport is an identity verification application. Read more about Passport on the [Gitcoin support docs](https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-passport/what-is-gitcoin-passport) and the [Passport dev docs](https://docs.passport.gitcoin.co/building-with-passport/introduction#what-is-passport).
 
-### Create a Passport TGR
+### How to Create a Passport TGR
 
 To create a TGR in Discord, follow these steps:
 
