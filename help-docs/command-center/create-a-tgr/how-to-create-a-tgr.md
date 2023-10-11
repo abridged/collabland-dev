@@ -40,9 +40,9 @@ See the [full list](/help-docs/key-features/token-gate-communities#supported-blo
 
    - Attributes (conditional): For specific tokens, such as NFTs, you can add metadata conditions that must be met in order for the member to receive the role. If your NFT contains metadata traits and values, you can enter them by clicking on the "Attributes" button and then "Add metadata".
 
-1. If you need to start over, click "Reset". This action is not reversible.
+5. If you need to start over, click "Reset". This action is not reversible.
 
-2. Once you have filled in the fields, click "Save" to create your TGR.
+6. Once you have filled in the fields, click "Save" to create your TGR.
 
 :::info
 
