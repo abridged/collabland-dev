@@ -10,6 +10,16 @@ Passport is the citizenship pass for the decentralized internet.
 
 With Passport’s Unique Humanity Scorer tool, you can protect your community from bots and Sybils by requiring and enabling members to present evidence that they are real, unique humans and signal their trustworthiness.
 
+:::tip
+
+[Sybil attacks](https://docs.passport.gitcoin.co/building-with-passport/major-concepts/platform-integrator-concepts#what-are-sybils-and-why-should-you-care) describe the misuse of a digital network by creating many illegitimate virtual personas.
+
+There are several ways that users can become incentivized to create Sybil accounts, for example to receive a reward multiple times, or have additional influence over a vote. They prevent you from efficiently allocating power and/or capital among your community by capturing it for some dishonest person or group.
+
+Without some form of Sybil defense, you have no way to tell whether the users showing up to your application really represent individual human users or whether they are actually bots or fake accounts.
+
+:::
+
 ## Overview
 
 Gitcoin Passport is an identity verification application that allows members to add web2 and web3 verifiable credentials (called Stamps) to their Passport that proves that they are human.
