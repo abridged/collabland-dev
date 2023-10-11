@@ -10,9 +10,7 @@ import img4 from '@site/static/img/tutorial/command-center/create-tgr4.png';
 import img5 from '@site/static/img/tutorial/command-center/create-metadata-tgr1.png';
 import img6 from '@site/static/img/tutorial/command-center/create-metadata-tgr2.png';
 
-## Overview
-
-### What is a TGR?
+## What is a TGR?
 
 Wait, what's a TGR?
 
@@ -78,7 +76,7 @@ Supported `tokenId` formats:
 
 Congratulations, you've created a TGR!
 
-## Create a balance-based TGR
+### Create a Balance-Based TGR
 
 1. Follow the normal steps of creating a TGR as listed above
 
@@ -94,7 +92,7 @@ Your balance-based TGR is ready! A complete balance-based TGR should look like t
    <img  src={img1} alt="Create a balance-based TGR" />
 </div>
 
-## Create a metadata-based TGR
+### Create a Metadata-Based TGR
 
 1. Follow the normal steps of creating a TGR as listed above
 
