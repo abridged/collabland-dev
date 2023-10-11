@@ -18,7 +18,7 @@ Members can interact with Collab.Land miniapps and services that do blockchain t
 
 ### Non-Custodial
 
-A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains. <!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)-->. Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
+A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains.<!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)--> Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
 
 The seed phrase is split up (sharded) across the nodes of the [LIT Protocol](https://litprotocol.com/) signer network so no single entity controls the private key.
 
