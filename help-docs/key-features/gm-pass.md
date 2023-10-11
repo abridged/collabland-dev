@@ -20,7 +20,7 @@ Members can use the gmPASS to interact with Collab.Land miniapps and services th
 
 A member's gmPASS acts as the default signer on account abstraction (aka `ERC4337`) smart accounts across multiple blockchains.<!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)--> Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
 
-:::note
+:::info
 
 Read Alchemy's [semi-technical article](https://www.alchemy.com/blog/account-abstraction) on account abstraction (`ERC4337`) to learn more.
 
