@@ -32,7 +32,7 @@ The sharding of the private keys to sign transactions is called [Multi-Party Com
 
 Collab.Land's gmPASS is a noncustodial wallet solution because private key shards are spread out over the network so one entity never controls (custodies) the complete key and account for members.
 
-In a later update, members who wish to later take self-custody of their keys will be able to export the private key of their gmPASS and import it into self-custodial wallets such as Rainbow, Metamask, and others.
+In a later update, members who wish to take self-custody of their keys will be able to export the private key of their gmPASS and import it into self-custodial wallets such as Rainbow, Metamask, and others.
 
 ### web3 Identity
 
