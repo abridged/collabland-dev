@@ -10,6 +10,24 @@ import img4 from '@site/static/img/tutorial/command-center/create-tgr4.png';
 import img5 from '@site/static/img/tutorial/command-center/create-metadata-tgr1.png';
 import img6 from '@site/static/img/tutorial/command-center/create-metadata-tgr2.png';
 
+## Overview
+
+### What is a TGR?
+
+Wait, what's a TGR?
+
+**TGRs** are Token Gating Rules, the rules that determine which roles a user will be assigned based on the token-related criteria defined by the community admin.
+
+For example, a TGR may grant access to a "VIP" role for members who hold a certain number of tokens.
+
+:::info
+
+Learn more about the different TGR types and Collab.Land's supported blockchains in the [Key Features](/help-docs/key-features/token-gate-communities#what-types-of-tgrs-are-there).
+
+:::
+
+## How to Create a TGR
+
 To create a TGR in Discord, follow these steps:
 
 1. Log in to the [Command Center](../../key-features/command-center) at https://cc.collab.land using Discord.
@@ -58,7 +76,7 @@ Supported `tokenId` formats:
 
 :::
 
-Congratulations, you've just created a TGR!
+Congratulations, you've created a TGR!
 
 ## Create a balance-based TGR
 
