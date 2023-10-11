@@ -18,7 +18,7 @@ Members can use the gmPASS to interact with Collab.Land miniapps and services th
 
 ### Non-Custodial
 
-A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains. <!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)-->. Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
+A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains.<!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)--> Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
 
 The seed phrase is split up (sharded) across the nodes of the signer network so no single entity controls the private key.
 
@@ -32,7 +32,7 @@ The sharding of the private keys to sign transactions is called [Multi-Party Com
 
 Collab.Land's gmPASS is a noncustodial wallet solution because private key shards are spread out over the network so one entity never controls (custodies) the complete key and account for members.
 
-In a later update, members who wish to later take self-custody of their keys will be able to export the private key of their gmPASS and import it into self-custodial wallets such as Rainbow, Metamask, and others.
+In a later update, members who wish to take self-custody of their keys will be able to export the private key of their gmPASS and import it into self-custodial wallets such as Rainbow, Metamask, and others.
 
 ### web3 Identity
 
