@@ -14,7 +14,7 @@ import img6 from '@site/static/img/tutorial/command-center/create-metadata-tgr2.
 
 Wait, what's a TGR?
 
-**TGRs** are Token Gating Rules, the rules that determine which roles a user will be assigned based on the token-related criteria defined by the community admin.
+**TGRs** are Token Gating Rules, the rules that determine which roles a member will be assigned based on the token-related criteria defined by the community admin.
 
 For example, a TGR may grant access to a "VIP" role for members who hold a certain number of tokens.
 
