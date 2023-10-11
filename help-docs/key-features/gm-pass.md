@@ -18,7 +18,13 @@ Members can use the gmPASS to interact with Collab.Land miniapps and services th
 
 ### Non-Custodial
 
-A member's gmPASS acts as the default signer on `ERC4337` smart accounts across multiple blockchains.<!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)--> Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
+A member's gmPASS acts as the default signer on account abstraction (aka `ERC4337`) smart accounts across multiple blockchains.<!--gmPASS leverages Programmable Key Pairs, `PKP`s, [from LIT Protocol](https://developer.litprotocol.com/v2/concepts/pkpsAsWallet)--> Members no longer have to go through the difficult onboarding of self-custodying their private keys or trust an entity to guard the keys for them!
+
+:::note
+
+Read Alchemy's [semi-technical article](https://www.alchemy.com/blog/account-abstraction) on account abstraction (`ERC4337`) to learn more.
+
+:::
 
 The seed phrase is split up (sharded) across the nodes of the signer network so no single entity controls the private key.
 
@@ -44,7 +50,7 @@ The gmPASS is blockchain-agnostic, meaning it can be used to sign transactions o
 
 After a member authorizes a transaction, Collab.Land facilitates execution on a blockchain. Collab.Land serves as a bridge, aggregator, and interface for members to interact with blockchain technology through familiar social platform interfaces.
 
-Collab.Land uses `ERC4337` smart accounts.
+Collab.Land uses [`ERC4337` smart accounts](https://eips.ethereum.org/EIPS/eip-4337).
 
 ### Social Platforms
 
