@@ -32,7 +32,7 @@ This TGR type is commonly used by groups built on fungible tokens, such as `ERC2
 
 ### Attributes-based
 
-[Attributes-based TGRs](../command-center/create-a-tgr/how-to-create-a-tgr#create-a-metadata-based-tgr) check for the existence of individual tokens that possess one or more "traits" as part of their metadata, specified by the admin. This type of TGR is used to create roles based on NFT ownership.
+[Attributes-based TGRs](../command-center/create-a-tgr/how-to-create-a-tgr#create-a-metadata-based-tgr) check for the existence of individual tokens that possess one or more "traits" as part of their metadata, specified by the admin. This type of TGR is used to create roles based on ownership of specific kinds of NFTs from a collection.
 
 For example, if an admin wants to create a role for BAYC members who own an ape NFT with specific metadata traits (blue fur), they can use an Attributes-based TGR to check for an ape with blue fur in the member's wallet.
 

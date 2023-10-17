@@ -76,6 +76,14 @@ Congratulations, you've created a TGR!
 
 ### Create a Balance-Based TGR
 
+:::info
+
+Balance-Based TGRs mean that a member will receive a role if they hold the minimum number of tokens or more.
+
+This TGR type is commonly used for `ERC20` gating and for holding a number of any tokens from an NFT collection.
+
+:::
+
 1. Follow the normal steps of creating a TGR as listed above
 
 2. Set the minimum amount of tokens (required)
@@ -90,7 +98,15 @@ Your balance-based TGR is ready! A complete balance-based TGR should look like t
    <img  src={img1} alt="Create a balance-based TGR" />
 </div>
 
-### Create a Metadata-Based TGR
+### Create a Attributes-Based TGR
+
+:::info
+
+This type of TGR is used to create roles based on ownership of specific kinds of NFTs from a collection.
+
+For example, an admin can use an Attributes-Based TGR to check for a BAYC ape _with blue fur_ in the member's wallet.
+
+:::
 
 1. Follow the normal steps of creating a TGR as listed above
 
@@ -114,7 +130,7 @@ The "Attributes" button will only appear if you are using an NFT TGR type. Selec
 
 :::danger
 
-Metadata-based TGRs _must_ be **EXACT matches** to the `Trait`s and `Value`s specified in the contract's metadata.
+Attributes-based TGRs _must_ be **EXACT matches** to the `Trait`s and `Value`s specified in the contract's metadata.
 
 :::
 
@@ -134,7 +150,7 @@ Your Attributes-based TGR is ready! This is what it should look like:
      <img  src={img2} alt="Create an attributes-based TGR" />
    </div>
 
-### How to find NFT metadata traits
+### How to find NFT Metadata Traits
 
 :::note
 
