@@ -36,13 +36,7 @@ To create a TGR in Discord, follow these steps:
 
    - Description (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
 
-   - Chain type: The blockchain network that the token for this TGR is on.
-
-:::tip
-
-See the [full list](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) of Collab.Land-supported chains and corresponding token types.
-
-:::
+   - Chain type: The blockchain network that the token for this TGR is on. See the [full list of Collab.Land-supported chains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding token types.
 
    - Token type: The type of token used for the TGR.
 
@@ -50,13 +44,19 @@ See the [full list](/help-docs/key-features/token-gate-communities#supported-blo
 
    - Token ID (optional): Give the specific `tokenId`s of the tokens required to obtain the role.
 
+:::caution
+
+`tokenId` is **required** for TGRs that use `ERC1155` tokens. Check out the [`ERC1155` TGR creation tutorial](https://www.youtube.com/watch?v=NngqwW0lQNQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=2) on the Collab.Land YouTube channel.
+
+:::
+
    - Balance: The minimum and maximum (optional) amount of tokens required to obtain the role.
 
    - Attributes (conditional): For specific tokens, such as NFTs, you can add metadata conditions that must be met in order for the member to receive the role. If your NFT contains metadata traits and values, you can enter them by clicking on the "Attributes" button and then "Add metadata".
 
-5. If you need to start over, click "Reset". This action is not reversible.
+1. If you need to start over, click "Reset". This action is not reversible.
 
-6. Once you have filled in the fields, click "Save" to create your TGR.
+2. Once you have filled in the fields, click "Save" to create your TGR.
 
 :::info
 
@@ -100,11 +100,13 @@ Your balance-based TGR is ready! A complete balance-based TGR should look like t
 
 ### Create a Attributes-Based TGR
 
-:::info
-
 This type of TGR is used to create roles based on ownership of specific kinds of NFTs from a collection.
 
 For example, an admin can use an Attributes-Based TGR to check for a BAYC ape _with blue fur_ in the member's wallet.
+
+:::tip
+
+Check out the tutorial for [creating ERC721 Token Gating Rules using NFT Metadata](https://www.youtube.com/watch?v=pYhBPm7ixak&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2) on the Collab.Land YouTube channel.
 
 :::
 
