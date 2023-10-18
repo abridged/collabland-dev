@@ -52,17 +52,18 @@ Community members should reference the [list of supported wallets](../wallets/ve
 |------------------|-------------------------------------------------------------------------------------|
 | **EVM chains**   |               ------------------                                                    |
 | Mainnet          | ERC20, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
-| Goerli           | ERC20, ERC721, ERC1155, Gnosis Safe, Otterspace Badge                               |
+| Goerli (testnet) | ERC20, ERC721, ERC1155, Gnosis Safe, Otterspace Badge                               |
+| Gnosis           | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
+| Optimism         | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
+| BASE         | ERC20, ERC721, ERC1155                                                              |
 | Polygon          | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Mumbai (Testnet) | ERC20, ERC721, ERC1155                                                              |
-| Moonbeam         | ERC20, ERC721, ERC1155                                                              |
-| BSC              | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
-| Gnosis           | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
 | Ronin            | ERC20, ERC721, ERC1155                                                              |
 | Arbitrum One     | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Arbitrum Nova    | ERC20, ERC721, ERC1155                                                              |
+| BSC              | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
+| Moonbeam         | ERC20, ERC721, ERC1155                                                              |
 | Avalanche        | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
-| Optimism         | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
 | Palm             | ERC20, ERC721, ERC1155                                                              |
 | Q Chain          | ERC20, ERC721, ERC1155                                                              |
 | **Non-EVM Chains**     | ------------------                                                            |
