@@ -44,29 +44,37 @@ Attributes-based TGRs are only used for tokens that contain metadata -- NFTs suc
 
 ## Supported Blockchains & Tokens
 
+:::note
+
 This blockchain list is intended for community admins. It shows which Token Types can be used with which blockchains.
 
 Community members should reference the [list of supported wallets](../wallets/verify-your-wallet#supported-wallets) to know which wallets can be used with which blockchain.
+
+:::
+
+Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr).
 
 | Chain Type       | Token Type                                                                          |
 |------------------|-------------------------------------------------------------------------------------|
 | **EVM chains**   |               ------------------                                                    |
 | Mainnet          | ERC20, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
-| Goerli           | ERC20, ERC721, ERC1155, Gnosis Safe, Otterspace Badge                               |
+| Goerli (testnet) | ERC20, ERC721, ERC1155, Gnosis Safe, Otterspace Badge                               |
+| Gnosis           | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
+| Optimism         | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
+| BASE         | ERC20, ERC721, ERC1155                                                              |
 | Polygon          | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Mumbai (Testnet) | ERC20, ERC721, ERC1155                                                              |
-| Moonbeam         | ERC20, ERC721, ERC1155                                                              |
-| BSC              | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
-| Gnosis           | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
-| Ronin            | ERC20, ERC721, ERC1155                                                              |
+| [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)            | ERC20, ERC721, ERC1155                                                              |
 | Arbitrum One     | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Arbitrum Nova    | ERC20, ERC721, ERC1155                                                              |
+| BSC              | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
+| Moonbeam         | ERC20, ERC721, ERC1155                                                              |
 | Avalanche        | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
-| Optimism         | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
 | Palm             | ERC20, ERC721, ERC1155                                                              |
 | Q Chain          | ERC20, ERC721, ERC1155                                                              |
 | **Non-EVM Chains**     | ------------------                                                            |
-| Solana           | Solana FT, Solana NFT                                                               |
+| [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)     | ------------------                                                                   |
+| [Solana](/help-docs/command-center/create-a-tgr/solana)           | Solana FT, Solana NFT                                                               |
 | NEAR             | NEAR FT, NEAR NFT                                                                   |
 | Eluvio           | ERC721                                                                              |
 | Flow             | FLOW FT, FLOW NFT                                                                   |
@@ -75,8 +83,8 @@ Community members should reference the [list of supported wallets](../wallets/ve
 | Polkadot         | ERC20                                                                               |
 | Tezos            | Tezos FA1.2, Tezos FA2                                                              |
 | Immutable X      | Immutable X                                                                         |
-| Loopring         | Loopring FT, Loopring NFT                                                           |
-| XRPL             | XRPL FT, XRPL NFT                                                                   |
+| [Loopring](/help-docs/command-center/create-a-tgr/loopring)         | Loopring FT, Loopring NFT                                                           |
+| [XRPL](/help-docs/command-center/create-a-tgr/xrpl)             | XRPL FT, XRPL NFT                                                                   |
 
 :::tip
 
