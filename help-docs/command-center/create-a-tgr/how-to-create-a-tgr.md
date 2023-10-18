@@ -46,7 +46,7 @@ To create a TGR in Discord, follow these steps:
 
 :::caution
 
-`tokenId` is **required** for TGRs that use `ERC1155` tokens. Check out the [`ERC1155` tutorial](https://www.youtube.com/watch?v=NngqwW0lQNQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=2) on the Collab.Land YouTube channel.
+`tokenId` is **required** for TGRs that use `ERC1155` tokens. Check out the [`ERC1155` TGR creation tutorial](https://www.youtube.com/watch?v=NngqwW0lQNQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=2) on the Collab.Land YouTube channel.
 
 :::
 
