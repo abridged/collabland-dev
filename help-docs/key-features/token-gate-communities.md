@@ -72,7 +72,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Avalanche        | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Palm             | ERC20, ERC721, ERC1155                                                              |
 | Q Chain          | ERC20, ERC721, ERC1155                                                              |
-| [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech)     | ------------------                                                                   |
+| [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------                                                                   |
 | **Non-EVM Chains**     | ------------------                                                            |
 | [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)     | ------------------                                                                   |
 | [Solana](/help-docs/command-center/create-a-tgr/solana)           | Solana FT, Solana NFT                                                               |
