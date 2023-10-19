@@ -4,13 +4,19 @@ title: Friend.Tech
 id: friend-tech
 ---
 
-import img1 from '@site/static/img/tutorial/command-center/create-passport-tgr.png';
+import img1 from '@site/static/img/tutorial/command-center/ft-tgr.gif';
+import img2 from '@site/static/img/tutorial/command-center/ft-tgr-final.png';
+import img3 from '@site/static/img/tutorial/command-center/ft-find-creator-wallet-address.gif';
 
 Your network is your net worth. Gain access to private chats by buying the keys of your Twitter friends.
 
 ## Overview
 
 ### How to Create a Friend.Tech TGR
+
+<div class="text--center">
+   <img  src={img1} alt="How to Create a Friend.Tech TGR" />
+</div>
 
 To configure a Friend.Tech TGR, follow these steps:
 
@@ -24,6 +30,7 @@ To configure a Friend.Tech TGR, follow these steps:
 4. Set the `Chain Type` to Friend.Tech.
 
 5. Enter the `Creator Wallet Address`.
+   - Ask the Creator to find the `Creator Wallet Address` in the Friend.Tech app.
 
 6. Set the Minimum amount of Keys. Needed to gain the role.
    - Optional: Set a Maximum score.
@@ -33,14 +40,25 @@ To configure a Friend.Tech TGR, follow these steps:
 The final configuration of a Friend.Tech TGR should look like this:
 
 <div class="text--center">
-   <img  src={img1} alt="Create a Friend.Tech TGR" />
+   <img  src={img2} alt="Friend.Tech TGR" />
 </div>
 
 ### How to Find the Creator Wallet Address
 
-1. Ask the Creator to find the wallet Go to the [Gitcoin Passport app](https://passport.gitcoin.co/).
+:::caution
 
-2. Sign in with an Ethereum wallet.
+Only the Creator can find this information from the Friend.Tech app.
 
+Direct them to this document and have them send you the wallet address if you are setting the TGR up for them.
 
-Visit the [Gitcoin support docs](https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-passport/creating-a-gitcoin-passport#sign-into-gitcoin-passport) to learn more.
+:::
+
+<div class="text--center">
+   <img  src={img3} alt="How to find the Creator Wallet Address in Friend.Tech" />
+</div>
+
+1. Open the Friend.Tech app.
+
+2. Click on the ETH Account button at the top.
+
+3. Copy the wallet address from the account.
