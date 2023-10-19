@@ -1,7 +1,8 @@
 ---
 sidebar_position: 9
-title: Friend.Tech
-id: friend-tech
+title: Friend.Tech TGRs
+id: friend-tech-tgr
+sidebar_label: Friend.Tech
 ---
 
 import img1 from '@site/static/img/tutorial/command-center/ft-tgr.gif';
