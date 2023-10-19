@@ -61,10 +61,10 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Goerli (testnet) | ERC20, ERC721, ERC1155, Gnosis Safe, Otterspace Badge                               |
 | Gnosis           | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
 | Optimism         | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
-| BASE         | ERC20, ERC721, ERC1155                                                              |
+| BASE             | ERC20, ERC721, ERC1155                                                              |
 | Polygon          | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Mumbai (Testnet) | ERC20, ERC721, ERC1155                                                              |
-| [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)            | ERC20, ERC721, ERC1155                                                              |
+| [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)            | ERC20, ERC721, ERC1155          |
 | Arbitrum One     | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Arbitrum Nova    | ERC20, ERC721, ERC1155                                                              |
 | BSC              | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
@@ -72,10 +72,8 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Avalanche        | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Palm             | ERC20, ERC721, ERC1155                                                              |
 | Q Chain          | ERC20, ERC721, ERC1155                                                              |
-| [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------                                                                   |
-| **Non-EVM Chains**     | ------------------                                                            |
-| [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)     | ------------------                                                                   |
-| [Solana](/help-docs/command-center/create-a-tgr/solana)           | Solana FT, Solana NFT                                                               |
+| **Non-EVM Chains**  |               ------------------                                                 |
+| [Solana](/help-docs/command-center/create-a-tgr/solana)           | Solana FT, Solana NFT              |
 | NEAR             | NEAR FT, NEAR NFT                                                                   |
 | Eluvio           | ERC721                                                                              |
 | Flow             | FLOW FT, FLOW NFT                                                                   |
@@ -84,8 +82,10 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Polkadot         | ERC20                                                                               |
 | Tezos            | Tezos FA1.2, Tezos FA2                                                              |
 | Immutable X      | Immutable X                                                                         |
-| [Loopring](/help-docs/command-center/create-a-tgr/loopring)         | Loopring FT, Loopring NFT                                                           |
-| [XRPL](/help-docs/command-center/create-a-tgr/xrpl)             | XRPL FT, XRPL NFT                                                                   |
+| [Loopring](/help-docs/command-center/create-a-tgr/loopring)         | Loopring FT, Loopring NFT        |
+| [XRPL](/help-docs/command-center/create-a-tgr/xrpl)             | XRPL FT, XRPL NFT                    |
+| [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)     | ------------------       |
+| [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------         |
 
 :::tip
 
