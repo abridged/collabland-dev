@@ -8,7 +8,7 @@ sidebar_label: Friend.Tech
 import img1 from '@site/static/img/tutorial/wallets/verify-with-ft.gif';
 import img2 from '@site/static/img/tutorial/command-center/ft-find-creator-wallet-address.gif';
 
-### Friend.Tech verification guide
+## Friend.Tech verification guide
 
 You can use your Friend.Tech account to verify that you hold a Creator's Key(s) and gain access to their chat. Follow these steps to verify your Friend.Tech Keys:
 
@@ -32,7 +32,7 @@ Here's how you can [find your Friend.Tech wallet address](#how-to-find-your-frie
 7. Click "Authorize App".
    - You may need to first login to your X account in order to authorize the Friend.Tech app.
 
-#### How to find your Friend.Tech wallet address
+### How to find your Friend.Tech wallet address
 
 <div class="text--center">
    <img  src={img2} alt="How to find your wallet address in Friend.Tech" />
