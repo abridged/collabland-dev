@@ -33,8 +33,8 @@ To configure a Friend.Tech TGR, follow these steps:
 5. Enter the `Creator Wallet Address`.
    - Ask the Creator to [find the `Creator Wallet Address`](#how-to-find-the-creator-wallet-address) in the Friend.Tech app.
 
-6. Set the Minimum amount of Keys. Needed to gain the role.
-   - Optional: Set a Maximum score.
+6. Set the Minimum amount of Keys needed to gain the role.
+   - Optional: Set a Maximum number of Keys.
 
 7. Click "Save".
 
