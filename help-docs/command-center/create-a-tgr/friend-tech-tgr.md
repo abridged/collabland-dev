@@ -9,11 +9,11 @@ import img1 from '@site/static/img/tutorial/command-center/ft-tgr.gif';
 import img2 from '@site/static/img/tutorial/command-center/ft-tgr-final.png';
 import img3 from '@site/static/img/tutorial/command-center/ft-find-creator-wallet-address.gif';
 
-Your network is your net worth. Gain access to private chats by buying the keys of your Twitter friends.
+Your network is your net worth. Gain access to private chats with your Twitter friends by buying and holding their Keys.
 
 ## Overview
 
-### How to Create a Friend.Tech TGR
+## How to Create a Friend.Tech TGR
 
 <div class="text--center">
    <img  src={img1} alt="How to Create a Friend.Tech TGR" />
@@ -31,7 +31,7 @@ To configure a Friend.Tech TGR, follow these steps:
 4. Set the `Chain Type` to Friend.Tech.
 
 5. Enter the `Creator Wallet Address`.
-   - Ask the Creator to find the `Creator Wallet Address` in the Friend.Tech app.
+   - Ask the Creator to [find the `Creator Wallet Address`](#how-to-find-the-creator-wallet-address) in the Friend.Tech app.
 
 6. Set the Minimum amount of Keys. Needed to gain the role.
    - Optional: Set a Maximum score.

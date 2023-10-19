@@ -17,18 +17,18 @@ You can use your Friend.Tech account to verify that you hold a Creator's Key(s) 
 </div>
 
 1. Log into the Discord server where you would like to verify, and click the “Let’s Go!” button in the #collabland-join channel.
+
 2. Click the “Add a New Wallet” button.
+
 3. Click the "Connect Wallet" button.
+
 4. Select the Friend.Tech option from the list of available wallets on the Collab.Land website.
+
 5. Enter your Friend.Tech wallet address.
-
-:::tip
-
-Here's how you can [find your Friend.Tech wallet address](#how-to-find-your-friendtech-wallet-address).
-
-:::
+   - Here's how you can [find your Friend.Tech wallet address](#how-to-find-your-friendtech-wallet-address).
 
 6. Click "Submit".
+
 7. Click "Authorize App".
    - You may need to first login to your X account in order to authorize the Friend.Tech app.
 
