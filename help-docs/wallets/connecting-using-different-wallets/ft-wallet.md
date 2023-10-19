@@ -35,7 +35,7 @@ Here's how you can [find your Friend.Tech wallet address](#how-to-find-your-frie
 ### How to find your Friend.Tech wallet address
 
 <div class="text--center">
-   <img  src={img2} alt="How to find your wallet address in Friend.Tech" width="540" height="960" />
+   <img  src={img2} alt="How to find your wallet address in Friend.Tech" />
 </div>
 
 1. Open the Friend.Tech app.
