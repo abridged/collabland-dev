@@ -45,11 +45,11 @@ Verifying with a new different wallet is an option for members who hold their to
 
 This wallet list is intended for community members. It shows which wallets can be used with which blockchains.
 
-Admins should reference the [list of supported blockchains](../key-features/token-gate-communities#supported-blockchains--tokens) and corresponding Token Types while [creating TGRs](../command-center/create-a-tgr/how-to-create-a-tgr) for their community.
+Admins should reference the [list of supported blockchains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding Token Types while [creating TGRs](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr) for their community.
 
 | Wallet Connection Label | Collab.Land Supported Networks                     |
-|------------------------|-------------------------------------------|
-| **EVM wallets**            |     ------------------                                                                                 |
+|------------------------|-----------------------------------------------------|
+| **EVM wallets**        |     ------------------                              |
 | [MetaMask](./connecting-using-different-wallets/metamask)               | Mainnet, Goerli, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche | 
 | [WalletConnect](./connecting-using-different-wallets/wallet-connect)         | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche |
 | [CoinBase Wallet](https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support)        | Mainnet, Goerli, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche |
