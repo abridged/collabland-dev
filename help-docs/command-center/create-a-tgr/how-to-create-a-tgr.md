@@ -154,8 +154,8 @@ Your Attributes-based TGR is ready! This is what it should look like:
 
 ### How to find NFT Metadata Traits
 
-:::note
+:::tip
 
-coming soon
+Check out our YouTube tutorial for [how to find NFT metadata traits using OpenSea](https://youtu.be/pYhBPm7ixak?list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&t=122).
 
 :::
