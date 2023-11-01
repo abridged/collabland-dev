@@ -77,6 +77,6 @@ Collab.Land uses the Magic Eden API for Bitcoin Ordinals verification.
 
 :::note
 
-View the [Magic Eden documentation]() to see which blockchain networks Magic Eden supports for NFT creation, sales, and doing drops.
+View the [Magic Eden documentation](https://help.magiceden.io/en/articles/6483822-what-blockchains-does-magic-eden-support) to see which blockchain networks Magic Eden supports for NFT creation, sales, and doing drops.
 
 :::
