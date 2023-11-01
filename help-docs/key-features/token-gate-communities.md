@@ -84,6 +84,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Immutable X      | Immutable X                                                                         |
 | [Loopring](/help-docs/command-center/create-a-tgr/loopring)         | Loopring FT, Loopring NFT        |
 | [XRPL](/help-docs/command-center/create-a-tgr/xrpl)             | XRPL FT, XRPL NFT                    |
+| [Bitcoin NFTs](/help-docs/command-center/create-a-tgr/bitcoin-tgr)      | Bitcoin Stamps, Bitcoin Ordinals         |
 | [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)     | ------------------       |
 | [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------         |
 
