@@ -53,7 +53,7 @@ The configuration of an `ERC1155` TGR should look like this:
     <img  src={img2} alt="Create an ER1155 TGR" />
 </div>
 
-:::warning
+:::caution
 
 Token IDs are _**required**_ for `ERC1155` TGRs, the TGR will not work without them.
 

@@ -59,7 +59,7 @@ To configure a STAMPS TGR, follow these steps:
 The final configuration of a Stamps TGR should look like this:
 
 <div class="text--center">
-   <img src={img1} alt="Create a Bitcoin STAMPS TGR" height="400" />
+   <img src={img1} alt="Create a Bitcoin STAMPS TGR" height="250" />
 </div>
 
 ### How to find the Ordinals Collection Name via Magic Eden
@@ -105,5 +105,5 @@ The Collection Name is at the end of the Magic Eden URL, in the format of /ordin
 The final configuration of an Ordinals TGR should look like this:
 
 <div class="text--center">
-   <img src={img2} alt="Create a Bitcoin Ordinals TGR" height="300" />
+   <img src={img2} alt="Create a Bitcoin Ordinals TGR" height="250" />
 </div>
