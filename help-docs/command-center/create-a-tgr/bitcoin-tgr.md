@@ -8,7 +8,7 @@ sidebar_label: Bitcoin
 import img1 from '@site/static/img/tutorial/command-center/bitcoin-stamps-tgr.png';
 import img2 from '@site/static/img/tutorial/command-center/bitcoin-ordinals-tgr.png';
 
-Something something Bitcoin. Replace this text please.
+Create communities with Collab.Land’s  Token-Gating Rules using Bitcoin NFTs.
 
 ## Overview
 
