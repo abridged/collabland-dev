@@ -41,42 +41,14 @@ Use the Xverse wallet to verify ownership of Bitcoin Ordinals.
 
 6. Once the wallet connection process is complete, you can close the window and return to Discord.
 
-### Bitcoin wallets verification guide
-
 <!-- <div class="text--center">
   <img  src={img1} alt="Verify with OpenSea" />
 </div> -->
 
-Follow these steps to verify your membership on Discord:
-
-1. Go to the #collabland-join channel on your Discord server and click "Let's Go!"
-
-2. Click "Add a New Wallet".
-
-3. Verify the custom message and click "ConnectWallet" button to go to `connect.collab.land`.
-
-4. Choose a Bitcoin wallet provider.
-   - Leather wallet supports both STAMPS and Ordinals.
-   - Xverse wallet supports only Ordinals.
-
-5. Click on the “Sign Message” button and sign the message using your Metamask wallet.
-
-6. Once the wallet connection process is complete, you can close the window and return to Discord.
-
 ### Supported Wallets
 
-Use Leather wallet for verifying Bitcoin STAMPS ownership.
+- Collab.Land supports Leather Wallet for STAMPS and Ordinals on Bitcoin.
 
-Collab.Land supports both Leather and Xverse wallets for verifying Bitcoin Ordinals ownership.
+- Collab.Land supports Xverse for Ordinals.
 
-Leather Wallet supports STAMPS and Ordinals on Bitcoin.
-
-Xverse only supports Ordinals.
-
-Collab.Land uses the Magic Eden API for Bitcoin Ordinals verification.
-
-:::note
-
-View the [Magic Eden documentation](https://help.magiceden.io/en/articles/6483822-what-blockchains-does-magic-eden-support) to see which blockchain networks Magic Eden supports for NFT creation, sales, and doing drops.
-
-:::
+- Collab.Land uses the Magic Eden API for Bitcoin Ordinals verification.
