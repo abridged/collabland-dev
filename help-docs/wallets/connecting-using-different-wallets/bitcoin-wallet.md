@@ -7,11 +7,11 @@ sidebar_label: Bitcoin
 
 import img1 from '@site/static/img/tutorial/wallets/opensea-auth.gif';
 
-Bitcoin wallet filler text, please replace.
+Use these Bitcoin wallets to join the Bitcoin-gated Collab.Land communities of your choice.
 
 ### Verifying using Leather wallet
 
-Use the Leather wallet to verify ownership of Bitcoin STAMPS or Bitcoin Ordinals.
+Use Leather wallet to verify ownership of Bitcoin STAMPS or Bitcoin Ordinals.
 
 1. Go to the #collabland-join channel on your Discord server and click "Let's Go!"
 
@@ -19,7 +19,7 @@ Use the Leather wallet to verify ownership of Bitcoin STAMPS or Bitcoin Ordinals
 
 3. Verify the custom message and click "ConnectWallet" button to go to `connect.collab.land`.
 
-4. Click Leather wallet.
+4. Select Leather wallet.
 
 5. Select "Stamps" or "Ordinals" and sign the message using your Leather wallet.
 
@@ -35,9 +35,9 @@ Use the Xverse wallet to verify ownership of Bitcoin Ordinals.
 
 3. Verify the custom message and click "ConnectWallet" button to go to `connect.collab.land`.
 
-4. Click Xverse wallet.
+4. Select Xverse wallet.
 
-5. Sign the message using your Leather wallet.
+5. Sign the message using your Xverse wallet.
 
 6. Once the wallet connection process is complete, you can close the window and return to Discord.
 
