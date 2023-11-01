@@ -5,27 +5,31 @@ id: bitcoin-tgr
 sidebar_label: Bitcoin
 ---
 
-import img1 from '@site/static/img/tutorial/command-center/create-passport-tgr.png';
+import img1 from '@site/static/img/tutorial/command-center/bitcoin-stamps-tgr.png';
+import img2 from '@site/static/img/tutorial/command-center/bitcoin-ordinals-tgr.png';
 
-Passport is the citizenship pass for the decentralized internet.
-
-With Passport’s Unique Humanity Scorer tool, you can protect your community from bots and Sybils by requiring and enabling members to present evidence that they are real, unique humans and signal their trustworthiness.
+Something something Bitcoin. Replace this text please.
 
 ## Overview
 
-Gitcoin Passport is an identity verification application that allows members to add web2 and web3 verifiable credentials (called Stamps) to their Passport that proves that they are human.
-
-Each Stamp comes with a score, and as members add more Stamps to their Passport, the Stamp scores add up to the make the Unique Humanity Score.
-
-We can then require members have a Unique Humanity Score more than a defined minimum score as a TGR. For example, if we require a minimum score of 20, only those users that have a Passport score of 20 or above will be able to gain the role.
-
-Read more about Passport on the [Gitcoin support docs](https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-passport/what-is-gitcoin-passport) and the [Passport dev docs](https://docs.passport.gitcoin.co/building-with-passport/introduction#what-is-passport).
+Bitcoin.
 
 ## Bitcoin TGRs
 
+### How to Get the STAMPS Creator Address via Stampchain
+
+1. **Accessing Stampchain**:
+   - Navigate to the [Stampchain website](https://stampchain.io/). This is where you can view all the stamps data and specifications.
+   - Stampchain allows you to search by various parameters including Stamp ID, Creator, transaction, CPI, etc.
+
+2. **Searching for Your Stamp**:
+   - If you know your Stamp ID (or IDs if you have multiple), enter it in the search bar.
+   - In our example, we'll search for a specific ID.
+   - Once you initiate the search, you should see the relevant stamp details, including the creator's information.
+
 ### How to Create a Bitcoin STAMPS TGR
 
-To configure a Passport TGR, follow these steps:
+To configure a STAMPS TGR, follow these steps:
 
 1. Log in to the [Command Center](../../key-features/command-center) at https://cc.collab.land using Discord.
 
@@ -34,30 +38,72 @@ To configure a Passport TGR, follow these steps:
 3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR.
    - Write an informative description for the TGR.
 
-4. Set the `Chain Type` to Gitcoin Passport.
+4. Set the `Chain Type` to "Bitcoin".
 
-5. Set `Token Type` to Humanity Score.
+5. Set the `Token Type` as "Bitcoin Stamps".
 
-6. Set the Minimum score a member must have to get the Discord role. Gitcoin recommends a score of 20 for the best defense against Sybils and bots.
-   - Optional: Set a Maximum score.
+6. **Inputs for the TGR**: Fill in one or both of the fields 'Stamp Creator' and 'Stamp ID'.
+:::info
 
-7. Click "Save".
+   - You can input both or choose only one. However, if both fields are left empty, you'll get an error.
 
-The final configuration of a Passport TGR should look like this:
+   - Inputting the Stamp Creator Address will consider all stamps made by that particular creator.
+
+:::
+
+7. Set the Minimum amount of Keys needed to gain the role.
+   - Optional: Set a Maximum number of Keys.
+
+8. Click "Save".
+
+The final configuration of a Stamps TGR should look like this:
 
 <div class="text--center">
-   <img  src={img1} alt="Create a Gitcoin Passport TGR" />
+   <img src={img1} alt="Create a Bitcoin STAMPS TGR" />
 </div>
+
+### How to find the Ordinals Collection Name via Magic Eden
+
+1. **Understanding Ordinals**:
+   - Collab.Land uses the Magic Eden APIs to access and token gate Ordinals.
+   - Navigate to the [Magic Eden website](https://magiceden.io/ordinals).
+
+2. **Retrieve Collection Name**: Copy the Collection Name from the Magic Eden URL. The Collection Name is at the end of the URL, in the format of `/ordinals/marketplace/{collectionName}`.
 
 ### How to Create a Bitcoin Ordinals TGR
 
-1. Go to the [Gitcoin Passport app](https://passport.gitcoin.co/).
+To configure an Ordinals TGR, follow these steps:
 
-2. Sign in with an Ethereum wallet.
+1. Log in to the [Command Center](../../key-features/command-center) at https://cc.collab.land using Discord.
 
-3. Verify as many Stamps as needed to build up your Passport score.
-   - Learn more about [verifying Stamps](https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-passport/what-are-stamps).
+2. From the left panel, select the server you would like to create the TGR in. Then, click on "TGRs".
 
-4. Use your Passport to fulfill Collab.Land's [Token Gating Rules](/help-docs/key-features/token-gate-communities#what-is-token-gating) and for other web3 applications.
+3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR.
+   - Write an informative description for the TGR.
 
-Visit the [Gitcoin support docs](https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-passport/creating-a-gitcoin-passport#sign-into-gitcoin-passport) to learn more.
+4. Set the `Chain Type` to "Bitcoin".
+
+5. Set the `Token Type` as "Bitcoin Ordinals".
+
+6. Input the [Collection Name](#how-to-find-the-ordinals-collection-name-via-magic-eden) _**exactly**_ as it appears in the URL.
+
+:::info
+
+The Collection Name is at the end of the URL, in the format of `/ordinals/marketplace/{collectionName}`.
+
+:::
+
+7. Optional: Input the Token ID(s) for the TGR.
+  
+  - Supported [Token ID formats](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr#supported-token-id-formats).
+
+8. Set the Minimum amount of tokens needed to gain the role.
+   - Optional: Set a Maximum number of tokens.
+
+9. Click "Save".
+
+The final configuration of an Ordinals TGR should look like this:
+
+<div class="text--center">
+   <img src={img2} alt="Create a Bitcoin Ordinals TGR" />
+</div>
