@@ -54,15 +54,19 @@ To create a TGR in Discord, follow these steps:
 
    - Attributes (conditional): For specific tokens, such as NFTs, you can add metadata conditions that must be met in order for the member to receive the role. If your NFT contains metadata traits and values, you can enter them by clicking on the "Attributes" button and then "Add metadata".
 
-1. If you need to start over, click "Reset". This action is not reversible.
+5. If you need to start over, click "Reset". This action is not reversible.
 
-2. Once you have filled in the fields, click "Save" to create your TGR.
+6. Once you have filled in the fields, click "Save" to create your TGR.
+
+Congratulations, you've created a TGR!
 
 :::info
 
-If you are using the `tokenId` field, you must provide token IDs separated by commas, **with no spaces**. Using ranges with `-` are supported as well.
+If you are using the `tokenId` field, you must provide Token IDs separated by commas, **with no spaces**. Using ranges with `-` are supported as well.
 
-Supported `tokenId` formats:
+:::
+
+### Supported Token ID formats
 
 - Range: `11-99`
 
@@ -70,9 +74,19 @@ Supported `tokenId` formats:
 
 - List combined with range(s): `1,2,42-69,90,101-105`
 
+:::tip
+
+If you have to enter many Token IDs or the list of IDs will change, you can enter a URL that links to a list of Token IDs in plaintext format.
+
 :::
 
-Congratulations, you've created a TGR!
+- URL list of Token ID(s):
+  
+  1. Create the list locally as a `.txt` file, using the same formats as above.
+
+  2. Upload the `.txt` file to a hosting service such as [Pinata](https://www.pinata.cloud/), [GitHub](https://github.com/), [IPFS](https://ipfs.tech/), or [S3](https://aws.amazon.com/s3/) to generate the URL.
+
+  3. Paste the host URL in the Token ID field.
 
 ### Create a Balance-Based TGR
 
