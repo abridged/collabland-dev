@@ -69,6 +69,8 @@ Admins should reference the [list of supported blockchains](/help-docs/key-featu
 | [Venly](https://docs.venly.io/widget/environments#blockchain-networks)                  | Mainnet, Polygon, Arbitrum One, BSC, ImmutableX, Avalanche  |
 | [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support)             | Mainnet, Goerli, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
 | **Non-EVM**                |         ------------------                                                                                               |
+| [Xverse](https://www.xverse.app/)                 | Bitcoin Ordinals                                                                                                                      |
+| [Leather wallet](https://leather.io/)                 | Bitcoin Ordinals + STAMPS                                                                                                                       |
 | Solana                 | Solana                                                                                                                       |
 | [NEAR (NEAR, Meteor)](https://meteorwallet.app/)    | NEAR |
 | [Dapper](https://www.meetdapper.com/)                 | Flow                                                                                                                         |
