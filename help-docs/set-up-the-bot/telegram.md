@@ -33,7 +33,7 @@ Here's a guide for [how to create a Telegram Group](https://telegram.org/faq#q-h
     - Or select the 3 dots and then click "Info".
 
 <div class="text--center">
-  <img  src={img1} alt="Access Telegram group settings" width="350" />
+  <img  src={img1} alt="Access Telegram group settings" width="400" />
 </div>
 
 3. Click "Edit" to edit the group settings.
@@ -68,7 +68,7 @@ To fix:
 2. In the search bar that opens, type `collablandbot`.
 
 <div class="text--center">
-  <img  src={img4} alt="The correct Collab.Land bot `@collablandbot`" width="500"/>
+  <img  src={img4} alt="The correct Collab.Land bot `@collablandbot`" width="400"/>
 </div>
 
 :::danger
@@ -88,7 +88,7 @@ Collab.Land requires administrator permissions for Telegram groups.
 1. From the Group Info screen, click "Edit" on the top right corner.
 
 <div class="text--center">
-  <img  src={img5} alt="Access Telegram group Administrator settings" />
+  <img  src={img5} alt="Access Telegram group Administrator settings" width="400"/>
 </div>
 
 2. Click on "Administrators"
@@ -104,7 +104,7 @@ Collab.Land requires administrator permissions for Telegram groups.
 4. Once finished click "Done" to save.
 
 <div class="text--center">
-  <img  src={img6} alt="Grant Collab.Land Telegram bot Administrator permissions" />
+  <img  src={img6} alt="Grant Collab.Land Telegram bot Administrator permissions" width="400"/>
 </div>
 
 ### Configure Token Gating Rules for Telegram Group Access
