@@ -16,15 +16,15 @@ import img4 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png
 
 You can also access the Command Center from your Discord server's #collabland-config channel.
 
+:::danger
+
+Server members who can view #collabland-config can access the Command Center for your server and change your TGRs. #collabland-config should be a private channel for your Admins only to ensure security.
+
+:::
+
 <div class="text--center">
   <img src={img1} alt="Access the Command Center from Discord via the #collabland-config channel" />
 </div>
-
-:::warning
-
-For Discord, server members who can view #collabland-config can access the Command Center for your server and change your TGRs. #collabland-config should be a private channel for your Admins only to ensure security.
-
-:::
 
 ### Access the Command Center from Telegram
 
