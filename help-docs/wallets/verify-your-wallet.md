@@ -9,6 +9,8 @@ import img3 from '@site/static/img/tutorial/wallets/connect-first-time.gif';
 
 ## Verifying for the first time
 
+### Verify a new wallet in a Discord community
+
 :::info
 
 You can watch a [tutorial video for verifying a new wallet](https://www.youtube.com/watch?v=nPZ0X2SGphQ&list=PLQbEq7a9kYPnufJFY8XDr5HjvPaThjoS-&index=7&t=80s) on the Collab.Land youtube channel.
@@ -26,6 +28,10 @@ Please note that if this is the first time you are connecting a wallet to your a
 <div class="text--center">
   <img  src={img1} alt="Sign message" />
 </div>
+
+### Verify a new wallet in a Telegram group
+
+See how you can join a [Telegram group managed by Collab.Land](/help-docs/FAQ/join-tg-group).
 
 ## Verify with an existing wallet
 

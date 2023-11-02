@@ -1,7 +1,7 @@
 ---
 title: Joining a Telegram Token Permission Group
 id: join-tg-group
-sidebar_label: Telegram Group
+sidebar_label: Telegram Groups
 sidebar_position: 6
 ---
 
@@ -15,6 +15,7 @@ import img6 from '@site/static/img/tutorial/wallets/join-tg/tg-group-confirmatio
 
 A look at what joining a Collab.Land-managed Telegram group looks like and how it works. If the flow is different, it's an impersonator bot!
 
+The true Collab.Land bot is named `@collablandbot`.
 <div class="text--center">
   <img src={img1} alt="The correct Collab.Land bot `@collablandbot`" />
 </div>
