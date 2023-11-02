@@ -4,6 +4,7 @@ sidebar_position: 2
 
 import img1 from '@site/static/img/tutorial/command-center/command-center-from-discord.png';
 import img2 from '@site/static/img/tutorial/command-center/command-center-from-tg.png';
+import img4 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png';
 
 # Command Center
 
@@ -28,6 +29,16 @@ For Discord, server members who can view #collabland-config can access the Comma
 ### Access the Command Center from Telegram
 
 In Telegram, you can access the Command Center from DMs with `@collablandbot`.
+
+<div class="text--center">
+  <img  src={img4} alt="Add the `@collablandbot` to your group" width="400"/>
+</div>
+
+:::danger
+
+Make sure you enter the username _**exactly**_. There are many imposters with similar names.
+
+:::
 
 1. Start DM with `@collablandbot`.
 
