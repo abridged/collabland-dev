@@ -2,11 +2,10 @@
 sidebar_position: 1
 title: Before adding the bot
 ---
+
 import styles from '../../src/css/custom.css'
 import img1 from '@site/static/img/tutorial/bot-discord/discord-new-server.gif';
 import img2 from '@site/static/img/tutorial/bot-discord/discord-roles.gif';
-
-
 
 ## Create a Discord Server
 
