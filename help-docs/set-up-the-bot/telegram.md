@@ -12,8 +12,6 @@ import img4 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png
 import img5 from '@site/static/img/tutorial/set-up-the-bot/tg-admin-permissions.png';
 import img6 from '@site/static/img/tutorial/set-up-the-bot/tg-bot-admin-permissions.png';
 
-## Collab.Land Bot on Telegram
-
 This article walks you through the steps to create a token permissioned group with Collab.Land's Telegram bot.
 
 ## How to Create a Token Gated Group on Telegram
