@@ -8,6 +8,7 @@ id: telegram-setup
 import img1 from '@site/static/img/tutorial/set-up-the-bot/telegram-access-group-settings.png';
 import img2 from '@site/static/img/tutorial/set-up-the-bot/telegram-edit-group-settings.png';
 import img3 from '@site/static/img/tutorial/set-up-the-bot/tg-chat-history-visible.png';
+import img4a from '@site/static/img/tutorial/set-up-the-bot/tg-bot-invite.png';
 import img4 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png';
 import img5 from '@site/static/img/tutorial/set-up-the-bot/tg-admin-permissions.png';
 import img6 from '@site/static/img/tutorial/set-up-the-bot/tg-bot-admin-permissions.png';
@@ -63,12 +64,28 @@ To fix:
 
 ### Add the Collab.Land Telegram Bot
 
+You can 1-click invite the `@collablandbot` bot from the [Command Center](/help-docs/key-features/command-center).
+
+#### Invite from the Command Center
+
+1. Go to the Command Center at https://cc.collab.land.
+
+2. Login with your Telegram account.
+
+3. Click the "Invite Bot" button to invite the `@collablandbot` to your Telegram group.
+
+<div class="text--center">
+  <img  src={img4a} alt="Invite the `@collablandbot` from the Command Center" width="400"/>
+</div>
+
+#### Manual invite
+
 1. From the group info screen, select "+Add".
 
 2. In the search bar that opens, type `collablandbot`.
 
 <div class="text--center">
-  <img  src={img4} alt="The correct Collab.Land bot `@collablandbot`" width="400"/>
+  <img  src={img4} alt="Add the `@collablandbot` to your group" width="400"/>
 </div>
 
 :::danger
