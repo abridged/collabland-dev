@@ -43,19 +43,19 @@ For best results:
 3. Verify the `Community:` field is correct for the community you are trying to join.
 
 <div class="text--center">
-  <img src={img3a} alt="Verify Community details" />
+  <img src={img3a} alt="Verify Community details" width="400" />
 </div>
 
 4. Click the "Connect Wallet" button from the bot.
 
 <div class="text--center">
-  <img src={img3} alt="Connect Wallet using `@collablandbot`" />
+  <img src={img3} alt="Connect Wallet using `@collablandbot`" width="400" />
 </div>
 
 5. In your browser popup, select a wallet from the list of [Collab.Land-support wallets](/help-docs/wallets/verify-your-wallet#supported-wallets) to verify.
 
 <div class="text--center">
-  <img src={img4} alt="Select your wallet to verify" />
+  <img src={img4} alt="Select your wallet to verify" width="300"/>
 </div>
 
 6. Follow the instructions to have your wallet sign the connection request from the bot.
@@ -63,11 +63,11 @@ For best results:
    - When the wallet is successfully linked, a wallet connected message will appear in the browser window. Return back to Telegram to proceed.
 
 <div class="text--center">
-  <img src={img5} alt="Wallet connected success image" />
+  <img src={img5} alt="Wallet connected success image" width="300" />
 </div>
 
 7. In Telegram, select the "Join Group" button from the bot to enter the group.
 
 <div class="text--center">
-  <img src={img6} alt="Join the Collab.Land-managed Telegram group using the 'Join Group' button" />
+  <img src={img6} alt="Join the Collab.Land-managed Telegram group using the 'Join Group' button" width="400" />
 </div>
