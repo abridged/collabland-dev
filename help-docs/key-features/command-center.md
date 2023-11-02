@@ -26,13 +26,19 @@ Server members who can view #collabland-config can access the Command Center for
 
 ### Bot Config
 
-One of the key features of the CC is the Bot Config tab, which allows admins to enable background balance checks and run diagnostic tests on the bot's configuration. The background balance check, when enabled, runs regular tests to ensure that all users continue to hold the required tokens for their roles. If a user is found to no longer have sufficient tokens, their role will be automatically revoked.
+One of the key features of the CC is the Bot Config tab, which allows admins to enable background [balance checks](/help-docs/command-center/bot-config/balance-check) and run diagnostic tests on the bot's configuration. The background balance check, when enabled, runs regular tests to ensure that all users continue to hold the required tokens for their roles. If a user is found to no longer have sufficient tokens, their role will be automatically revoked.
 
-The diagnostic test, on the other hand, checks for potential issues with the bot's configuration and provides admins with warning messages and possible solutions if any problems are found.
+The diagnostic test, on the other hand, checks for [potential issues](/help-docs/command-center/bot-config/errors) with the bot's configuration and provides admins with warning messages and possible solutions if any problems are found.
 
 ### TGRs (Token Gating Rules)
 
 The TGR tab is the main feature of the CC, which enables admins to create, edit, and delete TGRs for their community's roles. Admins can also filter through TGRs, making it easy to find the ones they need. This functionality allows for a flexible and efficient way to manage access to different roles based on token-related criteria.
+
+:::info
+
+Learn about Token Gating Rules and [how to create TGRs](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr) for your community.
+
+:::
 
 ### Community Roles
 
