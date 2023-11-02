@@ -16,7 +16,7 @@ import img6 from '@site/static/img/tutorial/set-up-the-bot/tg-bot-admin-permissi
 
 This article walks you through the steps to create a token permissioned group with Collab.Land's Telegram bot.
 
-### How to Create a Token Gated Group on Telegram
+## How to Create a Token Gated Group on Telegram
 
 Before we begin, you will need a Telegram group. If you do not have one, create one now.
 
@@ -26,7 +26,7 @@ Here's a guide for [how to create a Telegram Group](https://telegram.org/faq#q-h
 
 :::
 
-#### Setup your Telegram Group
+### Setup your Telegram Group
 
 1. Edit Your Group Settings.
 
@@ -35,7 +35,7 @@ Here's a guide for [how to create a Telegram Group](https://telegram.org/faq#q-h
     - Or select the 3 dots and then click "Info".
 
 <div class="text--center">
-  <img  src={img1} alt="Access Telegram group settings" />
+  <img  src={img1} alt="Access Telegram group settings" width="200" />
 </div>
 
 3. Click "Edit" to edit the group settings.
@@ -63,7 +63,7 @@ To fix:
 
 :::
 
-#### Add the Collab.Land Telegram Bot
+### Add the Collab.Land Telegram Bot
 
 1. From the group info screen, select "+Add".
 
@@ -83,7 +83,7 @@ Make sure you enter the username _**exactly**_. There are many imposters with si
 
 4. Click "OK" to add it to the group.
 
-#### Grant Collab.Land bot Admin Permissions
+### Grant Collab.Land bot Admin Permissions
 
 Collab.Land requires administrator permissions for Telegram groups.
 
@@ -109,7 +109,7 @@ Collab.Land requires administrator permissions for Telegram groups.
   <img  src={img6} alt="Grant Collab.Land Telegram bot Administrator permissions" />
 </div>
 
-#### Configure Token Gating Rules for Telegram Group Access
+### Configure Token Gating Rules for Telegram Group Access
 
 All configuration and management of Collab.Land Token Granted Access is done in the [Command Center](/help-docs/key-features/command-center).
 
