@@ -33,7 +33,7 @@ Here's a guide for [how to create a Telegram Group](https://telegram.org/faq#q-h
     - Or select the 3 dots and then click "Info".
 
 <div class="text--center">
-  <img  src={img1} alt="Access Telegram group settings" width="200" />
+  <img  src={img1} alt="Access Telegram group settings" width="350" />
 </div>
 
 3. Click "Edit" to edit the group settings.
@@ -47,7 +47,7 @@ Here's a guide for [how to create a Telegram Group](https://telegram.org/faq#q-h
     - This allows new members who join to view the full message history and will upgrade your group into a supergroup.
 
 <div class="text--center">
-  <img  src={img3} alt="Make Chat History visible in your Telegram group" />
+  <img  src={img3} alt="Make Chat History visible in your Telegram group" width="400"/>
 </div>
 
 :::caution
@@ -68,7 +68,7 @@ To fix:
 2. In the search bar that opens, type `collablandbot`.
 
 <div class="text--center">
-  <img  src={img4} alt="The correct Collab.Land bot `@collablandbot`" />
+  <img  src={img4} alt="The correct Collab.Land bot `@collablandbot`" width="500"/>
 </div>
 
 :::danger
