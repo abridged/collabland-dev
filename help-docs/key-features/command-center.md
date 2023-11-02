@@ -3,24 +3,41 @@ sidebar_position: 2
 ---
 
 import img1 from '@site/static/img/tutorial/command-center/command-center-from-discord.png';
+import img2 from '@site/static/img/tutorial/command-center/command-center-from-tg.png';
 
 # Command Center
 
 ## What is the Command Center?
 
-[The Command Center (CC)](https://cc.collab.land) is a powerful platform that provides admins with the tools they need to effectively manage the Collab.Land bot and create a thriving, token-gated community on Discord. The CC is designed to be user-friendly and intuitive, making it easy for admins to navigate and perform a variety of tasks, including configuring the bot, creating Token-Gating Rules (TGRs), and managing community roles. This is all possible through CC's three main tabs: Bot Config, TGRs, & Community Roles.
+[The Command Center (CC)](https://cc.collab.land) is a powerful platform that provides admins with the tools they need to effectively manage the Collab.Land bot and create a thriving, token-gated community on Discord. The CC is designed to be user-friendly and intuitive, making it easy for admins to navigate and perform a variety of tasks, including configuring the bot, creating Token-Gating Rules (TGRs), and managing community roles. This is all possible through CC's three main tabs: Bot Config, TGRs/TGA, & Community Roles.
+
+### Access the Command Center from Discord
 
 You can also access the Command Center from your Discord server's #collabland-config channel.
 
 <div class="text--center">
-  <img  src={img1} alt="Access the Command Center from Discord via the #collabland-config channel" />
+  <img src={img1} alt="Access the Command Center from Discord via the #collabland-config channel" />
 </div>
 
 :::warning
 
-Server members who can view #collabland-config can access the Command Center for your server and change your TGRs. #collabland-config should be a private channel for your Admins only to ensure security.
+For Discord, server members who can view #collabland-config can access the Command Center for your server and change your TGRs. #collabland-config should be a private channel for your Admins only to ensure security.
 
 :::
+
+### Access the Command Center from Telegram
+
+In Telegram, you can access the Command Center from DMs with `@collablandbot`.
+
+1. Start DM with `@collablandbot`.
+
+2. Use `/start` command.
+
+3. Click the "Group Admin (Command Center)" link.
+
+<div class="text--center">
+  <img src={img2} alt="Access the Command Center from Telegram via DMs with the `@collablandbot`" />
+</div>
 
 ## Command Center features
 
