@@ -39,7 +39,7 @@ Here's a guide for [how to create a Telegram Group](https://telegram.org/faq#q-h
 3. Click "Edit" to edit the group settings.
 
 <div class="text--center">
-  <img  src={img2} alt="Edit Telegram group settings" />
+  <img  src={img2} alt="Edit Telegram group settings" width="400"/>
 </div>
 
 4. Click on "Chat History for New Members" and select `Visible`, click Done to save your changes.
