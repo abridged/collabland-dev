@@ -8,11 +8,15 @@ sidebar_label: Bitcoin
 import img1 from '@site/static/img/tutorial/command-center/bitcoin-stamps-tgr.png';
 import img2 from '@site/static/img/tutorial/command-center/bitcoin-ordinals-tgr.png';
 
-Create communities with Collab.Land’s  Token-Gating Rules using Bitcoin NFTs.
+Create communities with Collab.Land’s Token-Gating Rules for communities based on Bitcoin NFTs: STAMPS and Ordinals.
 
 ## Overview
 
-Bitcoin.
+Collab.Land now supports token-gating for both Bitcoin STAMPS and Bitcoin Ordinals NFTs. Create a Bitcoin community today!
+
+Watch our handy tutorial video on setting up TGRs for Bitcoin NFTs.
+
+[![Bitcoin NFT TGR tutorial video](/static/img/tutorial/command-center/bitcoin-tutorial-thumbnail.png)](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=12)
 
 ## Bitcoin TGRs
 
