@@ -18,7 +18,7 @@ Collab.Land's [balance check](../command-center/bot-config/balance-check) featur
 
 ## What types of TGRs are there?
 
-When creating TGRs, there are two types to choose from: **Balance-based** and **Attributes-based**.
+When creating TGRs, there are two types to choose from: **Balance-based** and **Attributes-based**. Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr#how-to-create-a-tgr).
 
 ### Balance-based
 
@@ -52,7 +52,7 @@ Community members should reference the [list of supported wallets](/help-docs/wa
 
 :::
 
-Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr).
+Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr#how-to-create-a-tgr).
 
 | Chain Type       | Token Type                                                                          |
 |------------------|-------------------------------------------------------------------------------------|
