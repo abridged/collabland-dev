@@ -19,10 +19,9 @@ Watch our handy tutorial video on setting up TGRs for Bitcoin NFTs.
 
 <div class="text--center">
    <a href="https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=12" target="_blank">
-      <img src={img1a} alt="Bitcoin NFT TGR tutorial video" />
+      <img src={img1a} title="Bitcoin NFT TGR tutorial video" alt="Bitcoin NFT TGR tutorial video" />
    </a>
 </div>
-<!--[![Bitcoin NFT TGR tutorial video](/static/img/tutorial/command-center/bitcoin-tutorial-thumbnail.png)](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=12)-->
 
 ## Bitcoin TGRs
 
