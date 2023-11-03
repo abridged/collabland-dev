@@ -27,6 +27,7 @@ Watch our handy tutorial video on setting up TGRs for Bitcoin NFTs.
 
 ### How to Get the STAMPS Creator Address via Stampchain
 
+YouTube [timestamp 00:12](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=12s)
 1. **Accessing Stampchain**:
    - Navigate to the [Stampchain website](https://stampchain.io/). This is where you can view all the stamps data and specifications.
    - Stampchain allows you to search by various parameters including Stamp ID, Creator, transaction, CPI, etc.
@@ -36,6 +37,8 @@ Watch our handy tutorial video on setting up TGRs for Bitcoin NFTs.
    - Once you initiate the search, you should see the relevant stamp details, including the creator's information.
 
 ### How to Create a Bitcoin STAMPS TGR
+
+YouTube [timestamp 00:39](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=39s)
 
 To configure a STAMPS TGR, follow these steps:
 
@@ -73,6 +76,7 @@ The final configuration of a Stamps TGR should look like this:
 
 ### How to find the Ordinals Collection Name via Magic Eden
 
+YouTube [timestamp 02:41](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=161s)
 1. **Understanding Ordinals**:
    - Collab.Land uses the Magic Eden APIs to access and token gate Ordinals.
    - Navigate to the [Magic Eden website](https://magiceden.io/ordinals).
@@ -80,6 +84,8 @@ The final configuration of a Stamps TGR should look like this:
 2. **Retrieve Collection Name**: Copy the Collection Name from the Magic Eden URL. The Collection Name is at the end of the URL, in the format of `/ordinals/marketplace/{collectionName}`.
 
 ### How to Create a Bitcoin Ordinals TGR
+
+YouTube [timestamp 03:14](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=194s)
 
 To configure an Ordinals TGR, follow these steps:
 
