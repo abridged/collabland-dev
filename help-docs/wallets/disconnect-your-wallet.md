@@ -5,6 +5,7 @@ title: Disconnect your wallet
 import styles from '../../src/css/custom.css'
 import img1 from '@site/static/img/tutorial/wallets/disconnect-wallet.gif';
 
+You can now quickly disconnect your wallet from all Collab.Land-managed communities; follow the directions in the tutorial.
 
 #### Tutorial
 
