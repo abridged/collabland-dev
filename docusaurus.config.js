@@ -42,10 +42,10 @@ const config = {
   ],
   
   // enable mermaid
-  markdown: {
+/*  markdown: {
     mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
+  }, */
+  //themes: ['@docusaurus/theme-mermaid'],
 
   presets: [
     [
@@ -97,8 +97,9 @@ const config = {
     // ],
     
     // mermaid declaration (plugin or theme?)
-    // ['@docusaurus/theme-mermaid',],
-    
+    [
+      '@docusaurus/theme-mermaid',
+    ],
     [
       '@docusaurus/plugin-google-gtag',
       {
@@ -142,6 +143,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 
     ({
+      markdown: {
+        mermaid: true,
+      },
       mermaid: {
         theme: {light: 'default', dark: 'dark'},
       },
