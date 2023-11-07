@@ -28,6 +28,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  
   scripts: [
     {
       src: 'https://widget.kapa.ai/kapa-widget.bundle.js',
@@ -39,6 +40,12 @@ const config = {
       async: true,
     },
   ],
+  
+  // enable mermaid
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   presets: [
     [
@@ -88,6 +95,10 @@ const config = {
     //     // ... other options
     //   },
     // ],
+    
+    // mermaid declaration (plugin or theme?)
+    // ['@docusaurus/theme-mermaid',],
+    
     [
       '@docusaurus/plugin-google-gtag',
       {
@@ -131,6 +142,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 
     ({
+      mermaid: {
+        theme: {light: 'default', dark: 'dark'},
+      },
       navbar: {
         title: 'Collab.Land Documentation',
         logo: {
