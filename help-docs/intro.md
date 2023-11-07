@@ -22,3 +22,19 @@ Creators and administrators can easily configure token-based access rules in our
 ## Safety & Privacy
 
 We prioritize the safety and privacy of our users. By connecting with an existing wallet, members can join new communities without having to sign a message for each one. We do not share verified wallet addresses with anyone, including community administrators, without explicit consent.
+
+## Mermaid Test
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Health check
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
