@@ -147,7 +147,7 @@ const config = {
         mermaid: true,
       },
       mermaid: {
-        theme: {light: 'default', dark: 'dark'},
+        theme: {light: 'default', dark: 'dark'}, // Sets Mermaid theme based on the color mode 
       },
       navbar: {
         title: 'Collab.Land Documentation',
