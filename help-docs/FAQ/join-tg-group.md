@@ -62,7 +62,7 @@ You must complete the wallet verification process within 5 minutes or you will g
 
 :::
 
-- You can connect previously connected wallets instead by using the "Use Connected Wallets" button.
+    - You can connect previously connected wallets instead by using the "Use Connected Wallets" button.
 
 <div class="text--center">
   <img src={img3b} alt="Connect wallet using 'Use Connected Wallets' button" width="400" />
@@ -77,13 +77,6 @@ You must complete the wallet verification process within 5 minutes or you will g
 7. Follow the instructions to have your wallet sign the connection request from the bot.
 
    - This signature is necessary to confirm your ownership of the wallet and ensure the security of your funds.
-
-:::info
-
-Collab.Land is a read-only application. When you sign a message, you attest that you own that particular wallet address. Collab.Land reads the public blockchain to verify that the wallet address is connected to the required token address to grant a role. There is no opportunity for Collab.Land to have access to anything other than your public wallet address, which is viewable to everyone.
-
-:::
-
    - After the first time, you can verify an already connected wallet without having to sign a message by selecting the "Use Connected Wallets" button.
    - When the wallet is successfully linked, a wallet connected message will appear in the browser window. Return to Telegram to proceed.
 
