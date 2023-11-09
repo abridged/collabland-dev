@@ -7,8 +7,9 @@ sidebar_position: 6
 
 import img1 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png';
 import img2 from '@site/static/img/tutorial/wallets/join-tg/tg-bot-start.png';
-import img3a from '@site/static/img/tutorial/wallets/join-tg/tg-community-check.png';
-import img3 from '@site/static/img/tutorial/wallets/join-tg/tg-join-start.png';
+import img3 from '@site/static/img/tutorial/wallets/join-tg/tg-community-check.png';
+import img3a from '@site/static/img/tutorial/wallets/join-tg/tg-join-start.png';
+import img3b from '@site/static/img/tutorial/wallets/join-tg/use-connected-wallets.png';
 import img4 from '@site/static/img/tutorial/wallets/join-tg/tg-choose-wallet.png';
 import img5 from '@site/static/img/tutorial/wallets/join-tg/tg-wallet-connected.png';
 import img6 from '@site/static/img/tutorial/wallets/join-tg/tg-group-confirmation.png';
@@ -46,13 +47,13 @@ For best results:
 4. Verify the `Community:` field is correct for the community you are trying to join.
 
 <div class="text--center">
-  <img src={img3a} alt="Verify Community details" width="400" />
+  <img src={img3} alt="Verify community details" width="400" />
 </div>
 
 5. Click the "Connect Wallet" button from the bot.
 
 <div class="text--center">
-  <img src={img3} alt="Connect Wallet using `@collablandbot`" width="400" />
+  <img src={img3a} alt="Connect wallet using `@collablandbot`" width="400" />
 </div>
 
 :::caution
@@ -60,6 +61,12 @@ For best results:
 You must complete the wallet verification process within 5 minutes or you will get an error. To resolve the error, start again from the "Connect Wallet" button in Telegram.
 
 :::
+
+- You can connect previously connected wallets instead by using the "Use Connected Wallets" button.
+
+<div class="text--center">
+  <img src={img3b} alt="Connect wallet using 'Use Connected Wallets' button" width="400" />
+</div>
 
 6. In your browser popup, select a wallet from the list of [Collab.Land-support wallets](/help-docs/wallets/verify-your-wallet#supported-wallets) to verify.
 
