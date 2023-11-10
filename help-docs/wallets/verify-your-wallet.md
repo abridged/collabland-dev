@@ -21,9 +21,9 @@ You can watch a [tutorial video for verifying a new wallet](https://www.youtube.
   <img  src={img3} alt="Connect for the first time" />
 </div>
 
-If you are interested in verifying with a new wallet, simply click on the "Let's Go" button, and you will be directed to a page where you can choose your wallet from the available options.
+To verify with a new wallet, click on the "Let's Go" button. You will be directed to a page where you will choose your wallet from the [available options](#supported-wallets).
 
-Please note that if this is the first time you are connecting a wallet to your account, you will be required to sign a message. This step is necessary to confirm your identity and ensure the security of your funds. After the first time, you will have the option to choose an existing connected wallet without having to sign a new message.
+If this is the first time you are connecting a wallet to your account, you will be required to sign a message. This signature is necessary to confirm your ownership of the wallet and ensure the security of your funds. After the first time, you can verify an already connected wallet without having to sign a message.
 
 <div class="text--center">
   <img  src={img1} alt="Sign message" />
@@ -31,7 +31,7 @@ Please note that if this is the first time you are connecting a wallet to your a
 
 ### Verify a new wallet in a Telegram group
 
-See how you can join a [Telegram group managed by Collab.Land](/help-docs/FAQ/join-tg-group).
+See how you can [join a Telegram group](/help-docs/FAQ/join-tg-group#how-to-join-a-collabland-managed-telegram-group) managed by Collab.Land.
 
 ## Verify with an existing wallet
 
@@ -76,7 +76,7 @@ Admins should reference the [list of supported blockchains](/help-docs/key-featu
 | [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support)             | Mainnet, Goerli, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
 | **Non-EVM**                |         ------------------                                                                                               |
 | [Xverse](https://www.xverse.app/)                 | Bitcoin Ordinals                                                                                                                      |
-| [Leather wallet](https://leather.io/)                 | Bitcoin Ordinals + STAMPS                                                                                                                       |
+| [Leather wallet](https://leather.io/)                 | Bitcoin Ordinals, Bitcoin STAMPS                                                                                                                       |
 | Solana                 | Solana                                                                                                                       |
 | [NEAR (NEAR, Meteor)](https://meteorwallet.app/)    | NEAR |
 | [Dapper](https://www.meetdapper.com/)                 | Flow                                                                                                                         |
