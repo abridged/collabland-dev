@@ -1,6 +1,6 @@
 ---
 title: How to Contact the Collab.Land Team
-id: team-contact
+id: contact-team
 sidebar_label: Contact Collab.Land Team
 sidebar_position: 6
 ---
