@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+id: token-gate-communities
 ---
 
-# Token-Gate Communities
+# Token-Gated Communities
 
 ## What is Token-Gating?
 
