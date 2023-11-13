@@ -11,7 +11,7 @@ Contact the Collab.Land Team by [submitting a ticket](https://collabland.freshde
 
 ## Support
 
-You have several options for how to contact the team. You can:
+You have several options for contacting the team. You can:
 
 - [Submit a ticket](https://collabland.freshdesk.com/support/tickets/new) through Freshdesk
 
