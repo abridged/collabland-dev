@@ -31,7 +31,7 @@ The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-contro
 
 :::info
 
-Follow the [Collab.Land Twitter](https://twitter.com/Collab_Land_) account for info. Coming Soon™.
+Follow the [Collab.Land Twitter](https://twitter.com/Collab_Land_) account for info. Coming Soon™
 
 :::
 
