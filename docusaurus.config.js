@@ -209,8 +209,12 @@ const config = {
                 href: 'https://github.com/abridged',
               },
               {
-                label: 'Support',
-                href: 'https://collabland.freshdesk.com/',
+                label: 'Get Support',
+                href: 'https://collabland.freshdesk.com/support/tickets/new',
+              },
+              {
+                label: 'Contact Team',
+                href: 'https://docs.collab.land/help-docs/FAQ/contact-team',
               },
             ],
           },
