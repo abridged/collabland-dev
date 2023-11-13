@@ -161,9 +161,9 @@ const config = {
             position: 'left',
           },
           {
-            to: '/dao/token/token_overview',
+            to: '/dao/governance/gov-overview',
             label: 'DAO',
-            activeBaseRegex: `/dao/token/token_overview/`,
+            activeBaseRegex: `/dao/`,
             position: 'left',
           },
           {
@@ -171,6 +171,12 @@ const config = {
             label: 'Blog',
             activeBaseRegex: `/blog/`,
             position: 'left',
+          },
+          {
+            to: '/telefrens/intro',
+            label: 'TeleFrens',
+            position: 'left',
+            activeBaseRegex: '/telefrens/',
           },
         ],
       },
