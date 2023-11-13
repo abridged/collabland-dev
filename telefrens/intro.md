@@ -2,7 +2,7 @@
 slug: /intro
 sidebar_position: 1
 id: intro
-title: Introduction
+title: TeleFrens Introduction
 ---
 
 TeleFrens is the better SocialFi app from the team that built Collab.Land.
