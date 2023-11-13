@@ -115,6 +115,16 @@ const config = {
         // ... other options
       },
     ],
+    [
+      'content-docs',
+      {
+        id: 'telefrens',
+        path: 'telefrens',
+        routeBasePath: 'telefrens',
+        sidebarPath: require.resolve('./sidebars-telefrens.js'),
+        // ... other options
+      },
+    ],
     // [
     //   'content-docs',
     //   {
