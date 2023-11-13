@@ -19,7 +19,7 @@ You have several options for contacting the team. You can:
 
 - Email us directly at [support@collab.land](mailto:support@collab.land)
 
- However you contact us, the team will get back to you as soon as we are able to.
+However you contact us, the team will get back to you as soon as we are able to.
 
 ## Premium Support
 
@@ -49,7 +49,7 @@ Everything offered in [CollabCare](#collabcare) above plus:
 
 - Flat rate of priority development support
 
-To get started on our CollabCare journey, register through the Collab.Land [Command Center](https://cc.collab.land/) today.
+Get started by [scheduling with damaderoca.eth](https://calendly.com/collabland/vip) today.
 
 ### Collab.Land VIP
 
@@ -74,4 +74,4 @@ Here’s what our premium offering brings to the table:
 
 Collab.Land VIP isn’t just a service; it’s a transformative experience for projects serious about community excellence. Ready to elevate? Let’s shape your community narrative together.
 
-Connect with Collab.Land VIP today and book your meeting! Get started with [Collab.Land VIP](https://bit.ly/3KU3ql6)today.
+Connect with Collab.Land VIP today and book your meeting! Get started with [Collab.Land VIP](https://bit.ly/3KU3ql6) today.
