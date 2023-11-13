@@ -49,7 +49,7 @@ Everything offered in [CollabCare](#collabcare) above plus:
 
 - Flat rate of priority development support
 
-Get started by [scheduling with damaderoca.eth](https://calendly.com/collabland/vip) today.
+Get started by [scheduling with Anjali Young](https://calendly.com/collabland/vip) today.
 
 ### Collab.Land VIP
 
