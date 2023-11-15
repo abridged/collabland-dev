@@ -9,7 +9,13 @@ TeleFrens is the better SocialFi app from the team that built Collab.Land.
 
 ## Welcome to the TeleFrens Docs
 
-TeleFrens is currently in closed alpha. [Sign up for the waitlist](https://telefrens.deform.cc/waitlist) to get access.
+TeleFrens is currently in closed alpha. 
+
+:::tip
+
+[Sign up for the waitlist](https://telefrens.deform.cc/waitlist) to get access.
+
+:::
 
 ## What is TeleFrens
 
