@@ -131,7 +131,7 @@ We all protect the Collab.Land network by building and curating the Miniapp Mark
 
 ### Let’s Form Group:
 
-#### A New Series about the future of Community
+#### A New Series about the Future of Community
 
 Featuring the origin stories and interviews with founders of communities that use Collab.Land
 [https://www.letsformgroup.xyz/](https://www.letsformgroup.xyz/)
