@@ -112,6 +112,7 @@ We all protect the Collab.Land network by building and curating the Miniapp Mark
 - 🌲 [Linktree](https://linktr.ee/collab_land_)
 - 🐦 [Twitter](https://twitter.com/Collab_Land_)
 - 🌱 [Lens](https://www.lensfrens.xyz/collab_land.lens)
+- 🎣 [Farcaster](https://warpcast.com/collabland)
 
 #### **Blogs:**
 
@@ -137,5 +138,12 @@ Featuring the origin stories and interviews with founders of communities that us
 [https://www.letsformgroup.xyz/](https://www.letsformgroup.xyz/)
 
 ---
-
 ---
+
+## Privacy Policy
+
+The Collab.Land privacy policy is hosted on the [Collab.Land website](https://collab.land/privacy-policy).
+
+## Terms of Service
+
+The Collab.Land Terms of Service are hosted on the [Collab.Land website](https://collab.land/terms-of-service).
