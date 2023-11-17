@@ -13,7 +13,10 @@ This is a living document that will be updated as changes are made. You can view
 </div>
 
 ### Edits
+
 Last Edit
+
+- November 15, 2023: add [Terms of Service](#terms-of-service) and [Privacy Policy](#privacy-policy) links. Some spacing for readability
 
 - Sept 28 2023, addition of link to Mission Vision Values, formatting edits
 
@@ -30,16 +33,19 @@ Membership Agreement is split into its own post to allow posting on the forum.
 ## Collab.Land DAO Charter TL;DR
 
 ### Introduction
+
 - **Framework:** Based on the Origami Framework
 - **Approval Date:** February 22, 2023
 - **Governing Law:** Operates under the Colorado Uniform Limited Cooperative Association Act
 - **Principles:** Adopts seven cooperative principles including voluntary membership, democratic control, and concern for the community
 
 ### 1. About Collab.Land DAO
+
 - **Mission:** To foster communities through incentive alignment and shared values
 - **Vision:** Focus on creating value for active members in the Collab.Land network
 
 ### 2. Member Privileges and Obligations
+
 - **Membership Requirements:**
   - Adherence to the charter, membership agreement, and code of ethics
   - Active participation in DAO communications
@@ -53,6 +59,7 @@ Membership Agreement is split into its own post to allow posting on the forum.
 - **Authorized Capital:** Details on membership units and investor units
 
 ### 3. DAO Organization, Operations, and Governance
+
 - **Board of Stewards (the Board):**
   - Governs the DAO within legal constraints
   - Initial board appointed by the DAO organizer, with subsequent boards elected by members
@@ -62,6 +69,7 @@ Membership Agreement is split into its own post to allow posting on the forum.
   - **Usage:** Requires DAO approval
 
 ### 4. Proposals and Quorum
+
 - **Proposal Requirements:** Actions necessitating a proposal include amendments to the charter and allocation of tokens from the treasury
 - **Proposal Process:** Details on proposal creation, including digital platforms and voting thresholds
 - **Quorum:** Quorum threshold of 10% of circulating supply, defined as the number of COLLAB tokens in circulation among DAO members
@@ -511,3 +519,14 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DAO SHALL NOT BE LIABLE IN ANY WAY A
 4. You and the DAO agree that, in the event that (i) a dispute arises between you and the  DAO concerning this Membership Agreement, and any other agreements between you and  the DAO, and (ii) if we are unable to resolve the dispute through discussion, we agree to  submit that dispute to mediation and the dispute resolution mechanism in the Charter, before the dispute is arbitrated or take to court. In any event, you agree to and by signing  this Agreement you do WAIVE ANY RIGHT TO A JURY.
 
 By clicking here and continuing, you indicate that you understand and agree to be bound by these  provisions.
+
+---
+---
+
+## Terms of Service
+
+The Collab.Land Terms of Service are hosted on the [Collab.Land website](https://collab.land/terms-of-service).
+
+## Privacy Policy
+
+The Collab.Land privacy policy is hosted on the [Collab.Land website](https://collab.land/privacy-policy).

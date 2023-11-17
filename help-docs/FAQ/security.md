@@ -19,4 +19,8 @@ These twitter threads by [iSpeakNerd](https://linktr.ee/ispeaknerd) go into dept
 
 ## Where can I find the Collab.Land privacy policy?
 
-For the Collab.Land privacy policy please [click here](https://collab.land/privacy).
+The Collab.Land privacy policy is hosted on the [Collab.Land website](https://collab.land/privacy-policy).
+
+## Where can I find the Collab.Land Terms of Service?
+
+The Collab.Land Terms of Service are hosted on the [Collab.Land website](https://collab.land/terms-of-service).
