@@ -4,9 +4,11 @@ sidebar_position: 1
 
 # Marketplace
 
+Miniapps are extensions and add-ons developed by third party teams as well as built internally by Collab.Land. They enable community admins to enhance their community with new features.
+
 ## Overview
 
-The Command Center Marketplace is an extension of the Command Center that displays miniapps and add-ons developed by third party teams, and apps built internally by CollabLand. It provides community admins with the ability to view, install, and uninstall apps to enhance their community with previously unavailable features.
+The Command Center Marketplace is an extension of the Command Center that displays miniapps and add-ons developed by third party teams, and apps built internally by Collab.Land. It provides community admins with the ability to view, install, and uninstall apps to enhance their community with previously unavailable features.
 
 :::note
 
