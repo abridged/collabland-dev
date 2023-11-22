@@ -21,7 +21,11 @@ View the [Role Composition tutorial video](https://www.youtube.com/watch?v=r8qP-
 
 To use the Role Composition feature, follow these steps:
 
-- Install the app
+- Login to the [Command Center](../getting-started/#browse--install-apps) at https://cc.collab.land
+
+- Click Marketplace
+
+- Install the Role Composition app 
   
   <div class="text--center">
     <img  src={img1} alt="Install Role Composition" />
