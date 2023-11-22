@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Balance check
 
-The background balance check is a feature that is enabled by default on Collab.Land to ensure that all users holding certain roles in a community continue to meet the token requirement. If a member is found to no longer have the required tokens to meet the criteria specified by the TGR rules, their role will be automatically revoked.
+The background balance check is a feature that is enabled by default on Collab.Land to ensure that all users holding certain roles in a community continue to meet the token requirement. If a member is found to no longer have the required tokens to meet the criteria specified by [the TGRs](../create-a-tgr/how-to-create-a-tgr), their role will be automatically revoked.
 
 <!---
 
