@@ -30,7 +30,7 @@ Join the [Early Access group](https://telefrens.com) today!
     1. Cross promote your community in other Telegram groups and earn when you allow others to cross promote in yours.
 -->
 
-## What is TeleFrens
+## What is TeleFrens?
 
 TeleFrens enables an individual or brand to create their own Telegram group with [Token Gated Access](/help-docs/key-features/token-gate-communities) automatically. It allows Creators to bootstrap and monetize their followings through the sale of blockchain-based Passes.
 
@@ -46,7 +46,7 @@ The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-contro
 
 :::
 
-## Where to start
+## Where to start?
 
 :::info
 
