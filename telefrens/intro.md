@@ -7,7 +7,7 @@ title: TeleFrens Introduction
 
 TeleFrens is the better SocialFi app from the team that built Collab.Land. Get Pass access to token-gated groups and royalties rewards for Creators on Pass transactions.
 
-## Welcome to the TeleFrens Docs
+## Welcome to TeleFrens
 
 TeleFrens is currently in closed alpha.
 
@@ -58,7 +58,7 @@ Follow the [TeleFrens](https://twitter.com/telefrens) and [Collab.Land](https://
 
 Start Here: Join the [Early Access group](https://telefrens.com) today.
 
-<!-->
+<!--
 ### I'm a Holder
 
 Start Here:
