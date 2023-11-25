@@ -172,12 +172,12 @@ const config = {
             activeBaseRegex: `/blog/`,
             position: 'left',
           },
-          // {
-          //   to: '/telefrens/intro',
-          //   label: 'TeleFrens',
-          //   position: 'left',
-          //   activeBaseRegex: '/telefrens/',
-          // },
+          {
+            to: '/telefrens/intro',
+            label: 'TeleFrens',
+            position: 'left',
+            activeBaseRegex: '/telefrens/',
+          },
         ],
       },
       algolia: {
