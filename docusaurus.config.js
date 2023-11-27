@@ -174,7 +174,7 @@ const config = {
           },
           {
             to: '/telefrens/intro',
-            label: 'TeleFrens',
+            label: 'Telefrens',
             position: 'left',
             activeBaseRegex: '/telefrens/',
           },
