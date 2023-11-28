@@ -7,9 +7,9 @@ title: Telefrens Introduction
 
 Telefrens is the better SocialFi app from the team that built Collab.Land. Get Pass access to token-gated groups and royalties rewards for Creators on Pass transactions.
 
-## Welcome to Telefrens
+<!-- Telefrens logo image -->
 
-Telefrens is currently in closed alpha.
+## Welcome to Telefrens
 
 :::tip
 
@@ -19,14 +19,24 @@ Join the [Early Access group](https://telefrens.com) today!
 
 ### Why it matters
 
-1. **Launch a community on a bonding curve** - Form Your Swarm
-    1. Imagine FriendTech with all the native features of Telegram, with built-in mechanics and long term sustainable revenue streams for KOLs and influencers.
-2. **Make money from your trading ideas** - Actualize Your Alpha
-    1. ⭐**PREMIUM** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
-3. (COMING SOON) **Add a subscription model to your group** - Renew Group Revenue
-    1. Automatically collect a monthly fee from your Telegram group members, those without a working payment method are automatically removed.
+#### 1. _Form Your Swarm_ - Invite your Telegram contacts to an invite-only, paid group chat
 
-<!-- 4. **Buy users and attention for your group** - Sell your Space
+- 1 click invites for your contacts to join an exclusive Telegram group chat, including built-in mechanics and long term sustainable revenue streams for Creators.
+
+<!-- #### 1. _Form Your Swarm_ - Launch a community on a bonding curve
+
+- Imagine FriendTech with all the native features of Telegram, with built-in mechanics and long term sustainable revenue streams for KOLs and influencers. -->
+
+#### 2. _Actualize Your Alpha_ - Make money from your trading ideas
+
+- ⭐**PREMIUM** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
+
+#### 3. _Renew Group Revenue_ - Add a subscription model to your group
+
+- COMING SOON
+- Automatically collect a monthly fee from your Telegram group members, those without a working payment method are automatically removed.
+
+<!-- #### 4. Sell Your Space - **Buy users and attention for your group**
     1. Cross promote your community in other Telegram groups and earn when you allow others to cross promote in yours.
 -->
 
