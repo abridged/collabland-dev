@@ -10,7 +10,7 @@ import img1 from '@site/static/img/telefrens/tf-characters-logo-tg.png';
 Telefrens is the SocialFi app from the team that built Collab.Land. Get Pass access to token-gated groups and royalties rewards for Creators on Pass transactions.
 
 <div class="text--center">
-  <img  src={img1} alt="Telefrens logo with Telegram Bot label" width="500" />
+  <img  src={img1} alt="Telefrens logo with Telegram Bot label" width="500" >
 </div>
 
 ## Welcome to Telefrens
@@ -67,25 +67,19 @@ Creator Pro is the premium offering for Telefrens. Creators get access to premiu
 1. 1-click copy trade link with your Passholders
 
 2. Protected allowlist waiting period
-
     - Exclusive, invite-only period for Passes purchases
-  
     - Creators get referral fees from all their invites
-
     - Pass purchasers get front-running protection during the allowlist waiting period because all accounts must be invited to purchase on a 1-time link basis
-
     - Allowlist waiting period is customizable, default length is 30 days
 
 3. Group highlighting
-
     - Creator Pro groups will be featured when users look through groups they can buy into
-
     - Group promotion on the global leaderboard
 
     <!-- - Group promotion in global search -->
 
 <!--
-1. Customizable bonding curves
+4. Customizable bonding curves
 
     - Creators set the desired group size, initial price, and the price for another Pass and Telefrens calculates the curve to match their settings
 
@@ -95,6 +89,7 @@ Creator Pro is the premium offering for Telefrens. Creators get access to premiu
 
         - Large group - linear curve
 -->
+
 ## Where to start?
 
 :::info
