@@ -5,9 +5,13 @@ id: intro
 title: Telefrens Introduction
 ---
 
+import img1 from '@site/static/img/telefrens/tf-characters-logo-tg.png';
+
 Telefrens is the SocialFi app from the team that built Collab.Land. Get Pass access to token-gated groups and royalties rewards for Creators on Pass transactions.
 
-<!-- Telefrens logo image -->
+<div class="text--center">
+  <img  src={img1} alt="Telefrens logo with telegram bot label" />
+</div>
 
 ## Welcome to Telefrens
 
