@@ -33,7 +33,7 @@ Join the [Early Access group](https://telefrens.com) today!
 
 #### 2. _Actualize Your Alpha_ - Make money from your trading ideas
 
-- ⭐**CREATOR PRO** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
+- ⭐**[CREATOR PRO](#what-is-creator-pro)** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
 
 #### 3. _Renew Group Revenue_ - Add a subscription model to your group
 
