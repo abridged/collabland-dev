@@ -5,7 +5,7 @@ id: intro
 title: Telefrens Introduction
 ---
 
-Telefrens is the better SocialFi app from the team that built Collab.Land. Get Pass access to token-gated groups and royalties rewards for Creators on Pass transactions.
+Telefrens is the SocialFi app from the team that built Collab.Land. Get Pass access to token-gated groups and royalties rewards for Creators on Pass transactions.
 
 <!-- Telefrens logo image -->
 
@@ -19,7 +19,7 @@ Join the [Early Access group](https://telefrens.com) today!
 
 ### Why it matters
 
-#### 1. _Form Your Swarm_ - Invite your Telegram contacts to an invite-only, paid group chat
+#### 1. _Form Your Swarm_ - Invite your Telegram contacts to an exclusive, paid group chat
 
 - 1 click invites for your contacts to join an exclusive Telegram group chat, including built-in mechanics and long term sustainable revenue streams for Creators.
 
@@ -29,7 +29,7 @@ Join the [Early Access group](https://telefrens.com) today!
 
 #### 2. _Actualize Your Alpha_ - Make money from your trading ideas
 
-- ⭐**PREMIUM** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
+- ⭐**CREATOR PRO** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
 
 #### 3. _Renew Group Revenue_ - Add a subscription model to your group
 
@@ -56,6 +56,41 @@ The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-contro
 
 :::
 
+### What is Creator Pro?
+
+Creator Pro is the premium offering for Telefrens. Creators get access to premium features such as:
+
+1. 1-click copy trade link with your Passholders
+
+2. Protected allowlist waiting period
+
+    - Exclusive, invite-only period for Passes purchases
+  
+    - Creators get referral fees from all their invites
+
+    - Pass purchasers get front-running protection during the allowlist waiting period because all accounts must be invited to purchase on a 1-time link basis
+
+    - Allowlist waiting period is customizable, default length is 30 days
+
+3. Group highlighting
+
+    - Creator Pro groups will be featured when users look through groups they can buy into
+
+    - Group promotion on the global leaderboard
+
+    <!-- - Group promotion in global search -->
+
+<!--
+1. Customizable bonding curves
+
+    - Creators set the desired group size, initial price, and the price for another Pass and Telefrens calculates the curve to match their settings
+
+        - Small group - exponential curve
+
+        - Medium group - quadratic curve
+
+        - Large group - linear curve
+-->
 ## Where to start?
 
 :::info
