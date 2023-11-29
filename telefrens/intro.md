@@ -17,7 +17,7 @@ Telefrens is the SocialFi app from the team that built Collab.Land. Get Pass acc
 
 :::tip
 
-Join the [Early Access group](https://telefrens.com) today!
+Join the [Early Access group](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
 
 :::
 
@@ -100,7 +100,7 @@ Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://
 
 ### I'm a Creator
 
-Start Here: Join the [Early Access group](https://telefrens.com) today.
+Start Here: Join the [Early Access group](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today.
 
 <!--
 ### I'm a Holder
