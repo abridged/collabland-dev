@@ -25,7 +25,7 @@ Join the [Early Access group](https://telefrens.com/kols?utm_medium=display&utm_
 
 #### 1. _Form Your Swarm_ - Invite your Telegram contacts to an exclusive, paid group chat
 
-- 1 click invites for your contacts to join an exclusive Telegram group chat, including built-in mechanics and long term sustainable revenue streams for Creators.
+- 1 click invites for your contacts to join an exclusive Telegram group chat, including built-in mechanics and long-term sustainable royalties revenue streams for Creators.
 
 <!-- #### 1. _Form Your Swarm_ - Launch a community on a bonding curve
 
@@ -59,6 +59,22 @@ Telefrens leverages Collab.Land's `ERC4337` smart account implementation, the gm
 The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-controlled, and secure blockchain interactions.
 
 :::
+
+The gmPASS will be tied into more and more functionality for Collab.Land as time goes on. Check out the [high level product prioritization]().
+
+### Revenue numbers + %s
+
+- 5% of buys/sells to creators
+- 5% to Core team
+    - variable percentage as community rewards
+    - points system, gamified leaderboard
+    - up to 1% of total
+- {GRAPHIC here}
+
+### Leaderboard
+
+- {ONLY IN TWA INITIALLY}
+- explain telefrens.com/leaderboard (plus TWA) explains points + seasons/periods claim
 
 ### What is Creator Pro?
 
@@ -107,3 +123,14 @@ Start Here: Join the [Early Access group](https://telefrens.com/kols?utm_medium=
 
 Start Here:
 -->
+
+---
+
+## FAQ
+
+### How do I deposit assets into Telefrens?
+
+
+### How do I withdraw assets from Telefrens?
+
+### Security
