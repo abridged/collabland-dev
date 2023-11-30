@@ -66,7 +66,7 @@ Technical details on the `gmPASS` and how to leverage it will be added to the [d
 
 :::
 
-The flowcharts linked below are meant to give a high-level overview of how gmPASS works.
+The flowcharts linked below are meant to give a high-level overview of how gmPASS works. Open the dropdowns for access codes.
 
 gmPASS [member onboarding flow](https://whimsical.com/gmpass-onboarding-8knTfdF4FVCxBegUtpSJWn@2Ux7TurymN5ii8TLLKwC)
 
@@ -82,7 +82,17 @@ gmPASS [member transaction flow](https://whimsical.com/gmpass-txn-flow-TSuDgQTbo
 password `gmgmgm`
 </details>
 
-### Security
+### How it fits together
+
+The Collab.Land [Product Map](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@LUSUr8hW5cYSYfX8ti) is a freeflow association of products and ideas that Collab.Land is working towards. The map gives an overview of how everything fits together within the Collab.Lands.
+
+There is also a [high-level roadmap](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@2Ux7TurymMcvr1WjdR3d) at the bottom of the document.
+
+<details> <summary> Product Map </summary>
+password `collabland`
+</details>
+
+## Security
 
 When creating their gmPASS, uses register a [passkey](https://blog.1password.com/what-are-passkeys/) with Collab.Land. Their on-device authorization is the key to unlock their gmPASS and the functions of its blockchain smart account(s).
 
