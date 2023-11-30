@@ -64,17 +64,17 @@ The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-contro
 
 Creator Pro is the premium offering for Telefrens. Creators get access to premium features such as:
 
-1. 1-click copy trade link with your Passholders
+1. 1-click copy trade link with your Passholders.
 
-2. Protected allowlist waiting period
-    - Exclusive, invite-only period for Passes purchases
-    - Creators get referral fees from all their invites
-    - Pass purchasers get front-running protection during the allowlist waiting period because all accounts must be invited to purchase on a 1-time link basis
-    - Allowlist waiting period is customizable, default length is 30 days
+2. Protected allowlist waiting period.
+    - Exclusive, invite-only period for Passes purchases.
+    - Creators get referral fees from all their invites.
+    - Pass purchasers get front-running protection during the allowlist waiting period because all accounts must be invited to purchase on a 1-time link basis.
+    - Allowlist waiting period is customizable, default length is 30 days.
 
-3. Group highlighting
-    - Creator Pro groups will be featured when users look through groups they can buy into
-    - Group promotion on the global leaderboard
+3. Group highlighting.
+    - Creator Pro groups will be featured when users look through groups they can buy into.
+    - Group promotion on the global leaderboard.
 
     <!-- - Group promotion in global search -->
 
