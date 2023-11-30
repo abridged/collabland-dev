@@ -96,6 +96,14 @@ password `collabland`
 
 When creating their gmPASS, uses register a [passkey](https://blog.1password.com/what-are-passkeys/) with Collab.Land. Their on-device authorization is the key to unlock their gmPASS and the functions of its blockchain smart account(s).
 
+The device-generated passkeys serve as trading authorization, effectively adding 2FA security for blockchain actions; attackers can't get to your crypto because your Passkey is tied to your device!
+
+## Why gmPASS?
+
+The gmPASS is a blockchain smart account to onboard the masses to crypto. It removes the UX barrier of self-custody from users and brings crypto into chat platforms where folks already are.
+
+<!-- Now, users don't have to safeguard a seed phrase and can focus on doing whatever it is they like to do already. Whether that's trading, posting gms, or building projects Collab.Land is here to serve those community needs.-->
+
 <!-- Collab.Land uses [passkeys](https://blog.1password.com/what-are-passkeys/) to safely pass authorization between the Member and various services. 
 
 :::note
