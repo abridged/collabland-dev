@@ -65,8 +65,10 @@ The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-contro
 The gmPASS will be tied into more and more functionality for Collab.Land as time goes on. Open the Product Map below to view.
 
 <details> <summary> Product Map </summary>
+
 - Check out the [high level product prioritization](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@2Ux7TurymMcvr1WjdR3d)
 - password `collabland`
+
 </details>
 
 ### Royalties Revenues + Protocol Share
