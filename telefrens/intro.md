@@ -68,6 +68,7 @@ The gmPASS will be tied into more and more functionality for Collab.Land as time
 
 - Check out the [high level product prioritization](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@2Ux7TurymMcvr1WjdR3d)
 - password `collabland`
+
 </details>
 
 ### Royalties Revenues + Protocol Share
@@ -108,7 +109,7 @@ When community incentives are at their maximum of 1% of trade revenues, the reve
 
 :::info
 
-The Leaderboard tracks everyone's Telefrens Points/[community points]()/reward points WHICH ONE??? versus other claim participants.
+The Leaderboard tracks everyone's Telefrens Points/[community points] ()/reward points WHICH ONE??? versus other claim participants.
 
 :::
 
@@ -132,9 +133,9 @@ The initial Community Points formula is:
 
 ### What is Creator Pro?
 
-Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {[link]()}.
+Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {[link] ()}.
 
-Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now]().
+Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now] ().
 
 #### Creator Pro Features
 
