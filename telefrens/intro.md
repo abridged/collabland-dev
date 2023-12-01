@@ -62,7 +62,11 @@ The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-contro
 
 :::
 
-The gmPASS will be tied into more and more functionality for Collab.Land as time goes on. Open the Product Map below to view.
+### The Vision
+
+The gmPASS will be tied into more and more functionality for Collab.Land as time goes on.
+
+Open the Product Map below to view a high-level overview of the product vision.
 
 <details> <summary> Product Map </summary>
 
@@ -70,6 +74,8 @@ The gmPASS will be tied into more and more functionality for Collab.Land as time
 - password `collabland`
 
 </details>
+
+## The Details
 
 ### Royalties Revenues + Protocol Share
 
@@ -81,22 +87,22 @@ Telefrens empowers Creators by ensuring they always receive royalties revenue on
         - points system, gamified leaderboard
     - remaining 4%-5% to Collab.Land Co-op-->
 
-| Percentage of Total | Protocol Fee Split | Name                             | Recipient         |
+<!-- | Percentage of Total | Protocol Fee Split | Name                             | Recipient         |
 |---------------------|--------------------|----------------------------------|-------------------|
 | 90%                 |                    |                                  | Bonding curve     |
 | 5%                  |                    | Creator Royalties                | Creator gmPASS    |
 | 5%                  |                    | Protocol Fee                     |                   |
 | ============ | ======= | ================| ========|
 |                     | 4%-5%              | Protocol-owned liquidity         | Collab.Land Co-op |
-|                     | 1%-0%              | Community incentives and rewards | Community members |
+|                     | 1%-0%              | Community incentives and rewards | Community members | -->
 
   <div class="text--center">
     <img  src={img2a} alt="Telefrens value flow model" width="500" />
   </div>
 
-#### Community Incentives - Points
+### Referral Points
 
-Community incentives and rewards will vary between a minimum of 0% and a maximum of 1% of trade value of Telefrens Passes.
+Referral rewards will vary between a minimum of 0% and a maximum of 1% of trade value of Telefrens Passes.
 
 The amount and distribution mechanics of community incentives will be adjusted by Collab.Land team. Governance over rewards will be decentralized to $COLLAB token holders at a later point in time.
 
@@ -110,19 +116,17 @@ When community incentives are at their maximum of 1% of trade revenues, the reve
 
 :::info
 
-The Leaderboard tracks everyone's Telefrens Points/[community points] ()/reward points WHICH ONE??? versus other claim participants.
+The Leaderboard tracks everyone's Telefrens [referral points] () versus other claim participants.
 
 :::
 
-Passholders and Creators can claim community rewards at the end of each claim period. Community rewards are proportional to an individual's leaderboard rank.
+Passholders and Creators can claim referral rewards at the end of each claim period. Rewards are proportional to an individual's Leaderboard rank, i.e. higher rank == more rewards.
 
 Everyone can see their ranking on the Leaderboard using `/leaderboard` command with the Telefrens bot in Telegram.
 
-#### Points Formula
+### Points Formula
 
-The Points formula will be adjusted at the discretion of the Collab.Land team.
-
-The initial Community Points formula is:
+The Points formula will be adjusted at the discretion of the Collab.Land team. The initial Community Points formula is:
 
 1. +1 Point when a user you invite onboards to Telefrens
 
@@ -138,7 +142,7 @@ Creator Pro is the premium offering for Telefrens. Creators can purchase Creator
 
 Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now] ().
 
-#### Creator Pro Features
+### Creator Pro Features
 
 Creators get access to premium features such as:
 
