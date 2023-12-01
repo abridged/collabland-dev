@@ -116,7 +116,7 @@ When community incentives are at their maximum of 1% of trade revenues, the reve
 
 :::info
 
-The Leaderboard tracks everyone's Telefrens [referral points] () versus other claim participants.
+The Leaderboard tracks everyone's Telefrens referral points versus other claim participants.
 
 :::
 
@@ -129,7 +129,6 @@ Everyone can see their ranking on the Leaderboard using `/leaderboard` command w
 The Points formula will be adjusted at the discretion of the Collab.Land team. The initial Community Points formula is:
 
 1. +1 Point when a user you invite onboards to Telefrens
-
 2. +1000 Points when a user you invite does a transaction using Telefrens
 
 <!-- - {ONLY IN TWA INITIALLY}
@@ -138,9 +137,9 @@ The Points formula will be adjusted at the discretion of the Collab.Land team. T
 
 ### What is Creator Pro?
 
-Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {[link] ()}.
+Creator Pro is the premium offering for Telefrens. <!--Creators can purchase Creator Pro from the bonding curve at {[link] ()}. -->
 
-Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now] ().
+<!-- Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now] ().-->
 
 ### Creator Pro Features
 
