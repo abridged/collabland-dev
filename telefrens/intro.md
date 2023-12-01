@@ -6,6 +6,7 @@ title: Telefrens Introduction
 ---
 
 import img1 from '@site/static/img/telefrens/tf-characters-logo-tg.png';
+import img2a from '@site/static/img/telefrens/tf-value-flow.png';
 import img2 from '@site/static/img/telefrens/telefrens-rev-share.png';
 
 Telefrens is the first SocialFi bot in crypto, from the team that built Collab.Land. Get Pass access to Token Gated groups and royalties rewards for Creators on Pass transactions.
@@ -87,6 +88,9 @@ Telefrens empowers Creators by ensuring they always receive royalties revenue on
 | ============ | ======= | ================| ========|
 |                     | 4%-5%              | Protocol-owned liquidity         | Collab.Land Co-op |
 |                     | 1%-0%              | Community incentives and rewards | Community members |
+
+  <div class="text--center">
+    <img  src={img2a} alt="Telefrens value flow model" width="500" />
 
 #### Community Incentives - Points
 
