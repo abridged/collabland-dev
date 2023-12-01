@@ -73,11 +73,11 @@ The gmPASS will be tied into more and more functionality for Collab.Land as time
 
 Telefrens empowers Creators by ensuring they always receive royalties revenue on buys and sells of their Passes.
 
-- 5% of buys/sells to creators
-- 5% to Core team
-    - variable percentage as community rewards
-    - points system, gamified leaderboard
-    - up to 1% of total
+<!-- - 5% of buys/sells to Creators
+- 5% to Collab.Land, split further
+    - variable percentage as community incentives 0%-1%
+        - points system, gamified leaderboard
+    - remaining 4%-5% to Collab.Land Co-op-->
 
 | Percentage of Total | Protocol Fee Split | Name                             | Recipient         |
 |---------------------|--------------------|----------------------------------|-------------------|
@@ -102,7 +102,11 @@ When community incentives are at their maximum of 1% of trade revenues, the reve
 
 ### Leaderboard
 
-The Leaderboard tracks everyone's Telefrens Points/community points/reward points versus other claim participants.
+:::info
+
+The Leaderboard tracks everyone's Telefrens Points/[community points]()/reward points WHICH ONE??? versus other claim participants.
+
+:::
 
 Passholders and Creators can claim community rewards at the end of each claim period. Community rewards are proportional to an individual's leaderboard rank.
 
@@ -124,7 +128,11 @@ The initial Community Points formula is:
 
 ### What is Creator Pro?
 
-Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {[link]()}. Price will increase as more creators use Creator Pro, [get started now]().
+Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {[link]()}.
+
+Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now]().
+
+#### Creator Pro Features
 
 Creators get access to premium features such as:
 
@@ -136,9 +144,9 @@ Creators get access to premium features such as:
     - Pass purchasers get front-running protection during the allowlist waiting period because all accounts must be invited to purchase on a 1-time link basis.
     - Allowlist waiting period is customizable, default length is 30 days.
 
-3. Group highlighting.
-    - Creator Pro groups will be featured when users look through groups they can buy into.
-    - Group promotion on the [global leaderboard](#leaderboard).
+3. Creator Promotion.
+    - Creator Pro groups will be featured when users search through groups they can buy into.
+    - Creator Pro groups will be featured on the [global leaderboard](#leaderboard).
 
     <!-- - Group promotion in global search -->
 
@@ -158,7 +166,7 @@ Creators get access to premium features such as:
 
 :::info
 
-Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitters for info coming soon™
+Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitter accounts for info coming soon™
 
 :::
 
@@ -176,9 +184,16 @@ Start Here:
 
 ## FAQ
 
+### Beginner Tutorial
+
+
+
 ### How do I deposit assets into Telefrens?
 
 
+
 ### How do I withdraw assets from Telefrens?
+
+
 
 ### Security
