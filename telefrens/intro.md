@@ -6,6 +6,7 @@ title: Telefrens Introduction
 ---
 
 import img1 from '@site/static/img/telefrens/tf-characters-logo-tg.png';
+import img2 from '@site/static/img/telefrens/telefrens-rev-share.png';
 
 Telefrens is the first SocialFi bot in crypto, from the team that built Collab.Land. Get Pass access to Token Gated groups and royalties rewards for Creators on Pass transactions.
 
@@ -60,16 +61,44 @@ The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-contro
 
 :::
 
-The gmPASS will be tied into more and more functionality for Collab.Land as time goes on. Check out the [high level product prioritization]().
+The gmPASS will be tied into more and more functionality for Collab.Land as time goes on. Open the Product Map below to view.
 
-### Revenue numbers + %s
+<details> <summary> Product Map </summary>
+
+- Check out the [high level product prioritization](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@2Ux7TurymMcvr1WjdR3d)
+- password `collabland`
+</details>
+
+### Royalties Revenues + Protocol Share
+
+Telefrens empowers Creators by ensuring they always receive royalties revenue on buys and sells of their Passes.
 
 - 5% of buys/sells to creators
 - 5% to Core team
     - variable percentage as community rewards
     - points system, gamified leaderboard
     - up to 1% of total
-- {GRAPHIC here}
+
+| Percentage of Total | Protocol Fee Split | Name                             | Recipient         |
+|---------------------|--------------------|----------------------------------|-------------------|
+| 90%                 |                    |                                  | Bonding curve     |
+| 5%                  |                    | Creator Royalties                | Creator gmPASS    |
+| 5%                  |                    | Protocol Fee                     |                   |
+| ============ | ======= | ================| ========|
+|                     | 4%-5%              | Protocol-owned liquidity         | Collab.Land Co-op |
+|                     | 1%-0%              | Community incentives and rewards | Community members |
+
+#### Community ncentives - Points
+
+Community incentives and rewards will vary between a minimum of 0% and a maximum of 1% of trade value of Telefrens Passes.
+
+The amount and distribution mechanics of community incentives will be adjusted by Collab.Land team. Governance over rewards will be decentralized to $COLLAB token holders at a later point in time.
+
+When community incentives are at their maximum of 1% of trade revenues, the revenue share is depicted in the diagram below. All numerical values are percentages, i.e. 90 ➡ 90% of the whole.
+
+  <div class="text--center">
+    <img  src={img2} alt="Telefrens revenue share model with maximum community incentives" width="500" />
+  </div>
 
 ### Leaderboard
 
@@ -78,7 +107,9 @@ The gmPASS will be tied into more and more functionality for Collab.Land as time
 
 ### What is Creator Pro?
 
-Creator Pro is the premium offering for Telefrens. Creators get access to premium features such as:
+Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {link}. Price will increase as more creators use Creator Pro, [get started now]().
+
+Creators get access to premium features such as:
 
 1. 1-click copy trade link with your Passholders.
 
