@@ -141,7 +141,7 @@ Creator Pro is the premium offering for Telefrens. <!--Creators can purchase Cre
 
 <!-- Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now] ().-->
 
-### Creator Pro Features
+#### Creator Pro Features
 
 Creators get access to premium features such as:
 
