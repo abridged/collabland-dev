@@ -90,6 +90,7 @@ Telefrens empowers Creators by ensuring they always receive royalties revenue on
 
   <div class="text--center">
     <img  src={img2a} alt="Telefrens value flow model" width="500" />
+  </div>
 
 #### Community Incentives - Points
 
