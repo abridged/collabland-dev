@@ -135,13 +135,13 @@ The Points formula will be adjusted at the discretion of the Collab.Land team. T
 
 - explain telefrens.com/leaderboard (plus TWA) explains points + seasons/periods claim-->
 
-### What is Creator Pro?
+## What is Creator Pro?
 
 Creator Pro is the premium offering for Telefrens. <!--Creators can purchase Creator Pro from the bonding curve at {[link] ()}. -->
 
 <!-- Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now] ().-->
 
-#### Creator Pro Features
+### Creator Pro Features
 
 Creators get access to premium features such as:
 
