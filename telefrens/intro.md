@@ -189,7 +189,7 @@ Start Here: Join the [Early Access group](https://telefrens.com/kols?utm_medium=
 Start Here:
 -->
 
----
+<!-- ---
 
 ## FAQ
 
@@ -207,4 +207,4 @@ lorem ipsum
 
 ### Security
 
-lorem ipsum
+lorem ipsum -->
