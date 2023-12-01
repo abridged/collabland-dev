@@ -88,7 +88,7 @@ Telefrens empowers Creators by ensuring they always receive royalties revenue on
 |                     | 4%-5%              | Protocol-owned liquidity         | Collab.Land Co-op |
 |                     | 1%-0%              | Community incentives and rewards | Community members |
 
-#### Community ncentives - Points
+#### Community Incentives - Points
 
 Community incentives and rewards will vary between a minimum of 0% and a maximum of 1% of trade value of Telefrens Passes.
 
@@ -102,16 +102,33 @@ When community incentives are at their maximum of 1% of trade revenues, the reve
 
 ### Leaderboard
 
-- {ONLY IN TWA INITIALLY}
-- explain telefrens.com/leaderboard (plus TWA) explains points + seasons/periods claim
+The Leaderboard tracks everyone's Telefrens Points/community points/reward points versus other claim participants.
+
+Passholders and Creators can claim community rewards at the end of each claim period. Community rewards are proportional to an individual's leaderboard rank.
+
+Everyone can see their ranking on the Leaderboard using `/leaderboard` command with the Telefrens bot in Telegram.
+
+#### Points Formula
+
+The Points formula will be adjusted at the discretion of the Collab.Land team.
+
+The initial Community Points formula is:
+
+1. +1 Point when a user you invite onboards to Telefrens
+
+2. +1000 Points when a user you invite does a transaction using Telefrens
+
+<!-- - {ONLY IN TWA INITIALLY}
+
+- explain telefrens.com/leaderboard (plus TWA) explains points + seasons/periods claim-->
 
 ### What is Creator Pro?
 
-Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {link}. Price will increase as more creators use Creator Pro, [get started now]().
+Creator Pro is the premium offering for Telefrens. Creators can purchase Creator Pro from the bonding curve at {[link]()}. Price will increase as more creators use Creator Pro, [get started now]().
 
 Creators get access to premium features such as:
 
-1. 1-click copy trade link with your Passholders.
+1. 1-click copy trade links to earn affiliate rewards when your Passholders trade using their link.
 
 2. Protected allowlist waiting period.
     - Exclusive, invite-only period for Passes purchases.
@@ -121,7 +138,7 @@ Creators get access to premium features such as:
 
 3. Group highlighting.
     - Creator Pro groups will be featured when users look through groups they can buy into.
-    - Group promotion on the global leaderboard.
+    - Group promotion on the [global leaderboard](#leaderboard).
 
     <!-- - Group promotion in global search -->
 
