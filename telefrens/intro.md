@@ -189,6 +189,17 @@ Start Here: Join the [Early Access group](https://telefrens.com/kols?utm_medium=
 Start Here:
 -->
 
+## Telefrens bot Commands
+
+| Command               | Description                                                                                                                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/help`               | Display a list of bot commands.                                                                                                                                                               |
+| `/about`              | Display information about Telefrens and what we offer and a link to the [Telefrens docs](https://docs.collab.land/telefrens/intro/).                                                          |
+| `/ai`                 |                                                                                                                                                                                               |
+| `/docs`               | Display a link to the [Telefrens docs](https://docs.collab.land/telefrens/intro/).                                                                                                            |
+| `/leaderboard`        | Display the referral leaderboard and how you rank for referral rewards.                                                                                                                       |
+| `/tutorial`           | Show a demo of how to use the Telefrens bot.                                                                                                                                                  |
+
 <!-- ---
 
 ## FAQ
