@@ -120,7 +120,7 @@ The Leaderboard tracks everyone's Telefrens referral points versus other claim p
 
 :::
 
-Passholders and Creators can claim referral rewards at the end of each claim period. Rewards are proportional to an individual's Leaderboard rank, i.e. higher rank == more rewards.
+Referrers can claim referral rewards at the end of each claim period. Rewards are proportional to an individual's Leaderboard rank, i.e. higher rank == more rewards.
 
 Everyone can see their ranking on the Leaderboard using `/leaderboard` command with the Telefrens bot in Telegram.
 
