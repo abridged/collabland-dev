@@ -20,6 +20,12 @@ Learn more about the different TGR types and Collab.Land's supported blockchains
 
 :::
 
+:::tip
+
+Use the [Role Composition miniapp](/help-docs/marketplace/apps/role-composition) to create TGRs that require holding a combination of different tokens. For example, you could require the possession of both a fungible token (`ERC20`) and an NFT (`ERC721` or `ERC1155`) for access to a role.
+
+:::
+
 ## How to Create a TGR
 
 To create a TGR in Discord, follow these steps:
@@ -34,9 +40,9 @@ To create a TGR in Discord, follow these steps:
 
    - Description (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
 
-   - Chain type: The blockchain network that the token for this TGR is on. See the [full list of Collab.Land-supported chains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding token types.
+   - Chain Type: The blockchain network that the token for this TGR is on. See the [full list of Collab.Land-supported chains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding token types.
 
-   - Token type: The type of token used for the TGR.
+   - Token Type: The type of token used for the TGR.
 
    - Address: The contract address of your token.
 
@@ -96,11 +102,11 @@ This TGR type is commonly used for `ERC20` gating and for holding a number of an
 
 :::
 
-1. Follow the normal steps of creating a TGR as listed above
+1. Follow the normal steps of [creating a TGR](#how-to-create-a-tgr) as listed above
 
 2. Set the minimum amount of tokens (required)
 
-3. Set the maximum amount of tokens (not required).
+3. Set the maximum amount of tokens (not required)
 
 4. Click “Save”
 
@@ -110,7 +116,7 @@ Your balance-based TGR is ready! A complete balance-based TGR should look like t
    <img  src={img1} alt="Create a balance-based TGR" />
 </div>
 
-### Create a Attributes-Based TGR
+### Create a Attributes-Based TGR (NFT only)
 
 This type of TGR is used to create roles based on ownership of specific kinds of NFTs from a collection.
 
@@ -122,7 +128,7 @@ Check out the tutorial for [creating ERC721 Token Gating Rules using NFT Metadat
 
 :::
 
-1. Follow the normal steps of creating a TGR as listed above
+1. Follow the normal steps of [creating a TGR](#how-to-create-a-tgr) as listed above
 
 2. Since you have chosen to create an Attributes-based TGR, when you picked the Token Type, an “Attributes” button has appeared next to the “Balance” option.
 
