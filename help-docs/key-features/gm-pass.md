@@ -66,7 +66,7 @@ Technical details on the `gmPASS` and how to leverage it will be added to the [d
 
 :::
 
-The flowcharts linked below are meant to give a high-level overview of how gmPASS works.
+The flowcharts linked below are meant to give a high-level overview of how gmPASS works. Open the dropdowns for access codes.
 
 gmPASS [member onboarding flow](https://whimsical.com/gmpass-onboarding-8knTfdF4FVCxBegUtpSJWn@2Ux7TurymN5ii8TLLKwC)
 
@@ -82,9 +82,27 @@ gmPASS [member transaction flow](https://whimsical.com/gmpass-txn-flow-TSuDgQTbo
 password `gmgmgm`
 </details>
 
-### Security
+### How it fits together
+
+The Collab.Land [Product Map](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@LUSUr8hW5cYSYfX8ti) is a freeflow association of products and ideas that Collab.Land is working towards. The map gives an overview of how everything fits together within the Collab.Lands.
+
+There is also a [high-level roadmap](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@2Ux7TurymMcvr1WjdR3d) at the bottom of the document.
+
+<details> <summary> Product Map </summary>
+password `collabland`
+</details>
+
+## Security
 
 When creating their gmPASS, uses register a [passkey](https://blog.1password.com/what-are-passkeys/) with Collab.Land. Their on-device authorization is the key to unlock their gmPASS and the functions of its blockchain smart account(s).
+
+The device-generated passkeys serve as trading authorization, effectively adding 2FA security for blockchain actions; attackers can't get to your crypto because your Passkey is tied to your device!
+
+## Why gmPASS?
+
+The gmPASS is a blockchain smart account to onboard the masses to crypto. It removes the UX barrier of self-custody from users and brings crypto into chat platforms where folks already are.
+
+<!-- Now, users don't have to safeguard a seed phrase and can focus on doing whatever it is they like to do already. Whether that's trading, posting gms, or building projects Collab.Land is here to serve those community needs.-->
 
 <!-- Collab.Land uses [passkeys](https://blog.1password.com/what-are-passkeys/) to safely pass authorization between the Member and various services. 
 
