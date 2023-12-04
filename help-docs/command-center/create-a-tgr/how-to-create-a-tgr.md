@@ -20,6 +20,12 @@ Learn more about the different TGR types and Collab.Land's supported blockchains
 
 :::
 
+:::tip
+
+Use the [Role Composition miniapp](/help-docs/marketplace/apps/role-composition) to create TGRs that require holding a combination of different tokens. For example, you could require the possession of both a fungible token (`ERC20`) and an NFT (`ERC721` or `ERC1155`) for access to a role.
+
+:::
+
 ## How to Create a TGR
 
 To create a TGR in Discord, follow these steps:
