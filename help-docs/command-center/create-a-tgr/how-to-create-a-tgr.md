@@ -96,7 +96,7 @@ This TGR type is commonly used for `ERC20` gating and for holding a number of an
 
 :::
 
-1. Follow the normal steps of creating a TGR as listed above
+1. Follow the normal steps of [creating a TGR](#how-to-create-a-tgr) as listed above
 
 2. Set the minimum amount of tokens (required)
 
@@ -122,7 +122,7 @@ Check out the tutorial for [creating ERC721 Token Gating Rules using NFT Metadat
 
 :::
 
-1. Follow the normal steps of creating a TGR as listed above
+1. Follow the normal steps of [creating a TGR](#how-to-create-a-tgr) as listed above
 
 2. Since you have chosen to create an Attributes-based TGR, when you picked the Token Type, an “Attributes” button has appeared next to the “Balance” option.
 
