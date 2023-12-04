@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 id: ERC1155
 title: ERC1155 collections
 ---

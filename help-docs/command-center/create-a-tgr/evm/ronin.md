@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Ronin
 ---
 
@@ -8,13 +8,12 @@ import img2 from '@site/static/img/tutorial/command-center/ronin-erc20.png';
 import img3 from '@site/static/img/tutorial/command-center/ronin-erc721.png';
 import img4 from '@site/static/img/tutorial/command-center/ronin-erc1155.png';
 
-
 To create your Ronin TGR, follow these steps:
 
 1. Log in to the Command Center at https://cc.collab.land.
 2. From the left panel, select the server in which you would like to create the TGR. Then, click on "TGRs".
 
-3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR. 
+3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR.
 4. Enter the token details for your Ronin token. The "Description" field is optional, but you must select "Ronin" as the "Chain Type". You can choose from ERC20, ERC721, or ERC1155 for the "Token Type". You can find your token details at https://www.axie.tech/explorer.
 
    <div class="text--center">
