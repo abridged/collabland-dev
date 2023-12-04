@@ -34,9 +34,9 @@ To create a TGR in Discord, follow these steps:
 
    - Description (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
 
-   - Chain type: The blockchain network that the token for this TGR is on. See the [full list of Collab.Land-supported chains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding token types.
+   - Chain Type: The blockchain network that the token for this TGR is on. See the [full list of Collab.Land-supported chains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding token types.
 
-   - Token type: The type of token used for the TGR.
+   - Token Type: The type of token used for the TGR.
 
    - Address: The contract address of your token.
 
@@ -100,7 +100,7 @@ This TGR type is commonly used for `ERC20` gating and for holding a number of an
 
 2. Set the minimum amount of tokens (required)
 
-3. Set the maximum amount of tokens (not required).
+3. Set the maximum amount of tokens (not required)
 
 4. Click “Save”
 
@@ -110,7 +110,7 @@ Your balance-based TGR is ready! A complete balance-based TGR should look like t
    <img  src={img1} alt="Create a balance-based TGR" />
 </div>
 
-### Create a Attributes-Based TGR
+### Create a Attributes-Based TGR (NFT only)
 
 This type of TGR is used to create roles based on ownership of specific kinds of NFTs from a collection.
 
