@@ -8,9 +8,9 @@ title: gmPASS
 
 ## gmPASS
 
+This is a lin
 
-
-This is a change!
+This is a change! And here is a [link](https://docs.collab.land) here is a [relative link](/help-docs/key-features/command-center)
 
 ### Public
 
