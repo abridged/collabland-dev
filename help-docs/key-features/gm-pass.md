@@ -8,7 +8,9 @@ title: gmPASS
 
 ## gmPASS
 
-The gmPASS is a [public (1)](#public), [non-custodial (2)](#non-custodial) [web3 identity (3)](#web3-identity) for [blockchain execution (4)](#blockchain-execution) from [social platforms (5)](#social-platforms). Let's break down what that means.
+
+
+This is a change!
 
 ### Public
 
