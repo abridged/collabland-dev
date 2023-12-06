@@ -79,3 +79,11 @@ Token IDs are _**required**_ for `ERC1155` TGRs, the TGR will not work without t
 See [How to Create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr#supported-token-id-formats) for supported Token ID formats.
 
 :::
+
+### How to Get the Full List of Token Ids for an ERC1155 Collection
+
+Shoutout to CryptoPortfolio for creating this script.
+
+```jsx title="ERC1155 TokenIds Script"
+
+```
