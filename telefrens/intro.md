@@ -129,7 +129,7 @@ Everyone can see their ranking on the Leaderboard using `/leaderboard` command w
 The Points formula will be adjusted at the discretion of the Collab.Land team. The initial Community Points formula is:
 
 1. +1 Point when a user you invite onboards to Telefrens
-2. +1000 Points when a user you invite does a transaction using Telefrens
+2. +1000 Points when a user you invite does their first transaction using Telefrens
 
 <!-- - {ONLY IN TWA INITIALLY}
 
