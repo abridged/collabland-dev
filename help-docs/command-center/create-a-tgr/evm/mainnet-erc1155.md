@@ -84,13 +84,11 @@ See [How to Create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a
 
 Shoutout to CryptoPortfolio for creating this script.
 
-```jsx title="ERC1155 TokenIds Script"
-
-```
+## Get All ERC1155 tokenIds Via OpenSea API
 
 This Node.js script allows you to fetch data from the OpenSea API for a specific collection and save the token IDs to a text file. It handles rate limiting and pagination automatically.
 
-## Prerequisites
+### Prerequisites
 
 Before using this script, ensure you have the following prerequisites:
 
@@ -98,7 +96,7 @@ Before using this script, ensure you have the following prerequisites:
 2. An OpenSea collection name. (Tip: Copy colection name directly from OpenSea Url)
 3. An API key from OpenSea. (https://docs.opensea.io/reference/api-keys)
 
-## Instructions
+### Instructions
 
 Follow these steps to use the script:
 
@@ -125,7 +123,7 @@ Follow these steps to use the script:
 
 8. Once the script completes, you will find the token IDs in the `${CollectionName}-token_ids.txt` file.
 
-## Notes
+### Notes
 
 - The script includes a rate-limiting mechanism to handle HTTP 429 (rate limit exceeded) responses. It will automatically retry the request after a delay (30-second) if a rate-limiting error occurs.
 
@@ -135,7 +133,7 @@ Follow these steps to use the script:
 
 - Make sure to keep your API key confidential and do not share it with others.
 
-```js
+```jsx title="ERC1155 TokenIds Script"
 const axios = require('axios');
 const fs = require('fs');
 
