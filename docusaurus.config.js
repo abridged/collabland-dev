@@ -4,6 +4,9 @@
 require('dotenv').config();
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const remarkMath = require('remark-math');
+const rehypeKatex = require('rehype-katex');
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -49,11 +52,18 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+          
+          // add math + mermaid diagrams support
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
+          // add math + mermaid diagrams support
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
