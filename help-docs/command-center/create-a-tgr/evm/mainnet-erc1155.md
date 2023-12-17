@@ -133,6 +133,8 @@ Follow these steps to use the script:
 
 - Make sure to keep your API key confidential and do not share it with others.
 
+### Script
+
 ```jsx title="ERC1155 TokenIds Script"
 const axios = require('axios');
 const fs = require('fs');
