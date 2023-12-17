@@ -93,7 +93,14 @@ This Node.js script allows you to fetch data from the OpenSea API for a specific
 Before using this script, ensure you have the following prerequisites:
 
 1. Node.js installed on your system. (https://nodejs.org/en/download/)
-2. An OpenSea collection name. (Tip: Copy colection name directly from OpenSea Url)
+2. An OpenSea collection name. (Tip: Copy colection name directly from OpenSea URL)
+
+:::tip
+
+For example, if the URL of your collection is "opensea.io/collection/liquiddreams2-0", then use `liquiddreams2-0` as the collection name.
+
+:::
+
 3. An API key from OpenSea. (https://docs.opensea.io/reference/api-keys)
 
 ### Instructions
@@ -102,8 +109,8 @@ Follow these steps to use the script:
 
 1. Replace the following placeholders in the script with your own information:
 
-   - `CollectionName`: Replace `'Your_OpenSea_Collection_Name'` with the name of your OpenSea collection.
-   - `API_Key`: Replace `'Your_API_Key'` with your own API Key from OpenSea.
+   - `CollectionName`: Replace `Your_OpenSea_Collection_Name` with the name of your OpenSea collection.
+   - `APIKey`: Replace `Your_API_Key` with your own API Key from OpenSea.
 
 2. Save the changes to the script file.
 
