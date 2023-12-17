@@ -80,11 +80,9 @@ See [How to Create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a
 
 :::
 
-### How to Get the Full List of Token Ids for an ERC1155 Collection
+## How to Get the Full List of TokenIds for an ERC1155 Collection Via OpenSea API
 
-Shoutout to CryptoPortfolio for creating this script.
-
-## Get All ERC1155 tokenIds Via OpenSea API
+Shoutout to [CryptoPortfolio](https://github.com/Crypt0P0rtf0li0) for creating this script.
 
 This Node.js script allows you to fetch data from the OpenSea API for a specific collection and save the token IDs to a text file. It handles rate limiting and pagination automatically.
 
