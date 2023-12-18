@@ -35,7 +35,7 @@ Join the [Early Access group](https://telefrens.com/kols?utm_medium=display&utm_
 
 #### 2. _Actualize Your Alpha_ - Make money from your trading ideas
 
-- ⭐**[CREATOR PRO](#what-is-creator-pro)** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
+- ⭐**[Telefrens Pro](#what-is-telefrens-pro)** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
 
 #### 3. _Renew Group Revenue_ - Add a subscription model to your group
 
@@ -157,13 +157,13 @@ The Points formula will be adjusted at the discretion of the Collab.Land team. T
 
 - explain telefrens.com/leaderboard (plus TWA) explains points + seasons/periods claim-->
 
-## What is Creator Pro?
+## What is Telefrens Pro?
 
-Creator Pro is the premium offering for Telefrens. <!--Creators can purchase Creator Pro from the bonding curve at {[link] ()}. -->
+Telefrens Pro is the premium offering for Telefrens. <!--Creators can purchase Telefrens Pro from the bonding curve at {[link] ()}. -->
 
-<!-- Creator Pro pricing will increase as more creators purchase Creator Pro, [get started now] ().-->
+<!-- Telefrens Pro pricing will increase as more creators purchase Telefrens Pro, [get started now] ().-->
 
-### Creator Pro Features
+### Telefrens Pro Features
 
 Creators get access to premium features such as:
 
@@ -178,8 +178,8 @@ Creators get access to premium features such as:
     - Allowlist waiting period is customizable, default length is 30 days.
 
 3. Creator Promotion.
-    - Creator Pro groups will be featured when users search through groups they can buy into.
-    - Creator Pro groups will be featured on the [global leaderboard](#leaderboard).
+    - Telefrens Pro groups will be featured when users search through groups they can buy into.
+    - Telefrens Pro groups will be featured on the [global leaderboard](#leaderboard).
 
     <!-- - Group promotion in global search -->
 
