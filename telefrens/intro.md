@@ -52,13 +52,13 @@ Telefrens enables an individual or brand to create their own Telegram group with
 
 Holders can purchase Passes that unlock access to a Creator's exclusive group chat in Telegram.
 
-Telefrens enables p2p communication and community formation within Telegram; groups benefit from Telegram's robust and feature-rich chat platform.
+Telefrens enables p2p communication and community formation within Telegram and groups benefit from Telegram's robust and feature-rich chat platform.
 
 Telefrens leverages Collab.Land's `ERC4337` smart account implementation, the gmPASS.
 
 :::tip
 
-The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-controlled, and secure blockchain interactions.
+The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-controlled, and secure blockchain interactions through a smart account wallet.
 
 :::
 
@@ -76,6 +76,28 @@ Open the Product Map below to view a high-level overview of the product vision.
 </details>
 
 ## The Details
+
+### Bonding Curves
+
+Passes are minted along a bonding curve, resulting in variable prices for Passes.
+
+:::caution
+
+Price slippage will occur if multiple accounts are buying and selling along the bonding curve at the same time.
+
+:::
+
+So, a crypto bonding curve is like a rollercoaster designed by a math nerd. It's this fancy graph that decides how much your Passes are worth. The twist? The more people buy in, the higher its price climbs. But remember, this isn't your grandma's savings bond. The curve can go up or down, making it as unpredictable as Vin Diesel doing standup.
+
+#### Default Bonding Curve
+
+Telefrens is launching with the default bonding curve from Friend.Tech.
+
+$$
+f(x)=\frac{x^2}{16000}
+$$
+
+Bonding curves will be customizable by Creators in a future update.
 
 ### Royalties Revenues + Protocol Share
 
@@ -146,6 +168,8 @@ Creator Pro is the premium offering for Telefrens. <!--Creators can purchase Cre
 Creators get access to premium features such as:
 
 1. 1-click copy trade links to earn affiliate rewards when your Passholders trade using their link.
+   - Passholders can trade crypto within their smart accounts following the intent specified by the Creator's Copy Trade link. ex. sell USD --> buy COLLAB.
+   - Creators earn affiliate rewards from any trades made using the Copy Trade link.
 
 2. Protected allowlist waiting period.
     - Exclusive, invite-only period for Passes purchases.
