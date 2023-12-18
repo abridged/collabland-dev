@@ -88,7 +88,6 @@ Admins should reference the [list of supported blockchains](/help-docs/key-featu
 | [Nifty Gateway](https://help.niftygateway.com/hc/en-us/articles/4961117358867-Wallet-Hub)          | "NIFTY"                                                                                                                      |
 | [Tezos (Temple Wallet)](https://templewallet.com/)   | Tezos                                                                                                                        |
 | [Roll](https://support.tryroll.com/hc/en-us/articles/360034949092-Are-Social-Tokens-Built-on-Blockchain-)                   |  Mainnet                                                                                                                      |
-| Twitter                |       ----                                                                                                                       |
 <!-- I don't see this connection on the wallet connection page 
 | [Opera Browser](https://www.opera.com/crypto/faq)          | Mainnet                                                                         | -->
 
