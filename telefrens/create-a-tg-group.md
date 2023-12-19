@@ -32,7 +32,7 @@ Here's a guide from Telegram explaining [how to create a Telegram Group](https:/
 
 2. Access your group settings by selecting your group icon in the upper left hand corner of the menu bar.
 
- - Or select the 3 dots and then click "Info".
+   - Or select the 3 dots and then click "Info".
 
 <div class="text--center">
   <img  src={img1} alt="Access Telegram group settings" width="400" />
@@ -46,7 +46,7 @@ Here's a guide from Telegram explaining [how to create a Telegram Group](https:/
 
 4. Click on "Chat History for New Members" and select `Visible`, click Done to save your changes.
 
- - This allows new members who join to view the full message history and will upgrade your group into a supergroup.
+   - This allows new members who join to view the full message history and will upgrade your group into a supergroup.
 
 <div class="text--center">
   <img  src={img3} alt="Make Chat History visible in your Telegram group" width="400"/>
@@ -65,13 +65,13 @@ To fix:
 
 ### Add the Telefrens Telegram Bot
 
-1. Invite the Telefrens bot to your group.
+Invite the Telefrens bot to your group.
 
- - Search for `@telefrensbot` in the Telegram app and select the bot from the search results.
+1. Search for `@telefrensbot` in the Telegram app and select the bot from the search results.
 
- - Click on the profile icon of the bot and select 'Add to Group'.
+2. Click on the profile icon of the bot and select 'Add to Group'.
 
- - Select the group you want to add and add the bot as an administrator with prefilled permissions.
+3. Select the group you want to add and add the bot as an administrator with prefilled permissions.
 
 ## Adding the Telefrens bot to your group on Phone
 
@@ -81,11 +81,11 @@ After creating your group [according to link](https://telegram.org/faq#q-how-do-
 
 2. Access your group settings by selecting your group icon in the upper left hand corner of the menu bar.
 
- - Click the pencil icon to edit the group settings.
+    - Click the pencil icon to edit the group settings.
 
- - Click on "Chat History for New Members" and select `Visible`.
+    - Click on "Chat History for New Members" and select `Visible`.
 
- - Click Done to save your changes.
+    - Click Done to save your changes.
 
 ### Give the Telefrens Bot Required Permissions
 
@@ -121,7 +121,8 @@ To lock down your alpha group, Creators should disable some member permissions a
 
 3. Disable "Add Users" and "Change Chat Info".
 
-The final Permissions will look like this:
+- The final Permissions will look like this:
+
 <div class="text--center">
   <img  src={img5} alt="Recommended alpha group member permissions" width="400"/>
 </div>
@@ -138,7 +139,7 @@ Telegram allows group members to forward posts to other groups and other users b
 
 3. Scroll down to "Content protection" and enable `Restrict saving content`.
 
-  - `Restrict saving content` will prevent group members leaking content from your alpha group using Telegrams Forward feature.
+   - `Restrict saving content` will prevent group members leaking content from your alpha group using Telegrams Forward feature.
 
 <div class="text--center">
   <img  src={img5} alt="Recommended alpha group member permissions" width="400"/>
