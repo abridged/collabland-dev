@@ -16,7 +16,7 @@ import img6 from '@site/static/img/telefrens/restrict-content-sharing.png';
 import gif2 from '@site/static/img/telefrens/setup-tf-group-basic.gif';
 import gif3 from '@site/static/img/telefrens/setup-tf-group-protect.gif';
 
-This article walks you through the steps to create a Telegram Token Gated Access group with Telefrens Telegram bot. So once your group is setup, anyone who buys your pass in Telefrens app can see your group link on your profile and join it.
+This article walks you through the steps to create a Telegram Token Gated Access group with Telefrens Telegram bot. So once your group is setup, anyone who buys your Pass in the Telefrens app can see your Group Chat button on your profile and join your group by clicking it.
 
 ## How to Create a Token Gated Group on Telegram
 
@@ -28,13 +28,15 @@ Here's a guide from Telegram explaining [how to create a Telegram Group](https:/
 
 :::
 
-### Setup your Telegram Group
+## Prepare your Telegram Group
+
+This video shows the process of preparing your Telegram group. Read on for details.
 
 <div class="text--center">
-    <img  src={gif2} alt="How to set up your Telegram alpha group" width="500" />
+    <img  src={gif2} alt="How to set up your Telegram alpha group" width="400" />
   </div>
 
-#### Enable Chat History
+### Enable Chat History
 
 1. Edit Your Group Settings.
 
@@ -71,7 +73,7 @@ To fix:
 
 :::
 
-### Add the Telefrens Telegram Bot
+### Add the Telefrens Bot and Grant Required Permissions
 
 Invite the Telefrens bot to your group.
 
@@ -79,31 +81,9 @@ Invite the Telefrens bot to your group.
 
 2. Click on the profile icon of the bot and select 'Add to Group'.
 
-3. Select the group you want to add and add the bot as an administrator with prefilled permissions.
+3. Select the group you want to add the bot to as Admin.
 
-## Adding the Telefrens bot to your group on Phone
-
-After creating your group [according to link](https://telegram.org/faq#q-how-do-i-create-a-group), follow the steps below to add the Telefrens bot to your group.
-
-1. Edit Your Group Settings.
-
-2. Access your group settings by selecting your group icon in the upper left hand corner of the menu bar.
-
-    - Click the pencil icon to edit the group settings.
-
-    - Click on "Chat History for New Members" and select `Visible`.
-
-    - Click Done to save your changes.
-
-### Give the Telefrens Bot Required Permissions
-
-Invite the Telefrens bot to your group.
-
-1. Search for `@telefrensbot` in the Telegram app and select the bot from the search results.
-
-2. Click on the profile icon of the bot and select 'Add to Group'.
-
-3. Select the group you want to add and add the required permissions to the bot:
+4. Grant the required permissions to the bot:
 
    - **Manage Group**
    - **Ban Users**
