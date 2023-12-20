@@ -11,6 +11,7 @@ import img2 from '@site/static/img/tutorial/set-up-the-bot/telegram-edit-group-s
 import img3 from '@site/static/img/tutorial/set-up-the-bot/tg-chat-history-visible.png';
 import img4 from '@site/static/img/telefrens/tf-required-bot-permissions.png';
 import img5 from '@site/static/img/telefrens/recommended-member-permissions.png';
+import img6 from '@site/static/img/telefrens/restrict-content-sharing.png';
 
 import gif2 from '@site/static/img/telefrens/setup-tf-group-basic.gif';
 import gif3 from '@site/static/img/telefrens/setup-tf-group-protect.gif';
@@ -127,7 +128,7 @@ To lock down their alpha group, Creators should disable some member permissions 
 ### Member Permissions
 
 <div class="text--center">
-    <img  src={gif3} alt="How to lock down your Telefrens alpha group" width="500" />
+    <img  src={gif3} alt="How to lock down your Telefrens alpha group" width="400" />
   </div>
 
 1. Edit Your Group Settings.
@@ -136,13 +137,13 @@ To lock down their alpha group, Creators should disable some member permissions 
 
 3. Disable "Add Users" and "Change Chat Info".
 
-- The final Permissions will look like this:
+4. Click Done to save your changes.
+
+The final Member Permissions will look like this:
 
 <div class="text--center">
   <img  src={img5} alt="Recommended alpha group member permissions" width="400"/>
 </div>
-
-4. Click Done to save your changes.
 
 ### Restrict Content Sharing
 
@@ -157,7 +158,7 @@ Telegram allows group members to forward posts to other groups and other users b
    - `Restrict saving content` will prevent group members leaking content from your alpha group using Telegrams Forward feature.
 
 <div class="text--center">
-  <img  src={img5} alt="Recommended alpha group member permissions" width="400"/>
+  <img  src={img6} alt="Enable the `Restrict content sharing` setting" width="400"/>
 </div>
 
 4. Click Done to save your changes.
