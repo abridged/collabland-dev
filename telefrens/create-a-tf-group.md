@@ -164,6 +164,6 @@ Telegram allows group members to forward posts to other groups and other users b
 
 :::info
 
-Conversely, Creators may wish to leave `Restrict saving content` disabled to allow their users to quickly spread their copy trading links and earn additional affiliate fees from trades. Read more about [Copy Trading](./intro#telefrens-pro-features).
+Conversely, Creators may wish to leave the `Restrict saving content` setting disabled to allow their users to quickly spread their Copy Trading links and earn additional affiliate fees from trades. Read more about [Copy Trading](./intro#telefrens-pro-features).
 
 :::
