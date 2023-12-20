@@ -12,6 +12,9 @@ import img3 from '@site/static/img/tutorial/set-up-the-bot/tg-chat-history-visib
 import img4 from '@site/static/img/telefrens/tf-required-bot-permissions.png';
 import img5 from '@site/static/img/telefrens/recommended-member-permissions.png';
 
+import gif2 from '@site/static/img/telefrens/setup-tf-group-basic.gif';
+import gif3 from '@site/static/img/telefrens/setup-tf-group-protect.gif';
+
 This article walks you through the steps to create a Telegram Token Gated Access group with Telefrens Telegram bot. So once your group is setup, anyone who buys your pass in Telefrens app can see your group link on your profile and join it.
 
 ## How to Create a Token Gated Group on Telegram
@@ -25,6 +28,10 @@ Here's a guide from Telegram explaining [how to create a Telegram Group](https:/
 :::
 
 ### Setup your Telegram Group
+
+<div class="text--center">
+    <img  src={gif2} alt="How to set up your Telegram alpha group" width="500" />
+  </div>
 
 #### Enable Chat History
 
@@ -111,9 +118,17 @@ Invite the Telefrens bot to your group.
 
 ## Recommended Group Settings
 
-To lock down your alpha group, Creators should disable some member permissions and restrict content sharing.
+:::tip
+
+To lock down their alpha group, Creators should disable some member permissions and restrict content sharing.
+
+:::
 
 ### Member Permissions
+
+<div class="text--center">
+    <img  src={gif3} alt="How to lock down your Telefrens alpha group" width="500" />
+  </div>
 
 1. Edit Your Group Settings.
 
