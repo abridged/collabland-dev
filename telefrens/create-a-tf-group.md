@@ -2,7 +2,7 @@
 slug: /create-a-tf-group
 sidebar_position: 2
 id: create-a-tf-group
-sidebar_label: How to Setup a Telefrens Group
+sidebar_label: How to Setup a Telefrens Group in Telegram
 title: How Create a Telefrens Group and add Telefrens Bot
 ---
 

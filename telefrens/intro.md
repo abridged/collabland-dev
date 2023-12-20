@@ -24,7 +24,7 @@ Telefrens is the first SocialFi bot in crypto, from the team that built Collab.L
 
 :::tip
 
-Join the [Early Access group](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
+[Join Telefrens](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
 
 :::
 
@@ -210,6 +210,20 @@ Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://
 
 :::
 
+### Join Telefrens
+
+[Join Telefrens](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
+
+Click a Telefrens invite link from someone to begin DMs with the `@telefrensbot` in Telegram. Use `/start` and follow the prompts to launch the app!
+
+:::caution
+
+A real invite link will _always_ have the form `https://telegram.me/telefrensbot?start=.......` where `telefrensbot` is part of the URL.
+
+:::
+
+### Deposit ETH to your smart account on Arbitrum One
+
 Telefrens runs on Ethereum Layer 2 [Arbitrum One](https://chainlist.org/chain/42161). Activating your Pass is free but to purchase Passes you will need to have ETH on Arbitrum One.
 
 Find your deposit address by using the `Account` button with the Telefrens bot in DMs or by visiting your profile settings inside the Telefrens app.
@@ -236,7 +250,7 @@ The in-app walkthrough will guide you to activate your Passes. This Pass Activat
 
 #### Set up your Telegram Group
 
-You need your own Telegram group to sell Passes for. Refer to the guides on [How to Setup a Telefrens Group](./create-a-tg-group).
+You need your own Telegram group to sell Passes for. Refer to the guides on [How to Setup a Telefrens Group](/telefrens/create-a-tf-group).
 
 <!-- ---
 
