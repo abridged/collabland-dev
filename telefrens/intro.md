@@ -231,7 +231,7 @@ Find your deposit address by using the `Account` button with the Telefrens bot i
 You can also follow the in-app guide to bridge ETH to Arbitrum One using the Arbitrum Bridge.
 
   <div class="text--center">
-    <img  src={gif4} alt="How to get your Arbitrum One deposit address" width="500" />
+    <img  src={gif4} alt="How to get your Arbitrum One deposit address" width="400" />
   </div>
 
 #### Purchase a Pass
@@ -249,7 +249,7 @@ If the "Group Chat" button does not appear after purchasing that Creator's Pass,
 :::
 
   <div class="text--center">
-    <img  src={gif2} alt="How to join a Telefrens group chat" width="500" />
+    <img  src={gif1} alt="How to join a Telefrens group chat" width="400" />
   </div>
 
 ### I'm a Creator Selling Passes to my Group
