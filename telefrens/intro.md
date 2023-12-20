@@ -164,7 +164,7 @@ The Points formula will be adjusted at the discretion of the Collab.Land team. T
 
 ## What is Telefrens Pro?
 
-Telefrens Pro is the premium offering for Telefrens. <!--Creators can purchase Telefrens Pro from the bonding curve at {[link] ()}. -->
+Telefrens Pro is the premium offering for Telefrens. Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
 
 <!-- Telefrens Pro pricing will increase as more creators purchase Telefrens Pro, [get started now] ().-->
 
@@ -186,7 +186,13 @@ Creators get access to premium features such as:
     - Telefrens Pro groups will be featured when users search through groups they can buy into.
     - Telefrens Pro groups will be featured on the [global leaderboard](#leaderboard).
 
-    <!-- - Group promotion in global search -->
+:::info
+
+Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
+
+:::
+
+<!-- - Group promotion in global search -->
 
 <!--
 4. Customizable bonding curves
@@ -202,7 +208,7 @@ Creators get access to premium features such as:
 ---
 ---
 
-## How to Get Started
+## How to Get Started with Telefrens
 
 :::info
 
