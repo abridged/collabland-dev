@@ -8,6 +8,11 @@ title: Telefrens Introduction
 import img1 from '@site/static/img/telefrens/tf-characters-logo-tg.png';
 import img2a from '@site/static/img/telefrens/tf-value-flow.png';
 import img2 from '@site/static/img/telefrens/telefrens-rev-share.png';
+import gif1 from '@site/static/img/telefrens/join-a-tf-group.gif';
+import gif2 from '@site/static/img/telefrens/setup-tf-group-basic.gif';
+import gif3 from '@site/static/img/telefrens/setup-tf-group-protect.gif';
+
+import gif4 from '@site/static/img/telefrens/deposit-eth-tf.gif';
 
 Telefrens is the first SocialFi bot in crypto, from the team that built Collab.Land. Get Pass access to Token Gated groups and royalties rewards for Creators on Pass transactions.
 
@@ -19,7 +24,7 @@ Telefrens is the first SocialFi bot in crypto, from the team that built Collab.L
 
 :::tip
 
-Join the [Early Access group](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
+[Join Telefrens](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
 
 :::
 
@@ -159,7 +164,7 @@ The Points formula will be adjusted at the discretion of the Collab.Land team. T
 
 ## What is Telefrens Pro?
 
-Telefrens Pro is the premium offering for Telefrens. <!--Creators can purchase Telefrens Pro from the bonding curve at {[link] ()}. -->
+Telefrens Pro is the premium offering for Telefrens. Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
 
 <!-- Telefrens Pro pricing will increase as more creators purchase Telefrens Pro, [get started now] ().-->
 
@@ -181,7 +186,13 @@ Creators get access to premium features such as:
     - Telefrens Pro groups will be featured when users search through groups they can buy into.
     - Telefrens Pro groups will be featured on the [global leaderboard](#leaderboard).
 
-    <!-- - Group promotion in global search -->
+:::info
+
+Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
+
+:::
+
+<!-- - Group promotion in global search -->
 
 <!--
 4. Customizable bonding curves
@@ -194,24 +205,70 @@ Creators get access to premium features such as:
 
         - Large group - linear curve
 -->
+---
+---
 
-## Where to start?
+## How to Get Started with Telefrens
 
 :::info
 
-Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitter accounts for info coming soon™
+Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitter accounts for announcements and alpha leaks 💦💦
 
 :::
 
-### I'm a Creator
+### Join Telefrens
 
-Start Here: Join the [Early Access group](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today.
+[Join Telefrens](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
 
-<!--
-### I'm a Holder
+Click a Telefrens invite link from someone to begin DMs with the `@telefrensbot` in Telegram. Use `/start` and follow the prompts to launch the app!
 
-Start Here:
--->
+:::caution
+
+A real invite link will _always_ have the form `https://telegram.me/telefrensbot?start=.......` where `telefrensbot` is part of the URL.
+
+:::
+
+### Deposit ETH to your smart account on Arbitrum One
+
+Telefrens runs on Ethereum Layer 2 [Arbitrum One](https://chainlist.org/chain/42161). Activating your Pass is free but to purchase Passes you will need to have ETH on Arbitrum One.
+
+Find your deposit address by using the `Account` button with the Telefrens bot in DMs or by visiting your profile settings inside the Telefrens app.
+
+You can also follow the in-app guide to bridge ETH to Arbitrum One using the Arbitrum Bridge.
+
+  <div class="text--center">
+    <img  src={gif4} alt="How to get your Arbitrum One deposit address" width="400" />
+  </div>
+
+#### Purchase a Pass
+
+After depositing ETH on Arbitrum One you are ready to purchase your first Pass. Click on a Creator's profile and select "Buy". Select the number of Passes you wish to purchase and click "Confirm".
+
+#### Join a Group Using a Pass
+
+Click on a Creator's profile whose Pass you hold. Click the Blue "Group Chat" button in the top right of the Creator's profile.
+
+:::tip
+
+If the "Group Chat" button does not appear after purchasing that Creator's Pass, then they have not set up their Group Chat. Direct them to the [How to Setup a Telefrens Group](./create-a-tf-group) page.
+
+:::
+
+  <div class="text--center">
+    <img  src={gif1} alt="How to join a Telefrens group chat" width="400" />
+  </div>
+
+### I'm a Creator Selling Passes to my Group
+
+Visit the [telefrens website](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) to sign up and then follow the onboarding walkthrough.
+
+#### Activate Your Passes
+
+The in-app walkthrough will guide you to activate your Passes. This Pass Activation is free and will not cost anything. Any other Passes will have a variable cost according to how many Passes have exist on that specific [bonding curve](#default-bonding-curve).
+
+#### Set up your Telegram Group
+
+You need your own Telegram group to sell Passes for. Refer to the guides on [How to Setup a Telefrens Group](/telefrens/create-a-tf-group).
 
 <!-- ---
 
