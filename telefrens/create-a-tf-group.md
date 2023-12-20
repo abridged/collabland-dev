@@ -101,29 +101,29 @@ Invite the Telefrens bot to your group.
 
 :::tip
 
-To lock down their alpha group, Creators should disable some member permissions and restrict content sharing.
+To lock down your alpha group, we recommend disabling some member permissions and enabling the "restrict content sharing" setting in Telegram.
 
 :::
-
-### Member Permissions
 
 <div class="text--center">
     <img  src={gif3} alt="How to lock down your Telefrens alpha group" width="400" />
   </div>
 
+### Member Permissions
+
 1. Edit Your Group Settings.
 
 2. Select "Permissions".
 
-3. Disable "Add Users" and "Change Chat Info".
-
-4. Click Done to save your changes.
-
-The final Member Permissions will look like this:
+3. Disable these two settings:
+   - **Add Users**
+   - **Change Chat Info**
 
 <div class="text--center">
   <img  src={img5} alt="Recommended alpha group member permissions" width="400"/>
 </div>
+
+4. Click Done to save your changes.
 
 ### Restrict Content Sharing
 
@@ -143,8 +143,8 @@ Telegram allows group members to forward posts to other groups and other users b
 
 4. Click Done to save your changes.
 
-:::info
+:::tip
 
-Conversely, Creators may wish to leave the `Restrict saving content` setting disabled to allow their users to quickly spread their Copy Trading links and earn additional affiliate fees from trades. Read more about [Copy Trading](./intro#telefrens-pro-features).
+Conversely, Creators may wish to leave the `Restrict saving content` setting disabled to allow their Passholders to quickly spread their Copy Trading links and earn additional affiliate fees from trades. Read more about [Copy Trading](./intro#telefrens-pro-features).
 
 :::
