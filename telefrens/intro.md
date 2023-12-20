@@ -234,7 +234,19 @@ You can also follow the in-app guide to bridge ETH to Arbitrum One using the Arb
     <img  src={gif4} alt="How to get your Arbitrum One deposit address" width="500" />
   </div>
 
+#### Purchase a Pass
+
+After depositing ETH on Arbitrum One you are ready to purchase your first Pass. Click on a Creator's profile and select "Buy". Select the number of Passes you wish to purchase and click "Confirm".
+
 #### Join a Group Using a Pass
+
+Click on a Creator's profile whose Pass you hold. Click the Blue "Group Chat" button in the top right of the Creator's profile.
+
+:::tip
+
+If the "Group Chat" button does not appear after purchasing that Creator's Pass, then they have not set up their Group Chat. Direct them to the [How to Setup a Telefrens Group](./create-a-tf-group) page.
+
+:::
 
   <div class="text--center">
     <img  src={gif2} alt="How to join a Telefrens group chat" width="500" />
