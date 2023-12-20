@@ -24,7 +24,7 @@ Telefrens is the first SocialFi bot in crypto, from the team that built Collab.L
 
 :::tip
 
-[Join Telefrens](https://telefrens.com/kols?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
+[Join Telefrens](https://telefrens.com/?utm_medium=display&utm_source=tf_docs&utm_campaign=launch) today!
 
 :::
 
