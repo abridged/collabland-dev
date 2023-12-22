@@ -1,5 +1,5 @@
 ---
-slug: /telefrens/create-a-tg-group
+slug: /telefrens/create-a-tf-group
 sidebar_position: 2
 id: create-a-tg-group
 title: How Create a Telegram Group and add Telefrens Bot
