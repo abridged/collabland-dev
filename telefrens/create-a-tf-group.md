@@ -188,4 +188,4 @@ Conversely, Creators may wish to leave the `Restrict saving content` setting dis
 
 :::
 
-5. Return to the Telefrens bot in Telegram.
+Return to Telegram and start making Telefrens!
