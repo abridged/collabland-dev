@@ -9,6 +9,9 @@ title: How to Create a Telefrens Group and Add the Telefrens Bot
 import img1 from '@site/static/img/tutorial/set-up-the-bot/telegram-access-group-settings.png';
 import img2 from '@site/static/img/tutorial/set-up-the-bot/telegram-edit-group-settings.png';
 import img3 from '@site/static/img/tutorial/set-up-the-bot/tg-chat-history-visible.png';
+
+import img4a from '@site/static/img/telefrens/tf-create-group-button.png';
+import img4b from '@site/static/img/telefrens/tf-quick-invite.png';
 import img4 from '@site/static/img/telefrens/tf-required-bot-permissions.png';
 import img5 from '@site/static/img/telefrens/recommended-member-permissions.png';
 import img6 from '@site/static/img/telefrens/restrict-content-sharing.png';
@@ -68,7 +71,7 @@ The bot will leave the group if you haven’t enabled chat history before inviti
 
 To fix:
 
-1. Change the "Chat History for New Members" to `Visible`.
+1. Change the "Chat History for New Members" setting to `Visible`.
 2. Add the bot to the group again.
 
 :::
@@ -76,6 +79,42 @@ To fix:
 ### Add the Telefrens Bot and Grant Required Permissions
 
 Invite the Telefrens bot to your group.
+
+##### Option 1: Quick Invite
+
+1. Open Telefrens.
+
+2. Click your pfp or username to open your profile.
+
+3. Click "Create Group" button in Telefrens.
+
+<div class="text--center">
+  <img  src={img4a} alt="Click the 'Create Group' button in Telefrens" width="200"/>
+</div>
+
+4. Click "Add the Telefrens Bot like a boss!" button in Telegram DMs with the bot.
+
+<div class="text--center">
+  <img  src={img4b} alt="Click 'Add the Telefrens Bot like a boss!' button in Telegram DMs" width="200"/>
+</div>
+
+5. Select the group you want to add the bot to as Admin.
+
+6. Grant the required permissions to the bot:
+
+   - **Manage Group**
+   - **Ban Users**
+   - **Invite Users via Link**
+
+<div class="text--center">
+  <img  src={img4} alt="Required Telefrens Bot permissions" width="400"/>
+</div>
+
+7. Click Done to save your changes.
+
+8. Click "Add as admin" to confirm.
+
+##### Option 2: Manual Invite
 
 1. Search for `@telefrensbot` in the Telegram app and select the bot from the search results.
 
@@ -148,3 +187,5 @@ Telegram allows group members to forward posts to other groups and other users b
 Conversely, Creators may wish to leave the `Restrict saving content` setting disabled to allow their Passholders to quickly spread their Copy Trading links and earn additional affiliate fees from trades. Read more about [Copy Trading](./intro#telefrens-pro-features).
 
 :::
+
+Return to Telegram and start making Telefrens!
