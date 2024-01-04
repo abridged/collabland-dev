@@ -26,7 +26,7 @@ Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land
 
 :::info
 
-The Telefrens YouTube channel has a full [copy trading tutorial](https://youtu.be/PsWL21BReHc).
+The Telefrens YouTube channel has a full [copy trading tutorial](https://youtu.be/ciReb5j8Go0).
 
 :::
 
