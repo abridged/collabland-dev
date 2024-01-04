@@ -172,7 +172,7 @@ Telefrens Pro is the premium offering for Telefrens. Creators can purchase Telef
 
 Creators get access to premium features such as:
 
-1. 1-click copy trade links to earn affiliate rewards when your Passholders trade using their link.
+1. 1-click [Copy Trade links](./copy-trade) to earn affiliate rewards when your Passholders trade using their link.
    - Passholders can trade crypto within their smart accounts following the intent specified by the Creator's Copy Trade link. ex. sell USD --> buy COLLAB.
    - Creators earn affiliate rewards from any trades made using the Copy Trade link.
 

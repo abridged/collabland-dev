@@ -14,7 +14,7 @@ import gif3 from '@site/static/img/telefrens/setup-tf-group-protect.gif';
 
 import gif4 from '@site/static/img/telefrens/deposit-eth-tf.gif';
 
-Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land. Creators can create and share links for their Pass Holders to use to trade crypto tokens with only a single click. Actualize your alpha and earn money from your following today with copy trading!
+Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land. Creators can create and share links and earn half of the trading fees when their Pass Holders use them to trade crypto tokens with only a single click. Actualize your alpha and monetize your following today with copy trading!
 
   <div class="text--center">
     <img  src={img1} alt="Telefrens logo with Telegram Bot label" width="500" />
@@ -26,7 +26,7 @@ Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land
 
 :::info
 
-The Telefrens YouTube channel has a full [copy trading tutorial](https://youtu.be/PsWL21BReHc).
+The Telefrens YouTube channel has a full [copy trading tutorial](https://youtu.be/ciReb5j8Go0).
 
 :::
 
@@ -64,7 +64,7 @@ Start with the copy trade link received from a friend or a contact.
 
 :::tip
 
-If you need to deposit funds, follow the [instructions provided](./intro#deposit-eth-to-your-smart-account-on-arbitrum-one) in the Telefrens interface. Check out the [deposit tutorial](https://www.youtube.com/channel/UCmyt5i7JmBPd03r2eJ-EaMA) on YouTube.
+If you need to deposit funds, follow the [instructions provided](./intro#deposit-eth-to-your-smart-account-on-arbitrum-one) in the Telefrens interface. <!--Check out the [deposit tutorial](https://www.youtube.com/channel/UCmyt5i7JmBPd03r2eJ-EaMA) on YouTube.-->
 
 :::
 
