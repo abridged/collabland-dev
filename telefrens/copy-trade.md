@@ -22,13 +22,15 @@ Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land
 
 <!-- ## Copy Trading-->
 
-## How to Make Money from Copy Trading
+## How to Earn Money from Copy Trading
 
 :::info
 
 The Telefrens YouTube channel has a full [copy trading tutorial](https://www.youtube.com/channel/UCfamuU907X7xSr5WV2cs5Ug).
 
 :::
+
+Creators earn an affiliate fee from every trade executed using their copy trading link of 1% of the trade value.
 
 Here are the step-by-step directions for creating, sharing, and executing a copy trade using the Telefrens bot on Telegram.
 
