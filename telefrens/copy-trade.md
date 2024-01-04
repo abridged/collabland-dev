@@ -14,7 +14,7 @@ import gif3 from '@site/static/img/telefrens/setup-tf-group-protect.gif';
 
 import gif4 from '@site/static/img/telefrens/deposit-eth-tf.gif';
 
-Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land. Creators can create and share links for their Pass Holders to use to trade crypto tokens with only a single click. Actualize your alpha and earn money from your following today with copy trading!
+Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land. Creators can create and share links and earn half of the trading fees when their Pass Holders use them to trade crypto tokens with only a single click. Actualize your alpha and monetize your following today with copy trading!
 
   <div class="text--center">
     <img  src={img1} alt="Telefrens logo with Telegram Bot label" width="500" />
