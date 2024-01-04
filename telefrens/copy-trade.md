@@ -30,7 +30,7 @@ The Telefrens YouTube channel has a full [copy trading tutorial](https://youtu.b
 
 :::
 
-Creators earn an affiliate fee from every trade executed using their copy trading link of 1% of the trade value.
+Creators earn an affiliate fee from every trade executed using their copy trading link, amounting to half of the trading fees.
 
 Here are the step-by-step directions for creating, sharing, and executing a copy trade using the Telefrens bot on Telegram.
 
