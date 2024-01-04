@@ -64,7 +64,7 @@ Start with the copy trade link received from a friend or a contact.
 
 :::tip
 
-If you need to deposit funds, follow the [instructions provided](./intro#deposit-eth-to-your-smart-account-on-arbitrum-one) in the Telefrens interface. Check out the [deposit tutorial](https://www.youtube.com/channel/UCmyt5i7JmBPd03r2eJ-EaMA) on YouTube.
+If you need to deposit funds, follow the [instructions provided](./intro#deposit-eth-to-your-smart-account-on-arbitrum-one) in the Telefrens interface. <!--Check out the [deposit tutorial](https://www.youtube.com/channel/UCmyt5i7JmBPd03r2eJ-EaMA) on YouTube.-->
 
 :::
 
