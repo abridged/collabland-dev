@@ -1,10 +1,10 @@
 **About this app:**
 
-ChainAegis provide Rugpull alert, security incident alert, and you can check an address's reputation and risk types. Of course, you can also apply for other security services such as smart contract auditing, on-chain analysis, asset tracking, and data APIs.
+ChainAegis is an AI-driven risk assessment and alerts platform. It provides rugpull alerts, security incident alerts, and you can check an address' reputation and risk types. ChainAegis also provides other security services such as smart contract auditing, on-chain analysis, asset tracking, and data APIs.
 
 **To get started:**
 
-1. Install the ChainAegis Miniapp from the Collab.Land Marketplace
+1. Install the ChainAegis Miniapp from the [Collab.Land Marketplace](../getting-started)
 
 2. Your community members will get the latest 5 Rugpull and 5 security incidents through _/chainaegis alert_.
 
@@ -27,7 +27,7 @@ ChainAegis provide Rugpull alert, security incident alert, and you can check an 
 
 **Support**
 
-- Twitter: https://twitter.com/ChainAegis
+- Twitter [@ChainAegis](https://twitter.com/ChainAegis)
 - Email: sharkteam@payegis.com
 - Discord: https://discord.com/invite/jGH9xXCjDZ
 - Website: https://www.chainaegis.com
