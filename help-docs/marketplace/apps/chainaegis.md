@@ -1,3 +1,10 @@
+---
+title: Chain Aegis
+sidebar_label: Chain Aegis
+sibebar_position: 15
+id: chainaegis
+---
+
 Give your community AI-powered rugpull alerts, address reputation, and risk assessments all in Discord!
 
 ### **About this app:**
