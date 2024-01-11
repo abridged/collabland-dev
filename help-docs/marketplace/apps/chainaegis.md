@@ -1,10 +1,12 @@
-**About this app:**
+Give your community AI-powered rugpull alerts, address reputation, and risk assessments all in Discord!
+
+### **About this app:**
 
 ChainAegis is an AI-driven risk assessment and alerts platform. It provides rugpull alerts, security incident alerts, and you can check an address' reputation and risk types. ChainAegis also provides other security services such as smart contract auditing, on-chain analysis, asset tracking, and data APIs.
 
-**To get started:**
+## **To get started:**
 
-1. Install the ChainAegis Miniapp from the [Collab.Land Marketplace](../getting-started)
+1. Install the ChainAegis Miniapp from the [Collab.Land Marketplace](https://cc.collab.land/)
 
 2. Use `/chainaegis alert` to pull the latest 5 Rugpull and 5 security incidents, covers multiple chains such as Ethereum, BNB Chain, Polygon, Base, Scroll and so forth.
 
@@ -12,7 +14,7 @@ ChainAegis is an AI-driven risk assessment and alerts platform. It provides rugp
 
 4. Use `/chainaegis request` to apply for other security services such as smart contract auditing, on-chain analysis, asset tracking, data APIs. 
 
-**Commands**
+## **Commands**
 
 | **Command** | **Description** |
 | --- | --- |
@@ -25,9 +27,9 @@ ChainAegis is an AI-driven risk assessment and alerts platform. It provides rugp
 | `/chainaegis request fund-track` | Apply for ChainAegis fund track service and we will contact you upon receipt. |
 | `/chainaegis request data-api` | Apply for ChainAegis data APIs and we will contact you upon receipt. |
 
-**Support**
+## **Support**
 
 - Twitter: [@ChainAegis](https://twitter.com/ChainAegis)
 - Email: sharkteam@payegis.com
-- Discord: https://discord.gg/AFNtCmcFPP
-- Website: https://www.chainaegis.com
+- Discord: [SharkTeam](https://discord.gg/AFNtCmcFPP)
+- Website: [chainaegis.com](https://www.chainaegis.com)
