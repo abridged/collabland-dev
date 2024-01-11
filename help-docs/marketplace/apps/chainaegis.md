@@ -7,11 +7,11 @@ id: chainaegis
 
 Give your community AI-powered rugpull alerts, address reputation, and risk assessments all in Discord!
 
-### **About this app:**
+### About this app
 
 ChainAegis is an AI-driven risk assessment and alerts platform. It provides rugpull alerts, security incident alerts, and you can check an address' reputation and risk types. ChainAegis also provides other security services such as smart contract auditing, on-chain analysis, asset tracking, and data APIs.
 
-## **To get started:**
+## To get started
 
 1. Install the ChainAegis Miniapp from the [Collab.Land Marketplace](https://cc.collab.land/)
 
@@ -21,7 +21,7 @@ ChainAegis is an AI-driven risk assessment and alerts platform. It provides rugp
 
 4. Use `/chainaegis request` to apply for other security services such as smart contract auditing, on-chain analysis, asset tracking, data APIs. 
 
-## **Commands**
+## Commands
 
 | **Command** | **Description** |
 | --- | --- |
@@ -34,7 +34,7 @@ ChainAegis is an AI-driven risk assessment and alerts platform. It provides rugp
 | `/chainaegis request fund-track` | Apply for ChainAegis fund track service and we will contact you upon receipt. |
 | `/chainaegis request data-api` | Apply for ChainAegis data APIs and we will contact you upon receipt. |
 
-## **Support**
+## Support
 
 - Twitter: [@ChainAegis](https://twitter.com/ChainAegis)
 - Email: sharkteam@payegis.com
