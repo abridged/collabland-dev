@@ -30,7 +30,7 @@ To get started, the server Admin should follow these steps:
     |`Address`|`0xaD7De01cb7eaAFf3a419A0a0a3133a964cD90373`|
 
 1. Create a role-exclusive channel for verified humans.
-1. Ask members to verify their humanity using the `/rarimo verify` command, ideally in the `#collabland-join` channel.
+1. Ask Members to verify their humanity using the `/rarimo verify` command, ideally in the `#collabland-join` channel.
 
 <!-- TODO: replace with the prod link once the miniapp is live -->
 For detailed instructions, see [Protecting your Discord server from bots with Proof of Humanity and Collab.Land

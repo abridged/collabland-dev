@@ -1,7 +1,7 @@
 ---
 title: Chain Aegis
 sidebar_label: Chain Aegis
-sibebar_position: 15
+sidebar_position: 15
 id: chainaegis
 ---
 
