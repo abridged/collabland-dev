@@ -38,7 +38,7 @@ For detailed instructions, see [Protecting your Discord server from bots with Pr
 
 ### Verifying your humanity as a Member
 
-1. Call the `/rarimo verify` command and follow the instructions.
+1. Call the `/rarimo-verify` command and follow the instructions.
 1. Complete the verification process at [Verify Your Humanity](https://robotornot.rarimo.com).
 
 1. Verify your assets in the `#collabland-join` channel to claim the role.
@@ -47,7 +47,7 @@ For detailed instructions, see [Protecting your Discord server from bots with Pr
 
 | Command               | Description                                                                                                                                                                                   |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `/rarimo verify`  | Redirects Members to Proof of Humanity DApp for verification.                                                                                                                          |
+| `/rarimo-verify`  | Redirects Members to Proof of Humanity DApp for verification.                                                                                                                          |
 
 ## Support
 
