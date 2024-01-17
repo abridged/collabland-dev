@@ -139,7 +139,7 @@ When community incentives are at their maximum of 1% of trade revenues, the reve
     <img  src={img2} alt="Telefrens revenue share model with maximum community incentives" width="500" />
   </div>
 
-### Leaderboard
+<!-- ### Leaderboard
 
 :::info
 
@@ -149,7 +149,7 @@ The Leaderboard tracks everyone's Telefrens referral points versus other claim p
 
 Referrers can claim referral rewards at the end of each claim period. Rewards are proportional to an individual's Leaderboard rank, i.e. higher rank == more rewards.
 
-Everyone can see their ranking on the Leaderboard using `/leaderboard` command with the Telefrens bot in Telegram.
+Everyone can see their ranking on the Leaderboard using `/leaderboard` command with the Telefrens bot in Telegram. -->
 
 ### Points Formula
 
