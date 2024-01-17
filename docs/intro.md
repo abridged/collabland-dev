@@ -1,9 +1,7 @@
 ---
 sidebar_position: 1
-title: introduction
+title: Introduction
 ---
-
-# Getting Started
 
 Collab.Land allows developers to build and deploy miniapps on the Collab.Land Discord bot to extend the reach of their projects. Additionally, Collab.Land provides APIs that enable developers to create custom functionalities, such as website token gating. This page serves as an introduction to both functionalities, providing an overview and offering resources to assist you in getting started.
 
