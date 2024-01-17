@@ -234,7 +234,7 @@ Telefrens runs on Ethereum Layer 2 [Arbitrum One](https://chainlist.org/chain/42
 
 Find your deposit address by using the `Account` button with the Telefrens bot in DMs or by visiting your profile settings inside the Telefrens app.
 
-You can also follow the in-app guide to bridge ETH to Arbitrum One using the Arbitrum Bridge.
+Follow the in-app guide to bridge ETH to Arbitrum One, if needed.
 
   <div class="text--center">
     <img  src={gif4} alt="How to get your Arbitrum One deposit address" width="400" />
