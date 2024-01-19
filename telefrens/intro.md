@@ -40,7 +40,7 @@ Telefrens is the first SocialFi bot in crypto, from the team that built Collab.L
 
 #### 2. _Actualize Your Alpha_ - Make money from your trading ideas
 
-- ⭐**[Telefrens Pro](#what-is-telefrens-pro)** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
+- ⭐<!--**[Telefrens Pro](#what-is-telefrens-pro)**--> Monetize your trading ideas by sharing a 1-click [copy trade link](copy-trade) with your Telefrens in Telegram.
 
 #### 3. _Renew Group Revenue_ - Add a subscription model to your group
 
@@ -162,18 +162,18 @@ The Points formula will be adjusted at the discretion of the Collab.Land team. T
 
 - explain telefrens.com/leaderboard (plus TWA) explains points + seasons/periods claim-->
 
-## What is Telefrens Pro?
+<!-- ## What is Telefrens Pro?
 
 Telefrens Pro is the premium offering for Telefrens. Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
 
-<!-- Telefrens Pro pricing will increase as more creators purchase Telefrens Pro, [get started now] ().-->
+Telefrens Pro pricing will increase as more creators purchase Telefrens Pro, [get started now] ().
 
 ### Telefrens Pro Features
 
 Creators get access to premium features such as:
 
 1. 1-click [Copy Trade links](./copy-trade) to earn affiliate rewards when your Passholders trade using their link.
-   - Passholders can trade crypto within their smart accounts following the intent specified by the Creator's Copy Trade link. ex. sell USD --> buy COLLAB.
+   - Passholders can trade crypto within their smart accounts following the intent specified by the Creator's Copy Trade link. ex. sell USD buy COLLAB.
    - Creators earn affiliate rewards from any trades made using the Copy Trade link.
 
 2. Protected allowlist waiting period.
@@ -191,6 +191,7 @@ Creators get access to premium features such as:
 Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
 
 :::
+-->
 
 <!-- - Group promotion in global search -->
 
@@ -212,7 +213,9 @@ Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button 
 
 :::info
 
-Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitter accounts for announcements and alpha leaks 💦💦
+1. Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitter accounts for announcements and alpha leaks 💦💦
+
+2. Check out the [Telefrens YouTube channel](https://www.youtube.com/channel/UCfamuU907X7xSr5WV2cs5Ug) for tutorials.
 
 :::
 
