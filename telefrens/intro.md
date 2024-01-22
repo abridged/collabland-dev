@@ -40,7 +40,7 @@ Telefrens is the first SocialFi bot in crypto, from the team that built Collab.L
 
 #### 2. _Actualize Your Alpha_ - Make money from your trading ideas
 
-- ⭐**[Telefrens Pro](#what-is-telefrens-pro)** Monetize your trading ideas by sharing a 1-click copy trade link with your Telefrens in Telegram.
+- ⭐<!--**[Telefrens Pro](#what-is-telefrens-pro)**--> Monetize your trading ideas by sharing a 1-click [copy trade link](copy-trade) with your Telefrens in Telegram.
 
 #### 3. _Renew Group Revenue_ - Add a subscription model to your group
 
@@ -139,7 +139,7 @@ When community incentives are at their maximum of 1% of trade revenues, the reve
     <img  src={img2} alt="Telefrens revenue share model with maximum community incentives" width="500" />
   </div>
 
-### Leaderboard
+<!-- ### Leaderboard
 
 :::info
 
@@ -149,7 +149,7 @@ The Leaderboard tracks everyone's Telefrens referral points versus other claim p
 
 Referrers can claim referral rewards at the end of each claim period. Rewards are proportional to an individual's Leaderboard rank, i.e. higher rank == more rewards.
 
-Everyone can see their ranking on the Leaderboard using `/leaderboard` command with the Telefrens bot in Telegram.
+Everyone can see their ranking on the Leaderboard using `/leaderboard` command with the Telefrens bot in Telegram. -->
 
 ### Points Formula
 
@@ -162,18 +162,18 @@ The Points formula will be adjusted at the discretion of the Collab.Land team. T
 
 - explain telefrens.com/leaderboard (plus TWA) explains points + seasons/periods claim-->
 
-## What is Telefrens Pro?
+<!-- ## What is Telefrens Pro?
 
 Telefrens Pro is the premium offering for Telefrens. Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
 
-<!-- Telefrens Pro pricing will increase as more creators purchase Telefrens Pro, [get started now] ().-->
+Telefrens Pro pricing will increase as more creators purchase Telefrens Pro, [get started now] ().
 
 ### Telefrens Pro Features
 
 Creators get access to premium features such as:
 
 1. 1-click [Copy Trade links](./copy-trade) to earn affiliate rewards when your Passholders trade using their link.
-   - Passholders can trade crypto within their smart accounts following the intent specified by the Creator's Copy Trade link. ex. sell USD --> buy COLLAB.
+   - Passholders can trade crypto within their smart accounts following the intent specified by the Creator's Copy Trade link. ex. sell USD buy COLLAB.
    - Creators earn affiliate rewards from any trades made using the Copy Trade link.
 
 2. Protected allowlist waiting period.
@@ -191,6 +191,7 @@ Creators get access to premium features such as:
 Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button within DMs with the `@telefrensbot`.
 
 :::
+-->
 
 <!-- - Group promotion in global search -->
 
@@ -212,7 +213,9 @@ Creators can purchase Telefrens Pro by using the "Telefrens Pro" command button 
 
 :::info
 
-Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitter accounts for announcements and alpha leaks 💦💦
+1. Follow the [Telefrens](https://twitter.com/telefrens) and [Collab.Land](https://twitter.com/Collab_Land_) Twitter accounts for announcements and alpha leaks 💦💦
+
+2. Check out the [Telefrens YouTube channel](https://www.youtube.com/channel/UCfamuU907X7xSr5WV2cs5Ug) for tutorials.
 
 :::
 
@@ -234,7 +237,7 @@ Telefrens runs on Ethereum Layer 2 [Arbitrum One](https://chainlist.org/chain/42
 
 Find your deposit address by using the `Account` button with the Telefrens bot in DMs or by visiting your profile settings inside the Telefrens app.
 
-You can also follow the in-app guide to bridge ETH to Arbitrum One using the Arbitrum Bridge.
+Follow the in-app guide to bridge ETH to Arbitrum One, if needed.
 
   <div class="text--center">
     <img  src={gif4} alt="How to get your Arbitrum One deposit address" width="400" />

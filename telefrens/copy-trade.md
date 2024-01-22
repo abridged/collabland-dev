@@ -56,6 +56,12 @@ Here are the step-by-step directions for creating, sharing, and executing a copy
 
 ### 3. Pass Holder Executes the Copy Trade
 
+:::info
+
+Creators can share [this demo video](https://www.youtube.com/watch?v=UR8TTZM2u9I) with their followers or create their own.
+
+:::
+
 Start with the copy trade link received from a friend or a contact.
 
 1. Open the link to view the token available for copy trading (e.g., $USDC).
