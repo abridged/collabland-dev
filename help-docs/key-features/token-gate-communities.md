@@ -59,6 +59,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 |------------------|-------------------------------------------------------------------------------------|
 | **EVM chains**   |               ------------------                                                    |
 | Mainnet          | ERC20, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
+| Sepolia (testnet) | ERC20, ERC721, ERC1155                                |
 | Goerli (testnet) | ERC20, ERC721, ERC1155, Gnosis Safe, Otterspace Badge                               |
 | Gnosis           | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
 | Optimism         | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
@@ -68,6 +69,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)            | ERC20, ERC721, ERC1155          |
 | Arbitrum One     | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Arbitrum Nova    | ERC20, ERC721, ERC1155                                                              |
+| Linea            | ERC20, ERC721, ERC1155                                |
 | BSC              | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
 | Moonbeam         | ERC20, ERC721, ERC1155                                                              |
 | Avalanche        | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
