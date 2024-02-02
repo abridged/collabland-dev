@@ -70,6 +70,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Arbitrum One     | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Arbitrum Nova    | ERC20, ERC721, ERC1155                                                              |
 | Linea            | ERC20, ERC721, ERC1155                                |
+| Celo    | ERC20, ERC721, ERC1155                                                              |
 | BSC              | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
 | Moonbeam         | ERC20, ERC721, ERC1155                                                              |
 | Avalanche        | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
