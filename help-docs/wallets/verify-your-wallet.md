@@ -56,24 +56,24 @@ Admins should reference the [list of supported blockchains](/help-docs/key-featu
 | Wallet Connection Label | Collab.Land Supported Networks                     |
 |------------------------|-----------------------------------------------------|
 | **EVM wallets**        |     ------------------                              |
-| [MetaMask](./connecting-using-different-wallets/metamask)               | Mainnet, Goerli, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche | 
-| [WalletConnect](./connecting-using-different-wallets/wallet-connect)         | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche |
-| [CoinBase Wallet](https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support)        | Mainnet, Goerli, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche |
-| [Gnosis Safe](./connecting-using-different-wallets/gnosis-safe)            | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche                            |
-| [Delegate.Cash](https://github.com/delegatecash/delegate-registry#finalized-deployment)                      | Mainnet, Goerli, Optimism, Polygon, Mumbai, BSC, Arbitrum One, Arbitrum Nova, Gnosis, Avalanche |
-| [ZenGo](https://help.zengo.com/en/articles/2603677-which-assets-does-zengo-support)                  | Mainnet, Polygon, BSC |
+| [MetaMask](./connecting-using-different-wallets/metamask)               | Mainnet, Goerli, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [WalletConnect](./connecting-using-different-wallets/wallet-connect)         | Mainnet, Goerli, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [CoinBase Wallet](https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support)        | Mainnet, Goerli, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [Gnosis Safe](./connecting-using-different-wallets/gnosis-safe)            | Mainnet, Goerli, Sepolia, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Celo, BASE                            |
+| [Delegate.Cash](https://github.com/delegatecash/delegate-registry#finalized-deployment)                      | Mainnet, Goerli, Sepolia, Optimism, Polygon, Mumbai, BSC, Arbitrum One, Arbitrum Nova, Gnosis, Avalanche, Celo |
+| [ZenGo](https://help.zengo.com/en/articles/2603677-which-assets-does-zengo-support)                  | Mainnet, Polygon, BSC, Arbitrum, Optimism |
 | [Ronin](./connecting-using-different-wallets/ronin)                  | Ronin                                                                                                                        |
 | [Fortmatic(Magic.Link)](https://magic.link/docs/get-started#support-list)               | Mainnet, Optimism, Polygon                                                                                                                      |
 | [Opolis(Magic.Link)](https://magic.link/docs/get-started#support-list)     | Mainnet, Optimism, Polygon |
-| [Bitski](https://docs.bitski.com/wallet-as-a-service/web-3/web3-get-started)                 | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, Mumbai |
+| [Bitski](https://docs.bitski.com/wallet-as-a-service/web-3/web3-get-started)                 | Mainnet, Goerli, Sepolia, Optimism, Polygon, Arbitrum One, Mumbai |
 | [Loopring](./connecting-using-different-wallets/loopring)               | Loopring L2                                                                                                                  |
 | [OpenSea Auth](./connecting-using-different-wallets/opensea) | ------------------ |
 | **EVM + Beyond**           |    ------------------                                                                                                    |
-| [tokenproof](./connecting-using-different-wallets/tokenproof)             | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis,  Avalanche, Solana, "NIFTY", Flow |
-| [Ledger (MetaMask)](./connecting-using-different-wallets/ledger)       | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche |
-| [Trezor](https://trezor.io/support/a/is-my-coin-supported)                 | Mainnet, Goerli, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche |
-| [Venly](https://docs.venly.io/widget/environments#blockchain-networks)                  | Mainnet, Polygon, Arbitrum One, BSC, ImmutableX, Avalanche  |
-| [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support)             | Mainnet, Goerli, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
+| [tokenproof](./connecting-using-different-wallets/tokenproof)             | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis,  Avalanche, Solana, "NIFTY", Flow, Celo, BASE |
+| [Ledger (MetaMask)](./connecting-using-different-wallets/ledger)       | Mainnet, Goerli, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
+| [Trezor](https://trezor.io/support/a/is-my-coin-supported)                 | Mainnet, Goerli, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
+| [Venly](https://docs.venly.io/docs/environments#blockchain-networks)                  | Mainnet, Sepolia, Polygon, Mumbai, Arbitrum One, BSC, ImmutableX, Avalanche  |
+| [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support)             | Mainnet, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
 | **Non-EVM**                |         ------------------                                                                                               |
 | [Xverse](https://www.xverse.app/)                 | Bitcoin Ordinals                                                                                                                      |
 | [Leather wallet](https://leather.io/)                 | Bitcoin Ordinals, Bitcoin STAMPS                                                                                                                       |

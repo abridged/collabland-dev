@@ -46,7 +46,7 @@ If you want to confirm the verification process through a Ledger device that is 
 
 ### Phantom
 
-Solana community members can now utilize their Ledger hardware devices with Phantom wallet for verification on Collab.Land. 
+Solana community members can now utilize their Ledger hardware devices with Phantom wallet for verification on Collab.Land.
 
 :::tip
 
