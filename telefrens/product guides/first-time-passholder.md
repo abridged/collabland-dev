@@ -18,7 +18,7 @@ The [Telefrens bot](https://telegram.me/telefrensbot?start=paT3uVl53DglxLZGFQUV2
 3. [Fund your smart account](../intro#deposit-eth-to-your-smart-account-on-arbitrum-one) with **at least 0.02 ETH on Arbitrum One**. Use the `Account` button to get your deposit address.
      - Follow the in-app bridging directions if you do not yet have ETH on Arbritum.
 
-4. That's it! Now you can use the Telefrens bot to purchase Passes or start [creating copytrades](../copy-trade#how-to-earn-money-from-copy-trading) to earn today!
+4. That's it! Now you can use the Telefrens bot to purchase Passes or start [creating copytrades](../trade-links#how-to-earn-money-from-copy-trading) to earn today!
 
 <details> <summary> Is there a video guide for using Telefrens? </summary>
 
