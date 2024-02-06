@@ -1,7 +1,7 @@
 ---
-slug: /copy-trade
+slug: /trade-links
 sidebar_position: 3
-id: copy-trade
+id: trade-links
 title: Trade Links
 ---
 
