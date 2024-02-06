@@ -128,4 +128,4 @@ Collab.Land requires administrator permissions for Telegram groups.
 
 All configuration and management of Collab.Land Token Granted Access is done in the [Command Center](/help-docs/key-features/command-center).
 
-You can edit the Token Granted Access for your group by going directly to the Command Center or sending a direct message to `@thecollablandbot` with the `/start` command and following the "Group Admin (Command Center)" link.
+You can edit the Token Granted Access for your group by going directly to the Command Center or sending a direct message to `@collablandbot` with the `/start` command and following the "Group Admin (Command Center)" link.
