@@ -30,18 +30,18 @@ Change your username in Telegram and Telefrens will change your pfp within 24 ho
 
 </details>
 
-<!--<details> <summary> How long does it take to kick out someone who sold their Telefrens Pass? </summary>
+<details> <summary> How long does it take to kick out someone who sold their Telefrens Pass? </summary>
 
-???
+Members are removed from the group chat as soon as they hold 0 Passes for that Creator (sold all of that Creator's Passes).
 
-</details>-->
+</details>
 
 <details> <summary> How do I fix my username/pfp in Telefrens? </summary>
 
 Telefrens pulls names + pfps from Telegram so you may need to adjust your Telegram privacy settings.
 
-For pfps: Settings > Privacy and Security > Profile Photos set to `Everybody`
+For pfps: Settings > Privacy and Security > Profile Photos, set to `Everybody`
 
-For usernames: Settings > Privacy and Security > Bio set to `Everybody`
+For usernames: Settings > Privacy and Security > Bio, set to `Everybody`
 
 </details>
