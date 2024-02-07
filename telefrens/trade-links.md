@@ -46,7 +46,7 @@ Here are the step-by-step directions for creating, sharing, and executing a trad
 
 5. Submit your trade link.
 
-### 2. Creator Shares the Trade Link to Pass Holders
+### 2. Creator Shares the Trade Link to Others
 
 1. Copy the unique trade link.
 
@@ -56,7 +56,9 @@ Here are the step-by-step directions for creating, sharing, and executing a trad
 
 :::info
 
-Creators can share [this demo video](https://www.youtube.com/watch?v=UR8TTZM2u9I) with their followers or create their own.
+Watch [this demo video](https://www.youtube.com/watch?v=UR8TTZM2u9I) to see Trade Links in action.
+
+Creators can share the video with their followers or create their own tutorials.
 
 :::
 
