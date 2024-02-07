@@ -40,7 +40,7 @@ Telefrens is the first SocialFi bot in crypto, from the team that built Collab.L
 
 #### 2. _Actualize Your Alpha_ - Make money from your trading ideas
 
-- ⭐<!--**[Telefrens Pro](#what-is-telefrens-pro)**--> Monetize your trading ideas by sharing a 1-click [Trade Link](./trade-links) with your Telefrens in Telegram.
+- ⭐<!--**[Telefrens Pro](#what-is-telefrens-pro)**--> Monetize your trading ideas by sharing a 1-click [trade link](./copy-trade) with your Telefrens in Telegram.
 
 #### 3. _Renew Group Revenue_ - Add a subscription model to your group
 
