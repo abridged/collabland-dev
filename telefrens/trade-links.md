@@ -34,7 +34,7 @@ Here are the step-by-step directions for creating, sharing, and executing a trad
 
 ### 1. Creator Creates a Trade Link
 
-1. Type `/tradelinks` in DMs with the Telefrens bot or use the command from the Telefrens bot menu in Telegram DMs.
+1. Type `/tradelink` in DMs with the Telefrens bot or use the command from the Telefrens bot menu in Telegram DMs.
 
 2. Click on "create trade link".
 
