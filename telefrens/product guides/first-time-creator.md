@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: First-Time Creator
+title: Create a Trade Link
 ---
 
 Get started with Telefrens by following these quick steps!
