@@ -64,7 +64,7 @@ You can share the video with your followers or create your own tutorials.
 
 :::tip
 
-If you need to deposit funds, follow the [instructions provided](./intro#deposit-eth-to-your-smart-account-on-arbitrum-one) in the Telefrens interface.
+If you need to deposit funds, follow the [instructions provided](../intro#deposit-eth-to-your-smart-account-on-arbitrum-one) in the Telefrens interface.
 
 :::
 
@@ -78,4 +78,4 @@ If you need to deposit funds, follow the [instructions provided](./intro#deposit
 
 ---
 
-Remember, this process is specific to the [Telefrens bot](./intro) and involves transactions on the Arbitrum blockchain. Ensure you have a clear understanding of the trading fees, gas fees, and the functionality of the Telefrens bot before proceeding.
+Remember, this process is specific to the [Telefrens bot](../intro) and involves transactions on the Arbitrum blockchain. Ensure you have a clear understanding of the trading fees, gas fees, and the functionality of the Telefrens bot before proceeding.
