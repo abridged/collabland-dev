@@ -2,7 +2,7 @@
 slug: /copy-trade
 sidebar_position: 3
 id: copy-trade
-title: Trade Links
+title: Copy Trading
 ---
 
 import img1 from '@site/static/img/telefrens/tf-characters-logo-tg.png';
@@ -14,45 +14,47 @@ import gif3 from '@site/static/img/telefrens/setup-tf-group-protect.gif';
 
 import gif4 from '@site/static/img/telefrens/deposit-eth-tf.gif';
 
-Trade links are the premier feature of the Telefrens SocialFi bot by Collab.Land. Creators can create and share links and earn half of the trading fees when their Pass Holders use them to trade crypto tokens with only a single click. Actualize your alpha and monetize your following today with trade links!
+Copy trading is the premier feature of the Telefrens SocialFi bot by Collab.Land. Creators can create and share links and earn half of the trading fees when their Pass Holders use them to trade crypto tokens with only a single click. Actualize your alpha and monetize your following today with copy trading!
 
   <div class="text--center">
     <img  src={img1} alt="Telefrens logo with Telegram Bot label" width="500" />
   </div>
 
-## How to Earn Money from Trade Links
+<!-- ## Copy Trading-->
+
+## How to Earn Money from Copy Trading
 
 :::info
 
-The Telefrens YouTube channel has a full [trade links tutorial](https://youtu.be/ciReb5j8Go0).
+The Telefrens YouTube channel has a full [copy trading tutorial](https://youtu.be/ciReb5j8Go0).
 
 :::
 
-Creators earn an affiliate fee from every trade executed using their trade link, amounting to half of the trading fees.
+Creators earn an affiliate fee from every trade executed using their copy trading link, amounting to half of the trading fees.
 
-Here are the step-by-step directions for creating, sharing, and executing a trade link using the Telefrens bot on Telegram.
+Here are the step-by-step directions for creating, sharing, and executing a copy trade using the Telefrens bot on Telegram.
 
-### 1. Creator Creates a Trade Link
+### 1. Creator Creates a Copy Trade Link
 
-1. Type `/tradelinks` in DMs with the Telefrens bot or use the command from the Telefrens bot menu in Telegram DMs.
+1. Type `/copytrade` in DMs with the Telefrens bot or use the command from the Telefrens bot menu in Telegram DMs.
 
-2. Click on "create trade link".
+2. Click on "create copy trade link."
 
 3. Select a token for trading. Telefrens uses [OKX DEX](https://www.okx.com/web3/build/docs/build-dapp/api-asset-get-all-coins) on the Arbitrum blockchain and only supports those tokens currently.
 
-4. Decide whether to restrict the trade link to your Pass Holders only.
+4. Decide whether to restrict the copy trade link to your Pass Holders only.
   
     - Skip this restriction if you want the link to be open to everyone.
 
-5. Submit your trade link.
+5. Submit your copy trade.
 
-### 2. Creator Shares the Trade Link to Pass Holders
+### 2. Creator Shares the Copy Trade Link to Pass Holders
 
-1. Copy the unique trade link.
+1. Copy the copy trade unique link.
 
-2. Share this link with your contacts or in a group to enable others to trade the selected asset by opening the link.
+2. Share this link with your contacts or in a group to enable others to copy trade the selected asset by opening the link.
 
-### 3. Pass Holder Executes the Trade Link
+### 3. Pass Holder Executes the Copy Trade
 
 :::info
 
@@ -60,9 +62,9 @@ Creators can share [this demo video](https://www.youtube.com/watch?v=UR8TTZM2u9I
 
 :::
 
-Start with the trade link received from a friend or a contact.
+Start with the copy trade link received from a friend or a contact.
 
-1. Open the link to view the token available for trading (e.g., $USDC).
+1. Open the link to view the token available for copy trading (e.g., $USDC).
 
 2. Ensure you have sufficient funds in your Telefrens smart account. Telefrens trades ETH on Arbitrum.
 
