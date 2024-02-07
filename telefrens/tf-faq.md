@@ -40,8 +40,8 @@ Change your username in Telegram and Telefrens will change your pfp within 24 ho
 
 Telefrens pulls names + pfps from Telegram so you may need to adjust your Telegram privacy settings.
 
-For pfps: Settings > Privacy and Security > Profile Photos set to `Everybody`
+For pfps: Settings > Privacy and Security > Profile Photos, set to `Everybody`
 
-For usernames: Settings > Privacy and Security > Bio set to `Everybody`
+For usernames: Settings > Privacy and Security > Bio, set to `Everybody`
 
 </details>
