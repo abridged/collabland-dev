@@ -80,7 +80,7 @@ git commit -m "Add new feature: XYZ"
 
 - Open GitHub Desktop.
 - Describe your changes in the "Summary" field.
-- Click "Commit to <branch-name>".
+- Click "Commit to BRANCH_NAME".
 
 ### 7. Push Changes to Your Fork
 
