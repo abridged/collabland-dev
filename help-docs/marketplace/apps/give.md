@@ -2,7 +2,7 @@
 sidebar_position: 13
 title: Give by SKALE
 id: give
-sidebar_label: Give
+sidebar_label: Give by SKALE
 ---
 
 import img1 from '@site/static/img/tutorial/marketplace/poap.png';
@@ -11,17 +11,17 @@ import img1 from '@site/static/img/tutorial/marketplace/poap.png';
 
 Send and receive tokens on the [SKALE blockchain](https://skale.space/).
 
-### About this app
+### About this App
 
 Give allows community members to give and receive tokens onchain<!-- on the SKALE blockchain. Tokens are sent between members' [gmPASS-controlled smart accounts](/help-docs/key-features/gm-pass), creating a personal web of onchain connections between community members-->.
 
-Give is initially available for partner communities who had previously used Kchannel `/tip` commands.
+Give is initially available for [partner communities](#supported-communities-in-beta) who had previously used Kchannel `/tip` commands.
 
 Give replaces the sunset Kchannel `/tip` commands.
 
 :::note
 
-Deposit and withdraw commands for Give are not currently enabled.
+Deposit and withdraw commands for Give are not currently enabled during limited beta.
 
 :::
 
@@ -34,7 +34,7 @@ Deposit and withdraw commands for Give are not currently enabled.
    2. If you want to give your community's token, contact us by [creating a ticket](https://collabland.freshdesk.com/support/tickets/new).
 3. Start sending tokens on SKALE with the `/give to` command. Make sure to specify the member(s) you are sending to `[{@user1}, {@user2}, ...]`, which tokens you are sending `{tokenSymbol}`, and how many to each person `{amount}`.
 
-### Commands available:
+### Commands
 
 There is one command `/give` with four total subcommands.
 
@@ -76,3 +76,67 @@ There is one command `/give` with four total subcommands.
 | `VOLT`       | [`0xfFbF315f70E458e49229654DeA4cE192d26f9b25`](https://etherscan.io/token/0xfFbF315f70E458e49229654DeA4cE192d26f9b25) | [`0x581A3453BAfd3e860c489898084260c80603C4F1`](https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com/address/0x581A3453BAfd3e860c489898084260c80603C4F1) |
 | `DAI`        | [`0x6B175474E89094C44Da98b954EedeAC495271d0F`](https://etherscan.io/token/0x6B175474E89094C44Da98b954EedeAC495271d0F) | [`0x941C0Dd6055787aE9D417620E8F4F540d8B9D9E5`](https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com/address/0x941C0Dd6055787aE9D417620E8F4F540d8B9D9E5) |
 | `USDC`       | [`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`](https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) | [`0x7Cf76E740Cb23b99337b21F392F22c47Ad910c67`](https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com/address/0x7Cf76E740Cb23b99337b21F392F22c47Ad910c67) |
+
+## Supported Communities in Beta
+
+While Give is in limited beta, these communities are able to use the `/give` commands.
+
+| Discord Community                   |
+|---------------------------------------|
+| Friends With Benefits                 |
+| Gitcoin                               |
+| $LADZ                                 |
+| $TNK                                  |
+| STMX                                  |
+| FBR                                   |
+| Forefront                             |
+| PUP (Group)                           |
+| Apes Online $AOL                      |
+| Bankless DAO                          |
+| PoolTogether                          |
+| DAOhaus                               |
+| PoorBucks                             |
+| MATIC                                 |
+| Bankless Branch                       |
+| Black Party                           |
+| $GCR Discord                          |
+| PoorBucks 2                           |
+| 401 Recording Studios                 |
+| Future Modern                         |
+| Roxel DAO                             |
+| ApeSwapFinance                        |
+| Atlas                                 |
+| EyesApe Dungeon                       |
+| Blake Botz HotzBuckz                  |
+| Squiggle DAO                          |
+| ✧･ﾟ:･ﾟ:* FF Birthday Bash (Forefront) |
+| The Protein Community                 |
+| The Supply Community                  |
+| Metacartel                            |
+| Raid Guild                            |
+| SuperRare                             |
+| Jump                                  |
+| Kids on the blockchain                |
+| Crystal-Network                       |
+| Museum of Crypto Art                  |
+| Kids on the Blockchain                |
+| Odds City                             |
+| Zapper.fi                             |
+| SupDucks                              |
+| WIP Publishing                        |
+| Natural Warp                          |
+| Yape Swap                             |
+| BLOCKS                                |
+| Prime Style Limited                   |
+| Polygoonz                             |
+| NFThub                                |
+| $First Club                           |
+| Fraktal DAO                           |
+| DAOlloween Party Ε=(怒ﾟДﾟ)ﾉ            |
+| $CIV Fund                             |
+| Billionaire Zombies Club              |
+| Index Coop                            |
+| Good Morning News                     |
+| DAOpunks                              |
+| BillW's Server                        |
+| The Collab.Land Discord               |
