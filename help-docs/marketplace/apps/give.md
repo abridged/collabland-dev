@@ -11,11 +11,11 @@ import img1 from '@site/static/img/tutorial/marketplace/poap.png';
 
 Send and receive tokens on the [SKALE blockchain](https://skale.space/).
 
-### About this app
+### About this App
 
 Give allows community members to give and receive tokens onchain<!-- on the SKALE blockchain. Tokens are sent between members' [gmPASS-controlled smart accounts](/help-docs/key-features/gm-pass), creating a personal web of onchain connections between community members-->.
 
-Give is initially available for [partner communities](#communities) who had previously used Kchannel `/tip` commands.
+Give is initially available for [partner communities](#supported-communities-in-beta) who had previously used Kchannel `/tip` commands.
 
 Give replaces the sunset Kchannel `/tip` commands.
 
@@ -77,11 +77,11 @@ There is one command `/give` with four total subcommands.
 | `DAI`        | [`0x6B175474E89094C44Da98b954EedeAC495271d0F`](https://etherscan.io/token/0x6B175474E89094C44Da98b954EedeAC495271d0F) | [`0x941C0Dd6055787aE9D417620E8F4F540d8B9D9E5`](https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com/address/0x941C0Dd6055787aE9D417620E8F4F540d8B9D9E5) |
 | `USDC`       | [`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`](https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) | [`0x7Cf76E740Cb23b99337b21F392F22c47Ad910c67`](https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com/address/0x7Cf76E740Cb23b99337b21F392F22c47Ad910c67) |
 
-### Communities
+## Supported Communities in Beta
 
 While Give is in limited beta, these communities are able to use the `/give` commands.
 
-| Discord Server Name                   |
+| Discord Community                   |
 |---------------------------------------|
 | Friends With Benefits                 |
 | Gitcoin                               |
