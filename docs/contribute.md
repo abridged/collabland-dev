@@ -3,11 +3,11 @@ sidebar_position: 2
 title: Contribute
 ---
 
-## Contributor Guide to Collab.Land
+## Contributor Guide for Collab.Land
 
 ---
 
-Collab.Land is a project that welcomes contributions from the community. If you're interested in getting involved and making a positive impact, follow these steps to contribute to the Collab.Land Docs on GitHub.
+Collab.Land is a project that welcomes contributions from the community. If you're interested in getting involved and making a positive impact, follow these steps to contribute to the [Collab.Land Docs on GitHub](https://github.com/abridged/collabland-dev).
 
 :::tip
 Watch the [Getting Started with GitHub as a Non-Developer](https://youtube.com/watch?v=T3dS4LqnZlk) tutorial video on the Collab.Land YouTube.
