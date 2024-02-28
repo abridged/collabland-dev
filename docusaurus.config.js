@@ -204,7 +204,7 @@ const config = {
               },
               {
                 label: 'Contribute'
-                to: '/docs/contribute',
+                to: 'https://docs.collab.land/docs/contribute',
               }.
             ],
           },
