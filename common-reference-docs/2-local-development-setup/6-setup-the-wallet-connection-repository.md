@@ -48,11 +48,13 @@ git clone git@github.com:abridged/collabland-connect.git
    `1.22.17`).
 
 ## Apple M1 Dependency
+
 This repo has a hard dependency of node version 14. Due to certain dependencies it doesn't work on node version 16. And the native support for M1 apple silicon hardware came natively into node 16 only. So when we try do `yarn install` with node 16 the **wrtc** package fails to compile (an internal dependency). So we will need to install rosetta and do this install with that. Please follow this link [M1 issues with node version](https://dev.to/ibrarturi/how-to-fix-m1-mac-issue-with-installing-node-versions-30ah).
 
 Use Node version **`14.18.1`**
 
 ## Setting Up Environment Variables
+
 Set the api server url in the environment variable of wallet connect repo. Also one need to create account on [Infura](https://infura.io/) and get API key from there which needs to be setup as part of env variable on this repo.
 
 start-react.sh
@@ -67,21 +69,18 @@ export PORT=3001
 npm run start
 ```
 
-
 If all good then wallet connection UI will come up but with one error which is just on local and can be ignored.
 
 ![Wallet Error](imgs/wallet-error.png)
 
 Just cross this error and main UI will load.
 
-
-## Possible errors & solutions in building the project:
+## Possible errors & solutions in building the project
 
 - missing node-pre-gyp
 - Memory Limitations when building collab-connect
 - Arm vs Intel OS architecture (M1 specific issue)
 - AWS Amplify deployment issue
-
 
 ```bash
 git clone git@github.com:abridged/collabland-connect.git
@@ -178,7 +177,6 @@ Solution:
 
 Install dev dependency `yarn add terser -D`
 
-
 ## Install dependencies and bootstrap the project
 
 ```sh
@@ -205,4 +203,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
-
