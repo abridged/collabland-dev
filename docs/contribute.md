@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Contributing
+title: Contribute
 ---
 
 ## Contributor Guide to Collab.Land
