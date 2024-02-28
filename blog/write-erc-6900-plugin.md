@@ -2,13 +2,13 @@
 slug: how-to-write-an-erc-6900-plugin
 title: How to write an ERC-6900 Plugin
 # image: /static/img/tsf.png
-authors: fangting
+authors: [fangting, raymond]
 tags: [alchemy, collabland, developers, plugins]
 date: 2024-02-28
 ---
 ## Introduction
 
-We're excited to share Collab.Land is partnering with Alchemy to advance Account Abstraction(AA) and modular plugins(ERC-6900). Alchemy's in-depth guide explains how to create adaptable ERC-6900 plugins, a core component of AA. Stay tuned as we work together to bring these cutting-edge features to our products.
+We're excited to share Collab.Land is partnering with Alchemy to advance Account Abstraction(AA) and modular plugins(ERC-6900). This in-depth guide explains how to create adaptable ERC-6900 plugins, a core component of AA. Stay tuned as we work together to bring these cutting-edge features to our products.
 
 You have decided to write an [ERC-6900](https://eips.ethereum.org/EIPS/eip-6900) plugin that can be used by all ERC-6900 compliant accounts. That’s great!
 
