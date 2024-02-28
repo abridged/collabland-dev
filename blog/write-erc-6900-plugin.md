@@ -8,7 +8,7 @@ date: 2024-02-28
 ---
 ## Introduction
 
-We're excited to share our latest advancements through our partnership with Alchemy, focusing on leveraging Account Abstraction (AA) with modular plugins(ERC-6900) to enhance UX in Telefrens and Collab.Land. This collaboration has empowered us to explore innovative use cases, enriching our user experience and setting new benchmarks in blockchain utility.
+We're excited to share Collab.Land is partnering with Alchemy to advance Account Abstraction(AA) and modular plugins(ERC-6900). Alchemy's in-depth guide explains how to create adaptable ERC-6900 plugins, a core component of AA. Stay tuned as we work together to bring these cutting-edge features to our products.
 
 You have decided to write an [ERC-6900](https://eips.ethereum.org/EIPS/eip-6900) plugin that can be used by all ERC-6900 compliant accounts. That’s great!
 
