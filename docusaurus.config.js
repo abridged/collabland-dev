@@ -203,8 +203,8 @@ const config = {
                 to: '/docs/downstream-integrations',
               },
               {
-                label: 'Contribute'
-                to: 'https://docs.collab.land/docs/contribute',
+                label: 'Contribute',
+                to: '/docs/contribute',
               }.
             ],
           },
