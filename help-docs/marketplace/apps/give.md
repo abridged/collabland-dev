@@ -81,10 +81,9 @@ There is one command `/give` with four total subcommands.
 
 While Give is in limited beta, these communities are able to use the `/give` commands.
 
-| Discord Community                   |
+| Discord Community                     |
 |---------------------------------------|
 | Friends With Benefits                 |
-| Gitcoin                               |
 | $LADZ                                 |
 | $TNK                                  |
 | STMX                                  |
@@ -104,39 +103,42 @@ While Give is in limited beta, these communities are able to use the `/give` com
 | 401 Recording Studios                 |
 | Future Modern                         |
 | Roxel DAO                             |
-| ApeSwapFinance                        |
-| Atlas                                 |
-| EyesApe Dungeon                       |
 | Blake Botz HotzBuckz                  |
-| Squiggle DAO                          |
-| ✧･ﾟ:･ﾟ:* FF Birthday Bash (Forefront) |
-| The Protein Community                 |
 | The Supply Community                  |
 | Metacartel                            |
 | Raid Guild                            |
 | SuperRare                             |
 | Jump                                  |
-| Kids on the blockchain                |
 | Crystal-Network                       |
 | Museum of Crypto Art                  |
-| Kids on the Blockchain                |
 | Odds City                             |
 | Zapper.fi                             |
-| SupDucks                              |
 | WIP Publishing                        |
 | Natural Warp                          |
-| Yape Swap                             |
 | BLOCKS                                |
 | Prime Style Limited                   |
 | Polygoonz                             |
 | NFThub                                |
 | $First Club                           |
-| Fraktal DAO                           |
-| DAOlloween Party Ε=(怒ﾟДﾟ)ﾉ            |
 | $CIV Fund                             |
 | Billionaire Zombies Club              |
 | Index Coop                            |
-| Good Morning News                     |
 | DAOpunks                              |
 | BillW's Server                        |
 | The Collab.Land Discord               |
+
+<!-- communities who blocked Collabland from adding slash commands
+| SupDucks                              |
+| Yape Swap                             |
+| Gitcoin                               |
+| Good Morning News                     |
+| Fraktal DAO                           |
+| DAOlloween Party Ε=(怒ﾟДﾟ)ﾉ            |
+| Squiggle DAO                          |
+| ✧･ﾟ:･ﾟ:* FF Birthday Bash (Forefront)  |
+| The Protein Community                 |
+| ApeSwapFinance                        |
+| Atlas                                 |
+| EyesApe Dungeon                       |
+| Kids on the Blockchain                |
+-->
