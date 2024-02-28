@@ -205,7 +205,7 @@ const config = {
               {
                 label: 'Contribute',
                 to: '/docs/contribute',
-              }.
+              },
             ],
           },
           {
