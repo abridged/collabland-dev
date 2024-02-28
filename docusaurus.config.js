@@ -202,6 +202,10 @@ const config = {
                 label: 'API docs',
                 to: '/docs/downstream-integrations',
               },
+              {
+                label: 'Contribute'
+                to: '/docs/contribute',
+              }.
             ],
           },
           {
