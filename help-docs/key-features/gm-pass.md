@@ -10,6 +10,8 @@ title: gmPASS
 
 The gmPASS is a [public (1)](#public), [non-custodial (2)](#non-custodial) [web3 identity (3)](#web3-identity) for [blockchain execution (4)](#blockchain-execution) from [social platforms (5)](#social-platforms). Let's break down what that means.
 
+This is a change!
+
 ### Public
 
 A member's gmPASS is the canonical public identity for that member within the Collab.Land ecosystem of products. It controls a member's blockchain smart accounts.
