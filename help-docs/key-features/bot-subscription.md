@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: Collab.Land Premium
+title: Collab.Land Subscription
 ---
 
 import img1 from '@site/static/img/tutorial/command-center/command-center-from-discord.png';
@@ -34,7 +34,7 @@ Legacy communities should reduce TGRs to match current tier or upgrade to a high
 
 :::
 
-### Collab.Land Bot Tiers
+### Collab.Land Subscription Plans
 
 | **Features**                                                                                              |  **Starter** | **Premium** | **Exclusive** | **Enterprise** |
 |-----------------------------------------------------------------------------------------------------------|:------------:|:-----------:|:-------------:|:--------------:|
