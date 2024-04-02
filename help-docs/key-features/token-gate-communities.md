@@ -5,11 +5,11 @@ id: token-gate-communities
 
 # Token-Gated Communities
 
-## What is Token-Gating?
-
 Collab.Land's bot functionality is built around the concept of Token-Gating. This refers to the ability to create roles on social platforms such as Discord and Telegram, that are only accessible to users who meet certain token-related criteria.
 
-At the heart of this concept are **Token Gating Rules (TGRs)**. These are the rules that determine which roles a member will be assigned based on the token-related criteria defined by the community admin. For example, a TGR may grant access to a "VIP" role for members who hold a certain number of tokens.
+## What is Token-Gating?
+
+At the heart of Token Gating are **Token Gating Rules (TGRs)**. These are the rules that determine which roles a member will be assigned based on the token-related criteria defined by the community admin. For example, a TGR may grant access to a "VIP" role for members who hold a certain number of tokens.
 
 :::info
 
