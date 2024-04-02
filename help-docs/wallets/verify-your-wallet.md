@@ -51,7 +51,11 @@ Verifying with a new different wallet is an option for members who hold their to
 
 This wallet list is intended for community members. It shows which wallets can be used with which blockchains.
 
+:::info
+
 Admins should reference the [list of supported blockchains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding Token Types while [creating TGRs](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr) for their community.
+
+:::
 
 | Wallet Connection Label | Collab.Land Supported Networks                     |
 |------------------------|-----------------------------------------------------|

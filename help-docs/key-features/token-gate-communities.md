@@ -45,9 +45,9 @@ Attributes-based TGRs are only used for tokens that contain metadata -- NFTs suc
 
 ## Supported Blockchains & Tokens
 
-:::note
-
 This blockchain list is intended for community admins. It shows which Token Types can be used with which blockchains.
+
+:::info
 
 Community members should reference the [list of supported wallets](/help-docs/wallets/verify-your-wallet#supported-wallets) to know which wallets can be used with which blockchain.
 
