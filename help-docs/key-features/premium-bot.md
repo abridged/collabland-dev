@@ -34,7 +34,7 @@ Legacy communities should reduce TGRs to match current tier or upgrade to a high
 
 :::
 
-### Premium Tiers
+### Collab.Land Bot Tiers
 
 | **Features**                                                                                                          |  **Starter** | **Premium** | **Exclusive** | **Enterprise** |
 |-----------------------------------------------------------------------------------------------------------------------|:------------:|:-----------:|:-------------:|:--------------:|
@@ -51,4 +51,4 @@ Legacy communities should reduce TGRs to match current tier or upgrade to a high
 | [CollabCare Premium Support](/help-docs/FAQ/contact-team/#collabcare)                                                 |       ✖      |      ✖      |       ✖       |       ✓        |
 | Your Own Custom Bot                                                                                                   |       ✖      |      ✖      |       ✖       |       ✓        |
 | Personalized Features upon Request                                                                                    |       ✖      |      ✖      |       ✖       |       ✓        |
-| **Monthly Price**                                                                                                     |    **$0**    |   **$35**    |    **$149**   |   **$1,000**    |
+| **Monthly Price (USD)**                                                                                               |    **$0**    |   **$35**    |    **$149**   |   **$1,000**    |
