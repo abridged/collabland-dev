@@ -3,7 +3,7 @@ sidebar_position: 6
 title: Collab.Land Subscription
 ---
 
-import img1 from '@site/static/img/tutorial/command-center/command-center-from-discord.png';
+import img1 from '@site/static/img/tutorial/subscription_tiers.png';
 
 Premium bot offerings and feature comparisons for Collab.Land communities.
 
@@ -11,14 +11,8 @@ Premium bot offerings and feature comparisons for Collab.Land communities.
 
 Check your community's current Collab.Land bot tier in the [Command Center](https://cc.collab.land).
 
-:::tip
-
-REPLACE IMAGE OR COMMENT OUT
-
-:::
-
 <div class="text--center">
-  <img src={img1} alt="filler text here" />
+  <img src={img1} alt="Command Center subscription page" />
 </div>
 
 All existing/legacy communities will be placed on the Starter tier for the Collab.Land bot on **{DATE}** until upgraded to a higher tier.
