@@ -18,13 +18,13 @@ Check your community's current Collab.Land bot tier in the [Command Center](http
 All existing/legacy communities will be placed on the Starter tier for the Collab.Land bot on **April 15, 2024** until upgraded to a higher tier.
 
 - Premium tiers go into effect on **April 15, 2024**
-- Choose the tier that matches your TGR needs before **April 29, 2024**
+- Choose the tier that matches your TGR needs before **May 1, 2024**
 - Upgrade to a higher premium plan or [reduce the number of TGRs using the Command Center](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr#how-to-create-a-tgr) to match your community's current tier to maintain uninterrupted service
-- [Balance check](/help-docs/command-center/bot-config/balance-check) will be suspended after **April 29, 2024** for communities with too many TGRs set for their Collab.Land bot tier
+- [Balance check](/help-docs/command-center/bot-config/balance-check) will be suspended after **May 1, 2024** for communities with too many TGRs set for their Collab.Land bot tier
 
 :::caution
 
-Legacy communities should reduce TGRs to match current tier or upgrade to a higher plan to maintain uninterrupted services. [Balance check](/help-docs/command-center/bot-config/balance-check) will be suspended after **April 29, 2024** for communities who exceed their Collab.Land bot tier's number of TGRs.
+Legacy communities should reduce TGRs to match current tier or upgrade to a higher plan to maintain uninterrupted services. [Balance check](/help-docs/command-center/bot-config/balance-check) will be suspended after **May 1, 2024** for communities who exceed their Collab.Land bot tier's number of TGRs.
 
 :::
 
