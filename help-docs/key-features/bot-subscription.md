@@ -37,12 +37,12 @@ Legacy communities should reduce TGRs to match current tier or upgrade to a high
 | Event Listener for EVM chains                                                                             |      ✓       |      ✓      |       ✓       |       ✓        |
 | Access to [31 blockchains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens)  |      ✓       |      ✓      |       ✓       |       ✓        |
 | Access to [28 wallets + WalletConnect](/help-docs/wallets/verify-your-wallet#supported-wallets)           |      ✓       |      ✓      |       ✓       |       ✓        |
-| [Balance Check](/help-docs/command-center/bot-config/balance-check) Frequency                             | Every 7 days  |  Every 24h  |   Every 24h   |    Every 24h   |
 | Community Messaging Opt-out                                                                               |       ✖      |      ✓      |       ✓       |       ✓        |
 | PRO [Miniapp Bundle](/help-docs/marketplace/getting-started)                                              |       ✖      |      ✓      |       ✓       |       ✓        |
+| [Balance Check](/help-docs/command-center/bot-config/balance-check) Frequency                             | Every 7 days  |  Every 24h  |   Every 24h   |    Every 24h   |
 | Bonus Balance Checks on Demand                                                                            |       ✖      |      ✖      |   Up to 5/mo  |  Upon Request   |
 | Customize the Verification "Let’s Go!" Message                                                            |       ✖      |      ✖      |       ✓       |       ✓        |
 | [CollabCare Premium Support](/help-docs/FAQ/contact-team/#collabcare)                                     |       ✖      |      ✖      |       ✖       |       ✓        |
 | Your Own Custom Bot                                                                                       |       ✖      |      ✖      |       ✖       |       ✓        |
 | Personalized Features upon Request                                                                        |       ✖      |      ✖      |       ✖       |       ✓        |
-| **Monthly Price (USD)**                                                                                   |    **$0**    |   **$35**    |    **$149**   |   **Contact us**    |
+| **Monthly Price (USD)**                                                                                   |    **Free**   |   **$35**    |    **$149**   |   **Contact us**    |
