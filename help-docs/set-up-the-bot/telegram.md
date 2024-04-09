@@ -129,3 +129,19 @@ Collab.Land requires administrator permissions for Telegram groups.
 All configuration and management of Collab.Land Token Granted Access is done in the [Command Center](/help-docs/key-features/command-center).
 
 You can edit the Token Granted Access for your group by going directly to the Command Center or sending a direct message to `@collablandbot` with the `/start` command and following the "Group Admin (Command Center)" link.
+
+## Topics on Telegram
+
+Telegram allows admins to break their groups apart into [separate topics](https://telegram.org/blog/topics-in-groups-collectible-usernames#topics-in-groups). Telegram is limited to all-in or all-out access to Groups, it does not allow access to _some_ topics within a group. Telegram members can either access everything or nothing.
+
+:::caution
+
+Telegram does not allow access to _some_ topics within a group. **Members can either access the whole group or nothing.**
+
+:::
+
+<details> <summary> Can I use Collab.Land to gate only a topic chat in Telegram? </summary>
+
+No. Token gating in Telegram only works for whole groups, it does not allow token gating [topics](https://telegram.org/blog/topics-in-groups-collectible-usernames#topics-in-groups), [channels](https://telegram.org/tour/channels), or bots.
+
+</details>
