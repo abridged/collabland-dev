@@ -136,12 +136,12 @@ Telegram allows admins to break their groups apart into [separate topics](https:
 
 :::caution
 
-Telegram does not allow access to _some_ topics within a group. Members can either access everything or nothing.
+Telegram does not allow access to _some_ topics within a group. Members can either access the whole group or nothing.
 
 :::
 
-<details> <summary> Can I use Collab.Land to gate a topic chat in Telegram and not the entire group? </summary>
+<details> <summary> Can I use Collab.Land to gate _only_ a topic chat in Telegram? </summary>
 
-No. Telegram does not allow access to _some_ topics within a group. Members can either access everything or nothing.
+No. Token gating in Telegram only works for whole groups, it does not allow token gating [topics](https://telegram.org/blog/topics-in-groups-collectible-usernames#topics-in-groups), [channels](https://telegram.org/tour/channels), or bots.
 
 </details>
