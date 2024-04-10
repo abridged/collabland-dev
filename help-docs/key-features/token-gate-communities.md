@@ -75,6 +75,8 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Avalanche                                                                 | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Palm                                                                      | ERC20, ERC721, ERC1155                                                              |
 | Q Chain                                                                   | ERC20, ERC721, ERC1155                                                              |
+| Shibarium (sponsor: PixelPalz)                                            | ERC20, ERC721, ERC1155                                                              |
+| Astar                                                                     | ERC20, ERC721, ERC1155                                                              |
 | **Non-EVM Chains**                                                        |               ------------------                                                    |
 | [Solana](/help-docs/command-center/create-a-tgr/solana)                   | Solana FT, Solana NFT                                                               |
 | NEAR                                                                      | NEAR FT, NEAR NFT                                                                   |
