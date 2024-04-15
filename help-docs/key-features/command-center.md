@@ -18,7 +18,7 @@ You can also access the Command Center from your Discord server's #collabland-co
 
 :::danger
 
-Server members who can view #collabland-config can access the Command Center for your server and change your TGRs. #collabland-config should be a private channel for your Admins only to ensure security.
+Server members who can view `#collabland-config` can access the Command Center for your server and change your TGRs. `#collabland-config` should be a private channel for your Admins only to ensure security.
 
 :::
 
