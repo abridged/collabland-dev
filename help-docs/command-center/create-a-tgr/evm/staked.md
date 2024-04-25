@@ -9,19 +9,19 @@ import img3 from '@site/static/img/tutorial/command-center/staking-tgr3.png';
 
 :::info
 
-NFT staking contracts are now supported on both Ethereum Mainnet [and Polygon sidechain](https://twitter.com/Collab_Land_/status/1643629399541968903?s=20) as of April 5, 2023.
+NFT staking contracts are now supported on Ethereum Mainnet, Polygon sidechain and Blast L2 as of April 25, 2024.
 
 :::
 
 ## How to create a staking contract TGR
 
-To set up a TGR for a staking contract on Ethereum Mainnet or Polygon, follow these steps:
+To set up a TGR for a staking contract on Ethereum Mainnet, Polygon or Blast L2, follow these steps:
 
 1. Press the + Select Role button, and choose the desired Discord role from the drop-down menu.
 
 2. In the description field (optional), enter a brief description to easily identify the TGR.
 
-3. For the Chain Type, select Ethereum Mainnet or Polygon.
+3. For the Chain Type, select Ethereum Mainnet, Polygon or Blast L2.
 
    <div class="text--center">
      <img  src={img3} alt="Staking Contracts TGR" />

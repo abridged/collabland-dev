@@ -63,12 +63,12 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Gnosis                                                                    | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
 | Optimism                                                                  | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
 | BASE                                                                      | ERC20, ERC721, ERC1155                                                              |
-| Polygon                                                                   | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
+| Polygon                                                                   | ERC20, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe            |
 | [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC721, ERC1155                                                              |
 | Arbitrum One                                                              | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Arbitrum Nova                                                             | ERC20, ERC721, ERC1155                                                              |
 | Linea                                                                     | ERC20, ERC721, ERC1155                                                              |
-| Blast                                                                     | ERC20, ERC721, ERC1155                                                              |
+| Blast                                                                     | ERC20, ERC721, ERC1155, Staking Contracts                                          |
 | Celo                                                                      | ERC20, ERC721, ERC1155                                                              |
 | BSC                                                                       | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
 | Moonbeam                                                                  | ERC20, ERC721, ERC1155                                                              |
