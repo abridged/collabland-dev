@@ -59,17 +59,9 @@ Holders can purchase Passes that unlock access to a Creator's exclusive group ch
 
 Telefrens enables p2p communication and community formation within Telegram and groups benefit from Telegram's robust and feature-rich chat platform.
 
-Telefrens leverages Collab.Land's `ERC4337` smart account implementation, the gmPASS.
-
-:::tip
-
-The [gmPASS](/help-docs/key-features/gm-pass) enables non-custodial, user-controlled, and secure blockchain interactions through a smart account wallet.
-
-:::
+Telefrens leverages Collab.Land's `ERC4337` smart account implementation.
 
 ### The Vision
-
-The gmPASS will be tied into more and more functionality for Collab.Land as time goes on.
 
 Open the Product Map below to view a high-level overview of the product vision.
 

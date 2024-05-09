@@ -6,9 +6,7 @@ sidebar_label: Roadmap
 sidebar_position: 11
 ---
 
-Collab.Land is building towards a vision of interconnected pro-social tools for digital communities of people. Collab.Land has been read-only, but is now working on read+write crypto using the gmPASS.
-
-Collab.Land's suite of products will all leverage the [gmPASS](/help-docs/key-features/gm-pass), Collab.Land's implementation of `ERC4337` smart accounts. Each member's gmPASS serves as their public, non-custodial web3 identity.
+Collab.Land is building towards a vision of interconnected pro-social tools for digital communities of people.
 
 ## Product Map
 
