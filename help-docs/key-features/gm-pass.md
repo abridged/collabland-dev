@@ -2,6 +2,7 @@
 sidebar_position: 5
 id: gm-pass
 title: gmPASS
+draft: true
 ---
 
 **tl;dr** gmPASS is a smart account for members to use and interact with Collab.Land-supported blockchains and dapps using their social accounts on Discord and Telegram.
