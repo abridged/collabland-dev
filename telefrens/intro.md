@@ -265,6 +265,17 @@ The in-app walkthrough will guide you to activate your Passes. This Pass Activat
 
 You need your own Telegram group to sell Passes for. Refer to the guides on [How to Setup a Telefrens Group](/telefrens/create-a-tf-group).
 
+## Telefrens bot Commands
+
+| Command               | Description                                                                                                                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/help`               | Display a list of bot commands.                                                                                                                                                               |
+| `/about`              | Display information about Telefrens and what we offer and a link to the [Telefrens docs](https://docs.collab.land/telefrens/intro/).                                                          |
+| `/ai`                 |                                                                                                                                                                                               |
+| `/docs`               | Display a link to the [Telefrens docs](https://docs.collab.land/telefrens/intro/).                                                                                                            |
+| `/leaderboard`        | Display the referral leaderboard and how you rank for referral rewards.                                                                                                                       |
+| `/tutorial`           | Show a demo of how to use the Telefrens bot.                                                                                                                                                  |
+
 <!-- ---
 
 ## FAQ
