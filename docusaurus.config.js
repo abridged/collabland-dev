@@ -115,16 +115,6 @@ const config = {
         // ... other options
       },
     ],
-    [
-      'content-docs',
-      {
-        id: 'telefrens',
-        path: 'telefrens',
-        routeBasePath: 'telefrens',
-        sidebarPath: require.resolve('./sidebars-telefrens.js'),
-        // ... other options
-      },
-    ],
     // [
     //   'content-docs',
     //   {
@@ -171,12 +161,6 @@ const config = {
             label: 'Blog',
             activeBaseRegex: `/blog/`,
             position: 'left',
-          },
-          {
-            to: '/telefrens/intro',
-            label: 'Telefrens',
-            position: 'left',
-            activeBaseRegex: '/telefrens/',
           },
         ],
       },
