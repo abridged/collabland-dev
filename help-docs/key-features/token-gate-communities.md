@@ -59,7 +59,6 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | **EVM chains**                                                            |               ------------------                                                    |
 | Ethereum Mainnet                                                                   | ERC20, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
-| Sepolia (testnet)                                                         | ERC20, ERC721, ERC1155                                                              |
 | Gnosis                                                                    | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
 | Optimism                                                                  | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
 | BASE                                                                      | ERC20, ERC721, ERC1155                                                              |
@@ -79,6 +78,8 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Astar                                                                     | ERC20, ERC721, ERC1155                                                              |
 | Shibarium                                                                 | ERC20, ERC721, ERC1155                                                              |
 | SEI                                                                       | ERC20, ERC721, ERC1155                                                              |
+| Sepolia (Ethereum testnet)                                                         | ERC20, ERC721, ERC1155                                                              |
+| Amoy (Polygon testnet)                                                         | ERC20, ERC721, ERC1155                                                              |
 | **Non-EVM Chains**                                                        |               ------------------                                                    |
 | [Solana](/help-docs/command-center/create-a-tgr/solana)                   | Solana FT, Solana NFT                                                               |
 | NEAR                                                                      | NEAR FT, NEAR NFT                                                                   |
