@@ -8,8 +8,9 @@ Collab.Land's background balance check, enabled by default, ensures users holdin
 
 Balance check frequency varies by plan:
 
-Starter: every 7 days
-Premium, Exclusive, Enterprise: every 24 hours, plus real-time checks for top EVM chains (ETH, Polygon, Arbitrum, Optimism).
+- Starter: every 7 days
+- Premium, Exclusive, Enterprise: every 24 hours, plus real-time checks for top EVM chains (ETH, Polygon, Arbitrum, Optimism).
+
 For more details, visit: [https://pricing.collab.land](https://pricing.collab.land/)
 
 :::caution
