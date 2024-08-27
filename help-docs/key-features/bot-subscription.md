@@ -5,8 +5,10 @@ title: Collab.Land Subscriptions
 
 import img1 from '@site/static/img/subscription_tiers.png';
 import img2 from '@site/static/img/tg_sub_tiers.png';
+import img3 from '@site/static/img/subscription_tiers2.png';
+import img4 from '@site/static/img/tg_sub_tiers2.png';
 
-Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent and real-time balance checks, AND/OR conditions, customization, and more. Plus, we're excited to announce that community tipping is now available, offering a new way to reward and engage your members!
+Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent and real-time balance checks, AND/OR conditions, customization, and more.
 
 All tiers include our robust network of blockchains (35+ L1s + L2s and counting!), 28 wallets, Delegate and OpenSea verification, and the most token types of any community-building tool.
 
@@ -15,7 +17,7 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
 ### Discord
 
 <div class="text--center">
-  <img src={img1} alt="Command Center subscription page" />
+  <img src={img3} alt="Command Center subscription page" />
 </div>
 
 | **TIER COMPARISON**                                                                                         | **STARTER** | **PREMIUM** | **EXCLUSIVE** | **ENTERPRISE** |
@@ -27,7 +29,6 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
 | Community Messaging Opt-out                                                                             |      ✗      |      ✓      |       ✓       |       ✓        |
 | Real-time balance checks for EVM chains                                                                 |      ✗      |      ✓      |       ✓       |       ✓        |
 | Donate toggle                                                                                           |      ✗      |      ✓      |       ✓       |       ✓        |
-| Community Tipping                                                                                       |      ✗      |      ✓      |       ✓       |       ✓        |
 | PRO Miniapp Bundle                                                                                      |      ✗      |      ✓      |       ✓       |       ✓        |
 | Balance Check Frequency                                                                                 | Every 7 days|  Every 24h  |   Every 24h   |    Every 24h   |
 | Bonus Admin-Initiated Balance Checks                                                                       |      ✗      |      ✗      |   Up to 5/mo  |  Upon Request  |
@@ -35,12 +36,13 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
 | CollabCare Premium Support                                                                              |      ✗      |      ✗      |       ✗       |       ✓        |
 | Your Own Custom Bot                                                                                     |      ✗      |      ✗      |       ✗       |       ✓        |
 | Personalized Features Upon Request                                                                      |      ✗      |      ✗      |       ✗       |       ✓        |
+|                                                                                                         |             |             |           |      |
 | Monthly Price                                                                                           |    Free     |    $35      |     $149      |   Contact us   |
 
 ### Telegram
 
 <div class="text--center">
-  <img src={img2} alt="Command Center subscription page" />
+  <img src={img4} alt="Command Center subscription page" />
 </div>
 
 ### Supported Chains and Networks
