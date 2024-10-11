@@ -8,7 +8,7 @@ import img2 from '@site/static/img/tg_sub_tiers.png';
 import img3 from '@site/static/img/subscription_tiers2.png';
 import img4 from '@site/static/img/tg_sub_tiers2.png';
 
-Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent and real-time balance checks, AND/OR conditions, customization, and more.
+Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent balance checks, AND/OR conditions, customization, and more.
 
 All tiers include our robust network of blockchains (35+ L1s + L2s and counting!), 28 wallets, Delegate and OpenSea verification, and the most token types of any community-building tool.
 
@@ -27,7 +27,6 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
 | Access to 31 blockchains                                                                                |      ✓      |      ✓      |       ✓       |       ✓        |
 | Access to 28 wallets, Delegate, OpenSea + WalletConnect                                                 |      ✓      |      ✓      |       ✓       |       ✓        |
 | Community Messaging Opt-out                                                                             |      ✗      |      ✓      |       ✓       |       ✓        |
-| Real-time balance checks for EVM chains                                                                 |      ✗      |      ✓      |       ✓       |       ✓        |
 | Donate toggle                                                                                           |      ✗      |      ✓      |       ✓       |       ✓        |
 | PRO Miniapp Bundle                                                                                      |      ✗      |      ✓      |       ✓       |       ✓        |
 | Balance Check Frequency                                                                                 | Every 7 days|  Every 24h  |   Every 24h   |    Every 24h   |
