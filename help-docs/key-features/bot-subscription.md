@@ -5,8 +5,8 @@ title: Collab.Land Subscriptions
 
 import img1 from '@site/static/img/subscription_tiers.png';
 import img2 from '@site/static/img/tg_sub_tiers.png';
-import img3 from '@site/static/img/subscription_tiers2.png';
-import img4 from '@site/static/img/tg_sub_tiers2.png';
+import img3 from '@site/static/img/Discord.png';
+import img4 from '@site/static/img/Tg.png';
 
 Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent balance checks, AND/OR conditions, customization, and more.
 
@@ -20,23 +20,25 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
   <img src={img3} alt="Command Center subscription page" />
 </div>
 
-| **TIER COMPARISON**                                                                                         | **STARTER** | **PREMIUM** | **EXCLUSIVE** | **ENTERPRISE** |
-|-------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|:-------------:|:--------------:|
-| TGRs (Token Gating Rules)                                                                               |  Up to 4    |  Up to 50   |   Up to 150   |   Unlimited    |
-| Multi-wallet support                                                                                    |      ✓      |      ✓      |       ✓       |       ✓        |
-| Access to 31 blockchains                                                                                |      ✓      |      ✓      |       ✓       |       ✓        |
-| Access to 28 wallets, Delegate, OpenSea + WalletConnect                                                 |      ✓      |      ✓      |       ✓       |       ✓        |
-| Community Messaging Opt-out                                                                             |      ✗      |      ✓      |       ✓       |       ✓        |
-| Donate toggle                                                                                           |      ✗      |      ✓      |       ✓       |       ✓        |
-| PRO Miniapp Bundle                                                                                      |      ✗      |      ✓      |       ✓       |       ✓        |
-| Balance Check Frequency                                                                                 | Every 7 days|  Every 24h  |   Every 24h   |    Every 24h   |
-| Bonus Admin-Initiated Balance Checks                                                                       |      ✗      |      ✗      |   Up to 5/mo  |  Upon Request  |
-| Customize the Verification "Let's Go!" Message                                                                 |      ✗      |      ✗      |       ✓       |       ✓        |
-| CollabCare Premium Support                                                                              |      ✗      |      ✗      |       ✗       |       ✓        |
-| Your Own Custom Bot                                                                                     |      ✗      |      ✗      |       ✗       |       ✓        |
-| Personalized Features Upon Request                                                                      |      ✗      |      ✗      |       ✗       |       ✓        |
-|                                                                                                         |             |             |           |      |
-| Monthly Price                                                                                           |    Free     |    $35      |     $149      |   Contact us   |
+| **TIER COMPARISON**                                                                                         | **STARTER** | **BASIC**  | **PREMIUM** | **EXCLUSIVE** | **ENTERPRISE** |
+|-------------------------------------------------------------------------------------------------------------|:-----------:|:----------:|:-----------:|:-------------:|:--------------:|
+| TGRs (Token Gating Rules)                                                                                   |  Up to 4    |  Up to 10  |  Up to 50   |   Up to 150   |   Unlimited    |
+| Multi-wallet verification                                                                                    |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
+| Access to 35+ blockchains                                                                                    |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
+| Access to 25+ wallets, Delegate, OpenSea + WalletConnect                                                     |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
+| Priority support                                                                                             |      ✗      |      ✓     |      ✓      |       ✓       |       ✓        |
+| Opt-out feature for donate                                                                                    |      ✗      |      ✓     |      ✓      |       ✓       |       ✓        |
+| Opt-out feature for community messages                                                                        |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
+| PRO miniapp bundle                                                                                           |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
+| Balance checks frequency                                                                                     | Every 7 days| Every 24h  | Every 24h   |    Every 24h  |    Every 24h   |
+| Bonus “admin-initiated” balance checks                                                                       |      ✗      |      ✗     |     ✗       |   Up to 5/mo  |  Upon Request  |
+| Customize your Discord verification channel’s “Let’s Go!” message                                            |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
+| Dedicated support human                                                                                      |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
+| CollabCare premium support                                                                                   |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
+| White label (your own custom bot)                                                                            |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
+| Personalized features on demand                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
+|                                                                                                              |             |            |             |               |                |
+| Monthly Price                                                                                               |   Free      |   $17.99      |     $35     |     $149      |   Contact us   |
 
 ### Telegram
 
@@ -44,60 +46,67 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
   <img src={img4} alt="Command Center subscription page" />
 </div>
 
+:::note
+Your Telegram subscription covers one group at a time!
+:::
+
 ### Supported Chains and Networks
 
 <table>
 <tr>
 <td>
 
-- Ethereum Mainnet
-- Bitcoin
-- Solana
-- Ronin
-- Polygon
-- Tezos
-- Optimism
-- BASE
-- Flow
-- Avalanche
-
-</td>
-<td>
-
-- Blast
-- Linea
-- Nifty
-- Polkadot
-- Arbitrum One
+- Amoy (Polygon testnet)
 - Arbitrum Nova
-- Celo
-- Immutable X
-- Loopring
-- XRPL
+- Arbitrum One
+- Astar zkEVM  
+- Avalanche
+- BASE
+- Bitlayer
+- Blast
+- Bitcoin
+- BSC
 
 </td>
 <td>
 
-- BSC
 - Celo
-- Moonbeam
-- Palm
-- Q Chain
-- Gnosis
-- Kusama
+- DOS Chain
 - Eluvio
+- Ethereum Mainnet
+- Flow
 - Friend.Tech
 - Gitcoin Passport
+- Gnosis
+- Immutable X
+- Kusama
 
 </td>
 <td>
 
+- Linea
+- Loopring
+- Moonbeam
 - NEAR
-- Sepolia (testnet)
-- DOS Chain
-- Astar
-- Shibarium
+- Nifty
+- Optimism
+- Palm
+- Polkadot
+- Polygon
+- Q Chain
+
+
+</td>
+<td>
+
+- Ronin
 - SEI
+- Sepolia (Ethereum testnet)
+- Shibarium
+- Solana
+- Tezos
+- Vitruveo
+- XRPL
 - and more coming soon!
 
 </td>
@@ -110,49 +119,49 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
 <tr>
 <td>
 
-- MetaMask
-- WalletConnect(V2)
-- Ronin
-- Safe
-- Trezor
-- Phantom
-- OpenSea
+- Bitski
+- Blocto
+- Coinbase Wallet
 - Dapper
+- Delegate
+- Eluvio
+- Fortmatic
+- Friend.Tech
 
 </td>
 <td>
 
-- Coinbase Wallet
 - ImmutableX
-- TokenProof
-- Eluvio
-- Xumm
-- Blocto
+- Leather
+- Ledger
 - Loopring
+- MEWconnect
+- MetaMask
+- Near
+- Nifty Gateway
+
+</td>
+<td>
+
+- OpenSea
+- Opolis
+- Phantom
+- Phantom EVM
+- Ronin
+- Roll
+- Safe
 - Talisman
 
 </td>
 <td>
 
-- Delegate
-- Venly
-- Nifty Gateway
 - Temple (Tezos)
-- Fortmatic
-- Opolis
-- Bitski
-- MEWconnect
-
-</td>
-<td>
-
-- Ledger
-- Roll
-- Near
-- Leather
+- TokenProof
+- Trezor
+- Venly
+- WalletConnect(V2)
+- Xumm
 - Xverse
-- Friend.Tech
-- Phantom EVM
 
 </td>
 </tr>
