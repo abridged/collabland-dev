@@ -5,12 +5,12 @@ title: Collab.Land Subscriptions
 
 import img1 from '@site/static/img/subscription_tiers.png';
 import img2 from '@site/static/img/tg_sub_tiers.png';
-import img3 from '@site/static/img/Discord.png';
-import img4 from '@site/static/img/Tg.png';
+import img3 from '@site/static/img/discord-subscription.png';
+import img4 from '@site/static/img/tg-subscription.png';
 
 Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent balance checks, AND/OR conditions, customization, and more.
 
-All tiers include our robust network of blockchains (35+ L1s + L2s and counting!), 28 wallets, Delegate and OpenSea verification, and the most token types of any community-building tool.
+All tiers include our robust network of blockchains (35+ L1s + L2s and counting!), 25+ wallets, Delegate and OpenSea verification, and the most token types of any community-building tool.
 
 ## Subscription Plans
 
@@ -19,6 +19,7 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
 <div class="text--center">
   <img src={img3} alt="Command Center subscription page" />
 </div>
+
 
 | **TIER COMPARISON**                                                                                         | **STARTER** | **BASIC**  | **PREMIUM** | **EXCLUSIVE** | **ENTERPRISE** |
 |-------------------------------------------------------------------------------------------------------------|:-----------:|:----------:|:-----------:|:-------------:|:--------------:|
