@@ -4,7 +4,6 @@ title: Solana
 ---
 
 import img1 from '@site/static/img/tutorial/command-center/solana-nft1.png';
-import img2 from '@site/static/img/tutorial/command-center/solana-nft2.png';
 import img3 from '@site/static/img/tutorial/command-center/solana-nft3.png';
 import img4 from '@site/static/img/tutorial/command-center/solana-nft4.png';
 
@@ -43,19 +42,13 @@ When creating a TGR for a Solana NFT follow the same process as before, but you 
 
 The three filters available in Collab.Land are:
 
-1. Mints - Use this filter when you want to specify individual tokens.
-
-   <div class="text--center">
-     <img  src={img2} alt="Solana mints section" />
-   </div>
-
-2. Creators - This filter is the most commonly used when working with a collection of NFTs. You can find the verified creators filter address by viewing any token from your collection on Solscan. Look for the "creators" section under the metadata tab, and the verified creators address will be the one that says "verified" : int 1 beneath the address.
+1. Creators - This filter is the most commonly used when working with a collection of NFTs. You can find the verified creators filter address by viewing any token from your collection on Solscan. Look for the "creators" section under the metadata tab, and the verified creators address will be the one that says "verified" : int 1 beneath the address.
 
    <div class="text--center">
      <img  src={img3} alt="Solana creators section " />
    </div>
 
-3. Master Editions - Use this filter when specifying a group of limited editions. The mint address is used in the same way as the mints filter.
+2. Master Editions - Use this filter when specifying a group of limited editions. The mint address is used in this case. If it doesn’t work as expected, please try using the collection key address.
 
    <div class="text--center">
      <img  src={img4} alt="Solana Master Editions section" />
