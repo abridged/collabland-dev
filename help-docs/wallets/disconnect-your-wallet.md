@@ -5,9 +5,7 @@ title: Disconnect your wallet
 import styles from '../../src/css/custom.css'
 import img1 from '@site/static/img/tutorial/wallets/disconnect-wallet.gif';
 
-You can now quickly disconnect your wallet from all Collab.Land-managed communities; follow the directions in the tutorial.
-
-#### Tutorial
+Easily disconnect your wallet from all Collab.Land-managed communities by following the steps below.
 
 :::info
 
@@ -15,22 +13,28 @@ View the [wallet disconnection tutorial](https://www.youtube.com/watch?v=nPZ0X2S
 
 :::
 
-If you wish to disconnect your wallet from all current communities, you can do so by following a few simple steps:
-
 <div class="text--center">
   <img  src={img1} alt="Wallet Disconnect" />
 </div>
 
-1. Log into a Discord server where you would like to disconnect your wallet from.
-2. Click the “Let’s Go!” button in your server's `#collabland-join` channel.
-3. Click through the bot prompts to the connect.collab.land website.
-4. Select a wallet to disconnect.
-5. Click the "Disconnect" button that is now available.
-6. Confirm that you want to disconnect your wallet.
-7. Your wallet is now disconnected from _all_ communities. You will lose all roles and access associated with that wallet.
+## Disconnecting on Discord
+1. Log into a Discord server where you want to disconnect your wallet from.
+2. In the server's `#collabland-join` channel, click the "Let's Go!" button. 
+3. Follow the prompts to the connect.collab.land website. If you already have a connected wallet, click "Add a New Wallet."
+4. Select "My Connected Wallets" at the top right and choose the wallet to disconnect.
+5. Click "Disconnect" and confirm.
+6. Your wallet is now disconnected from _all_ communities.
 
 :::caution
 
-**_Disconnecting your wallet will result in the loss of all roles associated with that wallet for all communities_** because it disconnects from _all_ communities. The wallet will disconnect from _every_ community you used it in and you will lose _all_ roles and access associated with that wallet.
+**_Disconnecting your wallet will result in the loss of all roles associated with that wallet across all communities_** 
 
 :::
+
+## Disconnecting on Telegram
+1. Use a token-gated Telegram group link to open a DM with the @collablandbot. [Example link to a test group.](https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxOTA1Mzk1NDA4)
+2. Click “Add a New Wallet” and select “Connect Wallet.”
+3. Click "My Connected Wallets" (top right) and choose the wallet to disconnect.
+4. Click "Disconnect" and confirm.
+5. Your wallet is now disconnected from _all_ communities. You will lose access to all groups associated with that wallet.
+
