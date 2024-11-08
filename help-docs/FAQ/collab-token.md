@@ -1,3 +1,7 @@
+---
+title: Collab.Land Token
+sidebar_position: 2
+---
 
 # How to Acquire $COLLAB tokens
 

@@ -1,3 +1,8 @@
+---
+title: Security & Privacy
+sidebar_position: 6
+---
+
 # Security & Privacy
 
 As you explore the world of crypto, it is a good general practice to exercise caution. A member of Collab.Land support will never contact you first nor will they ask for your private key or seed phrase.

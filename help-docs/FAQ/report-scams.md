@@ -1,3 +1,8 @@
+---
+title: Report Scams
+sidebar_position: 5
+---
+
 # Report Scams
 
 import img1 from '@site/static/img/tutorial/faq/collab-bot.jpg';

@@ -2,7 +2,7 @@
 title: Glossary of Telegram Bot Commands
 id: tg-commands
 sidebar_label: Telegram Bot Commands
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 import img1 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png';

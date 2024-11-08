@@ -2,7 +2,7 @@
 title: How to Contact the Collab.Land Team
 id: contact-team
 sidebar_label: Contact Collab.Land Team
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 import img1 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png';
