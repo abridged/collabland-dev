@@ -11,7 +11,7 @@ The Collab.Land bot only supports connecting one Discord username to a wallet ad
   <img  src={img1} alt="Duplicate Wallet" />
 </div>
 
-To quickly resolve the issue of a Duplicate Wallet, the most effective approach is to [disconnect the wallet](./disconnect-your-wallet) from all verified communities. By doing so, you can avoid the 24-hour waiting period and start using the wallet with your other Discord account without delay.
+To quickly resolve the issue of a Duplicate Wallet, the most effective approach is to [disconnect the wallet](./disconnect-your-wallet) from all verified communities. 
 
 Otherwise, if you want to reset the public wallet address to be associated with your username, follow these steps:
 
@@ -21,6 +21,6 @@ Otherwise, if you want to reset the public wallet address to be associated with 
 
 3. Click "Yes" to reset the association.
 
-You'll receive a "Scheduled time for reset" notification, indicating that the process will take 24 hours to complete.
+You'll receive a "Scheduled time for reset" notification, indicating that the process will take ~5 minutes to complete.
 
-Please be patient while the process is underway. If you have any questions or concerns, don't hesitate to reach out to our support team for assistance.
+If you have any questions or concerns, don't hesitate to reach out to our support team for assistance.
