@@ -6,8 +6,8 @@ title: Solana
 import img1 from '@site/static/img/tutorial/command-center/solana-nft1.png';
 import img3 from '@site/static/img/tutorial/command-center/solana-nft3.png';
 import img4 from '@site/static/img/tutorial/command-center/solana-nft4.png';
-
 import img5 from '@site/static/img/tutorial/command-center/solana-ft.png';
+import img6 from '@site/static/img/tutorial/command-center/solana-flow.png';
 
 ## Solana FT
 
@@ -52,4 +52,10 @@ The two filters available in Collab.Land are:
 
    <div class="text--center">
      <img  src={img4} alt="Solana Master Editions section" />
+   </div>
+
+If you don't know which filter to use, follow the flowchart below:
+
+   <div class="text--center">
+     <img  src={img6} alt="Solana Flowchart" />
    </div>
