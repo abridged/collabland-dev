@@ -96,6 +96,12 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)   | ------------------                                                                  |
 | [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------                                                                  |
 
+:::caution
+
+Please note that blockchain testnets are for testing purposes only. Collab.Land reserves the right to suspend support for testnests at any time.
+
+:::
+
 :::tip
 
 If your blockchain or wallet project is not supported, you may [request an integration](https://bit.ly/3HzRmnA), or contact us directly by email at [integrations@collab.land](mailto:integrations@collab.land).
