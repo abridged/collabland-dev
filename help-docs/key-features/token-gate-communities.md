@@ -98,12 +98,12 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 
 :::caution
 
-Please note that blockchain testnets are for testing purposes only. Collab.Land reserves the right to suspend support for testnests at any time.
+Please note that blockchain testnets are for testing purposes only. Collab.Land reserves the right to suspend support for testnets at any time.
 
 :::
 
 :::tip
 
-If your blockchain or wallet project is not supported, you may [request an integration](https://bit.ly/3HzRmnA), or contact us directly by email at [integrations@collab.land](mailto:integrations@collab.land).
+If you are interested in a new Blockchain or Wallet Integration, please let us know by filling out [this form](https://bit.ly/3HzRmnA).
 
 :::

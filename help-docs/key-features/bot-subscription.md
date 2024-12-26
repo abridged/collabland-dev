@@ -114,6 +114,18 @@ Your Telegram subscription covers one group at a time!
 </tr>
 </table>
 
+:::caution
+
+Please note that blockchain testnets are for testing purposes only. Collab.Land reserves the right to suspend support for testnets at any time.
+
+:::
+
+:::tip
+
+If you are interested in a new Blockchain or Wallet Integration, please let us know by filling out [this form](https://bit.ly/3HzRmnA).
+
+:::
+
 ### Supported Wallets and Verifications
 
 <table>
