@@ -40,6 +40,12 @@ When creating a TGR for a Solana NFT follow the same process as before, but you 
      <img  src={img1} alt="Solana NFT TGR" />
    </div>
 
+:::note
+
+Collab.Land currently does not support Solana cNFTs or Metaplex Core NFTs.
+
+:::
+
 The two filters available in Collab.Land are:
 
 1. Creators - This filter is the most commonly used when working with a collection of NFTs. You can find the verified creators filter address by viewing any token from your collection on Solscan. Look for the "creators" section under the metadata tab, and the verified creators address will be the one that says "verified" : int 1 beneath the address.
