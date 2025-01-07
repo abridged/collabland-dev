@@ -53,25 +53,6 @@ const FeatureList: FeatureItem[] = [
   },
 
   {
-    title: 'Build a decentralized platform',
-    ImageURL:
-      'https://res.cloudinary.com/collabland/image/upload/f_auto,q_auto/v1673350407/lego.webp',
-    description: (
-      <>
-        By promoting progressive decentralization, Collab.Land allows
-        communities and members to decide what data they own and what they
-        share.
-      </>
-    ),
-    button: (
-      <div className={styles.button}>
-        <Link className={styles.buttonContent} to="/dao/intro">
-          DAOs
-        </Link>
-      </div>
-    ),
-  },
-  {
     title: 'Create a community of communities',
     ImageURL:
       'https://res.cloudinary.com/collabland/image/upload/f_auto,q_auto/v1673350407/rocket.webp',
