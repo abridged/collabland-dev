@@ -42,29 +42,9 @@ For support questions, please [check the help docs](../intro), [submit a support
 
 The Collab.Land bot is an automated community management tool that curates membership based on token ownership. We begin with initial verification, confirming that each prospective member possesses the required token(s) to join and participate in your community, and follow up with routine checks to confirm members continuously satisfy your requirements.
 
-### How do I find information on the Collab.Land DAO?
-
-#### Governance
-
-Check out the [DAO section](../../dao/intro) of the documentation.
-
 #### $COLLAB token
 
-Check out the [token section](../../dao/token/token_overview) of the documentation.
-
----
-
----
-
-### What events are happening in the Collab.Land?
-
-There are always events upcoming in Collab.Land!
-
-Visit the [Collab.Land Co-op Calendar](https://app.charmverse.io/collabland/page-263710674448123) to view the DAO calendar or add it to your own google calendar.
-
-Directions for setting up a personal sesh calendar are posted [in the Discord](https://discord.com/channels/904119310702772254/904246998847352842/1087506910812581918).
-
----
+Check out the [token section](../../help-docs/key-features/token) of the documentation.
 
 ---
 

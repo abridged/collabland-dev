@@ -11,29 +11,6 @@ Holders of the $COLLAB token are part of the Collab.Land DAO and play a critical
 
 $COLLAB is a coordination tool to align interests around the Collab.Land Marketplace and allow for distributed voting on how to change it via the Collab.Land DAO. The value it holds reflects the value of the [Collab.Land Miniapp Marketplace](../marketplace/).
 
-The token claim began on February 23, 2023 on [wagmi.collab.land](https://wagmi.collab.land) and will end May 23, 2023 at 6pm MST.
+## Token Details
 
-## Who is eligible?
-
-The following four groups are eligible for a sponsored claim. A sponsored claim means that Collab.Land is not requiring claimants to pay gas. This also means that no wallet connection is required.
-
-:::caution
-
-If a site that _appears_ to be Collab.Land asks you to connect your wallet to claim $COLLAB, it is a **SCAM**. The $COLLAB token claim does not require a wallet connection.
-
-:::
-
-1. Verified Community Members in Discord or Telegram
-2. Collab.Land’s Top 100 Discord communities based on membership, longevity, and activity. [Top 100 communities list](https://collabland.mirror.xyz/Rkg2VBIq1cmt87-hqW5cOqdXMZTuLTXwGE9D2-fDI5Q)
-3. Collab.Land Patron NFT holders (token numbers 0-141)
-4. Collab.Land Membership NFT holders (token numbers 0-28313)
-
-Note:
-- For groups #1 and #2, the snapshot was taken on 02/14/23.
-- For groups #3 and #4, NFTs can each claim $COLLAB _once_. Holders of the tokens at claim time can claim, there is no snapshot for the Collab.Land NFTs.
-
-:::tip
-
-If you don't know how to claim the $COLLAB token, click [here](../../dao/token/claim).
-
-:::
+COLLAB is an `ERC20` token minted on Ethereum and bridged to both Optimism Ethereum and Arbitrum. The token contract address on Optimism is [`0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A`](https://optimistic.etherscan.io/address/0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a), and on Arbitrum, it is [`0xf18C263EC50CC211EF3F172228549B6618F10613`](https://arbiscan.io/address/0xf18C263EC50CC211EF3F172228549B6618F10613).

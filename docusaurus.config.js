@@ -105,16 +105,6 @@ const config = {
         // ... other options
       },
     ],
-    [
-      'content-docs',
-      {
-        id: 'dao',
-        path: 'dao',
-        routeBasePath: 'dao',
-        sidebarPath: require.resolve('./sidebars-dao.js'),
-        // ... other options
-      },
-    ],
     // [
     //   'content-docs',
     //   {
@@ -148,12 +138,6 @@ const config = {
             to: '/help-docs/intro',
             label: 'Members & Admins',
             activeBaseRegex: `/help-docs/`,
-            position: 'left',
-          },
-          {
-            to: '/dao/governance/gov-overview',
-            label: 'DAO',
-            activeBaseRegex: `/dao/`,
             position: 'left',
           },
           {
