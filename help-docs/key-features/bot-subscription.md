@@ -58,6 +58,8 @@ Your Telegram subscription covers one group at a time!
 <td>
 
 - Amoy (Polygon testnet)
+- ApeChain
+- ApeChain Curtis (Testnet)
 - Arbitrum Nova
 - Arbitrum One
 - Astar zkEVM  
@@ -65,26 +67,25 @@ Your Telegram subscription covers one group at a time!
 - BASE
 - Bitlayer
 - Blast
-- Bitcoin
-- BSC
 
 </td>
 <td>
 
+- Bitcoin
+- BSC
 - Celo
 - DOS Chain
 - Eluvio
 - Ethereum Mainnet
 - Flow
-- Friend.Tech
 - Gitcoin Passport
 - Gnosis
 - Immutable X
-- Kusama
 
 </td>
 <td>
 
+- Kusama
 - Linea
 - Loopring
 - Moonbeam
@@ -94,12 +95,11 @@ Your Telegram subscription covers one group at a time!
 - Palm
 - Polkadot
 - Polygon
-- Q Chain
-
 
 </td>
 <td>
 
+- Q Chain
 - Ronin
 - SEI
 - Sepolia (Ethereum testnet)
@@ -132,7 +132,6 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 <tr>
 <td>
 
-- ApeChain
 - Bitski
 - Blocto
 - Coinbase Wallet
@@ -140,6 +139,7 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 - Delegate
 - Eluvio
 - Fortmatic
+- Friend.Tech
 
 </td>
 <td>
