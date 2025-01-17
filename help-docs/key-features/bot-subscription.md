@@ -132,6 +132,7 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 <tr>
 <td>
 
+- ApeChain
 - Bitski
 - Blocto
 - Coinbase Wallet
@@ -139,7 +140,6 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 - Delegate
 - Eluvio
 - Fortmatic
-- Friend.Tech
 
 </td>
 <td>

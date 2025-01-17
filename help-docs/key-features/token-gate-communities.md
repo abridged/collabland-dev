@@ -58,43 +58,45 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Chain Type                                                                | Token Type                                                                          |
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | **EVM chains**                                                            |               ------------------                                                    |
-| Ethereum Mainnet                                                                   | ERC20, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
-| Gnosis                                                                    | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
-| Optimism                                                                  | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
-| BASE                                                                      | ERC20, ERC721, ERC1155                                                              |
-| Polygon                                                                   | ERC20, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe            |
-| [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC721, ERC1155                                                              |
-| Arbitrum One                                                              | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
+| ApeChain                                                                  | ERC20, ERC721, ERC1155                                                              |
 | Arbitrum Nova                                                             | ERC20, ERC721, ERC1155                                                              |
-| Linea                                                                     | ERC20, ERC721, ERC1155                                                              |
-| Blast                                                                     | ERC20, ERC721, ERC1155, Staking Contracts                                          |
-| Celo                                                                      | ERC20, ERC721, ERC1155                                                              |
-| BSC                                                                       | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
-| Moonbeam                                                                  | ERC20, ERC721, ERC1155                                                              |
-| Avalanche                                                                 | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
-| Palm                                                                      | ERC20, ERC721, ERC1155                                                              |
-| Q Chain                                                                   | ERC20, ERC721, ERC1155                                                              |
-| DOS Chain                                                                 | ERC20, ERC721, ERC1155                                                              |
+| Arbitrum One                                                              | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | Astar                                                                     | ERC20, ERC721, ERC1155                                                              |
-| Shibarium                                                                 | ERC20, ERC721, ERC1155                                                              |
+| Avalanche                                                                 | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
+| BASE                                                                      | ERC20, ERC721, ERC1155                                                              |
+| Blast                                                                     | ERC20, ERC721, ERC1155, Staking Contracts                                          |
+| BSC                                                                       | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
+| Celo                                                                      | ERC20, ERC721, ERC1155                                                              |
+| DOS Chain                                                                 | ERC20, ERC721, ERC1155                                                              |
+| Ethereum Mainnet                                                          | ERC20, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
+| Gnosis                                                                    | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
+| Linea                                                                     | ERC20, ERC721, ERC1155                                                              |
+| Moonbeam                                                                  | ERC20, ERC721, ERC1155                                                              |
+| Optimism                                                                  | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
+| Palm                                                                      | ERC20, ERC721, ERC1155                                                              |
+| Polygon                                                                   | ERC20, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe            |
+| Q Chain                                                                   | ERC20, ERC721, ERC1155                                                              |
+| [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC721, ERC1155                                                              |
 | SEI                                                                       | ERC20, ERC721, ERC1155                                                              |
-| Sepolia (Ethereum testnet)                                                         | ERC20, ERC721, ERC1155                                                              |
-| Amoy (Polygon testnet)                                                         | ERC20, ERC721, ERC1155                                                              |
+| Shibarium                                                                 | ERC20, ERC721, ERC1155                                                              |
+| Amoy (Polygon testnet)                                                    | ERC20, ERC721, ERC1155                                                              |
+| ApeChain Curtis (Testnet)                                                 | ERC20, ERC721, ERC1155                                                              |
+| Sepolia (Ethereum testnet)                                                | ERC20, ERC721, ERC1155                                                              |
 | **Non-EVM Chains**                                                        |               ------------------                                                    |
-| [Solana](/help-docs/command-center/create-a-tgr/solana)                   | Solana FT, Solana NFT                                                               |
-| NEAR                                                                      | NEAR FT, NEAR NFT                                                                   |
+| [Bitcoin NFTs](/help-docs/command-center/create-a-tgr/bitcoin-tgr)        | Bitcoin Stamps, Bitcoin Ordinals                                                    |
 | Eluvio                                                                    | ERC721                                                                              |
 | Flow                                                                      | FLOW FT, FLOW NFT                                                                   |
+| [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------                                                                  |
+| [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)   | ------------------                                                                  |
+| Immutable X                                                               | Immutable X                                                                         |
 | Kusama                                                                    | RMRK                                                                                |
+| [Loopring](/help-docs/command-center/create-a-tgr/loopring)               | Loopring FT, Loopring NFT                                                           |
+| NEAR                                                                      | NEAR FT, NEAR NFT                                                                   |
 | Nifty                                                                     | NIFTY                                                                               |
 | Polkadot                                                                  | ERC20                                                                               |
+| [Solana](/help-docs/command-center/create-a-tgr/solana)                   | Solana FT, Solana NFT                                                               |
 | Tezos                                                                     | Tezos FA1.2, Tezos FA2                                                              |
-| Immutable X                                                               | Immutable X                                                                         |
-| [Loopring](/help-docs/command-center/create-a-tgr/loopring)               | Loopring FT, Loopring NFT                                                           |
 | [XRPL](/help-docs/command-center/create-a-tgr/xrpl)                       | XRPL FT, XRPL NFT                                                                   |
-| [Bitcoin NFTs](/help-docs/command-center/create-a-tgr/bitcoin-tgr)        | Bitcoin Stamps, Bitcoin Ordinals                                                    |
-| [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)   | ------------------                                                                  |
-| [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------                                                                  |
 
 :::caution
 
