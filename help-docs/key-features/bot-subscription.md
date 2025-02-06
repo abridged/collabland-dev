@@ -12,6 +12,9 @@ Check out our Premium bot offerings and review the feature comparisons for Colla
 
 All tiers include our robust network of blockchains (35+ L1s + L2s and counting!), 25+ wallets, Delegate and OpenSea verification, and the most token types of any community-building tool.
 
+Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land).
+
+
 ## Subscription Plans
 
 ### Discord
@@ -32,8 +35,8 @@ All tiers include our robust network of blockchains (35+ L1s + L2s and counting!
 | Opt-out feature for community messages                                                                        |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
 | PRO miniapp bundle                                                                                           |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
 | Balance checks frequency                                                                                     | Every 7 days| Every 24h  | Every 24h   |    Every 24h  |    Every 24h   |
-| Bonus “admin-initiated” balance checks                                                                       |      ✗      |      ✗     |     ✗       |   Up to 5/mo  |  Upon Request  |
-| Customize your Discord verification channel’s “Let’s Go!” message                                            |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
+| Bonus "admin-initiated" balance checks                                                                       |      ✗      |      ✗     |     ✗       |   Up to 5/mo  |  Upon Request  |
+| Customize your Discord verification channel's "Let's Go!" message                                            |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Dedicated support human                                                                                      |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | CollabCare premium support                                                                                   |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 | White label (your own custom bot)                                                                            |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
@@ -57,6 +60,7 @@ Your Telegram subscription covers one group at a time!
 <tr>
 <td>
 
+- Abstract
 - Amoy (Polygon testnet)
 - ApeChain
 - ApeChain Curtis (Testnet)
@@ -66,11 +70,11 @@ Your Telegram subscription covers one group at a time!
 - Avalanche
 - BASE
 - Bitlayer
-- Blast
 
 </td>
 <td>
 
+- Blast
 - Bitcoin
 - BSC
 - Celo
@@ -80,11 +84,11 @@ Your Telegram subscription covers one group at a time!
 - Flow
 - Gitcoin Passport
 - Gnosis
-- Immutable X
 
 </td>
 <td>
 
+- Immutable X
 - Kusama
 - Linea
 - Loopring
@@ -94,11 +98,11 @@ Your Telegram subscription covers one group at a time!
 - Optimism
 - Palm
 - Polkadot
-- Polygon
 
 </td>
 <td>
 
+- Polygon
 - Q Chain
 - Ronin
 - SEI
@@ -108,7 +112,6 @@ Your Telegram subscription covers one group at a time!
 - Tezos
 - Vitruveo
 - XRPL
-- and more coming soon!
 
 </td>
 </tr>
@@ -132,6 +135,7 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 <tr>
 <td>
 
+- Abstract Global Wallet
 - Bitski
 - Blocto
 - Coinbase Wallet
@@ -140,11 +144,11 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 - Eluvio
 - Fortmatic
 - Friend.Tech
+- ImmutableX
 
 </td>
 <td>
 
-- ImmutableX
 - Leather
 - Ledger
 - Loopring
@@ -152,29 +156,30 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 - MetaMask
 - Near
 - Nifty Gateway
+- OpenSea
+- Opolis
+- Phantom
 
 </td>
 <td>
 
-- OpenSea
-- Opolis
-- Phantom
 - Phantom EVM
 - Ronin
 - Roll
 - Safe
 - Talisman
-
-</td>
-<td>
-
 - Temple (Tezos)
 - TokenProof
 - Trezor
 - Venly
 - WalletConnect(V2)
+
+</td>
+<td>
+
 - Xumm
 - Xverse
+- and more coming soon!
 
 </td>
 </tr>
