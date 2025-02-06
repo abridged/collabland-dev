@@ -21,15 +21,8 @@ View the [Role Composition tutorial video](https://www.youtube.com/watch?v=r8qP-
 To use the Role Composition feature, follow these steps:
 
 - Login to the [Command Center](../getting-started/#browse--install-apps) at https://cc.collab.land
-
-- Click Marketplace
-
-- Install the Role Composition app 
-  
-  <div class="text--center">
-    <img  src={img1} alt="Install Role Composition" />
-  </div>
-
+- Click Miniapps
+- Install the Role Composition app (only available for Premium plan subscribers and higher)
 - Click on Role Composition on the left side of the screen
 - Create a new Composable Role by selecting the role you want to assign
 - Enter a role description
@@ -45,3 +38,10 @@ To use the Role Composition feature, follow these steps:
 </div>
 
 You have now concluded the process of setting up your first Composable Role. Get started now and see how you can leverage this powerful feature to manage your Discord community with ease!
+
+:::info
+
+The Role Composition miniapp is available exclusively as a **Pro miniapp** for our **Premium plan**.  
+To access this feature, **subscribe via the Collab.Land Command Center**: [https://cc.collab.land](https://cc.collab.land).
+
+:::
