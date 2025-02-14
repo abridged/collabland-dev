@@ -58,6 +58,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Chain Type                                                                | Token Type                                                                          |
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | **EVM chains**                                                            |               ------------------                                                    |
+| Abstract                                                                  | ERC20, ERC721, ERC1155                                                              |
 | ApeChain                                                                  | ERC20, ERC721, ERC1155                                                              |
 | Arbitrum Nova                                                             | ERC20, ERC721, ERC1155                                                              |
 | Arbitrum One                                                              | ERC20, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
