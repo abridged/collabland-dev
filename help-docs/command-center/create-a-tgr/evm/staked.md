@@ -73,4 +73,4 @@ Adding a new contract to the public github repository requires technical skills.
 
 :::
 
-Follow the directions in the public [Collab.Land staking contracts](https://github.com/abridged/collabland-staking-contracts/blob/master/README.md#add-a-new-staking-contract) github repository.
+Follow the directions in the public [Collab.Land staking contracts](https://github.com/abridged/collabland-staking-contracts/blob/master/README.md) github repository.
