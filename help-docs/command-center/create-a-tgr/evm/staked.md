@@ -9,19 +9,19 @@ import img3 from '@site/static/img/tutorial/command-center/staking-tgr3.png';
 
 :::info
 
-NFT staking contracts are only supported on Ethereum Mainnet, Polygon sidechain, Blast L2 and Base.
+NFT staking contracts are supported on all EVM chains within our community of communities. See the [full list here](https://docs.collab.land/help-docs/key-features/token-gate-communities/#supported-blockchains--tokens).
 
 :::
 
 ## How to create a staking contract TGR
 
-To set up a TGR for a staking contract on Ethereum Mainnet, Polygon, Blast L2 or Base, follow these steps:
+To set up a TGR for a staking contract on any Collab.Land supported EVM chain, follow these steps:
 
 1. Press the + Select Role button, and choose the desired Discord role from the drop-down menu.
 
 2. In the description field (optional), enter a brief description to easily identify the TGR.
 
-3. For the Chain Type, select Ethereum Mainnet, Polygon, Blast L2 or Base.
+3. For the Chain Type, select Ethereum Mainnet, Polygon, Blast L2, Base or other.
 
    <div class="text--center">
      <img  src={img3} alt="Staking Contracts TGR" />
