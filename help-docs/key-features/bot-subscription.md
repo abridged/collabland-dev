@@ -78,16 +78,17 @@ Your Telegram subscription covers one group at a time!
 - Bitcoin
 - BSC
 - Celo
+- Core
 - DOS Chain
 - Eluvio
 - Ethereum Mainnet
 - Flow
 - Gitcoin Passport
-- Gnosis
 
 </td>
 <td>
 
+- Gnosis
 - Immutable X
 - Kusama
 - Linea
@@ -97,19 +98,25 @@ Your Telegram subscription covers one group at a time!
 - Nifty
 - Optimism
 - Palm
-- Polkadot
 
 </td>
 <td>
 
+- Polkadot
 - Polygon
 - Q Chain
 - Ronin
+- Sahara AI (Testnet)
 - SEI
 - Sepolia (Ethereum testnet)
 - Shibarium
 - Solana
 - Tezos
+
+</td>
+<td>
+
+- Unichain
 - Vitruveo
 - XRPL
 
@@ -167,16 +174,17 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 - Ronin
 - Roll
 - Safe
+- Solflare
 - Talisman
 - Temple (Tezos)
 - TokenProof
 - Trezor
 - Venly
-- WalletConnect(V2)
 
 </td>
 <td>
 
+- WalletConnect(V2)
 - Xumm
 - Xverse
 - and more coming soon!
