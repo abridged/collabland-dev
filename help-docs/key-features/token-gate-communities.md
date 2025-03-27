@@ -68,6 +68,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Blast                                                                     | ERC20, ERC721, ERC1155, Staking Contracts                                          |
 | BSC                                                                       | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
 | Celo                                                                      | ERC20, ERC721, ERC1155                                                              |
+| Core                                                                      | ERC20, ERC721, ERC1155                                                              |
 | DOS Chain                                                                 | ERC20, ERC721, ERC1155                                                              |
 | Ethereum Mainnet                                                          | ERC20, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
 | Gnosis                                                                    | ERC20, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
@@ -80,8 +81,10 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC721, ERC1155                                                              |
 | SEI                                                                       | ERC20, ERC721, ERC1155                                                              |
 | Shibarium                                                                 | ERC20, ERC721, ERC1155                                                              |
+| Unichain                                                                  | ERC20, ERC721, ERC1155                                                              |
 | Amoy (Polygon testnet)                                                    | ERC20, ERC721, ERC1155                                                              |
 | ApeChain Curtis (Testnet)                                                 | ERC20, ERC721, ERC1155                                                              |
+| Sahara AI (Testnet)                                                      | ERC20, ERC721, ERC1155                                                              |
 | Sepolia (Ethereum testnet)                                                | ERC20, ERC721, ERC1155                                                              |
 | **Non-EVM Chains**                                                        |               ------------------                                                    |
 | [Bitcoin NFTs](/help-docs/command-center/create-a-tgr/bitcoin-tgr)        | Bitcoin Stamps, Bitcoin Ordinals                                                    |
