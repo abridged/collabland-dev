@@ -57,42 +57,43 @@ Admins should reference the [list of supported blockchains](/help-docs/key-featu
 
 :::
 
-| **EVM wallets**                                                                                                                 | ------------------                                                                                                                                            |
-| [Bitski](https://docs.bitski.com/wallet-as-a-service/web-3/web3-get-started)                                                    | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Mumbai                                                                                                 |
-| [CoinBase Wallet](https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support)                 | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE  |
-| [Delegate.Cash](https://docs.delegate.xyz/faq)                                                                                  | Mainnet, Sepolia, Optimism, Polygon, Mumbai, BSC, Arbitrum One, Arbitrum Nova, Gnosis, Avalanche, Celo                                                    |
-| [Fortmatic(Magic.Link)](https://magic.link/docs/get-started#support-list)                                                       | Mainnet, Optimism, Polygon                                                                                                                                        |
-| [Gnosis Safe](./connecting-using-different-wallets/gnosis-safe)                                                                 | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Celo, BASE                                                                     |
-| [Ledger (MetaMask)](./connecting-using-different-wallets/ledger)                                                                | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo                       |
-| [Loopring](./connecting-using-different-wallets/loopring)                                                                       | Loopring L2                                                                                                                                                       |
-| [MetaMask](./connecting-using-different-wallets/metamask)                                                                       | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE  |
-| [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support)    | Mainnet, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC                                                                                                       |
-| [OpenSea Auth](./connecting-using-different-wallets/opensea)                                                                    | https://docs.opensea.io/reference/supported-chains                                                                                                               |
-| [Opolis(Magic.Link)](https://magic.link/docs/get-started#support-list)                                                          | Mainnet, Optimism, Polygon                                                                                                                                        |
-| [Phantom](https://docs.phantom.com)                                                                                              | Bitcoin, Ethereum, Base, Polygon                                                                                                                                |
-| [Ronin](./connecting-using-different-wallets/ronin)                                                                             | Ronin                                                                                                                                                             |
-| [tokenproof](./connecting-using-different-wallets/tokenproof)                                                                   | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis,  Avalanche, Solana, "NIFTY", Flow, Celo, BASE                                                              |
-| [Trezor](https://trezor.io/support/a/is-my-coin-supported)                                                                      | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo                       |
-| [Venly](https://docs.venly.io/docs/environments#blockchain-networks)                                                            | Mainnet, Sepolia, Polygon, Mumbai, Arbitrum One, BSC, ImmutableX, Avalanche                                                                                       |
-| [WalletConnect](./connecting-using-different-wallets/wallet-connect)                                                            | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE          |
-| [ZenGo](https://help.zengo.com/en/articles/2603677-which-assets-does-zengo-support)                                             | Mainnet, Polygon, BSC, Arbitrum, Optimism                                                                                                                         |
-
-| **Non-EVM**                                                                                                                     | ------------------                                                                                                                                        |
-| [Abstract Global Wallet](https://www.abs.xyz)                                                                                   | Abstract                                                                                                                                                    |
-| [Blocto](https://docs.blocto.app/blocto-sdk/javascript-sdk/flow/flow-networks)                                                  | Flow                                                                                                                                                              |
-| [Dapper](https://www.meetdapper.com/)                                                                                           | Flow                                                                                                                                                              |
-| [Eluvio](https://eluvio.co/content-fabric)                                                                                      | Eluvio                                                                                                                                                            |
-| [ImmutableX](./connecting-using-different-wallets/immutable-x)                                                                  | ImmutableX                                                                                                                                                        |
-| [Leather wallet](https://leather.io/)                                                                                           | Bitcoin Ordinals, Bitcoin STAMPS                                                                                                                                  |
-| [NEAR (NEAR, Meteor)](https://meteorwallet.app/)                                                                                | NEAR                                                                                                                                                              |
-| [Nifty Gateway](https://help.niftygateway.com/hc/en-us/articles/4961117358867-Wallet-Hub)                                       | "NIFTY"                                                                                                                                                           |
-| [Phantom](https://docs.phantom.com)                                                                                                | Solana                                                                                                                                                             |
-| [Roll](https://support.tryroll.com/hc/en-us/articles/360034949092-Are-Social-Tokens-Built-on-Blockchain-)                       | Mainnet                                                                                                                                                           |
-| [Solflare](https://docs.solflare.com/solflare)                                                                                     | Solana                                                                                                                                                             |
-| [Talisman](https://www.talisman.xyz/wallet)                                                                                     | Kusama, Polkadot                                                                                                                                                  |
-| [Tezos (Temple Wallet)](https://templewallet.com/)                                                                              | Tezos                                                                                                                                                             |
-| [Xumm](https://xumm.app/#features)                                                                                              | XRPL                                                                                                                                                              |
-| [Xverse](https://www.xverse.app/)                                                                                               | Bitcoin Ordinals                                                                                                                                                  |
+| Wallet Connection Label | Collab.Land Supported Networks |
+|------------------------|-------------------------------|
+| **EVM wallets** | |
+| [Bitski](https://docs.bitski.com/wallet-as-a-service/web-3/web3-get-started) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Mumbai |
+| [CoinBase Wallet](https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [Delegate.Cash](https://docs.delegate.xyz/faq) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, BSC, Arbitrum One, Arbitrum Nova, Gnosis, Avalanche, Celo |
+| [Fortmatic(Magic.Link)](https://magic.link/docs/get-started#support-list) | Mainnet, Optimism, Polygon |
+| [Gnosis Safe](./connecting-using-different-wallets/gnosis-safe) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Celo, BASE |
+| [Ledger (MetaMask)](./connecting-using-different-wallets/ledger) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
+| [Loopring](./connecting-using-different-wallets/loopring) | Loopring L2 |
+| [MetaMask](./connecting-using-different-wallets/metamask) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support) | Mainnet, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
+| [OpenSea Auth](./connecting-using-different-wallets/opensea) | https://docs.opensea.io/reference/supported-chains |
+| [Opolis(Magic.Link)](https://magic.link/docs/get-started#support-list) | Mainnet, Optimism, Polygon |
+| [Phantom](https://docs.phantom.com) | Bitcoin, Ethereum, Base, Polygon |
+| [Ronin](./connecting-using-different-wallets/ronin) | Ronin |
+| [tokenproof](./connecting-using-different-wallets/tokenproof) | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Solana, "NIFTY", Flow, Celo, BASE |
+| [Trezor](https://trezor.io/support/a/is-my-coin-supported) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
+| [Venly](https://docs.venly.io/docs/environments#blockchain-networks) | Mainnet, Sepolia, Polygon, Mumbai, Arbitrum One, BSC, ImmutableX, Avalanche |
+| [WalletConnect](./connecting-using-different-wallets/wallet-connect) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [ZenGo](https://help.zengo.com/en/articles/2603677-which-assets-does-zengo-support) | Mainnet, Polygon, BSC, Arbitrum, Optimism |
+| **Non-EVM** | |
+| [Abstract Global Wallet](https://www.abs.xyz) | Abstract |
+| [Blocto](https://docs.blocto.app/blocto-sdk/javascript-sdk/flow/flow-networks) | Flow |
+| [Dapper](https://www.meetdapper.com/) | Flow |
+| [Eluvio](https://eluvio.co/content-fabric) | Eluvio |
+| [ImmutableX](./connecting-using-different-wallets/immutable-x) | ImmutableX |
+| [Leather wallet](https://leather.io/) | Bitcoin Ordinals, Bitcoin STAMPS |
+| [NEAR (NEAR, Meteor)](https://meteorwallet.app/) | NEAR |
+| [Nifty Gateway](https://help.niftygateway.com/hc/en-us/articles/4961117358867-Wallet-Hub) | "NIFTY" |
+| [Phantom](https://docs.phantom.com) | Solana |
+| [Roll](https://support.tryroll.com/hc/en-us/articles/360034949092-Are-Social-Tokens-Built-on-Blockchain-) | Mainnet |
+| [Solflare](https://docs.solflare.com/solflare) | Solana |
+| [Talisman](https://www.talisman.xyz/wallet) | Kusama, Polkadot |
+| [Tezos (Temple Wallet)](https://templewallet.com/) | Tezos |
+| [Xumm](https://xumm.app/#features) | XRPL |
+| [Xverse](https://www.xverse.app/) | Bitcoin Ordinals |
 
 :::tip
 
