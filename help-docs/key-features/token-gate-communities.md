@@ -91,7 +91,6 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | [Bitcoin NFTs](/help-docs/command-center/create-a-tgr/bitcoin-tgr)        | Bitcoin Stamps, Bitcoin Ordinals                                                    |
 | Eluvio                                                                    | ERC721                                                                              |
 | Flow                                                                      | FLOW FT, FLOW NFT                                                                   |
-| [Friend.Tech](/help-docs/command-center/create-a-tgr/friend-tech-tgr)     | ------------------                                                                  |
 | [Gitcoin Passport](/help-docs/command-center/create-a-tgr/gtc-passport)   | ------------------                                                                  |
 | Immutable X                                                               | Immutable X                                                                         |
 | Kusama                                                                    | RMRK                                                                                |

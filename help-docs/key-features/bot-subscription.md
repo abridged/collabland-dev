@@ -150,7 +150,6 @@ If you are interested in a new Blockchain or Wallet Integration, please let us k
 - Delegate
 - Eluvio
 - Fortmatic
-- Friend.Tech
 - ImmutableX
 
 </td>
