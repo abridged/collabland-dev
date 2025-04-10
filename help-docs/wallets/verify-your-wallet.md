@@ -7,8 +7,6 @@ import img1 from '@site/static/img/tutorial/wallets/first-time-sign.png';
 import img2 from '@site/static/img/tutorial/wallets/verify-wallet.png';
 import img3 from '@site/static/img/tutorial/wallets/connect-first-time.gif';
 
-## Verifying for the first time
-
 ### Verify a new wallet in a Discord community
 
 :::info
@@ -32,20 +30,6 @@ If this is the first time you are connecting a wallet to your account, you will 
 ### Verify a new wallet in a Telegram group
 
 See how you can [join a Telegram group](/help-docs/FAQ/join-tg-group#how-to-join-a-collabland-managed-telegram-group) managed by Collab.Land.
-
-## Verify with an existing wallet
-
-:::tip
-
-You can watch a [tutorial video for verifying an existing wallet](https://www.youtube.com/watch?v=nPZ0X2SGphQ&list=PLQbEq7a9kYPnufJFY8XDr5HjvPaThjoS-&index=7&t=42s) on the Collab.Land youtube channel.
-
-:::
-
-<div class="text--center">
-  <img  src={img2} alt="Verify Wallet" width="500" height="579" />
-</div>
-
-Verifying with a new different wallet is an option for members who hold their tokens in more than wallet. If you are interested in verifying with a new wallet, simply click on the "Let's Go" button, and you will be directed to a page where you can choose to verify with any of the previously connected wallets.
 
 ## Supported Wallets
 
