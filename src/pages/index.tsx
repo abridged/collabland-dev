@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Head from '@docusaurus/Head';
 
 import '@docsearch/css';
@@ -49,11 +48,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={`${siteConfig.title}`} description="Collab.Land Docs">
-      
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }
