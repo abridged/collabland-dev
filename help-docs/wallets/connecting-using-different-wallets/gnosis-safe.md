@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 title: Gnosis Safe
 ---
 
@@ -19,12 +19,12 @@ If you have a Gnosis Safe wallet, you can use it to verify your identity on Coll
   <img  src={img1} alt="Verify with Gnosis Safe" />
 </div>
 
-1. Log into the Discord channel where you would like to verify, and click the “Let’s Go!” button in the collabland-join channel.
-2. Go to the Collab.Land connect site and click on “+ Verify with a New Wallet”.
-3. In the list of available wallet options, click on “Show All” and select the Gnosis Safe option.
+1. Log into the Discord channel where you would like to verify, and click the "Let's Go!" button in the collabland-join channel.
+2. Go to the Collab.Land connect site and click on "+ Verify with a New Wallet".
+3. In the list of available wallet options, click on "Show All" and select the Gnosis Safe option.
 4. Select the Gnosis Safe owner wallet that you will use to sign the verification message.
-5. Click on the “Sign Message” button and sign the message using your Gnosis Safe owner wallet.
-6. After signing the message, select the Gnosis Safe wallet that you would like to use for verification and click the “Connect” button. Note that only Ethereum Mainnet safes are supported at this time.
+5. Click on the "Sign Message" button and sign the message using your Gnosis Safe owner wallet.
+6. After signing the message, select the Gnosis Safe wallet that you would like to use for verification and click the "Connect" button. Note that only Ethereum Mainnet safes are supported at this time.
 7. Once the wallet connection process is complete, you can close the window and return to Discord.
 
 ### Duplicate Wallet errors

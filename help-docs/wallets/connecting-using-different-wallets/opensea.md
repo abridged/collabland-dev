@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 title: OpenSea
 ---
 
@@ -17,7 +17,7 @@ Check out the [OpenSea verification tutorial](https://youtu.be/r1qal_nkmQ4) on o
 
 ### Why OpenSea?
 
-[OpenSea](https://opensea.io/) is the world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). It allows users to create profiles using their wallets, and then customize their profile pictures, bios, and social media profiles.
+[OpenSea](https://opensea.io/) is the world's first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). It allows users to create profiles using their wallets, and then customize their profile pictures, bios, and social media profiles.
 
 OpenSea also allows developers to access their API, and through it they can then collect user profile pictures and the wallet addresses users have verified with OpenSea. So, once the user verifies their wallet on OpenSea by signing signatures, developers can verify users through OpenSea.
 
@@ -29,8 +29,8 @@ You can use your OpenSea account to verify your identity on Collab.Land. Follow 
   <img  src={img1} alt="Verify with OpenSea" />
 </div>
 
-1. Log into the Discord server where you would like to verify, and click the “Let’s Go!” button in the #collabland-join channel.
-2. Click the “Add a New Wallet” button.
+1. Log into the Discord server where you would like to verify, and click the "Let's Go!" button in the #collabland-join channel.
+2. Click the "Add a New Wallet" button.
 3. Click the "Connect Wallet" button.
 4. Select the OpenSea option from the list of available wallets on the Collab.Land website.
 5. Enter your OpenSea account name or wallet address.

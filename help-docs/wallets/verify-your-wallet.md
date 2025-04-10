@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 13
 title: Verify your wallet
 ---
 import styles from '../../src/css/custom.css'

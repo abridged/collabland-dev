@@ -33,7 +33,7 @@ View the [wallet disconnection tutorial](https://www.youtube.com/watch?v=nPZ0X2S
 
 ## On Telegram
 1. Use a token-gated Telegram group link to open a DM with the @collablandbot. [Example link to a test group.](https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxOTA1Mzk1NDA4)
-2. Click “Add a New Wallet” and select “Connect Wallet.”
+2. Click "Add a New Wallet" and select "Connect Wallet."
 3. Click "My Connected Wallets" (top right) and choose the wallet to disconnect.
 4. Click "Disconnect" and confirm.
 5. Your wallet is now disconnected from _all_ communities. You will lose access to all groups associated with that wallet.

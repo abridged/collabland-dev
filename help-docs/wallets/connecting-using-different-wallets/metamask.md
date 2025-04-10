@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 9
 title: Metamask
 ---
 
@@ -14,13 +14,13 @@ If you want to verify using Metamask, follow these steps:
 </div>
 
 1. Log into the Discord channel where you would like to verify
-2. Click the “Let’s Go!” button in the collabland-join channel.
+2. Click the "Let's Go!" button in the collabland-join channel.
 
-3. Go to the Collab.Land connect site and click on “+ Verify with a New Wallet”.
+3. Go to the Collab.Land connect site and click on "+ Verify with a New Wallet".
 
 4. In the list of available wallet options, click the Metamask option.
 
-5. Click on the “Sign Message” button and sign the message using your Metamask wallet.
+5. Click on the "Sign Message" button and sign the message using your Metamask wallet.
 
 6. Once the wallet connection process is complete, you can close the window and return to Discord.
 

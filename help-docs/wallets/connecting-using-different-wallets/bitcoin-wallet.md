@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 2
 title: Bitcoin Wallets
 id: btc-wallets
 sidebar_label: Bitcoin

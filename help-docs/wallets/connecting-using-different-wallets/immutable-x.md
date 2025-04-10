@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 title: Immutable X
 ---
 
@@ -14,11 +14,11 @@ If you have an Immutable X wallet, you can use it to verify your identity on Col
   <img  src={img1} alt="Verify with Immutable X" />
 </div>
 
-1. In an Immutable X community, go to the #collabland-join channel and click the “Let’s Go!” button.
+1. In an Immutable X community, go to the #collabland-join channel and click the "Let's Go!" button.
 
-2. Select the “+ Verify with a new wallet” option from the wallet delegation page.
+2. Select the "+ Verify with a new wallet" option from the wallet delegation page.
 
-3. Select the “Show All” button to show all available wallet options, and select Immutable X.
+3. Select the "Show All" button to show all available wallet options, and select Immutable X.
 
 4. In the Immutable X popup, select Sign, and then sign the message with Metamask
 
@@ -37,7 +37,7 @@ If this is the first time you have used Immutable X, you will first need to set 
   <img  src={img2} alt="Verify with Immutable X for the first time" />
 </div>
 
-- Click the “Set up key” button, sign the message in Metamask, and click Done to set up your key.
+- Click the "Set up key" button, sign the message in Metamask, and click Done to set up your key.
 
 ## Supported Networks
 
