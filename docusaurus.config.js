@@ -160,15 +160,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Legal',
+            title: 'Docs',
             items: [
               {
-                label: 'Privacy Policy',
-                href: '/privacy-policy',
+                label: 'Tutorials',
+                to: '/docs/tutorials',
               },
               {
-                label: 'Terms of Service',
-                href: '/terms-of-service',
+                label: 'API docs',
+                to: '/docs/downstream-integrations',
+              },
+              {
+                label: 'Contribute',
+                to: '/docs/contribute',
               },
             ],
           },
@@ -176,21 +180,34 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Linktree',
-                href: 'https://linktr.ee/collab_land_',
+                label: 'Twitter',
+                href: 'https://twitter.com/Collab_Land_',
               },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/collabland',
               },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
               {
-                label: 'X (Twitter)',
-                href: 'https://x.com/collab_land_',
+                label: 'GitHub',
+                href: 'https://github.com/abridged',
+              },
+              {
+                label: 'Get Support',
+                href: 'https://collabland.freshdesk.com/support/tickets/new',
+              },
+              {
+                label: 'Contact Team',
+                href: 'https://docs.collab.land/help-docs/FAQ/contact-team',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Collab.Land`,
+        copyright: `Copyright © ${new Date().getFullYear()} Abridged, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
