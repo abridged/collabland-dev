@@ -98,10 +98,6 @@ git push origin feature/new-feature
 
 Navigate to your forked repository on GitHub and create a pull request. Provide details about your changes, including the purpose and any relevant information for the maintainers to review.
 
-:::info
-You should assign [@iSpeakNerd](https://github.com/iSpeakNerd) as a reviewer!
-:::
-
 ### 9. Participate in Review
 
 Collab.Land maintainers will review your pull request, providing feedback and suggestions. Be open to collaboration and address any requested changes.
