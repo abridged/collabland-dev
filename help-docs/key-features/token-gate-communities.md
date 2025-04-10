@@ -82,6 +82,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | SEI                                                                       | ERC20, ERC721, ERC1155                                                              |
 | Shibarium                                                                 | ERC20, ERC721, ERC1155                                                              |
 | Unichain                                                                  | ERC20, ERC721, ERC1155                                                              |
+| Vitruveo (Paused)                                                                  | ERC20, ERC721, ERC1155                                                              |
 | Amoy (Polygon testnet)                                                    | ERC20, ERC721, ERC1155                                                              |
 | ApeChain Curtis (Testnet)                                                 | ERC20, ERC721, ERC1155                                                              |
 | Sahara AI (Testnet)                                                      | ERC20, ERC721, ERC1155                                                              |

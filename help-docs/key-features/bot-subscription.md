@@ -117,7 +117,7 @@ Your Telegram subscription covers one group at a time!
 <td>
 
 - Unichain
-- Vitruveo
+- Vitruveo (Paused)
 - XRPL
 
 </td>
