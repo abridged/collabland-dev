@@ -19,6 +19,9 @@ When the Collab.Land bot is added to your server, two channels will be created: 
 Access to the collabland-config channel is restricted to administrators only. This channel provides access to the Command Center and its full range of features. The default access is granted to the person setting up the bot and server administrators. 
 It is important to note that renaming or deleting this channel is not possible as it will impact the bot's functionality.
 
+:::caution
+Any members who have permission to the #collabland-config channel is able to manage Collab.Land through the Command Center with their own Discord credentials
+:::
 
 ## collabland-join
 
