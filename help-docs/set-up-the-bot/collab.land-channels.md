@@ -20,7 +20,7 @@ Access to the collabland-config channel is restricted to administrators only. Th
 It is important to note that renaming or deleting this channel is not possible as it will impact the bot's functionality.
 
 :::caution
-Any members who have permission to the #collabland-config channel is able to manage Collab.Land through the Command Center with their own Discord credentials
+Any members who have permission to the #collabland-config channel are able to manage Collab.Land through the Command Center with their own Discord credentials!
 :::
 
 ## collabland-join
