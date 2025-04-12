@@ -8,7 +8,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-font-family-base: "M PLUS 1";
-  --ifm-color-primary: #F6C349;
+  --ifm-color-primary: #5d62ff;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -16,6 +16,8 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  /* --ifm-link-color: #5d62ff; */
+  --ifm-hero-background-color: #F6C349;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --hero-text: #382800;
   --button-bg: #9B9EFF;
@@ -32,6 +34,8 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  /* --ifm-link-color: #F6C349; */
+  --ifm-hero-background-color: #F6C349;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --hero-text: #000;
   --button-bg: #A0CDFF;
