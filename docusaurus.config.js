@@ -148,14 +148,14 @@ const config = {
           },
         ],
       },
-      algolia: {
-        apiKey: process.env.API_KEY,
-        indexName: 'collabland',
-        appId: process.env.APPLICATION_ID,
-        contextualSearch: true,
-        // Optional: Algolia search parameters
-        searchParameters: {},
-      },
+      // algolia: {
+      //   apiKey: process.env.API_KEY,
+      //   indexName: 'collabland',
+      //   appId: process.env.APPLICATION_ID,
+      //   contextualSearch: true,
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
+      // },
       footer: {
         style: 'dark',
         links: [
