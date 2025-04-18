@@ -72,3 +72,29 @@ html, body {
 .blog-wrapper {
   background-color: #1A1A40;
 }
+
+/* Footer styles */
+.footer {
+  background-color: #FFC700 !important;
+}
+
+.footer__link-item {
+  color: #1A1A40 !important;
+}
+
+.footer__title {
+  color: #1A1A40 !important;
+}
+
+.footer__copyright {
+  color: #1A1A40 !important;
+}
+
+/* Kapa AI widget positioning */
+#kapa-widget-container,
+.kapa-widget-button,
+iframe[src*="kapa-widget"],
+div[data-kapa-widget] {
+  bottom: 80px !important;
+  position: fixed !important;
+}
