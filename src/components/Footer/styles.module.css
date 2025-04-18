@@ -1,6 +1,13 @@
 .footer {
   background-color: #FFC700;
-  padding: 1rem 0;
+  padding: 0.1rem 0;
+  font-family: "Space Mono", monospace !important;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 0.05rem 0;
+  }
 }
 
 .container {
@@ -15,6 +22,7 @@
   gap: 1rem;
   max-width: 1920px;
   margin: 0 auto;
+  font-family: "Space Mono", monospace !important;
 }
 
 @media (min-width: 768px) {
@@ -29,6 +37,7 @@
   display: flex;
   gap: 1.5rem;
   order: 2;
+  font-family: "Space Mono", monospace !important;
 }
 
 @media (min-width: 768px) {
@@ -43,6 +52,7 @@
   font-weight: bold;
   color: #1A1A40;
   text-decoration: none;
+  font-family: "Space Mono", monospace !important;
 }
 
 .link:hover {
@@ -52,8 +62,9 @@
 .social {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   order: 1;
+  font-family: "Space Mono", monospace !important;
 }
 
 @media (min-width: 768px) {
@@ -74,13 +85,15 @@
 }
 
 .copyright {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #1A1A40;
   display: flex;
   align-items: center;
   gap: 0.375rem;
   order: 3;
+  font-family: "Space Mono", monospace !important;
+  margin-top: 0.5rem;
 }
 
 .logo {

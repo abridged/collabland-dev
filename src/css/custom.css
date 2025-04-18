@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap');
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-font-family-base: "M PLUS 1";
+  --ifm-font-family-base: "IBM Plex Sans";
   --ifm-color-primary: #F6C349;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -76,18 +76,22 @@ html, body {
 /* Footer styles */
 .footer {
   background-color: #FFC700 !important;
+  font-family: "Space Mono", monospace !important;
 }
 
 .footer__link-item {
   color: #1A1A40 !important;
+  font-family: "Space Mono", monospace !important;
 }
 
 .footer__title {
   color: #1A1A40 !important;
+  font-family: "Space Mono", monospace !important;
 }
 
 .footer__copyright {
   color: #1A1A40 !important;
+  font-family: "Space Mono", monospace !important;
 }
 
 /* Kapa AI widget positioning */
@@ -95,6 +99,6 @@ html, body {
 .kapa-widget-button,
 iframe[src*="kapa-widget"],
 div[data-kapa-widget] {
-  bottom: 80px !important;
+  bottom: 40px !important;
   position: fixed !important;
 }
