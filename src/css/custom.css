@@ -9,18 +9,22 @@
 :root {
   --ifm-font-family-base: "M PLUS 1";
   --ifm-color-primary: #F6C349;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --hero-text: #382800;
-  --button-bg: #9B9EFF;
-  --button-text: #fff;
-  --ifm-background-color: #f5f1e6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --hero-text: #000;
+  --button-bg: #F5F1E6;
+  --button-text: #1A1A40;
+  --ifm-background-color: #1A1A40;
+  --ifm-color-content: #F5F1E6;
+  --ifm-navbar-background-color: #F5F1E6;
+  --ifm-navbar-link-color: #1A1A40;
+  --ifm-footer-background-color: #FFC700;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -39,6 +43,10 @@
   --ifm-background-color: #f5f1e6;
 }
 
+html, body {
+  background-color: #1A1A40;
+}
+
 .nav-bold-category {
   font-weight:600;
   font-size:12px;
@@ -48,4 +56,19 @@
   font-weight:normal;
   font-size:14px;
   text-transform: none;
+}
+
+/* Ensure all main content areas have the background color */
+.main-wrapper {
+  background-color: #1A1A40;
+}
+
+/* Ensure docs pages have the background color */
+.docMainContainer {
+  background-color: #1A1A40;
+}
+
+/* Ensure blog pages have the background color */
+.blog-wrapper {
+  background-color: #1A1A40;
 }
