@@ -35,6 +35,8 @@ const config = {
       'data-project-color': '#9B9EFF',
       'data-project-logo':
         'https://pbs.twimg.com/profile_images/1598394761005727760/5_QGhWNT_400x400.png',
+      'data-position': 'bottom-right',
+      'data-margin': '20px',
       async: true,
     },
     {

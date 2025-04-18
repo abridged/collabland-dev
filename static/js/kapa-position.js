@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
   const moveWidget = () => {
     const widget = document.querySelector('#kapa-widget-container, .kapa-widget-button, iframe[src*="kapa-widget"]');
     if (widget) {
-      widget.style.bottom = '200px';
+      widget.style.bottom = '100px';
       widget.style.position = 'fixed';
       widget.style.zIndex = '9999';
     }
