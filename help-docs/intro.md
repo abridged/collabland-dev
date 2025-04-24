@@ -17,8 +17,12 @@ We offer an automated process for verifying and managing community membership ba
 
 ## Where to start
 
-Creators and administrators can easily configure token-based access rules in our web portal, the [Command Center](https://cc.collab.land/login). Our platform supports token-based access on 23 different L1 and L2 networks using both fungible tokens and NFTs, and verifies membership using a choice of 22 wallets and an additional 19 wallets available via WalletConnect.
+Creators and administrators can easily configure token-based access rules in our web portal, the [Command Center](https://cc.collab.land/login). Our platform supports token-based access on 40+ different L1 and L2 networks using both fungible tokens and NFTs, and verifies membership using a choice of 30+ wallets and an additional wallets available via WalletConnect.
 
 ## Safety & Privacy
 
 We prioritize the safety and privacy of our users. By connecting with an existing wallet, members can join new communities without having to sign a message for each one. We do not share verified wallet addresses with anyone, including community administrators, without explicit consent.
+
+:::note
+Learn more about our commitment to privacy and how we protect your data in [this article.](https://medium.com/collab-land/collab-land-privacy-08812be030a4)
+:::

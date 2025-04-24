@@ -19,7 +19,7 @@ function HomepageHeader() {
               {siteConfig.tagline}
             </p>
             <div className={styles.button}>
-              <Link className={styles.buttonContent} to="/docs/intro">
+              <Link className={styles.buttonContent} to="/help-docs/intro">
                 Get Started
                 <img
                   width={40}
