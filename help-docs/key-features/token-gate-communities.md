@@ -22,6 +22,10 @@ Collab.Land's [balance check](../command-center/bot-config/balance-check) featur
 
 When creating TGRs, there are two types to choose from: **Balance-based** and **Attributes-based**. Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr#how-to-create-a-tgr).
 
+:::note
+For a complete list of supported blockchains and their features, visit our [Supported Blockchains documentation](/help-docs/key-features/supported-blockchains-wallets).
+:::
+
 ### Balance-based
 
 [Balance-based TGRs](../command-center/create-a-tgr/how-to-create-a-tgr#create-a-balance-based-tgr) check the quantity of a specific token in the user's wallet. If the user holds more tokens than the lower limit and less than the upper limit (upper limit is optional), then the role is granted. This allows for the creation of roles based on the amount of a specific token that a user holds.
