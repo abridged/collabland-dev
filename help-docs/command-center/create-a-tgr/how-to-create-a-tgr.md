@@ -40,7 +40,7 @@ To create a TGR in Discord, follow these steps:
 
    - Description (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
 
-   - Chain Type: The blockchain network that the token for this TGR is on. See the [full list of Collab.Land-supported chains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens) and corresponding token types.
+   - Chain Type: The blockchain network that the token for this TGR is on. See the [full list of Collab.Land-supported chains](/help-docs/key-features/supported-blockchains-wallets) and corresponding token types.
 
    - Token Type: The type of token used for the TGR.
 

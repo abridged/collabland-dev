@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
-id: collab-tipping
 title: $COLLAB Tipping
+sidebar_position: 8
+id: collab-tipping
 ---
 
 import img1 from '@site/static/img/tutorial/tip-commands.png';

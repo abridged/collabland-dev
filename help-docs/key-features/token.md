@@ -1,6 +1,6 @@
 ---
-sidebar_position: 6
 title: $COLLAB Token
+sidebar_position: 7
 ---
 
 ## What is the Collab.Land token?

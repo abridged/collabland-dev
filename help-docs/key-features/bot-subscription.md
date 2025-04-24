@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
 title: Collab.Land Subscriptions
+sidebar_position: 2
 ---
 
 import img1 from '@site/static/img/subscription_tiers.png';

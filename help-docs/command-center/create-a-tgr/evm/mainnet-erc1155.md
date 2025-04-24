@@ -59,7 +59,7 @@ To create a TGR for an `ERC1155` collection not listed on OpenSea, follow these 
 
 4. Enter the token details for your NFT token.
    - Description (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
-   - Chain Type: Mainnet or other [EVM chain](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens)
+   - Chain Type: Mainnet or other [EVM chain](/help-docs/key-features/supported-blockchains-wallets)
    - Token Type: `ERC1155`
    - Address: The contract address of your token
    - Balance: The minimum and maximum (optional) amount of tokens required to obtain the role

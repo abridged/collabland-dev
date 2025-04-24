@@ -31,7 +31,7 @@ You will be asked to connect your wallet to the bot so it can verify you are the
 
 For best results:
 - Use the Telegram desktop app to verify your wallets
-- Use a wallet that Collab.Land supports. Here's the list of [Collab.Land-supported wallets](/help-docs/wallets/verify-your-wallet#supported-wallets)
+- Use a wallet that Collab.Land supports. Here's the list of [Collab.Land-supported wallets](/key-features/supported-blockchains-wallets#supported-wallets)
 
 ## How to Join a Collab.Land-managed Telegram group
 
@@ -68,7 +68,7 @@ You must complete the wallet verification process within 5 minutes or you will g
   <img src={img3b} alt="Connect wallet using 'Use Connected Wallets' button" width="400" />
 </div>
 
-6. In your browser popup, select a wallet from the list of [Collab.Land-support wallets](/help-docs/wallets/verify-your-wallet#supported-wallets) to verify.
+6. In your browser popup, select a wallet from the list of [Collab.Land-support wallets](/key-features/supported-blockchains-wallets#supported-wallets) to verify.
 
 <div class="text--center">
   <img src={img4} alt="Select your wallet to verify" width="300"/>

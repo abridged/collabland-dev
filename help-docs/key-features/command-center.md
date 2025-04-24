@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+title: Command Center
+sidebar_position: 3
 ---
 
 import img1 from '@site/static/img/tutorial/command-center/command-center-from-discord.png';

@@ -1,7 +1,7 @@
 ---
-sidebar_position: 6
-id: gm-pass
 title: gmPASS
+sidebar_position: 4
+id: gm-pass
 draft: true
 ---
 
@@ -45,7 +45,7 @@ In a later update, members who wish to take self-custody of their keys will be a
 
 A member's gmPASS is their canonical identity within Collab.Land; it connects web2 onboarding with web3 execution. Members can send tips to each other, accumulate reputation, send vibes, and trade crypto all using their gmPASS.
 
-The gmPASS is blockchain-agnostic, meaning it can be used to sign transactions on any blockchain that uses [ECDSA](https://ethereum.org/en/glossary/#ecdsa) for digital signatures. With the gmPASS, Collab.Land functions as a service aggregator across [Collab.Land's supported blockchains](/help-docs/key-features/token-gate-communities#supported-blockchains--tokens)!
+The gmPASS is blockchain-agnostic, meaning it can be used to sign transactions on any blockchain that uses [ECDSA](https://ethereum.org/en/glossary/#ecdsa) for digital signatures. With the gmPASS, Collab.Land functions as a service aggregator across [Collab.Land's supported blockchains](/help-docs/key-features/supported-blockchains-wallets)!
 
 ### Blockchain Execution
 
@@ -114,9 +114,9 @@ Developers can read technical details about passkeys from [Google's documentatio
 :::
 -->
 
-<!-- As a PKP, gmPASS can provide users of web3 with seamless ”seed-phraseless" onboarding experiences and facilitate transaction execution on blockchains.
+<!-- As a PKP, gmPASS can provide users of web3 with seamless "seed-phraseless" onboarding experiences and facilitate transaction execution on blockchains.
 
 Notably, as a PKP, gmPASS has the following features:
 1. It is blockchain agnostic, meaning it can be used to sign transactions on any blockchains using ECDSA for digital signatures.
 2. It is programmable and contains application logic that it should follow, allowing for functionalities like defining signing automations.
-3. It is fault-tolerant, meaning it is generated collectively by Collab.Land’s Lit nodes through a process called Distributed Key Generation (DKG). This allows Collab.Land to generate a new key-pair where the te key never exists in its entirety. -->
+3. It is fault-tolerant, meaning it is generated collectively by Collab.Land's Lit nodes through a process called Distributed Key Generation (DKG). This allows Collab.Land to generate a new key-pair where the te key never exists in its entirety. -->
