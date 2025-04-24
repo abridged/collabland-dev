@@ -9,7 +9,7 @@ const config = {
   title: 'Collab.Land Documentation',
   tagline:
     'Collab.Land is the trusted platform for token gated access and community management in Web3. We make it easy to verify wallet ownership, manage roles, and securely connect members across Discord, Telegram, and other platforms. This documentation provides clear, structured guidance for developers, members, and community admins. Explore setup instructions, feature overviews, and best practices to get the most out of Collab.Land.',
-  url: 'https://docs.collab.land/help-docs/intro',
+  url: 'https://docs.collab.land',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
