@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Collab.Land Documentation',
   tagline:
-    'Collab.Land is the trusted platform for token gated access and community management in Web3. We make it easy to verify wallet ownership, manage roles, and securely connect members across Discord, Telegram, and other platforms. This documentation provides clear, structured guidance for developers, members, and community admins. Explore setup instructions, feature overviews, and best practices to get the most out of Collab.Land.',
+    'Collab.Land is the trusted platform for token gated access and community management in Web3. Here you\'ll find everything you need to verify wallets, manage roles, and connect your community - securely and efficiently.',
   url: 'https://docs.collab.land',
   baseUrl: '/',
   onBrokenLinks: 'warn',

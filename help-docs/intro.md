@@ -24,5 +24,5 @@ Creators and administrators can easily configure token-based access rules in our
 We prioritize the safety and privacy of our users. By connecting with an existing wallet, members can join new communities without having to sign a message for each one. We do not share verified wallet addresses with anyone, including community administrators, without explicit consent.
 
 :::note
-Learn more about our commitment to privacy and how we protect your data in [this article.](https://medium.com/collab-land/collab-land-privacy-08812be030a4)
+Learn more about our commitment to privacy and how we protect your data [here.](https://medium.com/collab-land/collab-land-privacy-08812be030a4)
 :::
