@@ -74,26 +74,26 @@ This wallet list is intended for community members. It shows which wallets can b
 | [CoinBase Wallet](https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
 | [Delegate.Cash](https://docs.delegate.xyz/faq) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, BSC, Arbitrum One, Arbitrum Nova, Gnosis, Avalanche, Celo |
 | [Fortmatic(Magic.Link)](https://magic.link/docs/get-started#support-list) | Mainnet, Optimism, Polygon |
-| [Gnosis Safe](./connecting-using-different-wallets/gnosis-safe) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Celo, BASE |
-| [Ledger (MetaMask)](./connecting-using-different-wallets/ledger) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
-| [Loopring](./connecting-using-different-wallets/loopring) | Loopring L2 |
-| [MetaMask](./connecting-using-different-wallets/metamask) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [Gnosis Safe](/help-docs/wallets/connecting-using-different-wallets/gnosis-safe) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Celo, BASE |
+| [Ledger (MetaMask)](/help-docs/wallets/connecting-using-different-wallets/ledger) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
+| [Loopring](/help-docs/wallets/connecting-using-different-wallets/loopring) | Loopring L2 |
+| [MetaMask](/help-docs/wallets/connecting-using-different-wallets/metamask) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
 | [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support) | Mainnet, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
-| [OpenSea Auth](./connecting-using-different-wallets/opensea) | https://docs.opensea.io/reference/supported-chains |
+| [OpenSea Auth](/help-docs/wallets/connecting-using-different-wallets/opensea) | https://docs.opensea.io/reference/supported-chains |
 | [Opolis(Magic.Link)](https://magic.link/docs/get-started#support-list) | Mainnet, Optimism, Polygon |
 | [Phantom](https://docs.phantom.com) | Bitcoin, Ethereum, Base, Polygon |
-| [Ronin](./connecting-using-different-wallets/ronin) | Ronin |
-| [tokenproof](./connecting-using-different-wallets/tokenproof) | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Solana, "NIFTY", Flow, Celo, BASE |
+| [Ronin](/help-docs/wallets/connecting-using-different-wallets/ronin) | Ronin |
+| [tokenproof](/help-docs/wallets/connecting-using-different-wallets/tokenproof) | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Solana, "NIFTY", Flow, Celo, BASE |
 | [Trezor](https://trezor.io/support/a/is-my-coin-supported) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
 | [Venly](https://docs.venly.io/docs/environments#blockchain-networks) | Mainnet, Sepolia, Polygon, Mumbai, Arbitrum One, BSC, ImmutableX, Avalanche |
-| [WalletConnect](./connecting-using-different-wallets/wallet-connect) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
+| [WalletConnect](/help-docs/wallets/connecting-using-different-wallets/wallet-connect) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
 | [ZenGo](https://help.zengo.com/en/articles/2603677-which-assets-does-zengo-support) | Mainnet, Polygon, BSC, Arbitrum, Optimism |
 | <center>**NON-EVM WALLETS**</center> | <center>**COLLAB.LAND SUPPORTED NETWORKS**</center> |
 | [Abstract Global Wallet](https://www.abs.xyz) | Abstract |
 | [Blocto](https://docs.blocto.app/blocto-sdk/javascript-sdk/flow/flow-networks) | Flow |
 | [Dapper](https://www.meetdapper.com/) | Flow |
 | [Eluvio](https://eluvio.co/content-fabric) | Eluvio |
-| [ImmutableX](./connecting-using-different-wallets/immutable-x) | ImmutableX |
+| [ImmutableX](/help-docs/wallets/connecting-using-different-wallets/immutable-x) | ImmutableX |
 | [Leather wallet](https://leather.io/) | Bitcoin Ordinals, Bitcoin STAMPS |
 | [NEAR (NEAR, Meteor)](https://meteorwallet.app/) | NEAR |
 | [Nifty Gateway](https://help.niftygateway.com/hc/en-us/articles/4961117358867-Wallet-Hub) | "NIFTY" |

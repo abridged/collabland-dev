@@ -52,23 +52,23 @@ Check out the [token section](../../help-docs/key-features/token) of the documen
 
 ### What is next for Collab.Land?
 
-As Collab.Land grew, the team understood that “token gating” was here to stay and that there would be competition. Instead of the typical startup path of raising more venture money which would lead to monetizing user data, the team decided to think BIG.
+As Collab.Land grew, the team understood that "token gating" was here to stay and that there would be competition. Instead of the typical startup path of raising more venture money which would lead to monetizing user data, the team decided to think BIG.
 
-Instead of a competitive feature race, Collab.Land decided to transform itself in to a distribution platform for web3 social apps. Similar to Facebook’s transformation by opening up to 3rd party developers, Collab.Land has done the same but using a DAO instead of centralizing control.
+Instead of a competitive feature race, Collab.Land decided to transform itself in to a distribution platform for web3 social apps. Similar to Facebook's transformation by opening up to 3rd party developers, Collab.Land has done the same but using a DAO instead of centralizing control.
 
-This has turned Collab.Land in to the premiere distribution platform for web3 developers owned by the users of the network. The Collab.Land Marketplace is the best way developers, brands and advertisers can reach tokenized communities
+This has turned Collab.Land in to the premiere distribution platform for web3 developers owned by the users of the network. The Collab.Land Miniapps is the best way developers, brands and advertisers can reach tokenized communities
 
 ---
 
-### What is the Collab.Land Marketplace?
+### What is the Collab.Land Miniapps?
 
-The [Collab.Land Marketplace](https://collabland.mirror.xyz/1CpoxkVSzkCrIJ6vkTqqvD9xmLyiWEyng6gAXDtFB7g) is for third-party developers to build Miniapps that extend our core software. Community Members, Admins, and Developers will all benefit from this collaboration.
+The [Collab.Land Miniapps](https://collabland.mirror.xyz/1CpoxkVSzkCrIJ6vkTqqvD9xmLyiWEyng6gAXDtFB7g) is for third-party developers to build Miniapps that extend our core software. Community Members, Admins, and Developers all benefit from the Miniapps.
 
-In the Marketplace, Developers will publish their own integrations with core Collab.Land software. Put Miniapps exactly where they’re wanted, in front of the communities that will benefit from them!
+In the Miniapps, Developers will publish their own integrations with core Collab.Land software. Put Miniapps exactly where they're wanted, in front of the communities that will benefit from them!
 
-Admins will customize their communities by installing Miniapps from the Marketplace. Community Members and Admins together curate the offerings in the Marketplace by reviewing Miniapps and surfacing high quality ones!
+Admins will customize their communities by installing Miniapps from the Miniapps. Community Members and Admins together curate the offerings in the Miniapps by reviewing Miniapps and surfacing high quality ones!
 
-We all protect the Collab.Land network by building and curating the Miniapp Marketplace.
+We all protect the Collab.Land network by building and curating the Miniapps.
 
   <div class="text--center">
     <img  src={img1} alt="The Marketplace flywheel" />
@@ -111,7 +111,7 @@ We all protect the Collab.Land network by building and curating the Miniapp Mark
 
 ---
 
-### Let’s Form Group:
+### Let's Form Group:
 
 #### A New Series about the Future of Community
 

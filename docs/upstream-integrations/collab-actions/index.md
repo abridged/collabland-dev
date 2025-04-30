@@ -4,11 +4,13 @@ sidebar_position: 1
 
 # Collab Actions
 
-Collab.Land is launching a marketplace for Web3 developers and communities. Collab Actions is a tool for contributing apps to this marketplace. Developers can get started with Collab Actions by following the instructions provided in the [Getting Started with Collab Actions](https://dev.collab.land/docs/upstream-integrations/collab-actions/getting-started-with-collab-actions) guide.
+Collab.Land is launching a miniapps platform for Web3 developers and communities. Collab Actions is a tool for contributing apps to this platform. Developers can get started with Collab Actions by following the instructions provided in the [Getting Started with Collab Actions](https://dev.collab.land/docs/upstream-integrations/collab-actions/getting-started).
 
-## Why a Marketplace?
+## Why Miniapps?
 
-The Web3 ecosystem is hungry for user adoption, and tokenized communities and crypto users demand meaningful features from native platforms such as Discord, Telegram, and Reddit for simpler onboarding and engagement. A decentralized marketplace with distribution channels can connect Web3 applications with the right users.
+The primary goal of Miniapps is to empower community administrators to unlock the full potential of their communities. With an extensive collection of apps available, administrators can add new capabilities and features that were previously unavailable.
+
+The Web3 ecosystem is hungry for user adoption, and tokenized communities and crypto users demand meaningful features from native platforms such as Discord, Telegram, and Reddit for simpler onboarding and engagement. A decentralized platform with distribution channels can connect Web3 applications with the right users.
 
 ## Why Collab.Land?
 
@@ -18,7 +20,7 @@ The Web3 ecosystem is hungry for user adoption, and tokenized communities and cr
 
 ## MiniApps
 
-The Apps you develop to list on the Collab.Land marketplace are called miniapps. These miniapps can be developed in one of two ways:
+The Apps you develop to list on the Collab.Land miniapps are called miniapps. These miniapps can be developed in one of two ways:
 
 - Via the Colla.Land Code base
 - Via Collab Actions.

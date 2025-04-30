@@ -4,7 +4,7 @@ title: Getting started with Collab Actions
 sidebar_position: 1
 ---
 
-**Collab Actions** is a collection of tools designed to help create miniapps for the Collab.Land marketplace. By using Collab Actions, the setup and configuration of the Collab.Land infrastructure, which includes Docker, AWS, security measures, and authentication, is automatically managed for you.
+**Collab Actions** is a collection of tools designed to help create miniapps for the Collab.Land miniapps. By using Collab Actions, the setup and configuration of the Collab.Land infrastructure, which includes Docker, AWS, security measures, and authentication, is automatically managed for you.
 
 ### Collab.Land Action Templates
 
@@ -136,21 +136,21 @@ To access the Command Center again, go to: [https://cc-qa.collab.land](https://c
 
 <!-- why do they need to create a community wallet? -->
 
-1. In the Command Center, go to the Marketplace tab.
+1. In the Command Center, go to the Miniapps tab.
 2. Click on the "Create community wallet" button.
-3. You will receive a message saying "Wallet successfully created” and access to the marketplace apps.
+3. You will receive a message saying "Wallet successfully created" and access to the miniapps.
 
 ![Create a Community Wallet](../../upstream-integrations/imgs/community-wallet.png)
 
 ### Install the TestFlight Mini-App
 
-1. In the Marketplace tab, you will see all the available mini-apps, including `Test Flight`.
+1. In the Miniapps tab, you will see all the available mini-apps, including `Test Flight`.
 2. Click on the "Install" button for the Test Flight app.
 3. The mini-app modal will pop up for you, click "Free Install" to install the app.
 
-![Installing the Test Flight Mini App from Collab.Land Markeplace](../../upstream-integrations/imgs/marketplace.png)
+![Installing the Test Flight Mini App from Collab.Land Miniapps](../../upstream-integrations/imgs/marketplace.png)
 
-Go to the Discord server where you installed the Collab.Land QA bot and type `/test` to see all the newly installed slash commands that are made available through the “Test Flight” mini app.
+Go to the Discord server where you installed the Collab.Land QA bot and type `/test` to see all the newly installed slash commands that are made available through the "Test Flight" mini app.
 
 ![Test fligh commands](../../upstream-integrations/imgs/test-flight-command.png)
 
@@ -160,7 +160,7 @@ Select the `/test-flight install` command and enter the Action URL you created e
 
 ![Installing hello-action ](../../upstream-integrations/imgs/install.png)
 
-You will get a message with a description of the Action that you are about to install. Click the “Install the action” button. You will get a confirmation that the “action is installed”.
+You will get a message with a description of the Action that you are about to install. Click the "Install the action" button. You will get a confirmation that the "action is installed".
 
 ![Installed hello-action mini app](../../upstream-integrations/imgs/installed-action.png)
 

@@ -137,24 +137,24 @@ const config = {
           src: 'img/logo1.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Developers',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Developers',
+          // },
           {
             to: '/help-docs/intro',
             label: 'Members & Admins',
             activeBaseRegex: `/help-docs/`,
             position: 'left',
           },
-          {
-            to: '/blog',
-            label: 'Blog',
-            activeBaseRegex: `/blog/`,
-            position: 'left',
-          },
+          // {
+          //   to: '/blog',
+          //   label: 'Blog',
+          //   activeBaseRegex: `/blog/`,
+          //   position: 'left',
+          // },
         ],
       },
       // algolia: {

@@ -36,9 +36,9 @@ During their search for a token gating solution, TSF discovered [Collab.Land](ht
 
 [Collab.Land](https://www.collab.land)'s strong reputation and long track record gave TSF the confidence to pursue an integration. By integrating Collab.Land, TSF gained the ability to token gate and allow community leaders to define access requirements for their members.
 
-> “One of the major advantages of integrating with [Collab.Land](https://www.collab.land) was eliminating workarounds. With token gating, users either have the required token or they don't, which ensures a secure and streamlined access restriction process.” ~ Brandon Straza (Founder, TheSuccessFinder)
+> "One of the major advantages of integrating with [Collab.Land](https://www.collab.land) was eliminating workarounds. With token gating, users either have the required token or they don't, which ensures a secure and streamlined access restriction process." ~ Brandon Straza (Founder, TheSuccessFinder)
 
-[Collab.Land](https://www.collab.land) provides a complete suite of token gating functionalities that go beyond regular RPC calls to check the balance of a wallet. With their APIs, developers can leverage [Collab.Land](https://www.collab.land)’s comprehensive and scalable token gating engines to extend their community and project’s gating functionalities beyond the scopes of Discord and Telegram.
+[Collab.Land](https://www.collab.land) provides a complete suite of token gating functionalities that go beyond regular RPC calls to check the balance of a wallet. With their APIs, developers can leverage [Collab.Land](https://www.collab.land)'s comprehensive and scalable token gating engines to extend their community and project's gating functionalities beyond the scopes of Discord and Telegram.
 
 The integration was initially intended to only gate access to the communities section, but TSF soon expanded the [Collab.Land](http://Collab.Land) implementation to other areas of the platform, including the knowledge center. Using [Collab.Land](https://www.collab.land), blogs, courses, and video rooms can be token gated, enabling community leaders to easily monetize their content and resources. For example, TSF recently integrated token gating into secure video rooms, allowing leaders to ensure that only users with the necessary tokens can enter video meeting rooms for enhanced security and exclusivity.
 
@@ -50,7 +50,7 @@ The integration process with [Collab.Land](https://www.collab.land) presented a 
 
 [Collab.Land](http://Collab.Land) also provided a suite of developer tools to facilitate integration and development, some of which were the API reference, documentation, tutorials, guides, and a comprehensive SDK for frontend development.
 
-This process has been simplified by the launch of [Collab.Land's Developer Portal](https://dev-portal.collab.land/signin) where developers self-serve and create their own client-apps, submit [miniapps to the marketplace](https://help.collab.land/marketplace/), and leverage the [Login with Collab.Land](https://dev.collab.land/docs/downstream-integrations/api/authentication#login-with-collabland-lwc---beta) (LWC) flow to activate members.
+This process has been simplified by the launch of [Collab.Land's Developer Portal](https://dev-portal.collab.land/signin) where developers self-serve and create their own client-apps, submit [miniapps to the miniapps](https://help.collab.land/miniapps/), and leverage the [Login with Collab.Land](https://dev.collab.land/docs/downstream-integrations/api/authentication#login-with-collabland-lwc---beta) (LWC) flow to activate members.
 
 Looking to the future, TSF believes that token gating technology will continue to play a pivotal role in shaping online experiences. The platform has already adopted token gating in more areas than initially planned. TSF remains committed to an ongoing partnership with [Collab.Land](https://www.collab.land) and the continued utilization of token gating technology.
 

@@ -289,4 +289,4 @@ private verifyRequest(
   }
 ```
 
-In conclusion, implementing signature verification in your Collab.Land Miniapps is crucial for ensuring data security and protecting against potential threats. By following these steps and best practices, you can create a safer and more trustworthy environment for your users while building innovative Miniapps on the Collab.Land Marketplace. Happy coding and stay secure!
+In conclusion, implementing signature verification in your Collab.Land Miniapps is crucial for ensuring data security and protecting against potential threats. By following these steps and best practices, you can create a safer and more trustworthy environment for your users while building innovative Miniapps on the Collab.Land Miniapps. Happy coding and stay secure!

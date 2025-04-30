@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Extending Collab.Land
 
-In this section, you'll learn how to build Miniapps for the Collab.Land ecosystem and [Marketplace](../intro#the-miniapp-marketplace).
+In this section, you'll learn how to build Miniapps for the Collab.Land ecosystem and [Miniapps](../intro#the-miniapp-platform).
 
 ## Zero to Hero with Miniapps
 
@@ -29,10 +29,10 @@ During the development process, it's important to be available to the community 
 
 You'll need to create the following documentation for your Miniapp:
 
-1. Miniapp installation documentation, which will be hosted in the [Marketplace](https://cc.collab.land/).
-2. Miniapp usage and tutorial documentation, which will be hosted in the [Admin help docs](https://help.collab.land/marketplace/getting-started).
+1. Miniapp installation documentation, which will be hosted in the [Miniapps](https://cc.collab.land/).
+2. Miniapp usage and tutorial documentation, which will be hosted in the [Admin help docs](https://help.collab.land/miniapps/getting-started).
 
-- You can refer to the [POAP Miniapp docs](https://help.collab.land/marketplace/apps/poap) as an example.
+- You can refer to the [POAP Miniapp docs](https://help.collab.land/miniapps/apps/poap) as an example.
 
 ### Completion
 
@@ -51,8 +51,8 @@ During the showcase event, you'll present your completed Miniapp to the Collab.L
 
 If your Miniapp receives approval during the showcase event, the Collab.Land team will sponsor your Miniapp as a [DAO proposal](https://help.collab.land/governance/proposals). The approval process for a DAO proposal takes 14 days, following the [2/7/5 Proposal cycle](https://help.collab.land/governance/proposals#proposal-cycle). Once your Miniapp proposal is successfully passed:
 
-1. Congratulations! You can now proceed to stake $COLLAB tokens to guarantee your listing in the Marketplace. (Staking tokens are only applicable in v2 of the Marketplace, staking is not required at the moment).
-2. The Collab.Land team will list your Miniapp in the Marketplace and activate it for community admins to install in their communities.
+1. Congratulations! You can now proceed to stake $COLLAB tokens to guarantee your listing in the Miniapps. (Staking tokens are only applicable in v2 of the Miniapps, staking is not required at the moment).
+2. The Collab.Land team will list your Miniapp in the Miniapps and activate it for community admins to install in their communities.
 
 ### Going Live
 

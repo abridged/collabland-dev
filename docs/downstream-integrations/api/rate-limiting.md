@@ -12,7 +12,7 @@ The Free Tier of Collab.Land's API is designed for newcomers who are exploring t
 
 - **10 requests per second:** Developers can make up to 10 API requests per second, ensuring a reasonable throughput for initial testing and development.
 - **10000 requests per month:** Over the course of a month, developers can make a maximum of 10000 API requests. This limit encourages controlled usage while allowing for ample exploration.
-- **5 Max marketplace keys:** The Free Tier supports the creation of up to 5 marketplace keys, enabling integration with Collab.Land's marketplace functionality.
+- **5 Max miniapp keys:** The Free Tier supports the creation of up to 5 miniapp keys, enabling integration with Collab.Land's miniapp functionality.
 - **5 Max client apps:** Developers can register and manage up to 5 client apps within the Free Tier, facilitating integration with multiple projects simultaneously.
 - **Scopes:** [All allowed scopes](https://api.collab.land/scopes).
 
@@ -22,7 +22,7 @@ The Paid Tier of Collab.Land's API caters to developers with more demanding requ
 
 - **15 requests per second:**  Developers in the Paid Tier can make up to 15 API requests per second, ensuring a consistent flow of data for their applications.
 - **100000 requests per month:** With a significantly increased monthly limit of 1000,000 API requests, developers have greater flexibility to handle higher volumes of traffic and data processing.
-- **500 Max marketplace keys:** The Paid Tier allows the creation of up to 500 marketplace keys, enabling integration with a large number of Collab.Land's marketplace features.
+- **500 Max miniapp keys:** The Paid Tier allows the creation of up to 500 miniapp keys, enabling integration with a large number of Collab.Land's miniapp features.
 - **500 Max client apps:**  Developers can register and manage up to 500 client apps within the Paid Tier, facilitating integration with numerous projects simultaneously.
 - **Scopes:** [All allowed scopes](https://api.collab.land/scopes).
 

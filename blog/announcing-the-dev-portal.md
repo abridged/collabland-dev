@@ -13,7 +13,7 @@ Collab.Land is proud to announce the launch of its new [Developer Portal and API
 The Developer Portal provides a dedicated platform for developers to contribute their Miniapps to:
 
 - Create client applications and get access to API credentials
-- Contribute Miniapps to the Collab.Land Marketplace.
+- Contribute Miniapps to the Collab.Land Miniapps.
 - Leverage LWC flow to request user permissions for data access.
 
 This significant evolution enables developers to reach over 50,000 communities who are actively seeking to enhance their members' experiences. Through the dev portal, developers can build and submit miniapps to provide to a vast array of applications and services for community admins to customize their communities.
@@ -30,14 +30,14 @@ Designed with diverse needs in mind, Collab.Land's API product is available in [
 
 - 10 requests per second
 - 10000 requests per month
-- 5 Max marketplace keys
+- 5 Max miniapp keys
 - 5 Max client apps
 
 **Paid Tier**: Geared towards developers requiring higher request and rate limits. This tier covers most use cases, perfectly suited for those ready to incorporate the API into larger projects:
 
 - 15 requests per second
 - 1000000 requests per month
-- 500 Max marketplace keys
+- 500 Max miniapp keys
 - 500 Max client apps
 
 **Enterprise Tier**: Customized to suit specific requirements, the Enterprise Plan is for brands or projects that need custom support or integrations demanding additional resources from the core team. For those interested in this plan, please direct all inquiries to the Collab.Land team.
