@@ -12,7 +12,7 @@ Miniapps are modular extensions within the Command Center that enable additional
 
 :::info 
 
-[Read more about specific apps, and how to use them](../key-features/miniapps)
+[Read more about specific apps, and how to use them](../miniapps/getting-started)
 
 :::
 
