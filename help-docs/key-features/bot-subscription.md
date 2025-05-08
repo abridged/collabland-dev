@@ -10,7 +10,7 @@ import img4 from '@site/static/img/tg-subscription.png';
 
 Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent balance checks, AND/OR conditions, customization, and more.
 
-All tiers include our robust network of blockchains (35+ L1s + L2s and counting!), 25+ wallets, Delegate and OpenSea verification, and the most token types of any community-building tool.
+All tiers include our robust network of blockchains (40+ L1s + L2s and counting!), 30+ wallets, Delegate and OpenSea verification, and the most token types of any community-building tool. For a complete list of supported blockchains and wallets, please visit our [Supported Blockchains and Wallets](/help-docs/key-features/supported-blockchains-wallets) page.
 
 Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land).
 
@@ -54,143 +54,27 @@ Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land)
 Your Telegram subscription covers one group at a time!
 :::
 
-### Supported Chains and Networks
+## How to Cancel Your Collab.Land Subscription
 
-<table>
-<tr>
-<td>
+### Option 1: Fill out the cancellation form directly
+The quickest way to cancel your subscription is by submitting this short form:
+👉 [Cancellation Form](https://docs.google.com/forms/d/e/1FAIpQLSeqWhlHa4ULZto3Oaf9x4gmtNq1k-SntWPpX3yh8JA3Di996Q/viewform)
 
-- Abstract
-- Amoy (Polygon testnet)
-- ApeChain
-- ApeChain Curtis (Testnet)
-- Arbitrum Nova
-- Arbitrum One
-- Astar zkEVM  
-- Avalanche
-- BASE
-- Bitlayer
+Once submitted, your cancellation will be processed, and your subscription will remain active until the end of your current billing period.
 
-</td>
-<td>
+### Option 2: Cancel through the Collab.Land Command Center
 
-- Blast
-- Bitcoin
-- BSC
-- Celo
-- Core
-- DOS Chain
-- Eluvio
-- Ethereum Mainnet
-- Flow
-- Gitcoin Passport
+1. Log in to the Command Center
+   - Go to https://cc.collab.land and log in using the Discord or Telegram account linked to your community.
 
-</td>
-<td>
+2. Select your community
+   - From the left sidebar, click on the community you're managing.
 
-- Gnosis
-- Immutable X
-- Kusama
-- Linea
-- Loopring
-- Moonbeam
-- NEAR
-- Nifty
-- Optimism
-- Palm
+3. Navigate to the "Subscriptions" tab
+   - You'll find your active subscription details here.
 
-</td>
-<td>
-
-- Polkadot
-- Polygon
-- Q Chain
-- Ronin
-- Sahara AI (Testnet)
-- SEI
-- Sepolia (Ethereum testnet)
-- Shibarium
-- Solana
-- Tezos
-
-</td>
-<td>
-
-- Unichain
-- Vitruveo (Paused)
-- XRPL
-
-</td>
-</tr>
-</table>
-
-:::caution
-
-Please note that blockchain testnets are for testing purposes only. Collab.Land reserves the right to suspend support for testnets at any time.
-
-:::
-
-:::tip
-
-If you are interested in a new Blockchain or Wallet Integration, please let us know by filling out [this form](https://bit.ly/3HzRmnA).
-
-:::
-
-### Supported Wallets and Verifications
-
-<table>
-<tr>
-<td>
-
-- Abstract Global Wallet
-- Bitski
-- Blocto
-- Coinbase Wallet
-- Dapper
-- Delegate
-- Eluvio
-- Fortmatic
-- ImmutableX
-
-</td>
-<td>
-
-- Leather
-- Ledger
-- Loopring
-- MEWconnect
-- MetaMask
-- Near
-- Nifty Gateway
-- OpenSea
-- Opolis
-- Phantom
-
-</td>
-<td>
-
-- Phantom EVM
-- Ronin
-- Roll
-- Safe
-- Solflare
-- Talisman
-- Temple (Tezos)
-- TokenProof
-- Trezor
-- Venly
-
-</td>
-<td>
-
-- WalletConnect(V2)
-- Xumm
-- Xverse
-- and more coming soon!
-
-</td>
-</tr>
-</table>
+4. Click "Cancel"
+   - Click the Cancel button, and you'll be redirected to the same cancellation form above.
 
 :::tip
 
