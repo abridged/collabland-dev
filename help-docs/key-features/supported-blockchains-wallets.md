@@ -21,6 +21,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Astar                                                                     | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Avalanche                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | BASE                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| Berachain                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Blast                                                                     | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                          |
 | BSC                                                                       | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
 | Celo                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
