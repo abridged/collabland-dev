@@ -97,7 +97,7 @@ This wallet list is intended for community members. It shows which wallets can b
 | [Dapper](https://www.meetdapper.com/) | Flow |
 | [Eluvio](https://eluvio.co/content-fabric) | Eluvio |
 | [ImmutableX](/help-docs/wallets/connecting-using-different-wallets/immutable-x) | ImmutableX |
-| [Leather wallet](https://leather.io/) | Bitcoin Ordinals, Bitcoin STAMPS |
+| [Leather Wallet](https://leather.io/) | Bitcoin Ordinals, Bitcoin STAMPS |
 | [Magic Eden Wallet](https://wallet.magiceden.io) | Bitcoin, Solana |
 | [NEAR (NEAR, Meteor)](https://meteorwallet.app/) | NEAR |
 | [Nifty Gateway](https://help.niftygateway.com/hc/en-us/articles/4961117358867-Wallet-Hub) | "NIFTY" |
@@ -106,6 +106,7 @@ This wallet list is intended for community members. It shows which wallets can b
 | [Solflare](https://docs.solflare.com/solflare) | Solana |
 | [Talisman](https://www.talisman.xyz/wallet) | Kusama, Polkadot |
 | [Tezos (Temple Wallet)](https://templewallet.com/) | Tezos |
+| [UniSat (Desktop)](https://unisat.io/) | Bitcoin Ordinals |
 | [Xumm](https://xumm.app/#features) | XRPL |
 | [Xverse](https://www.xverse.app/) | Bitcoin Ordinals |
 
