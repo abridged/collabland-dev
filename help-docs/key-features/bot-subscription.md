@@ -40,6 +40,7 @@ Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land)
 | Customize your Discord verification channel's "Let's Go!" message                                            |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Dedicated support human                                                                                      |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Solana event listener                                                                                        |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
+| SmartTag                                                                                                     |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Dedicated support Slack channel                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 | White label (your own custom bot)                                                                            |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 | Personalized features on demand                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |

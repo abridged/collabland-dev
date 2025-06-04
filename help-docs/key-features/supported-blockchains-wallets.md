@@ -1,6 +1,6 @@
 ---
 title: Supported Blockchains and Wallets
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 Collab.Land is built to support dynamic Web3 communities through secure, wallet-based access. Our platform integrates with more than 40 blockchains and 30 wallets, offering broad compatibility for a wide range of use cases.
