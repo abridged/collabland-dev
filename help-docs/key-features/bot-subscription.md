@@ -40,8 +40,7 @@ Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land)
 | Customize your Discord verification channel's "Let's Go!" message                                            |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Dedicated support human                                                                                      |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Solana event listener                                                                                        |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
-| Dedicated support Slack channel                                                                                   |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
-|
+| Dedicated support Slack channel                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 | White label (your own custom bot)                                                                            |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 | Personalized features on demand                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 |                                                                                                              |             |            |             |               |                |
@@ -63,7 +62,9 @@ Your Telegram subscription covers one group at a time!
 The quickest way to cancel your subscription is by submitting this short form:
 👉 [Cancellation Form](https://docs.google.com/forms/d/e/1FAIpQLSeqWhlHa4ULZto3Oaf9x4gmtNq1k-SntWPpX3yh8JA3Di996Q/viewform)
 
-Once submitted, your cancellation will be processed, and your subscription will remain active until the end of your current billing period.
+Once you submit the form, your cancellation will be processed within a few days, and your subscription will stay active through the end of your current billing cycle. We currently don't send confirmation emails for cancellations. However, if you'd like one for your records, feel free to email us at support@collab.land and we'll be happy to provide it.
+
+If any payments are made after your request has been submitted, they will be refunded. You'll receive an email confirmation for any refunds issued.
 
 ### Option 2: Cancel through the Collab.Land Command Center
 
