@@ -28,17 +28,20 @@ Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land)
 |-------------------------------------------------------------------------------------------------------------|:-----------:|:----------:|:-----------:|:-------------:|:--------------:|
 | TGRs (Token Gating Rules)                                                                                   |  Up to 4    |  Up to 10  |  Up to 50   |   Up to 150   |   Unlimited    |
 | Multi-wallet verification                                                                                    |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
-| Access to 35+ blockchains                                                                                    |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
-| Access to 25+ wallets, Delegate, OpenSea + WalletConnect                                                     |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
+| Access to 40+ blockchains                                                                                    |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
+| Access to 30+ wallets, Delegate, OpenSea + WalletConnect                                                     |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
 | Priority support                                                                                             |      ✗      |      ✓     |      ✓      |       ✓       |       ✓        |
 | Opt-out feature for donate                                                                                    |      ✗      |      ✓     |      ✓      |       ✓       |       ✓        |
-| Opt-out feature for community messages                                                                        |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
 | PRO miniapp bundle                                                                                           |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
+| EVM event listener                                                                                           |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
 | Balance checks frequency                                                                                     | Every 7 days| Every 24h  | Every 24h   |    Every 24h  |    Every 24h   |
 | Bonus "admin-initiated" balance checks                                                                       |      ✗      |      ✗     |     ✗       |   Up to 5/mo  |  Upon Request  |
+| Opt-out feature for community messages                                                                        |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Customize your Discord verification channel's "Let's Go!" message                                            |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
 | Dedicated support human                                                                                      |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
-| CollabCare premium support                                                                                   |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
+| Solana event listener                                                                                        |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
+| Dedicated support Slack channel                                                                                   |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
+|
 | White label (your own custom bot)                                                                            |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 | Personalized features on demand                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
 |                                                                                                              |             |            |             |               |                |
