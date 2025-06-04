@@ -101,6 +101,7 @@ This wallet list is intended for community members. It shows which wallets can b
 | [Magic Eden Wallet](https://wallet.magiceden.io) | Bitcoin, Solana |
 | [NEAR (NEAR, Meteor)](https://meteorwallet.app/) | NEAR |
 | [Nifty Gateway](https://help.niftygateway.com/hc/en-us/articles/4961117358867-Wallet-Hub) | "NIFTY" |
+| [OKX (Desktop)](https://web3.okx.com) | Bitcoin Ordinals, Bitcoin STAMPS |
 | [Phantom](https://docs.phantom.com) | Solana |
 | [Roll](https://support.tryroll.com/hc/en-us/articles/360034949092-Are-Social-Tokens-Built-on-Blockchain-) | Mainnet |
 | [Solflare](https://docs.solflare.com/solflare) | Solana |
