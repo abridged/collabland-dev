@@ -1,6 +1,6 @@
 ---
 title: Collab.Land Token
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 The $COLLAB token serves as the governance token for the Collab.Land ecosystem, embodying the key value of decentralization. As an integral part of the Collab.Land DAO, token holders have a significant say in governing the ecosystem through voting on feature requests, curating the marketplace, and offering bounties. By owning COLLAB tokens, individuals can actively participate in shaping the future of Collab.Land by voting on proposals, engaging in discussions, and contributing to the ecosystem's development.

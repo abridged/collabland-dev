@@ -2,7 +2,7 @@
 title: Joining a Telegram Token Permission Group
 id: join-tg-group
 sidebar_label: Join a Telegram Group
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 import img1 from '@site/static/img/tutorial/set-up-the-bot/tg-collabland-bot.png';

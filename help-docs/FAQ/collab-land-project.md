@@ -1,6 +1,6 @@
 ---
 title: Collab.Land Project
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import img1 from '@site/static/img/tutorial/token/3way-marketplace.png';

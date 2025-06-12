@@ -2,7 +2,7 @@
 title: Support Ticket Dos and Don'ts
 id: support-tickets
 sidebar_label: Support Ticket Dos and Don'ts
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 ### DO NOT Include
