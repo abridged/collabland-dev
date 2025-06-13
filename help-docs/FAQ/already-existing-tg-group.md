@@ -1,7 +1,7 @@
 ---
 title: Adding Collab.Land Bot to an Existing Telegram Group
 id: add-bot-to-tg-group
-sidebar_label: Add Bot to Telegram Group
+sidebar_label: Already Existing Telegram Group
 sidebar_position: 1
 ---
 

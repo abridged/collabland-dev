@@ -85,13 +85,7 @@ password `gmgmgm`
 
 ### How it fits together
 
-The Collab.Land [Product Map](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@LUSUr8hW5cYSYfX8ti) is a freeflow association of products and ideas that Collab.Land is working towards. The map gives an overview of how everything fits together within the Collab.Lands.
-
-There is also a [high-level roadmap](https://whimsical.com/collab-products-7HgPByTfsEVXiFgcXqJzQi@2Ux7TurymMcvr1WjdR3d) at the bottom of the document.
-
-<details> <summary> Product Map </summary>
-password `collabland`
-</details>
+The gmPASS is a key component of Collab.Land's ecosystem, enabling seamless blockchain interactions through social platforms. It integrates with other Collab.Land services to provide a unified experience for community members.
 
 ## Security
 
