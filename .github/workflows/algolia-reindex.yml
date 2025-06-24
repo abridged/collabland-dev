@@ -1,4 +1,4 @@
-name: Reindex Algolia
+name: Build and Deploy
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - 'docusaurus.config.js'
 
 jobs:
-  reindex:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -29,9 +29,5 @@ jobs:
           API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
           APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }}
       
-      - name: Trigger Algolia reindex
-        run: |
-          curl -X POST \
-            -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_API_KEY }}" \
-            -H "X-Algolia-Application-Id: ${{ secrets.ALGOLIA_APP_ID }}" \
-            "https://${{ secrets.ALGOLIA_APP_ID }}.algolia.net/1/indexes/collabland/clear" 
+      - name: Build completed
+        run: echo "Site built successfully. Algolia will be updated on next deployment." 
