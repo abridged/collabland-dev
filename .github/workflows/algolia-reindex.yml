@@ -1,0 +1,37 @@
+name: Reindex Algolia
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'docs/**'
+      - 'help-docs/**'
+      - 'docusaurus.config.js'
+
+jobs:
+  reindex:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'yarn'
+      
+      - name: Install dependencies
+        run: yarn install
+      
+      - name: Build site
+        run: yarn build
+        env:
+          API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+          APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }}
+      
+      - name: Trigger Algolia reindex
+        run: |
+          curl -X POST \
+            -H "X-Algolia-API-Key: ${{ secrets.ALGOLIA_API_KEY }}" \
+            -H "X-Algolia-Application-Id: ${{ secrets.ALGOLIA_APP_ID }}" \
+            "https://${{ secrets.ALGOLIA_APP_ID }}.algolia.net/1/indexes/collabland/clear" 
