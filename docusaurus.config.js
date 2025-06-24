@@ -164,6 +164,15 @@ const config = {
         contextualSearch: true,
         // Optional: Algolia search parameters
         searchParameters: {},
+        // Include help-docs in search results
+        searchPagePath: 'search',
+        // Configure search to include both sections
+        externalUrlRegex: undefined,
+        // Map help-docs URLs to search results
+        replaceSearchResultPathname: {
+          from: '/help-docs/',
+          to: '/',
+        },
       },
       footer: {
         style: 'dark',
