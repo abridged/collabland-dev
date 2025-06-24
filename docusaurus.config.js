@@ -50,16 +50,8 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/abridged/collabland-dev/tree/master/',
-        },
+        docs: false,
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
