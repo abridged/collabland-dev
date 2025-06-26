@@ -11,7 +11,7 @@ Balance check frequency varies by plan:
 - Starter: every 7 days
 - Basic, Premium, Exclusive, Enterprise: every 24 hours.
 
-::info 
+:::info 
  Balance checks do not assign new roles, they only remove them. If a user becomes eligible for a new role (e.g. by acquiring a qualifying token or meeting updated requirements), they must manually verify again in the community to receive the role.
  :::
 
