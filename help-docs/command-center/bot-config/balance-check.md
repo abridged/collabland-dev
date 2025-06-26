@@ -13,7 +13,7 @@ Balance check frequency varies by plan:
 
 :::info 
  Balance checks do not assign new roles, they only remove them. If a user becomes eligible for a new role (e.g. by acquiring a qualifying token or meeting updated requirements), they must manually verify again in the community to receive the role.
- :::
+:::
 
 ## Real-Time Role Syncing with Event Listener
 In addition to scheduled balance checks, Collab.Land supports real-time role updates using blockchain event listeners. This allows roles to be updated as soon as tokens move into or out of a member’s wallet—without requiring manual verification or waiting for the next balance check cycle.
