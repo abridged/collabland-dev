@@ -99,6 +99,7 @@ This wallet list is intended for community members. It shows which wallets can b
 | [ImmutableX](/help-docs/wallets/connecting-using-different-wallets/immutable-x) | ImmutableX |
 | [Leather Wallet](https://leather.io/) | Bitcoin Ordinals, Bitcoin STAMPS |
 | [Magic Eden Wallet](https://wallet.magiceden.io) | Bitcoin, Solana |
+| [MetaMask](https://metamask.io/flask/) | Solana |
 | [NEAR (NEAR, Meteor)](https://meteorwallet.app/) | NEAR |
 | [Nifty Gateway](https://help.niftygateway.com/hc/en-us/articles/4961117358867-Wallet-Hub) | "NIFTY" |
 | [OKX (Desktop)](https://web3.okx.com) | Bitcoin Ordinals, Bitcoin STAMPS |
