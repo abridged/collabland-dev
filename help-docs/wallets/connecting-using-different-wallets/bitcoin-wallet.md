@@ -47,8 +47,16 @@ Use the Xverse wallet to verify ownership of Bitcoin Ordinals.
 
 ### Supported Wallets
 
-- Collab.Land supports Leather Wallet for STAMPS and Ordinals on Bitcoin.
+Collab.Land currently supports the following wallets for Bitcoin Ordinals and STAMPS:
 
-- Collab.Land supports Xverse for Ordinals.
+- **Leather Wallet** 
+- **Xverse Wallet** 
+- **Magic Eden Wallet** 
+- **OKX Wallet (desktop only)**
+- **UniSat Wallet** 
 
-- Collab.Land uses the Magic Eden API for Bitcoin Ordinals verification.
+:::note
+
+Your Ordinal may be stored in either your BTC address or your Ordinals address. Please ensure you connect the wallet that holds the asset.
+
+:::
