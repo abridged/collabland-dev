@@ -35,6 +35,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Palm                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Polygon                                                                   | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe            |
 | Q Chain                                                                   | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| Quai Network                                                              | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | SEI                                                                       | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Shibarium                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
@@ -84,6 +85,7 @@ This wallet list is intended for community members. It shows which wallets can b
 | [MEWconnect](https://help.myetherwallet.com/en/articles/6821718-which-cryptocurrencies-tokens-and-networks-does-mew-support) | Mainnet, Optimism, Polygon, Kusama, Polkadot, Moonbeam, BSC |
 | [OpenSea Auth](/help-docs/wallets/connecting-using-different-wallets/opensea) | https://docs.opensea.io/reference/supported-chains |
 | [Opolis(Magic.Link)](https://magic.link/docs/get-started#support-list) | Mainnet, Optimism, Polygon |
+| [Pelagus Wallet](https://pelaguswallet.io) | Quai Network |
 | [Phantom](https://docs.phantom.com) | Bitcoin, Ethereum, Base, Polygon |
 | [Ronin](/help-docs/wallets/connecting-using-different-wallets/ronin) | Ronin |
 | [tokenproof](/help-docs/wallets/connecting-using-different-wallets/tokenproof) | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Solana, "NIFTY", Flow, Celo, BASE |
