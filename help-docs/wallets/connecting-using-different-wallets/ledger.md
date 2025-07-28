@@ -46,24 +46,10 @@ If you want to confirm the verification process through a Ledger device that is 
 
 ### Phantom
 
-Solana community members can now utilize their Ledger hardware devices with Phantom wallet for verification on Collab.Land.
+:::info
 
-:::tip
-
-Follow the [Ledger guide for setting up Phantom wallet](https://support.ledger.com/hc/en-us/articles/4408131265169-Set-up-and-use-Phantom-to-access-your-Ledger-Solana-SOL-account?docs=true) to access Solana assets in Ledger hardware wallets.
+Phantom + Ledger used to support off-chain message signing, but this changed in late 2023. Ledger released a firmware update that removed the ability to sign arbitrary off-chain messages (like wallet ownership proofs) for Phantom.
+ 
+As a result, while you can still use Ledger with Phantom to sign on-chain transactions, you can no longer use this combination to sign off-chain messages, including those needed for Collab.Land verification (or any service that requires off-chain message signing).
 
 :::
-
-To get started, please follow these steps:
-
-1. Ensure your Ledger device is unlocked and the Solana app is open on the device.
-2. In the Discord server you would like to verify in, click the "Let's Go!" button and follow the link provided by Collab.Land.
-3. On the verification page, click on "+ Verify with a New Wallet" and then click "Show All" to display all wallet options.
-4. From the list of supported wallets, select the Solana option.
-5. In the wallet type options, choose Solana (Phantom).
-6. A popup will appear explaining the type of message you are signing. After reading the message, click OK. Please note that Collab.Land utilizes a MEMO transaction type for Ledger verification on Solana. This is a read-only transaction type and no funds will be transferred, with no network fees involved. It is also important to ensure that blind signing is enabled on the Ledger device.
-7. Click the "Sign Message" button.
-8. Approve the transaction in the Phantom wallet popup.
-9. Approve the transaction on your Ledger device. Please make sure the device is unlocked, the Solana app is open, and blind signing is enabled.
-
-By following these steps, you will be able to successfully connect your Ledger hardware device with Phantom wallet for verification on Collab.Land.
