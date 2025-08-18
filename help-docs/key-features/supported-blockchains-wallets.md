@@ -111,7 +111,7 @@ This wallet list is intended for community members. It shows which wallets can b
 | [Talisman](https://www.talisman.xyz/wallet) | Kusama, Polkadot |
 | [Tezos (Temple Wallet)](https://templewallet.com/) | Tezos |
 | [UniSat (Desktop)](https://unisat.io/) | Bitcoin Ordinals |
-| [Xumm](https://xumm.app/#features) | XRPL |
+| [Xaman](https://xaman.app) | XRPL |
 | [Xverse](https://www.xverse.app/) | Bitcoin Ordinals |
 
 :::tip
