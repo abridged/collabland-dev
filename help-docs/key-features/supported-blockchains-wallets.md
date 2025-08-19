@@ -18,7 +18,6 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | ApeChain                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Arbitrum Nova                                                             | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Arbitrum One                                                              | ERC20, ERC20-C, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
-| Astar                                                                     | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Avalanche                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
 | BASE                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Berachain                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
