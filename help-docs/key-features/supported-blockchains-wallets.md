@@ -86,7 +86,7 @@ This wallet list is intended for community members. It shows which wallets can b
 | [OpenSea Auth](/help-docs/wallets/connecting-using-different-wallets/opensea) | https://docs.opensea.io/reference/supported-chains |
 | [Opolis(Magic.Link)](https://magic.link/docs/get-started#support-list) | Mainnet, Optimism, Polygon |
 | [Pelagus Wallet](https://pelaguswallet.io) | Quai Network |
-| [Phantom](https://docs.phantom.com) | Bitcoin, Ethereum, Base, Polygon |
+| [Phantom](https://docs.phantom.com) | Ethereum, Base, Polygon |
 | [Ronin](/help-docs/wallets/connecting-using-different-wallets/ronin) | Ronin |
 | [tokenproof](/help-docs/wallets/connecting-using-different-wallets/tokenproof) | Mainnet, Optimism, Polygon, Arbitrum One, BSC, Gnosis, Avalanche, Solana, "NIFTY", Flow, Celo, BASE |
 | [Trezor](https://trezor.io/support/a/is-my-coin-supported) | Mainnet, Sepolia, Optimism, Polygon, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo |
