@@ -6,9 +6,9 @@ id: smarttag
 
 # SmartTag
 
-Send, receive, withdraw tokens, and more - fully onchain, right inside your community. Just tag a username. Smart accounts + Discord login = simple, secure, seamless.
+The safest way to tip, reward, or pay in your community. Send, receive, withdraw tokens, and more - fully onchain, right inside your community. Just tag a username. Smart accounts + Discord login = simple, secure, seamless.
 
-SmartTag is available exclusively to **Collab.Land Exclusive plan subscribers**.
+SmartTag is available as a **$9.99/month feature add-on** for all plans, or **included with the Exclusive Plan** ($149/month) and higher.
 See all Exclusive plan features [here](https://collab.land/pricing).
 
 
@@ -29,14 +29,23 @@ See all Exclusive plan features [here](https://collab.land/pricing).
 
 ## Benefits of SmartTag
 
+* **Security & Decentralization**
+  Fully onchain with no central custodian holding funds, reducing "honey pot" risk. Every transaction is transparent and auditable.
+
+* **Instant Wallet Access**
+  Members can receive tokens immediately with no setup. SmartTag automatically creates a noncustodial smart account for recipients.
+
+* **No Custody Risk**
+  Your tokens stay yours until they're sent to your recipient's wallet. No pooled funds for hackers to target.
+
 * **Onchain Activity Boost**
   All activity is visible on public block explorers, increasing token visibility and transaction volume.
 
 * **Multi-Community Support**
-  Once a token is added, it’s usable across all Collab.Land Exclusive communities.
+  Once a token is added, it's usable across all Collab.Land communities with SmartTag installed.
 
-* **Member Engagement**
-  Welcome, reward, recognize, or pay members with tokens. Even trade between members.
+* **Real-World Use Cases**
+  Tips, rewards, payments, onboarding new members, POAP-style participation, point systems, and memecoins.
 
 * **Contests and Competitions**
   Distribute rewards for games, giveaways, tournaments, and more.
@@ -48,7 +57,13 @@ See all Exclusive plan features [here](https://collab.land/pricing).
   * Assignable to others manually in Discord
 
 :::caution
-The designated fee wallet must be on the same chain as the community’s configured chain.
+The designated fee wallet must be on the same chain as the community's configured chain.
+:::
+
+:::info
+**Fee Structure:**
+- 2% to your community
+- 2% to Collab.Land (keeps the ecosystem sustainable)
 :::
 
 
@@ -62,9 +77,11 @@ Your Smart Account wallet will hold the tokens received from in-chat transaction
 
 ## How to Get Started
 
-1. Be on the **Exclusive plan** or higher
+1. **Choose your subscription:**
+   - Add SmartTag as a **$9.99/month feature add-on** to any plan
+   - Or upgrade to the **Exclusive Plan** ($149/month) where SmartTag is included
 2. Add the SmartTag miniapp to your Discord server
-3. That’s it! Members can start using SmartTag commands immediately
+3. That's it! Members can start using SmartTag commands immediately
 
 :::caution
 Installing SmartTag creates a `TagMaster` role and assigns it to you.
@@ -75,15 +92,23 @@ Ensure the **Collab.Land** role is positioned **above** the roles of anyone rece
 
 SmartTag currently supports:
 
-* Arbitrum: $COLLAB, USDC, USDT
-* Base: USDC, USDT
-* Optimism: $COLLAB, USDC, USDT
+**Chains:** Arbitrum, Base, Linea, Optimism
+
+**Stablecoins:** USDC, USDT (on all supported chains)
+
+**Community Tokens:** $COLLAB (on Optimism and Arbitrum)
 
 More chains and tokens coming soon!
 
 :::info
-Want to add your own token?
-Start here: [Token Request Form](https://forms.gle/GFVEE3BqRM8Uu7n27)
+Want to add your chain or community token?
+A one-time fee applies to adding new chains and listing custom tokens. Availability is subject to technical review; timelines vary by chain.
+[Submit your request here](https://forms.gle/GFVEE3BqRM8Uu7n27)
+:::
+
+:::info
+Want NFT tipping?
+Contact support@collab.land to inquire about NFT tipping capabilities.
 :::
 
 :::danger
@@ -99,7 +124,7 @@ Always verify that you are sending tokens the right person! If a transaction goe
 | `/tag deposit`      | Get your Smart Account address to deposit tokens      |
 | `/tag tokens`       | See supported ERC20 tokens in your community          |
 | `/tag send`         | Send tokens to another user (1 recipient only)        |
-| `/tag send-nft`     | Send an NFT to another user                           |
+| `/tag send-nft`     | Send an NFT to another user (contact support@collab.land to enable) |
 | `/tag withdraw`     | Withdraw tokens to an external wallet                 |
 | `/tag withdraw-nft` | Withdraw NFTs to an external wallet                   |
 | `/tag raindrops`    | Create a timed token drop claimable by multiple users |
