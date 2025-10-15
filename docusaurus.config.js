@@ -32,11 +32,10 @@ const config = {
       src: 'https://widget.kapa.ai/kapa-widget.bundle.js',
       'data-website-id': '7d20e0b5-97d8-4081-94c5-62ecf4a19bdc',
       'data-project-name': 'Collab.Land',
-      'data-project-color': '#9B9EFF',
-      'data-project-logo':
-        'https://pbs.twimg.com/profile_images/1598394761005727760/5_QGhWNT_400x400.png',
+      'data-project-color': '#0f0f29',
+      'data-project-logo': '/img/logo1.svg',
       'data-position': 'bottom-right',
-      'data-margin': '20px',
+      'data-margin': '50px',
       async: true,
     },
     {
