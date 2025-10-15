@@ -148,23 +148,6 @@ const config = {
           // },
         ],
       },
-      algolia: {
-        apiKey: process.env.API_KEY || 'your_algolia_api_key',
-        indexName: 'collabland',
-        appId: process.env.APPLICATION_ID || 'your_algolia_app_id',
-        contextualSearch: true,
-        // Optional: Algolia search parameters
-        searchParameters: {},
-        // Include help-docs in search results
-        searchPagePath: 'search',
-        // Configure search to include both sections
-        externalUrlRegex: undefined,
-        // Map help-docs URLs to search results
-        replaceSearchResultPathname: {
-          from: '/help-docs/',
-          to: '/',
-        },
-      },
       footer: {
         style: 'dark',
         links: [],
