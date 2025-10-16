@@ -92,6 +92,21 @@ const config = {
       },
     ],
     [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: ['help-docs'],
+      },
+    ],
+    [
       'content-docs',
       {
         id: 'help-docs',
