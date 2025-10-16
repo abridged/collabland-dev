@@ -39,8 +39,8 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | SEI                                                                       | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Shibarium                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| [Somnia](https://somnia.network)                                          | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| [Sonic](https://www.soniclabs.com)                                        | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| Somnia                                          | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| Sonic                                        | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Unichain                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Vitruveo (Paused)                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Amoy (Polygon testnet)                                                    | ERC20, ERC20-C, ERC721, ERC1155                                                              |
