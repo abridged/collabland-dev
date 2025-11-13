@@ -138,7 +138,3 @@ If any payments are made after your request has been submitted, they will be ref
 
 4. Click "Cancel"  
    - Click the Cancel button, and you'll be redirected to the same cancellation form above.
-
-:::tip
-To maintain uninterrupted service, please upgrade to a corresponding premium plan or reduce the number of TGRs using the [Command Center](https://cc.collab.land) to match your community's needs. Balance checks will be suspended for communities with TGRs exceeding their Collab.Land bot subscription.
-:::
