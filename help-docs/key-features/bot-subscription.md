@@ -7,12 +7,13 @@ import img1 from '@site/static/img/subscription_tiers.png';
 import img2 from '@site/static/img/tg_sub_tiers.png';
 import img3 from '@site/static/img/discord-subscription.png';
 import img4 from '@site/static/img/tg-subscription.png';
+import img5 from '@site/static/img/discord-subscription-2.png';
 
-Check out our Premium bot offerings and review the feature comparisons for Collab.Land communities in the included images. Each premium tier provides unique features like Discord PRO miniapps, more frequent balance checks, AND/OR conditions, customization, and more.
+Scale with confidence with [Collab.Land Subscriptions](https://cc.collab.land) - the #1 token gating solution for mission-critical communities. Every plan ships with ETH Event Listener (real-time check), 24-hour balance checks, multi-wallet verification, support for [50+ blockchains and 35+ wallets](/help-docs/key-features/supported-blockchains-wallets) (including Delegate, OpenSea, and WalletConnect V2), plus standard support for admins and members.
 
-All tiers include our robust network of blockchains (40+ L1s + L2s and counting!), 30+ wallets, Delegate and OpenSea verification, and the most token types of any community-building tool. For a complete list of supported blockchains and wallets, please visit our [Supported Blockchains and Wallets](/help-docs/key-features/supported-blockchains-wallets) page.
+Premium = extra firepower. Upgrade for PRO miniapps, staking contract support, Solana Event Listener (real-time check), priority support, [SmartTag](/help-docs/key-features/smarttag), admin-initiated balance checks, a custom AI quiz agent, personalized features, and more.
 
-Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land).
+- Manage subscriptions in the [Collab.Land Command Center](https://cc.collab.land)
 
 
 ## Subscription Plans
@@ -21,31 +22,35 @@ Subscribe directly from the [Collab.Land Command Center](https://cc.collab.land)
 
 <div class="text--center">
   <img src={img3} alt="Command Center subscription page" />
+  <img src={img5} alt="Command Center subscription page" />
 </div>
 
+| **PLANS COMPARISON**                                   |  **STARTER**  |  **BASIC**  | **PREMIUM** | **EXCLUSIVE** |  **ELITE**  | **ENTERPRISE** |
+|-------------------------------------------------------|:-----------:|:---------:|:-----------:|:-------------:|:---------:|:--------------:|
+| Verified Members (TGR holders, not total members)     | Up to 25    | Up to 100 | Up to 1000  | Up to 2500    | Up to 7500| Unlimited      |
+| Balance Check Frequency                                | Every 24h   | Every 24h | Every 24h   | Every 24h     | Every 24h | Every 24h      |
+| ETH Event Listener / Real-Time Check                   | ✓           | ✓         | ✓           | ✓             | ✓         | ✓              |
+| Multi-wallet Verification for Members                  | ✓           | ✓         | ✓           | ✓             | ✓         | ✓              |
+| 50+ Blockchains                                        | ✓           | ✓         | ✓           | ✓             | ✓         | ✓              |
+| 35+ Wallets, Delegate, OpenSea + WC V2                 | ✓           | ✓         | ✓           | ✓             | ✓         | ✓              |
+| Standard Support for Admins and Members                | ✓           | ✓         | ✓           | ✓             | ✓         | ✓              |
+| Priority Lite Support                                  | ✗           | ✓         | ✓           | ✓             | ✓         | ✗              |
+| Priority Support                                       | ✗           | ✗         | ✓           | ✓             | ✓         | ✓              |
+| PRO miniapp bundle                                     | ✗           | ✗         | ✓           | ✓             | ✓         | ✓              |
+| Staking Contract Support                               | ✗           | ✗         | ✓           | ✓             | ✓         | ✓              |
+| SmartTag Included (Add-on available for other plans)   | ✗           | ✗         | ✗           | ✓             | ✓         | ✓              |
+| Solana Event Listener / Real-time Check                | ✗           | ✗         | ✗           | ✓             | ✓         | ✓              |
+| “Admin-initiated” Balance Checks                       | ✗           | ✗         | ✗           | Up to 5/mo    | Up to 5/mo| Upon Request   |
+| Opt-out of Community Messages                          | ✗           | ✗         | ✗           | ✓             | ✓         | ✓              |
+| Custom Verification Message                            | ✗           | ✗         | ✗           | ✓             | ✓         | ✓              |
+| Dedicated Support Human                                | ✗           | ✗         | ✗           | ✓             | ✓         | ✓              |
+| Custom AI Quiz Agent                                   | ✗           | ✗         | ✗           | ✗             | ✓         | ✓              |
+| Private Label Your Own Bot                             | ✗           | ✗         | ✗           | ✗             | ✗         | ✓              |
+| Personalized Features Available                        | ✗           | ✗         | ✗           | ✗             | ✗         | ✓              |
+|                                                       |             |           |             |               |           |                |
+| **Monthly Price**                                      | **Free**    | **$17.99**| **$35**     | **$149**      | **$449**  | **Contact us** |
 
-| **TIER COMPARISON**                                                                                         | **STARTER** | **BASIC**  | **PREMIUM** | **EXCLUSIVE** | **ENTERPRISE** |
-|-------------------------------------------------------------------------------------------------------------|:-----------:|:----------:|:-----------:|:-------------:|:--------------:|
-| TGRs (Token Gating Rules)                                                                                   |  Up to 4    |  Up to 10  |  Up to 50   |   Up to 150   |   Unlimited    |
-| Multi-wallet verification                                                                                    |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
-| Access to 40+ blockchains                                                                                    |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
-| Access to 30+ wallets, Delegate, OpenSea + WalletConnect                                                     |      ✓      |      ✓     |      ✓      |       ✓       |       ✓        |
-| Priority support                                                                                             |      ✗      |      ✓     |      ✓      |       ✓       |       ✓        |
-| Opt-out feature for donate                                                                                    |      ✗      |      ✓     |      ✓      |       ✓       |       ✓        |
-| PRO miniapp bundle                                                                                           |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
-| EVM event listener                                                                                           |      ✗      |      ✗     |      ✓      |       ✓       |       ✓        |
-| Balance checks frequency                                                                                     | Every 7 days| Every 24h  | Every 24h   |    Every 24h  |    Every 24h   |
-| Bonus "admin-initiated" balance checks                                                                       |      ✗      |      ✗     |     ✗       |   Up to 5/mo  |  Upon Request  |
-| Opt-out feature for community messages                                                                        |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
-| Customize your Discord verification channel's "Let's Go!" message                                            |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
-| Dedicated support human                                                                                      |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
-| Solana event listener                                                                                        |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
-| SmartTag                                                                                                     |      ✗      |      ✗     |      ✗      |       ✓       |       ✓        |
-| Dedicated support Slack channel                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
-| White label (your own custom bot)                                                                            |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
-| Personalized features on demand                                                                              |      ✗      |      ✗     |      ✗      |       ✗       |       ✓        |
-|                                                                                                              |             |            |             |               |                |
-| Monthly Price                                                                                               |   Free      |   $17.99      |     $35     |     $149      |   Contact us   |
+
 
 ### Telegram
 
