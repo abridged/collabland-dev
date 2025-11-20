@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 3
 title: Bitcoin
 id: bitcoin-tgr
 sidebar_label: Bitcoin

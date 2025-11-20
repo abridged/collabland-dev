@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 title: Gitcoin Passport
 id: gtc-passport
 ---
