@@ -31,6 +31,7 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Gnosis                                                                    | ERC20, ERC20-C, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
 | Linea                                                                     | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Moonbeam                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| Monad                                                                     | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Optimism                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
 | Palm                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
 | Polygon                                                                   | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe            |
