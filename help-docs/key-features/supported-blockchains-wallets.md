@@ -14,40 +14,41 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 
 | **EVM CHAINS**                                                                | **TOKEN TYPE**                                                                          |
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| Abstract                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| ApeChain                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Arbitrum Nova                                                             | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Arbitrum One                                                              | ERC20, ERC20-C, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
-| Avalanche                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Super Token, Gnosis Safe                                    |
-| BASE                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Berachain                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| Abstract                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| ApeChain                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Arbitrum Nova                                                             | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Arbitrum One                                                              | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe                                    |
+| Astar EVM                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Avalanche                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe                                    |
+| BASE                                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Berachain                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | Blast                                                                     | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                          |
-| Astar EVM                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| BSC                                                                       | BEP20, BEP721, BEP1155, Gnosis Safe, Super Token                                    |
-| Celo                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Core                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| DOS Chain                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Ethereum Mainnet                                                          | ERC20, ERC20-C, ERC721, ERC1155, ROLL, POAP, Staking Contracts, Gnosis Safe, Moloch, Opensea |
-| Gnosis                                                                    | ERC20, ERC20-C, ERC721, ERC1155, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
-| Linea                                                                     | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Moonbeam                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Monad                                                                     | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Optimism                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Super Token, Gnosis Safe, Otterspace Badge                  |
-| Palm                                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| BSC                                                                       | BEP20, BEP721, BEP1155, Staking Contracts, Gnosis Safe, Super Token                                    |
+| Celo                                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Core                                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| DOS Chain                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Ethereum Mainnet                                                          | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, ROLL, POAP, Gnosis Safe, Moloch, Opensea |
+| Gnosis                                                                    | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, ROLL, POAP, Gnosis Safe, Moloch, Opensea       |
+| Hyperliquid                                                               | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Linea                                                                     | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Moonbeam                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Monad                                                                     | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Optimism                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe, Otterspace Badge                  |
+| Palm                                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | Polygon                                                                   | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe            |
-| Q Chain                                                                   | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Quai Network                                                              | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| SEI                                                                       | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Shibarium                                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Somnia                                          | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Sonic                                        | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Unichain                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Vitruveo (Paused)                                                                  | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Amoy (Polygon testnet)                                                    | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| ApeChain Curtis (Testnet)                                                 | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Sahara AI (Testnet)                                                      | ERC20, ERC20-C, ERC721, ERC1155                                                              |
-| Sepolia (Ethereum testnet)                                                | ERC20, ERC20-C, ERC721, ERC1155                                                              |
+| Q Chain                                                                   | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Quai Network                                                              | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| [Ronin](/help-docs/command-center/create-a-tgr/evm/ronin)                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| SEI                                                                       | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Shibarium                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Somnia                                          | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Sonic                                        | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Unichain                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Vitruveo (Paused)                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Amoy (Polygon testnet)                                                    | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| ApeChain Curtis (Testnet)                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Sahara AI (Testnet)                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
+| Sepolia (Ethereum testnet)                                                | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | <center>**NON-EVM CHAINS**</center> | <center>**TOKEN TYPE**</center> |
 | [Bitcoin NFTs](/help-docs/command-center/create-a-tgr/bitcoin-tgr)        | Bitcoin Stamps, Bitcoin Ordinals                                                    |
 | Eluvio                                                                    | ERC721                                                                              |
