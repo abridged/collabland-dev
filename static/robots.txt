@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /apis/
+Disallow: /docs/downstream-integrations/api/
+Disallow: /docs/downstream-integrations/api
+Disallow: /api/
+
