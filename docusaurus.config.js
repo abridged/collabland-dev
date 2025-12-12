@@ -56,21 +56,6 @@ const config = {
         },
       }),
     ],
-    [
-      'redocusaurus',
-      {
-        // debug: Boolean(process.env.DEBUG || process.env.CI),
-        specs: [
-          {
-            spec: 'https://api.collab.land/openapi.yaml',
-            route: '/apis/',
-          },
-        ],
-        theme: {
-          primaryColor: '#1890ff',
-        },
-      },
-    ],
   ],
 
   plugins: [
