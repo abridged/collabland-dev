@@ -64,6 +64,11 @@ To create a TGR for contract not listed on the dropdown menu follow these steps:
 
 3. [Create a balance-based TGR](../how-to-create-a-tgr#create-a-balance-based-tgr) as normal
 
+:::note
+
+Staking Contract Support lets communities use staking contracts already integrated with Collab.Land at no additional cost beyond their plan. Adding a new staking contract requires a custom integration and incurs an additional fee. To request one, review the process and requirements [here.](https://github.com/abridged/collabland-staking-contracts/blob/master/README.md)
+
+:::
 
 ### How to add a contract to the dropdown menu
 

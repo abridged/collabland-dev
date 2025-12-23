@@ -97,6 +97,10 @@ If you’re seeing pending members, it’s a sign your community is growing. Adj
 |                                                       |             |           |             |               |           |                |
 | **Monthly Price**                                      | **Free**    | **$17.99**| **$35**     | **$149**      | **$449**  | **Contact us** |
 
+:::note
+Yearly subscriptions are available upon request. Please email support@collab.land to inquire.
+:::
+
 ---
 
 ### Telegram
