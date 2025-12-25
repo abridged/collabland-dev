@@ -1,0 +1,94 @@
+ .overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.dialog {
+  max-width: 472px;
+  width: 46%;
+  background: #060612;
+  border-radius: 24px;
+  padding: 40px 32px 32px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
+}
+
+.title {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #d1d5db;
+  margin: 0 0 32px;
+}
+
+.highlightLink {
+  color: #fbbf24;
+  text-decoration: underline;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  min-width: 0;
+  padding: 14px 32px;
+  border-radius: 999px;
+  border: none;
+  background: #facc15;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+}
+
+.button:hover {
+  background: #fde047;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background: #facc15;
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid #facc15;
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .dialog {
+    width: 90%;
+    max-width: 472px;
+    padding: 32px 20px 24px;
+    border-radius: 20px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+
