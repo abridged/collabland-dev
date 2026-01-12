@@ -23,7 +23,7 @@ Beginning **November 12, 2025**, Collab.Land plans are based on **Verified Membe
 
 This shift keeps pricing clear, predictable, and fair for every type of community: big, small, new, OG, NFT, DAO, or builder. Your plan now scales with the real people Collab.Land is working for: verified, active holders.
 
-### What’s Changing
+### What’s Changed?
 
 - **From TGRs to Verified Members:**  
   Verified Members are the unique people in your community who successfully pass Collab.Land verification and hold at least one token gated role created through Collab.Land. These are the members whose ownership is routinely checked to confirm they still qualify to keep their roles or access private chats and channels.
@@ -33,13 +33,6 @@ This shift keeps pricing clear, predictable, and fair for every type of communit
 
 - **24-hour Balance Checks for Everyone:**  
   All plans, including Starter, now include daily automated ownership checks ensuring your roles and gated spaces always stay accurate and secure.
-
-### Grace Period for Existing Communities
-
-All new communities are automatically on the Verified Members model as of **November 12, 2025**.  
-Existing communities have a **grace period until December 1, 2025** to review their usage and move into the plan that best fits, or stay where they are if their current plan already aligns with their Verified Member count.
-
-During this period, your plan continues operating as before. No changes or disruptions occur automatically.
 
 ### What Happens if You’re Over Your Verified Member Limit
 
