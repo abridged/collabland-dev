@@ -7,13 +7,16 @@ import img1 from '@site/static/img/tutorial/command-center/solana-nft1.png';
 import img3 from '@site/static/img/tutorial/command-center/solana-nft3.png';
 import img4 from '@site/static/img/tutorial/command-center/solana-nft4.png';
 import img5 from '@site/static/img/tutorial/command-center/solana-ft.png';
-import img6 from '@site/static/img/tutorial/command-center/solana-flow.png';
+import solanaFlow from '@site/static/img/solana_flow.png';
+import metaplex1 from '@site/static/img/metaplex1.png';
+import metaplex2 from '@site/static/img/metaplex2.png';
+import metaplex3 from '@site/static/img/metaplex3.png';
 
 ## Solana FT
 
 To configure a Solana FT TGR, follow these steps:
 
-1. Log in to the Command Center at https://cc.collab.land using Discord.
+1. Log in to the Command Center at https://cc.collab.land
 2. From the left panel, select the server in which you would like to create the TGR. Then, click on "TGRs".
 
 3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR.
@@ -32,6 +35,8 @@ The configuration of a Solana FT TGR should look like this:
   <img  src={img5} alt="Solana FT TGR" />
 </div>
 
+---
+
 ## Solana NFT
 
 When creating a TGR for a Solana NFT follow the same process as before, but you will be required to select a filter in the token details screen. The filter field is exclusive to the Solana NFT token type. Collab.Land offers two different filters to help identify your NFT tokens, which can be chosen from the dropdown list. The corresponding public key or address for the filter can be found in the token's metadata on a Solana block explorer, like [Solscan](https://solscan.io/). If you would like to set up TGRs for multiple addresses, you can list them separated by a comma, without any spaces.
@@ -39,12 +44,6 @@ When creating a TGR for a Solana NFT follow the same process as before, but you 
    <div class="text--center">
      <img  src={img1} alt="Solana NFT TGR" />
    </div>
-
-:::note
-
-Collab.Land currently does not support Solana cNFTs or Metaplex Core NFTs.
-
-:::
 
 The two filters available in Collab.Land are:
 
@@ -63,5 +62,46 @@ The two filters available in Collab.Land are:
 If you don't know which filter to use, follow the flowchart below:
 
    <div class="text--center">
-     <img  src={img6} alt="Solana Flowchart" />
+     <img  src={solanaFlow} alt="Solana Flowchart" />
    </div>
+
+---
+
+## Metaplex Core NFT
+
+Collab.Land now supports Metaplex Core NFTs! To create a TGR for a Metaplex Core NFT:
+
+1. Log in to the Command Center at https://cc.collab.land
+2. From the left panel, select the server in which you would like to create the TGR. Then, click on "TGRs".
+3. Click the "+ Select Role" button and choose the Discord role you would like to use for your TGR.
+4. Enter the token details:
+   - Description (optional): A description of your TGR that will only be displayed in the CC for reference purposes.
+   - Chain Type: Select **Solana**.
+   - Token Type: Select **Metaplex Core** from the dropdown menu.
+
+   <div class="text--center">
+     <img  src={metaplex1} alt="Metaplex Core token type selection" />
+   </div>
+
+5. For the collection address, you can find the **On-chain Collection** address in one of two ways:
+
+   **Option 1: Magic Eden**
+   - Visit [Magic Eden](https://magiceden.io) and navigate to your NFT collection
+   - Click on any NFT from the collection
+   - Look for the **On-chain Collection** address in the NFT details
+
+   <div class="text--center">
+     <img  src={metaplex2} alt="Magic Eden On-chain Collection address" />
+   </div>
+
+   **Option 2: Solscan**
+   - Visit [Solscan](https://solscan.io) to view your NFT details
+   - Use the **Token Address** of the NFT collection
+   - Note: Solscan doesn't always show your Metaplex Core NFT holdings in your wallet
+
+   <div class="text--center">
+     <img  src={metaplex3} alt="Solscan Metaplex Core NFT details" />
+   </div>
+
+6. Enter the On-chain Collection address in the Address field.
+7. Click "Save"
