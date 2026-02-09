@@ -6,7 +6,7 @@ id: smarttag
 
 # SmartTag
 
-The safest way to tip, reward, or pay in your community. Send, receive, withdraw tokens, and more - fully onchain, right inside your community. Just tag a username. Smart accounts + Discord login = simple, secure, seamless.
+The safest way to tip, reward, or pay in your community. Send, receive, withdraw tokens, and more - fully onchain, right inside your community. Just tag a username. Smart addresses + Discord login = simple, secure, seamless.
 
 SmartTag is available as a **$9.99/month feature add-on** for all plans, or **included with the Exclusive Plan** ($149/month) and higher.
 See all Exclusive plan features [here](https://collab.land/pricing).
@@ -14,8 +14,8 @@ See all Exclusive plan features [here](https://collab.land/pricing).
 
 ### Innovations:
 
-* **Smart Accounts for Everyone**
-  No external wallets or seed phrases - each Discord member automatically gets a smart account.
+* **Smart Addresses for Everyone**
+  No external wallets or seed phrases - each Discord member automatically gets a smart address.
 
 * **Transparent Transactions**
   Fully onchain, efficient, and secure.
@@ -33,7 +33,7 @@ See all Exclusive plan features [here](https://collab.land/pricing).
   Fully onchain with no central custodian holding funds, reducing "honey pot" risk. Every transaction is transparent and auditable.
 
 * **Instant Wallet Access**
-  Members can receive tokens immediately with no setup. SmartTag automatically creates a noncustodial smart account for recipients.
+  Members can receive tokens immediately with no setup. SmartTag automatically creates a noncustodial smart address for recipients.
 
 * **No Custody Risk**
   Your tokens stay yours until they're sent to your recipient's wallet. No pooled funds for hackers to target.
@@ -67,12 +67,12 @@ The designated fee wallet must be on the same chain as the community's configure
 :::
 
 
-## What's a Smart Account?
+## What's a Smart Address?
 
-A Smart Account is a type of Web3 programmable wallet driven by smart contracts, eliminating the need for private keys or seed phrases. These accounts use code for security and recovery of wallet information.
+A Smart Address is a type of Web3 programmable wallet driven by smart contracts, eliminating the need for private keys or seed phrases. These accounts use code for security and recovery of wallet information.
 
 :::info
-Your Smart Account wallet will hold the tokens received from in-chat transactions and deposits.
+Your Smart Address wallet will hold the tokens received from in-chat transactions and deposits.
 :::
 
 ## How to Get Started
@@ -119,14 +119,14 @@ Always verify that you are sending tokens the right person! If a transaction goe
 
 | Command             | Description                                           |
 | ------------------- | ----------------------------------------------------- |
-| `/tag balance`      | View token balances in your Smart Account             |
-| `/tag balance-nft`  | View NFTs in your Smart Account                       |
-| `/tag deposit`      | Get your Smart Account address to deposit tokens      |
+| `/tag balance`      | View token balances in your Smart Address             |
+| `/tag balance-nft`  | View NFTs in your Smart Address                       |
+| `/tag deposit`      | Get your Smart Address address to deposit tokens      |
 | `/tag tokens`       | See supported ERC20 tokens in your community          |
 | `/tag send`         | Send tokens to another user (1 recipient only)        |
-| `/tag send-nft`     | Send an NFT to another user (contact support@collab.land to enable) |
+// | `/tag send-nft`     | Send an NFT to another user (contact support@collab.land to enable) | 
 | `/tag withdraw`     | Withdraw tokens to an external wallet                 |
-| `/tag withdraw-nft` | Withdraw NFTs to an external wallet                   |
+// | `/tag withdraw-nft` | Withdraw NFTs to an external wallet                   |
 | `/tag raindrops`    | Create a timed token drop claimable by multiple users |
 
 :::caution
@@ -170,4 +170,4 @@ Create a timed reward pool with a cap on participants.
 * Sends 100 \$COLLAB to up to 33 members
 * Open for 10 minutes
 * Each gets \~3.03 tokens if all slots are filled
-* Leftovers return to your Smart Account
+* Leftovers return to your Smart Address
