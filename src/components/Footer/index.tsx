@@ -53,14 +53,16 @@ export default function Footer() {
           </div>
 
           <p className={styles.copyright}>
-            <img 
-              src="/img/LogoIconBlue.svg" 
-              alt="Collab.Land Logo" 
-              width={18} 
-              height={18} 
-              className={styles.logo}
-            />
-            Collab.Land® 2025
+            <Link href="https://collab.land" className={styles.copyrightLink}>
+              <img 
+                src="/img/LogoIconBlue.svg" 
+                alt="Collab.Land Logo" 
+                width={18} 
+                height={18} 
+                className={styles.logo}
+              />
+              Collab.Land® 2025
+            </Link>
           </p>
         </div>
       </div>
