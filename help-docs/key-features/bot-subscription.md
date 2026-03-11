@@ -112,7 +112,7 @@ Telegram pricing updates are in progress — we’re working to bring the same V
 - All subscription charges are final.  
 - Subscriptions are non-transferable.  
 - Payments are non-refundable.  
-- Your subscription cover 1 TG group or Discord server at a time.
+- Your subscription covers 1 Telegram group or Discord server at a time.
 :::
 
 ---
