@@ -92,7 +92,7 @@ If you’re seeing pending members, it’s a sign your community is growing. Adj
 
 :::note
 Yearly subscriptions are available upon request. Please email support@collab.land to inquire.
-:::
+::::
 
 ---
 
@@ -135,3 +135,7 @@ If any payments are made after your request has been submitted, they will be ref
 
 4. Click "Cancel"  
    - Click the Cancel button, and you'll be redirected to the same cancellation form above.
+
+::::note
+You can update your payment method by logging into our Stripe Customer Portal with the same email where you receive your payment receipts (the email used for the subscription). Please use the following link to update your billing details: https://billing.stripe.com/p/login/dR6g087EV7BBfkI7ss.
+:::
