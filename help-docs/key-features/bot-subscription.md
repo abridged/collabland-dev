@@ -102,12 +102,17 @@ Yearly subscriptions are available upon request. Please email support@collab.lan
   <img src={img4} alt="Command Center subscription page" />
 </div>
 
-:::note
-Your Telegram subscription covers one group at a time!
-:::
-
 :::tip
 Telegram pricing updates are in progress — we’re working to bring the same Verified Members model to Telegram soon.
+:::
+
+:::note
+**Subscription terms**
+- Subscriptions automatically renew each month.  
+- All subscription charges are final.  
+- Subscriptions are non-transferable.  
+- Payments are non-refundable.  
+- Your subscription cover 1 TG group or Discord server at a time.
 :::
 
 ---
