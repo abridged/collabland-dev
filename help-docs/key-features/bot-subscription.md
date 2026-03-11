@@ -92,7 +92,8 @@ If you’re seeing pending members, it’s a sign your community is growing. Adj
 
 :::note
 Yearly subscriptions are available upon request. Please email support@collab.land to inquire.
-::::
+:::
+
 
 ---
 
@@ -101,6 +102,7 @@ Yearly subscriptions are available upon request. Please email support@collab.lan
 <div class="text--center">
   <img src={img4} alt="Command Center subscription page" />
 </div>
+
 
 :::tip
 Telegram pricing updates are in progress — we’re working to bring the same Verified Members model to Telegram soon.
