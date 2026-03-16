@@ -1,28 +1,12 @@
-// Wait for the widget to load
 window.addEventListener('load', () => {
-  // Function to move the widget
   const moveWidget = () => {
-    const widget = document.querySelector('#kapa-widget-container, .kapa-widget-button, iframe[src*="kapa-widget"]');
-    if (widget) {
-      widget.style.bottom = '100px';
-      widget.style.position = 'fixed';
-      widget.style.zIndex = '9999';
+    const root = document.querySelector('#kapa-widget-root') || document.querySelector('div[id^="kapa-widget"]');
+    const button = root?.shadowRoot?.querySelector('button') || document.querySelector('#kapa-widget-container, .mantine-focus-auto');
+    if (button) {
+      button.style.setProperty('bottom', '80px', 'important');
+      button.style.setProperty('position', 'fixed', 'important');
     }
   };
 
-  // Try immediately
-  moveWidget();
-
-  // Try again after a short delay to ensure widget is loaded
-  setTimeout(moveWidget, 1000);
-  
-  // Keep trying every second for 5 seconds
-  let attempts = 0;
-  const interval = setInterval(() => {
-    moveWidget();
-    attempts++;
-    if (attempts >= 5) {
-      clearInterval(interval);
-    }
-  }, 1000);
-}); 
+  setInterval(moveWidget, 1000);
+});
