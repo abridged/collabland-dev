@@ -41,6 +41,8 @@ The configuration of a Solana FT TGR should look like this:
 
 When creating a TGR for a Solana NFT follow the same process as before, but you will be required to select a filter in the token details screen. The filter field is exclusive to the Solana NFT token type. Collab.Land offers two different filters to help identify your NFT tokens, which can be chosen from the dropdown list. The corresponding public key or address for the filter can be found in the token's metadata on a Solana block explorer, like [Solscan](https://solscan.io/). If you would like to set up TGRs for multiple addresses, you can list them separated by a comma, without any spaces.
 
+**Compressed NFTs (cNFTs) are supported.** For compressed NFT collections, use the **Creators** filter (recommended). The **Master Editions** filter typically does not apply to compressed NFTs.
+
    <div class="text--center">
      <img  src={img1} alt="Solana NFT TGR" />
    </div>
