@@ -1,12 +1,12 @@
 .footer {
   background-color: #FFC700;
-  padding: 0.1rem 0;
+  padding: 1rem 0;
   font-family: "Space Mono", monospace !important;
 }
 
 @media (min-width: 768px) {
   .footer {
-    padding: 0.05rem 0;
+    padding: 0.5rem 0;
   }
 }
 
@@ -22,13 +22,13 @@
   gap: 1rem;
   max-width: 1920px;
   margin: 0 auto;
-  font-family: "Space Mono", monospace !important;
 }
 
 @media (min-width: 768px) {
   .content {
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     gap: 0;
   }
 }
@@ -37,13 +37,13 @@
   display: flex;
   gap: 1.5rem;
   order: 2;
-  font-family: "Space Mono", monospace !important;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
   .nav {
     order: 1;
-    gap: 1rem;
+    justify-content: flex-start;
   }
 }
 
@@ -52,20 +52,19 @@
   font-weight: bold;
   color: #1A1A40;
   text-decoration: none;
-  font-family: "Space Mono", monospace !important;
 }
 
 .link:hover {
-  color: #5a5a8a;
+  color: rgba(26, 26, 64, 0.8);
   text-decoration: none;
 }
 
 .social {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
   order: 1;
-  font-family: "Space Mono", monospace !important;
 }
 
 @media (min-width: 768px) {
@@ -74,45 +73,63 @@
   }
 }
 
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.25rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s;
+}
+
+.iconButton:hover {
+  background-color: transparent;
+}
+
+.iconButton:hover .icon {
+  transform: scale(1.1);
+  filter: brightness(0.75);
+}
+
 .icon {
   width: 20px;
   height: 20px;
   transition: all 0.2s;
 }
 
-.icon:hover {
-  transform: scale(1.1);
-  filter: brightness(0.75);
-}
-
-.copyright {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #1A1A40;
+.copyrightWrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #1A1A40;
   order: 3;
-  font-family: "Space Mono", monospace !important;
-  margin-top: 0.5rem;
+  margin: 0;
 }
 
-.copyrightLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  color: inherit;
-  text-decoration: none;
-  font-family: inherit;
-}
-
-.copyrightLink:hover {
-  color: #5a5a8a;
-  text-decoration: none;
+@media (min-width: 768px) {
+  .copyrightWrapper {
+    justify-content: flex-end;
+  }
 }
 
 .logo {
   display: inline-block;
   width: 18px;
   height: 18px;
+}
+
+.copyrightLink {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.copyrightLink:hover {
+  color: rgba(26, 26, 64, 0.8);
+  text-decoration: none;
 } 
