@@ -7,27 +7,17 @@ sidebar_label: Bitcoin
 
 import img1 from '@site/static/img/tutorial/command-center/bitcoin-stamps-tgr.png';
 import img2 from '@site/static/img/tutorial/command-center/bitcoin-ordinals-tgr.png';
-import img1a from '@site/static/img/tutorial/command-center/bitcoin-tutorial-thumbnail.png';
 
 Create communities with Collab.Land’s Token-Gating Rules for communities based on Bitcoin NFTs: STAMPS and Ordinals.
 
 ## Overview
 
-Collab.Land now supports token-gating for both Bitcoin STAMPS and Bitcoin Ordinals NFTs. Create a Bitcoin community today!
+Collab.Land supports token-gating for both Bitcoin STAMPS and Bitcoin Ordinals NFTs. Create a Bitcoin community today!
 
-Watch our handy tutorial video on setting up TGRs for Bitcoin NFTs.
+## Bitcoin STAMPS
 
-<div class="text--center">
-   <a href="https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=12" target="_blank">
-      <img src={img1a} title="Bitcoin NFT TGR tutorial video" alt="Bitcoin NFT TGR tutorial video" />
-   </a>
-</div>
+### How to Get the STAMPS Creator Address via Stampchain {#how-to-get-the-stamps-creator-address-via-stampchain}
 
-## Bitcoin TGRs
-
-### How to Get the STAMPS Creator Address via Stampchain
-
-YouTube [timestamp 00:12](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=12s)
 1. **Accessing Stampchain**:
    - Navigate to the [Stampchain website](https://stampchain.io/). This is where you can view all the stamps data and specifications.
    - Stampchain allows you to search by various parameters including Stamp ID, Creator, transaction, CPI, etc.
@@ -37,8 +27,6 @@ YouTube [timestamp 00:12](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbE
    - Once you initiate the search, you should see the relevant stamp details, including the creator's information.
 
 ### How to Create a Bitcoin STAMPS TGR
-
-YouTube [timestamp 00:39](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=39s)
 
 To configure a STAMPS TGR, follow these steps:
 
@@ -74,20 +62,22 @@ The final configuration of a Stamps TGR should look like this:
    <img src={img1} alt="Create a Bitcoin STAMPS TGR" />
 </div>
 
-### How to find the Ordinals Collection Name via Magic Eden
+## Bitcoin Ordinals
 
-YouTube [timestamp 02:41](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=161s)
-1. **Understanding Ordinals**:
-   - Collab.Land uses the Magic Eden APIs to access and token gate Ordinals.
-   - Navigate to the [Magic Eden website](https://magiceden.io/ordinals).
+### How to Find Ordinals Inscription Numbers and Collection Names {#how-to-find-ordinals-inscription-numbers-and-collection-names}
 
-2. **Retrieve Collection Name**: Copy the Collection Name from the Magic Eden URL. The Collection Name is at the end of the URL, in the format of `/ordinals/marketplace/{collectionName}`.
+1. **Inscription number range (recommended)**:
+   - Use this if your collection is not listed on Ordiscan, or if you want the most reliable setup.
+   - In the TGR, set **From** to the starting inscription number and **To** to the ending inscription number.
+   - On Ordinals marketplaces such as [Satflow](https://www.satflow.com), search for your collection, then sort by **Inscription: Low to High** to find the starting number and **Inscription: High to Low** to find the ending number.
+
+2. **Collection name (Ordiscan only)**:
+   - Use this only if your collection is indexed on [Ordiscan](https://ordiscan.com/collections).
+   - Enter the **Collection Name** exactly as it appears there. If your collection is not listed, use inscription numbers instead.
 
 ### How to Create a Bitcoin Ordinals TGR
 
-YouTube [timestamp 03:14](https://www.youtube.com/watch?v=Cfy2aZvkXoQ&list=PLQbEq7a9kYPlvjfdJp3msChLJ7kFufyI2&index=15&t=194s)
-
-To configure an Ordinals TGR, follow these steps:
+To configure a Bitcoin Ordinals TGR, follow these steps:
 
 1. Log in to the [Command Center](../../key-features/command-center) at https://cc.collab.land using Discord.
 
@@ -100,22 +90,22 @@ To configure an Ordinals TGR, follow these steps:
 
 5. Set the `Token Type` as "Bitcoin Ordinals".
 
-6. Input the [Collection Name](#how-to-find-the-ordinals-collection-name-via-magic-eden) _**exactly**_ as it appears in the URL.
+6. **Holder identification**: Apply one of the methods in [How to Find Ordinals Inscription Numbers and Collection Names](#how-to-find-ordinals-inscription-numbers-and-collection-names): either the inscription **From** / **To** range or the Ordiscan **Collection Name**.
+
+7. Set the Minimum amount of tokens needed to gain the role.
+   - Optional: Set a Maximum number of tokens.
+
+8. Click "Save".
 
 :::info
 
-The Collection Name is at the end of the Magic Eden URL, in the format of /ordinals/marketplace/_**collection-name**_.
+If your Bitcoin Ordinals TGR was created before March 2026, it may no longer work as expected. Changes in third-party infrastructure (including Magic Eden deprecating Bitcoin support, which previously powered collection-based verification) mean you should update your TGR to use **inscription number ranges** (recommended) or **Ordiscan collections** (if available).
 
 :::
 
-7. Optional: Input the Token ID(s) for the TGR.
-  
-   - Supported [Token ID formats](/help-docs/command-center/create-a-tgr/how-to-create-a-tgr#supported-token-id-formats).
+#### Best practice
 
-8. Set the Minimum amount of tokens needed to gain the role.
-   - Optional: Set a Maximum number of tokens.
-
-9. Click "Save".
+If you are unsure which identification method to use, prefer **inscription number ranges**. They are the most reliable and future-proof setup.
 
 The final configuration of an Ordinals TGR should look like this:
 
