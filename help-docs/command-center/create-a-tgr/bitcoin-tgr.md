@@ -8,11 +8,9 @@ sidebar_label: Bitcoin
 import img1 from '@site/static/img/tutorial/command-center/bitcoin-stamps-tgr.png';
 import img2 from '@site/static/img/tutorial/command-center/bitcoin-ordinals-tgr.png';
 
-Create communities with Collab.Land’s Token-Gating Rules for communities based on Bitcoin NFTs: STAMPS and Ordinals.
-
 ## Overview
 
-Collab.Land supports token-gating for both Bitcoin STAMPS and Bitcoin Ordinals NFTs. Create a Bitcoin community today!
+Use Collab.Land’s Token-Gating Rules in the [Command Center](../../key-features/command-center) to gate Discord roles on Bitcoin **STAMPS** and **Ordinals** NFTs. The sections below walk through setup for each type.
 
 ## Bitcoin STAMPS
 
