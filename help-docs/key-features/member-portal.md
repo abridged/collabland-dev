@@ -36,6 +36,8 @@ Portal screenshots (Verify Access, Overview, Wallets, and more) will be added he
 
 :::
 
+---
+
 ## Navigation
 
 The left side menu takes you to five sections:
@@ -47,6 +49,8 @@ The left side menu takes you to five sections:
 | [**Communities**](#communities) | See and verify your communities |
 | [**Quests**](#quests) | Complete quests and earn rewards |
 | [**Settings**](#settings) | Update your profile and account |
+
+---
 
 ## Overview
 
@@ -71,6 +75,8 @@ At the bottom of the Your Communities panel, you will see a **Join more communit
 
 At the bottom of the page, a **Quests** banner links to the [Quests](#quests) section. Click **Explore Quests** to see what is available.
 
+---
+
 ## Wallets
 
 The **Wallets** section is where you manage the wallets linked to your account. Communities use your wallets to check your token holdings and give you roles.
@@ -90,6 +96,8 @@ To add a wallet, click **+ Add Wallet** and follow the steps. Once added, the wa
 Removing a wallet may affect your access to communities that need tokens from that wallet. Make sure you no longer need it before disconnecting.
 
 :::
+
+---
 
 ## Communities
 
@@ -124,6 +132,8 @@ Each role row shows the role name and its token requirement. Use the search bar 
 :::
 
 Click the back arrow at the top left to return to your Communities list.
+
+---
 
 ## Quests
 
@@ -185,6 +195,8 @@ Hints are available if you get stuck. Each hint gives you a clue about what the 
 
 The **Leaderboard** shows how members rank against each other. Members are shown by their Discord username. After you finish the daily word, click **Share to Discord** to post your result.
 
+---
+
 ## Settings
 
 **Settings** is where you manage your profile, social accounts, wallet visibility, contact details, and membership plan.
@@ -237,6 +249,8 @@ This is where you manage your membership plan.
 | Proof of Word hints | 2 per day | Unlimited, always free |
 
 Your current plan is highlighted. If you are on Pro, you will see a **Cancel** option to switch back to Free.
+
+---
 
 ## Frequently Asked Questions
 
