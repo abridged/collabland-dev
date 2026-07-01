@@ -143,10 +143,9 @@ Four tabs help you filter quests:
 - **In Progress** - quests you are working on
 - **Completed** - quests you have finished
 
-Current global quests:
+The current global quest:
 
 - **Proof of Word** - the daily Web3 word game
-- **Web3 Trivia** - answer Web3 questions and earn points
 
 Click **View** on any quest to open it.
 
@@ -185,19 +184,6 @@ Hints are available if you get stuck. Each hint gives you a clue about what the 
 :::
 
 The **Leaderboard** shows how members rank against each other. Members are shown by their Discord username. After you finish the daily word, click **Share to Discord** to post your result.
-
-### Web3 Trivia
-
-Web3 Trivia is a multiple choice quiz about Web3. Each round has 5 questions. You earn points for every correct answer and compete with other members on the leaderboard.
-
-**How to play:**
-
-1. Each question has a category (for example, Crypto) and a difficulty level (easy, medium, or hard).
-2. Choose your answer from four options. You will see right away if you got it right and how many points you earned.
-3. Your score and number of correct answers are shown at the top as you play.
-4. After 5 questions, you see your final score and accuracy. Click **Play again** for a new round or **View leaderboard** to see how you rank.
-
-The **Leaderboard** shows top players across all rounds, ranked by total points. It shows each player's points, accuracy, and number of questions answered.
 
 ## Settings
 
@@ -342,13 +328,6 @@ Your streak resets if you do not complete the daily word before midnight UTC. Yo
 <summary><strong>I used both my hints and still cannot get the word. What do I do?</strong></summary>
 
 Free members get 2 hints per day. When both are used, upgrade to Pro for unlimited hints or come back tomorrow when your hints reset at midnight UTC. See [Proof of Word hints](#proof-of-word) and [Subscription](#subscription).
-
-</details>
-
-<details>
-<summary><strong>Can I play Web3 Trivia more than once?</strong></summary>
-
-Yes. Click **Play again** after your results to start a new round. See [Web3 Trivia](#web3-trivia).
 
 </details>
 
