@@ -274,3 +274,96 @@ div[data-kapa-widget] {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* Mobile navbar - hamburger icon uses currentColor on light background */
+.navbar__toggle {
+  color: #1A1A40;
+}
+
+.navbar__toggle:hover {
+  color: #1A1A40;
+  opacity: 0.8;
+}
+
+/* Mobile navbar menu - light background needs dark text for contrast */
+.navbar-sidebar {
+  --ifm-menu-color: #1A1A40;
+  --ifm-menu-color-active: #1A1A40;
+  --ifm-color-content: #1A1A40;
+  --ifm-color-content-secondary: #2a2a5a;
+  background-color: #F5F1E6;
+}
+
+.navbar-sidebar__brand,
+.navbar-sidebar__close {
+  color: #1A1A40;
+}
+
+.navbar-sidebar .menu__link {
+  color: #1A1A40;
+}
+
+.navbar-sidebar .menu__link:hover {
+  color: #1A1A40;
+  background-color: rgba(26, 26, 64, 0.06);
+}
+
+.navbar-sidebar .menu__link--active {
+  color: #b8860b;
+  background-color: rgba(246, 195, 73, 0.2);
+  font-weight: 600;
+}
+
+.navbar-sidebar .menu__list-item--collapsed .menu__link--sublist {
+  color: #1A1A40;
+}
+
+.navbar-sidebar .menu__link--sublist-caret::after {
+  filter: brightness(0);
+}
+
+.navbar-sidebar__back {
+  color: #1A1A40;
+  background: rgba(26, 26, 64, 0.08);
+  font-weight: 600;
+}
+
+.navbar-sidebar__back:hover {
+  color: #1A1A40;
+  background: rgba(26, 26, 64, 0.14);
+}
+
+/* FAQ / collapsible details blocks */
+.markdown details {
+  background-color: rgba(245, 241, 230, 0.92);
+  border: 1px solid rgba(26, 26, 64, 0.12);
+  border-radius: 8px;
+  color: #1A1A40;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+}
+
+.markdown details summary {
+  color: #1A1A40;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.markdown details summary strong {
+  color: #1A1A40;
+}
+
+.markdown details summary:hover strong {
+  color: #2a2a5a;
+}
+
+.markdown details[open] summary {
+  border-bottom: 1px solid rgba(26, 26, 64, 0.1);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.markdown details p,
+.markdown details li {
+  color: #1A1A40;
+}
