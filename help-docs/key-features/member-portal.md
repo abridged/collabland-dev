@@ -284,6 +284,8 @@ Yes. Pro members can verify with all connected wallets at once using **Use all c
 
 </details>
 
+---
+
 ### Wallets
 
 <details>
@@ -307,6 +309,8 @@ Wallets are hidden by default. Go to [Settings](#settings), find **Wallets on pr
 
 </details>
 
+---
+
 ### Communities
 
 <details>
@@ -322,6 +326,8 @@ Make sure you finished verification in Discord for that community. If you did, t
 **Joined** shows the communities you already belong to. **Discover** shows Collab.Land's own server and partner communities you can explore and join. See [Communities](#communities).
 
 </details>
+
+---
 
 ### Quests
 
@@ -345,6 +351,8 @@ Free members get 2 hints per day. When both are used, upgrade to Pro for unlimit
 Yes. Click **Play again** after your results to start a new round. See [Web3 Trivia](#web3-trivia).
 
 </details>
+
+---
 
 ### Account and Settings
 
