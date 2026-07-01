@@ -367,3 +367,15 @@ div[data-kapa-widget] {
 .markdown details li {
   color: #1A1A40;
 }
+
+.markdown details a {
+  color: #1A1A40;
+  font-weight: 600;
+  text-decoration-color: #F6C349;
+  text-decoration-thickness: 2px;
+}
+
+.markdown details a:hover {
+  color: #2a2a5a;
+  text-decoration-color: #e6b342;
+}
