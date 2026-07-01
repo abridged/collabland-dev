@@ -12,6 +12,8 @@ Welcome to your Collab.Land Member Portal. This is your home base. From here you
 
 **Considering Pro?** Compare plans in [Subscription](#subscription) or browse the [FAQ](#frequently-asked-questions).
 
+---
+
 ## Getting Started
 
 You get to the Member Portal through Discord. When you click **Let's go!** in a token gated Discord server, it brings you here to verify your wallet and get your roles.
@@ -284,8 +286,6 @@ Yes. Pro members can verify with all connected wallets at once using **Use all c
 
 </details>
 
----
-
 ### Wallets
 
 <details>
@@ -309,8 +309,6 @@ Wallets are hidden by default. Go to [Settings](#settings), find **Wallets on pr
 
 </details>
 
----
-
 ### Communities
 
 <details>
@@ -327,8 +325,6 @@ Make sure you finished verification in Discord for that community. If you did, t
 
 </details>
 
----
-
 ### Quests
 
 <details>
@@ -344,8 +340,6 @@ Your streak resets if you do not complete the daily word before midnight UTC. Yo
 Free members get 2 hints per day. When both are used, upgrade to Pro for unlimited hints or come back tomorrow when your hints reset at midnight UTC. See [Proof of Word hints](#proof-of-word) and [Subscription](#subscription).
 
 </details>
-
----
 
 ### Account and Settings
 
