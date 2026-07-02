@@ -4,6 +4,9 @@ sidebar_position: 4
 id: member-portal
 ---
 
+import img1 from '@site/static/img/member-portal/try-member-portal.png';
+import img2 from '@site/static/img/member-portal/verify-access.png';
+
 # Collab.Land Member Portal Guide
 
 Welcome to your Collab.Land Member Portal. This is your home base. From here you can manage your wallets, check your communities, complete quests, and update your profile - all in one place.
@@ -18,6 +21,10 @@ Welcome to your Collab.Land Member Portal. This is your home base. From here you
 
 You get to the Member Portal through Discord. When you click **Let's go!** in a token gated Discord server, it brings you here to verify your wallet and get your roles.
 
+<div class="text--center">
+  <img src={img1} alt="Collab.Land Discord invitation with Try Member Portal button" />
+</div>
+
 When you arrive, a **Verify Access** window opens. This is where you choose how to verify.
 
 | Option | Plan | What it does |
@@ -26,15 +33,13 @@ When you arrive, a **Verify Access** window opens. This is where you choose how 
 | **Verify with one wallet** | All members | Pick one wallet from your list and click **Verify with selected wallet**. |
 | **Add a new wallet** | All members | Connect a wallet that is not linked yet. After adding it, complete verification from the [verification banner](#getting-started) below. |
 
+<div class="text--center">
+  <img src={img2} alt="Verify Access window with wallet selection options" />
+</div>
+
 :::tip Verification banner
 
 If you close the verification window and need to come back, a yellow banner will appear at the top of the portal. Click **Continue** to pick up where you left off, or **Not now** to dismiss it. If you dismiss it, go back to Discord and click **Let's go!** again to start over.
-
-:::
-
-:::note Screenshots
-
-Portal screenshots (Verify Access, Overview, Wallets, and more) will be added here soon.
 
 :::
 
