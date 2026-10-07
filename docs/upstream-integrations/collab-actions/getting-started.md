@@ -19,9 +19,8 @@ If you don't want to use a template, you can create your own Collab Action from 
 ### OSS Miniapp Examples
 If you would prefer to get some insights or explore the implementation details of some existing miniapps, here are a few repositories to get you started:
 
-1. [Chainpatrol](https://github.com/chainpatrol/collab-action)
-2. [Huddle01](https://github.com/Huddle01/collabland-huddle01-mini-app)
-3. [Token Price]( https://github.com/abridged/collabland-token-price-action)
+1. [Huddle01](https://github.com/Huddle01/collabland-huddle01-mini-app)
+2. [Token Price]( https://github.com/abridged/collabland-token-price-action)
 
 ## Prerequisites
 

@@ -14,7 +14,6 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 
 | **EVM CHAINS**                                                                | **TOKEN TYPE**                                                                          |
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| Abstract                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | ApeChain                                                                  | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | Arbitrum Nova                                                             | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | Arbitrum One                                                              | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe                                    |
@@ -22,7 +21,6 @@ Learn [how to create a TGR](/help-docs/command-center/create-a-tgr/how-to-create
 | Avalanche                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts, Super Token, Gnosis Safe                                    |
 | BASE                                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | Berachain                                                                 | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
-| Blast                                                                     | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                          |
 | BSC                                                                       | BEP20, BEP721, BEP1155, Staking Contracts, Gnosis Safe, Super Token                                    |
 | Celo                                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
 | Core                                                                      | ERC20, ERC20-C, ERC721, ERC1155, Staking Contracts                                                              |
@@ -77,7 +75,6 @@ This wallet list is intended for community members. It shows which wallets can b
 
 | **EVM WALLETS** | **COLLAB.LAND SUPPORTED NETWORKS** |
 |------------------------|-------------------------------|
-| [Abstract Global Wallet](https://www.abs.xyz) | Abstract |
 | [Backpack](https://backpack.app) | Ethereum, Base, Polygon |
 | [CoinBase Wallet](https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, Arbitrum One, Arbitrum Nova, Ronin, Moonbeam, BSC, Gnosis, Q Blockchain, Palm, Avalanche, Celo, Linea, BASE |
 | [Delegate.Cash](https://docs.delegate.xyz/faq) | Mainnet, Sepolia, Optimism, Polygon, Mumbai, BSC, Arbitrum One, Arbitrum Nova, Gnosis, Avalanche, Celo |

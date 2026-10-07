@@ -62,10 +62,6 @@ All reports to Collab.Land or Discord need to include the [discord user id](http
 
 :::
 
-### Security and Reporting using the ChainPatrol Miniapp
-
-The [ChainPatrol Miniapp](../key-features/miniapps) allows server members to check links against a global blocklist and report suspicious links within your community's Discord server.
-
 ### How to Report a URL to Google
 
 1. Visit https://safebrowsing.google.com/safebrowsing/report_phish/

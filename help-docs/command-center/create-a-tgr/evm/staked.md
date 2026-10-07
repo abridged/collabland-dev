@@ -21,7 +21,7 @@ To set up a TGR for a staking contract on any Collab.Land supported EVM chain, f
 
 2. In the description field (optional), enter a brief description to easily identify the TGR.
 
-3. For the Chain Type, select Ethereum Mainnet, Polygon, Blast L2, Base or other.
+3. For the Chain Type, select Ethereum Mainnet, Polygon, Base or other.
 
    <div class="text--center">
      <img  src={img3} alt="Staking Contracts TGR" />
